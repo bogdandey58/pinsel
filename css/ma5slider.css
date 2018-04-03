@@ -1233,25 +1233,25 @@
   @media (max-width: 359px) {
     /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--right.scss */
     .vertical-dots.outside-dots.right-dots .dots {
-      right: 12.4%;
+      right: 14.4%;
       padding-left: 7px; } }
   @media (min-width: 360px) and (max-width: 767.9px) {
     /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--right.scss */
     .vertical-dots.outside-dots.right-dots .dots {
-      right: 12.4%;
+      right: 14.4%;
       padding-left: 7px; } }
   @media (min-width: 768px) and (max-width: 991.9px) {
     /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--right.scss */
     .vertical-dots.outside-dots.right-dots .dots {
-      right: 12.4%; } }
+      right: 14.4%; } }
   @media (min-width: 992px) and (max-width: 1199.9px) {
     /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--right.scss */
     .vertical-dots.outside-dots.right-dots .dots {
-      right: 12.4%; } }
+      right: 18.4%; } }
   @media (min-width: 1200px) {
     /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--right.scss */
     .vertical-dots.outside-dots.right-dots .dots {
-      right: 12.4%; } }
+      right: 15.4%; } }
       
 /* line 2, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--center.scss */
 .center-dots .dots {
