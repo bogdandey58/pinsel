@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Pinsel</title>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" media="all" href="css/animatefade.css">
+	<link rel="stylesheet" media="screen and (max-width: 1681px)" href="css/adaptive/width1600.css">
+	<link rel="stylesheet" media="screen and (max-width: 1441px)" href="css/adaptive/width1400.css">
+	<link rel="stylesheet" media="screen and (max-width: 1370px)" href="css/adaptive/width1366.css">
+	<link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/adaptive/width1280.css">
+	<link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/adaptive/width1024.css">
+	<link rel="stylesheet" media="screen and (max-width: 800px)" href="css/adaptive/width800.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/css3finalize/4.0.1/jquery.css3finalize.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jqueryrotate.2.1.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script> new WOW().init();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		$(document).ready(function() {
+    	$('#fullpage').fullpage({
+        anchors: ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9'],
+        css3: true,
+        scrollingSpeed: 1000
+    });
+});</script>
+    <script>
+        $(window).on('load', function () {
+            $('.ma5slider').ma5slider();
+            // Methods
+            $('#example-34').ma5slider('goToSlide', 3);
+            // Calls
+            $('#example-34').on('ma5.animationStart', function () {
+                console.log('event animationStart');
+            });
+            $('#example-34').on('ma5.animationEnd', function () {
+                console.log('event animationEnd');
+            });
+            $('#example-34').on('ma5.firstSlide', function () {
+                console.log('event firstSlide');
+            });
+            $('#example-34').on('ma5.lastSlide', function () {
+                console.log('event lastSlide');
+            });
+            $('#example-34').on('ma5.activeSlide', function (event, slide) {
+                console.log( 'event activeSlide: ' + slide );
+            });
+        });
+    </script>
+    <script type="text/javascript">$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(1600).fadeOut('slow');
+});</script>
+
+    <!-- MA5 Slider-->
+    <link href="css/ma5slider.css" rel="stylesheet" type="text/css">
+
+
+    
+</head>
+<body>
+<div id="p_prldr">
+	<div class="contpre">
+		<img src="img/loader.gif" alt="">
+	</div>
+</div>
+<div id="fullpage">
+	<header>
+		<div class="logo">
+			<img src="img/logo2.gif" alt="">
+		</div>
+		<div class="anchors">
+			<span class="anchor basic"><a href="#headwrap">Главная</a></span>
+			<span class="anchor sehref"><a href="#services">Услуги</a></span>
+			<span class="anchor porthref"><a href="#portfolio">Портфолио</a></span>
+			<span class="anchor abouthref"><a href="#aboutus">О нас</a></span>
+			<span class="anchor contacthref"><a href=".footer">Контакты</a></span>
+		</div>
+		<div class="phone">
+			<a href="#footer">
+				<img src="img/phone1.png" alt="">
+			</a>
+		</div>
+	</header>
+	<video class="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+			<source src="img/comp.mp4" type="video/mp4">
+		</video>
+	<div class="wrap section" data-anchor="block1" id="headwrap">
+		
+		<div class="studiotext fadeInLeft wow">
+			<div class="example-three ppng">
+    			<img src="img/p/p.png" alt="">
+    			<!-- <img src="img/p/g.png" alt="">
+    			<img src="img/p/b.png" alt=""> -->
+  			</div>
+			<div class="example-three inpng">
+    			<img src="img/i/p.png" alt="">
+    			<!-- <img src="img/i/b.png" alt="">
+    			<img src="img/i/g.png" alt=""> -->
+  			</div>
+  			<div class="example-three wpng">
+    			<img src="img/w/p.png" alt="">
+    			<!-- <img src="img/w/b.png" alt="">
+    			<img src="img/w/g.png" alt=""> -->
+  			</div>
+  			<div class="example-three spng">
+    			<img src="img/s/p.png" alt="">
+    			<!-- <img src="img/s/g.png" alt="">
+    			<img src="img/s/b.png" alt=""> -->
+  			</div>
+			
+			
+			
+			<img id="triangleletter" src="img/triangleletter.png" alt="">
+		</div>
+		<div class="clear"></div>
+		<table class="downbtn">
+    		<tr>
+        		<td class="fadeInLeft wow">
+        			<a href="#portfolio"><p>PORTF<br>OLIO</p></a>
+        		</td>
+        		<td>
+					<a class="apulse" href="#services">
+						<img class="pulse" src="img/mouse.png" alt="">
+						<img class="pulsetwo" src="img/mouse2.png" alt="">
+					</a>
+        		</td>
+        		<td class="fadeInRight wow">
+        			<a href="#footer"><p style="text-align: left;">ABOUT<br>US</p></a>
+        		</td>
+    		</tr>
+		</table>
+	</div>
+	<div id="services" style="width: 10px; height: 10px; display: inline-block; position: relative; margin-bottom: 40px; margin-top: 20px"></div>
+	<div id="services"></div>
+
+	<div class="clear"></div>
+	<div class="services">
+		    <div class="linetop" ></div>
+		     <p class="line_services">Услуги</p>
+		<div class="clear"></div>
+		<div class="spacename">
+			<img class="developimg" src="img/1.png" alt="">
+			<img class="designimg" src="img/3.png" alt="">
+			<img class="marketingimg" src="img/2.png" alt="">
+
+			<div class="develop fadeInLeft wow">
+				<h2 style="margin-left: -60px">РАЗРАБОТКА</h2>
+				<p><img src="img/pinktriangle.png" alt=""><a class="im" href="longread/">Интернет магазин</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="vs" href="longread/">Вёрстка сайта</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="lp" href="longread/">Landing Page</a></p>
+			</div>
+			<div class="design fadeInLeft wow">
+				<h2 style="margin-left: -60px">ДИЗАЙН</h2>
+				<p><img src="img/pinktriangle.png" alt=""><a class="brend" href="longread/">Фирменный стиль</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="des" href="longread/">Дизайн сайта</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="del" href="longread/">Разаботка логотипа</a></p>
+			</div><br>
+			<div class="marketing fadeInLeft wow">
+				<h2 style="margin-left: -60px">МАРКЕТИНГ</h2>
+				<p><img src="img/pinktriangle.png" alt=""><a class="smm" href="longread/">SMM продвижение</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="seo" href="longread/">SEO оптимизация</a></p>
+				<p><img src="img/pinktriangle.png" alt=""><a class="vved" href="longread/">Ведение</a></p>
+			</div>
+		
+			<div class="parallelogram">
+				<img class="store servicespngs" src="img/services/store.png" alt="">
+				<img class="verstka servicespngs" src="img/services/verstka.png" alt="">
+				<img class="lendinf servicespngs" src="img/services/landing.png" alt="">
+				<img class="firmstyle servicespngs" src="img/services/firmstyle.png" alt="">
+				<img class="designpng servicespngs" src="img/services/design.png" alt="">
+				<img class="devlogo servicespngs" src="img/services/devlogo.png" alt="">
+				<img class="smmpng servicespngs" src="img/services/smm.png" alt="">
+				<img class="seopng servicespngs" src="img/services/seo.png" alt="">
+				<img class="inputservpng servicespngs" src="img/services/ved.png" alt="">
+			</div>
+		</div>
+		<div class="rightline">
+			<img src="img/lineserv.png" alt="">
+			<p class="servicesline">Услуги</p>				
+		</div>
+		<div class="statuya">
+			<img src="img/ch.png" alt="">
+		</div>
+		
+			<img src="img/pol.gif" id="statuyaLine">
+		
+	   <div id="statuyaLineBlock" onmouseover="bumbl1()" onmouseout="bumbl2()" ></div>
+		
+
+	</div>
+	<div class="clear"></div>
+	<div class="portfolio section" data-anchor="block3" id="portfolio">
+		<div id="example-27" class="ma5slider anim-vertical outside-dots vertical-dots  vertical-navs loop-mode">
+        	<div class="slides">
+            	<div class="aboutproject1">
+                    <a href="#slide-3"></a>
+            		<p>Pinsel</p>
+                    <div class="imgabout"><img src="img/example1.jpg" alt=""></div>
+                    <div class="textproject">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
+            	</div>
+            	<div class="aboutproject1">
+                    <a href="#slide-2"></a>
+            		<p>Pinsel</p>
+                    <div class="imgabout"><img src="img/example1.jpg" alt=""></div>
+                    <div class="textproject">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
+            	</div>
+            	<div class="aboutproject1">
+                    <a href="#slide-1"></a>
+            		<p>Pinsel</p>
+                    <div class="imgabout"><img src="img/example1.jpg" alt=""></div>
+                    <div class="textproject">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
+            	</div>
+            	<div class="aboutproject1">
+                    <a href="#slide-4"></a>
+            		<p>Pinsel</p>
+                    <div class="imgabout"><img src="img/example1.jpg" alt=""></div>
+                    <div class="textproject">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
+            	</div>
+            	<div class="aboutproject1">
+                    <a href="#slide-5"></a>
+            		<p>Pinsel</p>
+                    <div class="imgabout"><img src="img/example1.jpg" alt=""></div>
+                    <div class="textproject">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
+            	</div>
+        	</div>
+    	</div>
+    </div>
+    
+	</div>
+	<div class="clear"></div>
+	<div id="formask">
+		<p style="margin-top: 45px; margin-left: 10%; font-family: RobotoLight; font-size: 55px; position: absolute; color: white">ОБСУДИМ<span class="pink">?</span></p>
+		<div class="clear"></div>
+		<img class="dotask" src="img/dot.png" alt="">
+	<div class="callbackform">
+		<div class="form">
+			<div class="peaceform">	
+				<div class="inputs fadeInLeft wow">
+					<p>
+    					<span class="infield-label">
+			        		<label for="fname">Имя</label>
+			        		<input type="text" name="fname" id="fname" class="input" size="40">
+			    		</span>
+					</p>
+					<p>
+			    		<span class="infield-label">
+			        		<label for="lname">Номер телефона</label>
+			        		<input type="text" name="lname" id="lname" class="input" size="40">
+			    		</span>
+					</p>
+					<p>
+			    		<span class="infield-label">
+			        		<label for="ename">E-mail</label>
+			        		<input type="text" name="ename" id="ename" class="input" size="40">
+			    		</span>
+					</p>
+				</div>
+				<div class="comment fadeInRight wow">
+			    		<span class="infield-labelcom">
+			        		<label for="aname" style="color: white">Коментарий</label>
+			        		<textarea type="text" name="ename" id="aname" class="input" size="40" ></textarea>
+			    		</span>
+				</div>
+				<div class="clear"></div>
+				<button id="ordercall" class="fadeInRight wow">
+					<p>Заказать звонок</p>
+					<hr>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<div class="clear"></div>
+	<div class="aboutus" id="aboutus">
+  		<div class="vizitka">
+       	 <div class="arm"> <img src="img/arm.png" alt=""></div>
+       	 <div class="dot"><img src="img/dot.png" alt=""></div>
+         <div class="inscription"> 
+             <p class="o1 pink">o</p>
+             <p class="studio1 pink">студии</p>
+         </div>
+        	 <div class="p1"> <p>IN DESIGN <br/> <span style="; font-family: RalewayBlack" class="pink" >WE</span>  TRUST</p>
+        	</div>
+            <div id="example-31" class="ma5slider inside-navs outside-dots loop-mode">
+    <div class="slides">
+        <a href="#slide-1"><img src="./images/01.jpg" alt=""></a>
+        <a href="#slide-2" data-ma5-nav="#000"><img src="./images/06.jpg" alt=""></a>
+    </div>
+</div>
+			<div  class="p2 "><div class="p2_border"></div> Студия Pinsel этоне просто компания людей,это целая команда людей которые тупо шутят ,я тут пишу просто так для виду.Это компания где богда 
+  	     		
+  	    	</div>
+			
+			<div class="podrobnee">
+  	 			<button >Подробнее</button>
+       	    </div>
+
+		</div>
+	</div>
+<!--
+	<div class="clear"></div>
+<div class="ability section" data-anchor="block6">
+	<!--<div class="ability_header">
+	<div class=" fadeInLeft wow" id="ablt"></div>
+		<p class=" fadeInLeft wow" id="ablt2">Наши возможности</p>
+		
+	<!--<div class="servicesline">Наши <br>возможности
+	</div>
+	<p>		 
+	 
+     <div class="band band1"></div>
+     <div class="band band2"></div>
+     <div class="band band3"></div>
+	<figcaption>
+	<div class="fadeInLeftBig wow" data-wow-delay="0.5s">
+		<span><img src="img/ability/html.png" alt=""></span>
+		<span><img src="img/ability/jquery.gif" alt=""></span>
+		<span><img src="img/ability/yandex.png" alt=""></span>
+		<span><img src="img/ability/python.png" alt=""></span>
+	</div>
+	
+	<div class="fadeInLeft wow" data-wow-delay="1.5s">
+		<span><img src="img/ability/css.png" alt=""></span>
+		<span><img src="img/ability/php.png" alt=""></span>
+		<span><img src="img/ability/ga.png" alt=""></span>
+		<span><img src="img/ability/mysql.png" alt=""></span>
+	</div>
+	
+	<div class="fadeInLeft wow" data-wow-delay="2s">	
+		<span><img src="img/ability/js.png" alt=""></span>
+		<span><img src="img/ability/wp.png" alt=""></span>
+		<span><img src="img/ability/photoshop.png" alt=""></span>
+		<span><img src="img/ability/goad.png" alt=""></span>
+	</div>
+
+	<div class="fadeInLeft wow" data-wow-delay="2.5s">	
+		<span><img src="img/ability/bootstrap.png" alt=""></span>
+		<span><img src="img/ability/ajax.png" alt=""></span>
+		<span><img src="img/ability/ai.png" alt=""></span>
+		<span><img src="img/ability/ae.png" alt=""></span>	
+	</div>
+	</figcaption>
+	<div class="rotate-capabilities">Наши<br> возможности</div>
+</div>
+-->
+
+<!--< <div class="clear"></div>
+<div class="diagnostic section" data-anchor="block7">
+	<div class="dheader">
+		<div class="dheader1 fadeInLeftBig wow">БЕСПЛАТНАЯ ДИАГНОСТИКА ВАШЕГО <span style="color: #eb597a;">ОНЛАЙН</span> БИЗНЕСА</div>
+		<div class="dheader_anim fadeInDown wow" data-wow-delay="1s"></div>
+		<div class="dheader2 fadeInLeft wow" data-wow-delay="2s">Конверсия разработанных нами сайтов  достигает <span style="color: #eb597a;">19%</span> 
+		<br>гарантируем получение заявок<span style="color: #eb597a;">!</span> </div>
+	</div><br>
+	<div class="dform">
+		<div class="leftForm">
+			<form>
+				<input class="dhf fadeInLeft wow" type="text" name="name" placeholder="Имя" required/>
+				<input class="dhf fadeInLeft wow"  type="phone" name="phone" placeholder="Номер телефона" required />
+				<input class="dhf fadeInLeft wow" type="email" name="email" placeholder="E-mail" required />
+				<input class ="dhf fadeInLeft wow" name="message" value="" placeholder="Введите текст..." style="margin-top: 100px;" required/></textarea>
+				<button class="order fadeInUp wow" data-wow-delay="1s" type="submit" >Заказать диагностику</button>
+			</form>
+		</div>
+		<div class="rightForm fadeInRight wow">
+			<div class="rightFormtext">
+				<div class="rightFormtxt">
+					Поможем выявить уязвимые места вашего сайта
+					<br>и тут текст можно написать,
+					<br><span style="color: #eb597a;">информативненько,</span>
+					<br>как мы работаем, чем это поможет,
+					<br>и написать так, что бы он красиво стал,
+					<br>а не был столбец
+					<br>такой длииииииинный
+				</div>
+				<img src="img/rocket.png" class="diag_rocket"></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+-->
+<div class="clear"></div>
+<div class="footer">
+<div class="footers">
+	<div class="footer_addr">
+		<div class="f_email fadeInUp wow" style="color: #b3b3b3;"><a href="mailto:support@pinsel.studio">support@pinsel.studio</a></div>
+		<div class="f_phone fadeInUp wow" data-wow-delay="0.5s"><a href="tel:+380(96)841 19 00">+380 96 841 19 00</a></div>
+		<div class="f_addr fadeInUp wow" data-wow-delay="1s">Украина<br>г.Киев<br>ул. Лук’яновская 27
+		</div>
+	</div>
+	<div class="footer_form">
+		<form class="contact_form">
+			<input class="fadeInUp wow" id="fcontact_form" type="text" name="name" placeholder="Имя" required>
+			<p><input class="fadeInUp wow"  id="fcontact_form" type="phone" name="phone" placeholder="Номер телефона" required></p>
+			<p><input class="fadeInUp wow"  id="fcontact_form" type="email" name="email" placeholder="E-mail" required></p>
+			<button class="fsubmit fadeInUp wow"  data-wow-delay="1s" type="submit" >Заказать звонок</button>
+		</form>
+	</div>
+	<div class="f_icons">
+		<img class="fadeInUp wow" src="img/footer/1_instagram.png" alt="">
+		<img class="fadeInUp wow" data-wow-delay="0.5s" src="img/footer/2_vk.png" alt="">
+		<img class="fadeInUp wow" data-wow-delay="1s" src="img/footer/3_facebook.png" alt="">
+	</div>
+		<img src="img/footer_logo.png" alt="" class="fadeInUp wow" data-wow-delay="1s" id="footer_logo">
+</div>
+
+	<div class="footer_lt fadeInUp wow" data-wow-delay="1s">Design Studio “Pinsel” © 2018</div>
+</div>
+<!-- <div class="footer_arrow"><a href="#fullpage" style="text-decoration: none;" class="pink">В начало<img src="img/buttonup.png"></a></div> -->
+
+<div class="clear"></div>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/ma5slider.min.js"></script>
+<script src="js/main.js" ></script>
+
+    <!--Подключение префиксов-->
+<!--  <script src="js/prefects/prefix.js"></script>
+ <script src="js/prefects/prefixfree.dynamic-dom.min.js"></script>
+ <script src="js/prefects/prefixfree.jquery.js"></script>
+ <script src="js/prefects/prefixfree.viewport-units.js"></script>
+</body> -->
+</html>
