@@ -95,8 +95,7 @@ header {
     -moz-transform:translateX(-50%);
     transform:translateX(-50%);
 }
-.anchor a:hover:after,
-.anchor a:focus:after {
+.anchor a:hover:after {
     width: 100%;
 }
 header table {
@@ -229,52 +228,7 @@ header table {
     margin-right: 10px;
 }
 
-.pulse {
-	display: inline-block;
-  	border-radius: 50%;
-  	cursor: pointer;
-  	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-  	animation: pulse 1000ms infinite;
-}
-.pulsetwo {
-	display: none;
-  	border-radius: 50%;
-  	cursor: pointer;
-  	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-  	animation: pulse 1000ms infinite;
-}
-.apulse:hover ~ .pulsetwo{
-	display: block;
-}
-.apulse:hover ~ .pulse{
-	display: none;
-}
 
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
-  }
-  70% {
-      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-  }
-  100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-  }
-}
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
-    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
-  }
-  70% {
-      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
-  }
-  100% {
-      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-  }
-}
 
 .services {
     margin-top: 1%;
@@ -1105,25 +1059,27 @@ button.fsubmit {
     color: #b3b3b3;
     background-color: transparent;
     letter-spacing: 3px;
+    transition: all 0.1s ease;
 }
  
  button.fsubmit:hover {
 	float: left;
-	width: 450px;
-	margin-left: 586px;
+	width: 46.5%;
+	margin-left: 74.5%;
 	margin-top: -50px;
 	font-family: RobotoBk; 
 	font-size: 28px;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
+    animation: 500ms;
  }
  
  button.fsubmit:active {
 	float: left;
-	width: 450px;
+	width: 46.5%;
 	margin-left: 586px;
-	margin-top: -50px;
+	margin-top: -51px;
 	font-family: RobotoBk; 
 	font-size: 28px;
 	display: inline-block;
