@@ -1,0 +1,50 @@
+@font-face {
+font-family: RobotoBk; 
+    src: url(../fonts/Robotobk.ttf);
+}
+@font-face {
+font-family: RobotoLight; 
+    src: url(../fonts/RobotoLight/RobotoLight.ttf);
+}
+@font-face {
+font-family: RobotoBold; 
+    src: url(../fonts/RobotoBold/RobotoBold.ttf);
+}
+@font-face {
+font-family: RobotoMedium; 
+    src: url(../fonts/RobotoMedium/RobotoMedium.ttf);
+}
+@font-face {
+font-family: RobotoRegular; 
+    src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
+}
+@font-face {
+font-family: RobotoTh; 
+    src: url(../fonts/RobotoTh.ttf);
+}
+@font-face {
+font-family: RalewayBlack; 
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+font-family: UniSansThin; 
+    src: url(../fonts/Uni Sans Thin.otf);
+}
+@font-face {
+font-family: UniSansHeavy; 
+    src: url(../fonts/Uni Sans Heavy.otf);
+}
+@font-face {
+font-family: pins; 
+    src: url(../fonts/pins.ttf);
+}
+/*RELWAY*/
+@font-face {
+font-family: Raleway-Bold; 
+    src: url(../fonts/Releway/Raleway-Bold.ttf);
+}
+@font-face {
+font-family: Raleway-Black; 
+    src: url(../fonts/Releway/Raleway-Black.ttf);
+}
+
