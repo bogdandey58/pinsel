@@ -22,18 +22,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/css3finalize/4.0.1/jquery.css3finalize.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jqueryrotate.2.1.js"></script>
-	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script> new WOW().init();</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script>
-		$(document).ready(function() {
-    	$('#fullpage').fullpage({
-        anchors: ['block1', 'block2', 'block3', 'block4', 'block5', 'block6', 'block7', 'block8', 'block9'],
-        css3: true,
-        scrollingSpeed: 1000
-    });
-});</script>
     <script>
         $(window).on('load', function () {
             $('.ma5slider').ma5slider();
@@ -85,7 +77,7 @@
 			<span class="anchor sehref"><a href="#services">Услуги</a></span>
 			<span class="anchor porthref"><a href="#portfolio">Портфолио</a></span>
 			<span class="anchor abouthref"><a href="#aboutus">О нас</a></span>
-			<span class="anchor contacthref"><a href=".footer">Контакты</a></span>
+			<span class="anchor contacthref"><a href="#footer">Контакты</a></span>
 		</div>
 		<div class="phone">
 			<a href="#footer">
@@ -305,31 +297,70 @@
 	</div>
 	<div class="clear"></div>
 	<div class="aboutus" id="aboutus">
-  		<div class="vizitka">
-       	 <div class="arm"> <img src="img/arm.png" alt=""></div>
-       	 <div class="dot"><img src="img/dot.png" alt=""></div>
-         <div class="inscription"> 
-             <p class="o1 pink">o</p>
-             <p class="studio1 pink">студии</p>
-         </div>
-        	 <div class="p1"> <p>IN DESIGN <br/> <span style="; font-family: RalewayBlack" class="pink" >WE</span>  TRUST</p>
-        	</div>
-            <div id="example-31" class="ma5slider inside-navs outside-dots loop-mode">
-    			<div class="slides">
-        			<a href="#slide-1"><img src="./images/01.jpg" alt=""></a>
-        			<a href="#slide-2" data-ma5-nav="#000"><img src="./images/06.jpg" alt=""></a>
-    			</div>
-    			<div  class="p2 "><div class="p2_border"></div> Студия Pinsel этоне просто компания людей,это целая команда людей которые тупо шутят ,я тут пишу просто так для виду.Это компания где богда 
-  	     		</div>
-			</div>
-			
-			
-			<div class="podrobnee">
-  	 			<button >Подробнее</button>
-       	    </div>
+		<div id="example-03" class="ma5slider inside-navs inside-dots horizontal-navs horizontal-dots anim-fade loop-mode">
+			<div class="slides">
+            	<a href="#slide-1">
+            	<div class="vizitka">
+       	 			<div class="arm">
+       	 				<img src="img/arm.png" alt="">
+       	 			</div>
+       	 			<div class="dot">
+       	 				<img src="img/dot.png" alt="">
+       	 			</div>
+         			<div class="inscription"> 
+            	 		<p class="o1 pink">o</p>
+            	 		<p class="studio1 pink">студии</p>
+         			</div>
+        		 	<div class="p1">
+        		 		<p>IN DESIGN 
+        		 			<br/> 
+        	 			<span style="; font-family: RalewayBlack" class="pink" >WE</span>  
+        		 			TRUST
+        		 		</p>
+        			</div>
+    				<div  class="p2 ">
+    					<div class="p2_border"></div>
+    					Студия Pinsel этоне просто компания людей,это целая команда людей которые тупо шутят ,я тут пишу просто так для виду.Это компания где богда 
+  	     			</div>
+				</div>
+				<div class="podrobnee">
+  	 				<button >Подробнее</button>
+       	    	</div>
+       	    	</a>
 
-		</div>
-	</div>
+
+            	<a href="#slide-2">
+            	<div class="vizitka">
+       	 			<div class="arm">
+       	 				<img src="img/arm.png" alt="">
+       	 			</div>
+       	 			<div class="dot">
+       	 				<img src="img/dot.png" alt="">
+       	 			</div>
+         			<div class="inscription"> 
+            	 		<p class="o1 pink">o</p>
+            	 		<p class="studio1 pink">студии</p>
+         			</div>
+        		 	<div class="p1">
+        		 		<p>IN DESIGN 
+        		 			<br/> 
+        	 			<span style="; font-family: RalewayBlack" class="pink" >WE</span>  
+        		 			TRUST
+        		 		</p>
+        			</div>
+    				<div  class="p2 ">
+    					<div class="p2_border"></div>
+    					Студия Pinsel этоне просто компания людей,это целая команда людей которые тупо шутят ,я тут пишу просто так для виду.Это компания где богда 
+  	     			</div>
+				</div>
+				<div class="podrobnee">
+  	 				<button >Подробнее</button>
+       	    	</div>
+       	    	</a>
+  		</div>
+  		</div>
+  	</div>
+
 <!--
 	<div class="clear"></div>
 <div class="ability section" data-anchor="block6">
@@ -414,7 +445,7 @@
 </div>
 -->
 <div class="clear"></div>
-<div class="footer">
+<div class="footer" id="footer">
 <div class="footers">
 	<div class="footer_addr">
 		<div class="f_email fadeInUp wow" style="color: #b3b3b3;"><a href="mailto:support@pinsel.studio">support@pinsel.studio</a></div>
