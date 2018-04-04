@@ -506,6 +506,9 @@ header table {
     float: right;
     transform: rotate(90deg);
 }
+.rightline {
+	margin-top: 20%;
+}
 .servicesline {
 	margin-top: -40px;
 	margin-left: 35%;
