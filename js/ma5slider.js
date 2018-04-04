@@ -1,6 +1,6 @@
 $.widget("ma5.ma5slider", {
     options: {
-        autoplayTime: 3000,
+        autoplayTime: 2000,
         anim: 'anim-horizontal'
     },
     _create: function () {
