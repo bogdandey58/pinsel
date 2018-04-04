@@ -23,6 +23,7 @@ header{
 }
 header .portfolio{
 	display: inline-block;
+	margin-top: 5%;
 }
 .menu{
 	width: 100%;
@@ -31,7 +32,7 @@ header .portfolio{
 	
 }
 menu{
-	width: 50%;
+	width: 80%;
 	display: flex;
 	justify-content: flex-end;
 	position: relative;
@@ -39,7 +40,7 @@ menu{
 }
 menu li{
 	list-style-type: none;
-	margin-left: 20%;
+	margin-left: 10%;
 	font-size: 1em;
 	
 }
