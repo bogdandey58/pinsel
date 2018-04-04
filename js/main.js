@@ -29,14 +29,20 @@ $(".triangleline").fadeToggle(1300)
 
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
+
+
 $(document).ready(function(){
     $("body").on("click","a", function (event) {
-       event.preventDefault();
         var id  = $(this).attr('href'),
         top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1000);
     });
 });
+
+
+
+
+
 ///////////////////////////////движение за мышью//////////////////////////////////////////
 jQuery(document).ready(function(e){
    var left = 0,
@@ -129,9 +135,7 @@ $('.brend').on('mouseover', function() {
     $('.firmstyle').css('opacity','1');
     $(".firmstyle").fadeToggle(0) 
     $(".firmstyle").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
+    
 });
 
 $('.des').on('mouseover', function() {
@@ -139,9 +143,6 @@ $('.des').on('mouseover', function() {
     $('.designpng').css('opacity','1');
     $(".designpng").fadeToggle(0) 
     $(".designpng").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.del').on('mouseover', function() {
@@ -149,29 +150,19 @@ $('.del').on('mouseover', function() {
     $('.devlogo').css('opacity','1');
     $(".devlogo").fadeToggle(0) 
     $(".devlogo").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.smm').on('mouseover', function() {
     $('.smmpng').css('display','block');
     $('.smmpng').css('opacity','1');
     $(".smmpng").fadeToggle(0) 
-    $(".smmpng").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
-});
+    $(".smmpng").fadeToggle(500) });
 
 $('.seo').on('mouseover', function() {
     $('.seopng').css('display','block');
     $('.seopng').css('opacity','1');
     $(".seopng").fadeToggle(0) 
     $(".seopng").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.vved').on('mouseover', function() {
@@ -179,74 +170,44 @@ $('.vved').on('mouseover', function() {
     $('.inputservpng').css('opacity','1');
     $(".inputservpng").fadeToggle(0) 
     $(".inputservpng").fadeToggle(500) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 ////////////////////////offmouse///////////////////////////
 
 $('.im').on('mouseout', function() {
     $('.store').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.vs').on('mouseout', function() {
     $('.verstka').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.lp').on('mouseout', function() {
     $('.lendinf').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.brend').on('mouseout', function() {
     $('.firmstyle').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.des').on('mouseout', function() {
     $('.designpng').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.del').on('mouseout', function() {
     $('.devlogo').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.smm').on('mouseout', function() {
     $('.smmpng').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.seo').on('mouseout', function() {
     $('.seopng').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.vved').on('mouseout', function() {
     $('.inputservpng').css('display','none');
-    // $('.statuya').css('display','block');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 
@@ -309,11 +270,7 @@ $('.vved').on('mouseout', function() {
 $('.infield-label').infieldLabel();
 
 
-function myFunction() {
-    var h = window.innerHeight;
-    document.getElementById("demo").innerHTML = "Height: " + h;
-    }
-    elem.scrollTop += h
+
 
 
 function bumbl1(){
