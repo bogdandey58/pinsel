@@ -16,8 +16,8 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 3.5em;
-	letter-spacing: 1em;
+	font-size: 4vw;
+	letter-spacing: 4vw;
 	font-family: Raleway-Black;
 	position: relative;
 }
@@ -40,8 +40,8 @@ menu{
 }
 menu li{
 	list-style-type: none;
-	margin-left: 10%;
-	font-size: 1em;
+	margin-left: 10vw;
+	font-size: 1.2vw;
 	
 }
 
@@ -91,14 +91,14 @@ transform: rotate(180deg);
 	position: absolute;
 	z-index: 2;
 	top: 0;
-	width: 90%;
-	height: 100%;
+	width: 90vw;
+	height: 100vh;
     display:flex;
 	justify-content: center;
 
 }
 .meduz img{
-	width: 30%;
-	height:65%;
+	width: 30vw;
+	height:58vh;
 }
 
