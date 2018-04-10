@@ -184,13 +184,12 @@ header table {
 	margin-left: 65%;
 	margin-top: -8%;
 	z-index: 1;
-	
+	height: 50px;
 }
 .wpng{
 	width: 30%;
     height: 25%;
     margin-left: 3%;
-    margin-top: -10%;
 }
 .spng{
 	width: 55%;
