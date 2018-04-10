@@ -273,6 +273,31 @@ a.repeat {
 .example-three > img:nth-child(2),
 .example-three > img:nth-child(3) {
     position: absolute;
+}
+
+.pingli{
+    display: none;
+    margin-top: -18.5%;
+    margin-left: 1%;
+}
+.ingli{
+    display: none;
+    margin-top: -7.5%;
+    margin-left: 0%;
+}
+.webgli{
+    display: none;
+    margin-top: -31.5%;
+    margin-left: 1%;
+}
+.stugli{
+    display: none;
     margin-top: -33.5%;
-    margin-left: -4%
+    margin-left: -3%;
+}
+.example-three:hover > img:nth-child(2) {
+  display: block;
+}
+.example-three img:nth-child(2):hover > .example-three img:nth-child() {
+  display: block;
 }
