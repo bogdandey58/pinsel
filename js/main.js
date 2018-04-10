@@ -27,15 +27,33 @@ $(".triangleline").fadeToggle(1300)
 
 ///////////////////////////////////Глитч////////////////////////////////////////////
 
-// $('.example-three').on('mouseover', function() {
-//     $('.gliblok').css('display','none');
-//     $('.glinone').css('display','block');
-// });
-// $('.example-three').on('mouseout', function() {
-//     $('.gliblok').css('display','block');
-//     $('.glinone').css('display','none');
-// });
+$('.ppng').on('mouseover', function() {
+    $('.ppngimg').css('opacity','0');
+});
+$('.ppng').on('mouseout', function() {
+    $('.ppngimg').css('opacity','1');
+});
 
+$('.inpng').on('mouseover', function() {
+    $('.inpngimg').css('opacity','0');
+});
+$('.inpng').on('mouseout', function() {
+    $('.inpngimg').css('opacity','1');
+});
+
+$('.wpng').on('mouseover', function() {
+    $('.wpngimg').css('opacity','0');
+});
+$('.wpng').on('mouseout', function() {
+    $('.wpngimg').css('opacity','1');
+});
+
+$('.spng').on('mouseover', function() {
+    $('.spngimg').css('opacity','0');
+});
+$('.spng').on('mouseout', function() {
+    $('.spngimg').css('opacity','1');
+});
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
