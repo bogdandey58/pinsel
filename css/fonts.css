@@ -47,4 +47,9 @@ font-family: Raleway-Bold;
 font-family: Raleway-Black; 
     src: url(../fonts/Releway/Raleway-Black.ttf);
 }
+@font-face {
+font-family: Raleway-Black; 
+    src: url(../fonts/Releway/Raleway-Black.ttf);
+}
+
 
