@@ -576,11 +576,11 @@ a.repeat {
   100% {
     clip: rect(36px, 1000px, 128px, 0);
   }
-}
+}*/
 .example-three > img {
-  position: absolute;
+  position: relative;
 }
-.example-three > img:nth-child(2),
+/*.example-three > img:nth-child(2),
 .example-three > img:nth-child(3) {
   clip: rect(0, 0, 0, 0);
 }
@@ -596,3 +596,9 @@ a.repeat {
   animation: example-three-anim-2 7s  linear alternate;
 }
 */
+.example-three > img:nth-child(2),
+.example-three > img:nth-child(3) {
+    position: absolute;
+    margin-top: -33.5%;
+    margin-left: -4%
+}

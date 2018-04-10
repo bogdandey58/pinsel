@@ -29,7 +29,9 @@
 .aboutproject4 {
 	background-image: url(../img/portimgsm.jpg);
 }
-
+.aboutproject99 {
+	background-image: none;
+}
 .imgabout {
 	width: 40%;
 	height: 40%;
