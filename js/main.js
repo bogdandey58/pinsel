@@ -25,7 +25,16 @@ $(".triangleline").fadeToggle(0)
 $(".triangleline").fadeToggle(1300)
 
 
+///////////////////////////////////Глитч////////////////////////////////////////////
 
+// $('.example-three').on('mouseover', function() {
+//     $('.gliblok').css('display','none');
+//     $('.glinone').css('display','block');
+// });
+// $('.example-three').on('mouseout', function() {
+//     $('.gliblok').css('display','block');
+//     $('.glinone').css('display','none');
+// });
 
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
