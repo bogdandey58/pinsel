@@ -287,12 +287,12 @@ a.repeat {
 }
 .webgli{
     display: none;
-    margin-top: -31.5%;
-    margin-left: 1%;
+    margin-top: -37.5%;
+    margin-left: 0%;
 }
 .stugli{
     display: none;
-    margin-top: -33.5%;
+    margin-top: -34.5%;
     margin-left: -4.5%;
 }
 .example-three:hover > img:nth-child(2) {
