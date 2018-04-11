@@ -267,7 +267,7 @@ a.repeat {
     font-family: RalewayBlack;
 }
 
-.example-three > img {
+/*.example-three > img {
   position: relative;
 }
 .example-three > img:nth-child(2),
@@ -298,3 +298,4 @@ a.repeat {
 .example-three:hover > img:nth-child(2) {
   display: block;
 }
+*/
