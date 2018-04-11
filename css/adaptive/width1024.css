@@ -170,9 +170,13 @@ header table {
 .ppng{
 	width: 55%;
     height: 25%;
+    z-index: 1;
 }
 .inpng{
 	margin-left: 10%;
+    margin-top: -8%;
+    z-index: 1;
+    height: 50px;
 }
 .inpng img {
     width: 20%;
@@ -183,7 +187,7 @@ header table {
 	width: 30%;
     height: 25%;
     margin-left: 2%;
-    margin-top: -27%;
+    margin-top: -2%;
 }
 .spng{
 	width: 55%;
