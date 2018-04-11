@@ -304,9 +304,4 @@ function bumbl1(){
 document.getElementById("statuyaMan").style.display="none";
 document.getElementById("statuyaLineBlock").style.display="block";
 }
-function bumbl2(){
-document.getElementById("statuyaMan").style.display="block";
-document.getElementById("statuyaLineBlock").style.display="none";
-}
 
-  
