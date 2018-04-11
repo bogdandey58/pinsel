@@ -358,41 +358,33 @@ header table {
     height: 9%;
 }
 
-.servicesline {
-    margin-top: 9%;
-    margin-left: -65%;
-    position: absolute;
-    font-size: 0.65em;
-}
 .statuya {
-    margin-left: 48%;
-    bottom: 0;
     position: absolute;
+    bottom: 0;
+    right: 21%;
+    width: 40%;
+    height: 47%;
+  
 }
-.statuya img {
-    width: 70%;
+#statuyaMan{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+#statuyaMan img {
+    width: 118%;
+    height: 123%;
+    position: absolute;
+    top: -14.3%;
+    left: -13%;
+}
+#statuyaLineBlock{
+    width: 100%;
+    height: 105%;
+    display: none;
 }
 
-#statuyaLine {
-    position: absolute;
-    bottom: 11%;
-    right: 10%;
-    width: 29%;
-    height: 21%;
-    display: none;
-     cursor: pointer;
-}
-#statuyaLineBlock {
-    width: 26%;
-    height: 9%;
-    position: absolute;
-    top: 73.8%;
-    left: 62%;
-    background-color: black;
-    z-index: 2;
-    color: yellow;
-    cursor: pointer;
-}
 
 /*///////////////////////////////////////////////*/
 

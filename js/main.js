@@ -301,11 +301,7 @@ $('.infield-label').infieldLabel();
 
 
 function bumbl1(){
-document.getElementById("statuyaLineBlock").style.opacity=0;
-document.getElementById("statuyaLine").style.display="block";}
-  function bumbl2(){
-document.getElementById("statuyaLineBlock").style.opacity=1;
-document.getElementById("statuyaLine").style.display="none";} 
-
-
+document.getElementById("statuyaMan").style.display="none";
+document.getElementById("statuyaLineBlock").style.display="block";
+}
 

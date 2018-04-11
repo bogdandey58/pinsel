@@ -367,31 +367,33 @@ header table {
     position: absolute;
     font-size: 0.6em;
 }
+
 .statuya {
-    margin-left: 46%;
+    position: absolute;
     bottom: 0;
-    position: absolute;
+    right: 21%;
+    width: 40%;
+    height: 47%;
+  
 }
-.statuya img {
-    width: 65%;
+#statuyaMan{
+    width: 90%;
+    height: 90%;
+    position: relative;
+
 }
-#statuyaLine {
+#statuyaMan img {
+    width: 118%;
+    height: 123%;
     position: absolute;
-    bottom: 9%;
-    right: 12%;
-    width: 27%;
-    height: 21%;
-    display: none;
+    top: -4.3%;
+    left: -13%;
 }
 #statuyaLineBlock {
-    width: 24%;
-    height: 9%;
-    position: absolute;
-    top: 75.8%;
-    left: 62%;
-    background-color: black;
-    z-index: 2;
-    color: yellow;
+    width: 90%;
+    height: 95%;
+    margin-top: 5%;
+    display: none;
 }
 
 /*///////////////////////////////////////////////*/
