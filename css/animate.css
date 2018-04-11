@@ -292,8 +292,8 @@ a.repeat {
 }
 .stugli{
     display: none;
-    margin-top: -34.5%;
-    margin-left: -4.5%;
+    margin-top: -32.5%;
+    margin-left: -3.5%;
 }
 .example-three:hover > img:nth-child(2) {
   display: block;
