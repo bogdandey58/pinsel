@@ -570,7 +570,7 @@ button:focus {
     position: absolute;
     height: 33%;
     width: 30%;
-    top: 9%;
+    top: 17%;
     left: 5.5%;
     z-index: 2;
 }
@@ -580,11 +580,11 @@ button:focus {
 }
 .dot {
     width: 40%;
-    height: 40%;
+    height: 45%;
     position: absolute;
     z-index: 2;
     left: 63%;
-    top: 19%;
+    top: 24%;
 }
 .dot img {
     width: 88%;
@@ -602,12 +602,12 @@ button:focus {
     font-family: Raleway-Bold;
     font-size: 17em;
     font-weight: 900;
-    margin: -16% 0 0 7.5%;
+    margin: -9% 0 0 7.5%;
 }
 .inscription p.studio1 {
     font-family: Raleway-Bold;
     font-size: 3em;
-    margin: -4% 0 0 33%;
+    margin: -10% 0 0 33%;
     font-weight: 900;
 }
 

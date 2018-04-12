@@ -408,12 +408,11 @@ header table {
     display: none;
 }
 
-<<<<<<< HEAD
+
 /*///////////////////////////////////////////////*/
 
 
-=======
->>>>>>> 7e76eae5fc459641cfed482b0a9fec962c9934f8
+
 .dotask {
     margin-top: 6%;
     margin-left: 2%;
@@ -427,10 +426,7 @@ header table {
     background-color: #1c1a1a;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 7e76eae5fc459641cfed482b0a9fec962c9934f8
 .callbackform {
     width: 100%;
     
@@ -585,7 +581,7 @@ button:focus {
     position: absolute;
     height: 33%;
     width: 30%;
-    top: 10%;
+    top: 13%;
     left: 5%;
     z-index: 2;
 }
@@ -599,7 +595,7 @@ button:focus {
     position: absolute;
     z-index: 2;
     left: 64%;
-    top: 19%;
+    top: 22%;
 }
 .dot img {
     width: 85%;
@@ -622,7 +618,7 @@ button:focus {
 .inscription p.studio1 {
     font-family: Raleway-Bold;
     font-size: 3.8em;
-    margin: -2% 0 0 26%;
+    margin: -5% 0 0 27%;
     font-weight: 900;
 }
 
@@ -1078,29 +1074,29 @@ button.fsubmit {
     letter-spacing: 4px;
 }
  
- button.fsubmit:hover {
-	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
-	font-family: RobotoBk; 
-	font-size: 28px;
-	display: inline-block;
-	color: #fff;
-	border-bottom: 3px solid #fff;
+button.fsubmit:hover {
+    float: left;
+    width: 46%;
+    margin-left: 74%;
+    margin-top: -5%;
+    font-family: RobotoBk;
+    font-size: 1.4em;
+    display: inline-block;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+ button.fsubmit:active {
+    float: left;
+    width: 47%;
+    margin-left: 70.5%;
+    margin-top: -4%;
+    font-family: RobotoBk; 
+    font-size: 1.4em;
+    display: inline-block;
+    color: #fff;
+    border-bottom: 3px solid #fff;
  }
  
- button.fsubmit:active {
-	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
-	font-family: RobotoBk; 
-	font-size: 28px;
-	display: inline-block;
-	color: #fff;
-	border-bottom: 3px solid #fff;
- }
  
  .f_icons {
     width: 15%;
