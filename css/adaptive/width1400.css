@@ -1076,8 +1076,8 @@ button.fsubmit {
  
 button.fsubmit:hover {
     float: left;
-    width: 46%;
-    margin-left: 74%;
+    width: 50%;
+    margin-left: 72%;
     margin-top: -5%;
     font-family: RobotoBk;
     font-size: 1.4em;
@@ -1087,9 +1087,9 @@ button.fsubmit:hover {
 }
  button.fsubmit:active {
     float: left;
-    width: 47%;
-    margin-left: 70.5%;
-    margin-top: -4%;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
     font-family: RobotoBk; 
     font-size: 1.4em;
     display: inline-block;

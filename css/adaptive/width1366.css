@@ -1058,11 +1058,11 @@ button.fsubmit {
  
  button.fsubmit:hover {
 	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+    font-size: 1.4em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
@@ -1070,11 +1070,11 @@ button.fsubmit {
  
  button.fsubmit:active {
 	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+    font-size: 1.4em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
