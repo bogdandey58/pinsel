@@ -201,6 +201,7 @@ header table {
 	height: 50px;
 	display: block;
 	position: absolute;
+    cursor: pointer;
 	margin-top: 11%;
 	margin-left: 39%;
 }
@@ -227,7 +228,6 @@ header table {
 .pulse {
 	display: block;
   	border-radius: 50%;
-  	cursor: pointer;
   	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
   	animation: pulse 1000ms infinite;
 }
@@ -316,6 +316,7 @@ header table {
 	color: black;
 	text-decoration: none;
 	font-family: RobotoRegular;
+    cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
 	color: #ff557d;
@@ -1132,4 +1133,25 @@ button.fsubmit {
 .footer_arrow img {
     width: 100%;
     height: 150%;
+}
+
+#pfoneBlock{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.6);
+    position: fixed;
+    z-index: 300;
+    display: none;
+
+}
+#pfoneBlockWrapper{
+    width: 100%;
+    height: 100%;
+}
+#pfoneBlockForm{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: white;
 }

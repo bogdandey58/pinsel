@@ -213,6 +213,7 @@ header table {
 	height: 50px;
 	display: block;
 	position: absolute;
+    cursor: pointer;
 	margin-top: 13%;
 	margin-left: 37%;
 }
@@ -329,6 +330,7 @@ header table {
 	color: black;
 	text-decoration: none;
 	font-family: RobotoRegular;
+    cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
 	color: #ff557d;
