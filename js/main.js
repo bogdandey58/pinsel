@@ -133,7 +133,7 @@ $('.im').on('mouseover', function() {
     $('.store').css('display','block');
     $('.store').css('opacity','1');
     $(".store").fadeToggle(0) 
-    $(".store").fadeToggle(500)
+    $(".store").fadeToggle(100)
     // $('.statuya').css('display','none');
     // $(".statuya").fadeToggle(0) 
     // $(".statuya").fadeToggle(400)
@@ -143,7 +143,7 @@ $('.vs').on('mouseover', function() {
     $('.verstka').css('display','block');
     $('.verstka').css('opacity','1');
     $(".verstka").fadeToggle(0) 
-    $(".verstka").fadeToggle(400) 
+    $(".verstka").fadeToggle(100) 
     // $('.statuya').css('display','none');
 });
 
@@ -151,7 +151,7 @@ $('.lp').on('mouseover', function() {
     $('.lendinf').css('display','block');
     $('.lendinf').css('opacity','1');
     $(".lendinf").fadeToggle(0) 
-    $(".lendinf").fadeToggle(500) 
+    $(".lendinf").fadeToggle(100) 
     // $('.statuya').css('display','none');
     // $(".statuya").fadeToggle(0) 
     // $(".statuya").fadeToggle(400)
@@ -161,7 +161,7 @@ $('.brend').on('mouseover', function() {
     $('.firmstyle').css('display','block');
     $('.firmstyle').css('opacity','1');
     $(".firmstyle").fadeToggle(0) 
-    $(".firmstyle").fadeToggle(500) 
+    $(".firmstyle").fadeToggle(100) 
     
 });
 
@@ -169,14 +169,14 @@ $('.des').on('mouseover', function() {
     $('.designpng').css('display','block');
     $('.designpng').css('opacity','1');
     $(".designpng").fadeToggle(0) 
-    $(".designpng").fadeToggle(500) 
+    $(".designpng").fadeToggle(100) 
 });
 
 $('.del').on('mouseover', function() {
     $('.devlogo').css('display','block');
     $('.devlogo').css('opacity','1');
     $(".devlogo").fadeToggle(0) 
-    $(".devlogo").fadeToggle(500) 
+    $(".devlogo").fadeToggle(100) 
 });
 
 $('.smm').on('mouseover', function() {
@@ -189,14 +189,14 @@ $('.seo').on('mouseover', function() {
     $('.seopng').css('display','block');
     $('.seopng').css('opacity','1');
     $(".seopng").fadeToggle(0) 
-    $(".seopng").fadeToggle(500) 
+    $(".seopng").fadeToggle(100) 
 });
 
 $('.vved').on('mouseover', function() {
     $('.inputservpng').css('display','block');
     $('.inputservpng').css('opacity','1');
     $(".inputservpng").fadeToggle(0) 
-    $(".inputservpng").fadeToggle(500) 
+    $(".inputservpng").fadeToggle(100) 
 });
 
 ////////////////////////offmouse///////////////////////////

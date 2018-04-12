@@ -552,6 +552,9 @@ header table {
     height: 70vh;
     margin-top: -5%;
     background-color: #1c1a1a;
+    background-image: url(../img/dot.png);
+    background-position: 7% 10%;
+    background-size: 30% 50%;
 }
 
 
