@@ -304,4 +304,5 @@ function bumbl1(){
 document.getElementById("statuyaMan").style.display="none";
 document.getElementById("statuyaLineBlock").style.display="block";
 }
-
+// Функция которая запрещает скачивать картинки с сайта
+var img = document.getElementsByTagName('img');for(var i in img){img[i].oncontextmenu = function() { return false;  }}

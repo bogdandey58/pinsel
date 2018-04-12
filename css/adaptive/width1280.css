@@ -227,7 +227,7 @@ header table {
 }
 
 .pulse {
-	display: inline-block;
+	display: block;
   	border-radius: 50%;
   	cursor: pointer;
   	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
@@ -1051,7 +1051,7 @@ input#fcontact_form {
  
 button.fsubmit {
     float: left;
-    width: 46%;
+    width: 43%;
     margin-left: 74%;
     margin-top: -4%;
     font-family: RobotoBk;
@@ -1066,11 +1066,11 @@ button.fsubmit {
  
  button.fsubmit:hover {
 	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
+    width: 45%;
+    margin-left: 73%;
+    margin-top: -4%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+    font-size: 1.1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
@@ -1078,11 +1078,11 @@ button.fsubmit {
  
  button.fsubmit:active {
 	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
+    width: 45%;
+    margin-left: 73%;
+    margin-top: -4%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+	font-size: 1.1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;

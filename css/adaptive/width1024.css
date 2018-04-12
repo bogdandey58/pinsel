@@ -582,7 +582,7 @@ button:focus {
     position: absolute;
     height: 33%;
     width: 30%;
-    top: 17%;
+    top: 25%;
     left: 1.9%;
     z-index: 2;
 }
@@ -592,11 +592,11 @@ button:focus {
 }
 .dot {
     width: 28%;
-    height: 35%;
+    height: 40%;
     position: absolute;
     z-index: 2;
     left: 70.5%;
-    top: 24%;
+    top: 30%;
 }
 .dot img {
     width: 100%;
@@ -614,12 +614,12 @@ button:focus {
     font-family: Raleway-Bold;
     font-size: 16em;
     font-weight: 900;
-    margin: -3% 0 0 -1.5%;
+    margin: 3% 0 0 -1.5%;
 }
 .inscription p.studio1 {
     font-family: Raleway-Bold;
     font-size: 2.5em;
-    margin: -5% 0 0 20%;
+    margin: -10% 0 0 20%;
     font-weight: 900;
 }
 
@@ -644,7 +644,7 @@ margin: 15% 0 0 19%;
     position: absolute;
     width: 60%;
     font-size: 1.4em;
-    top: 71%;
+    top: 80%;
     left: -4%;
 }
 .p2_border {
@@ -1082,11 +1082,11 @@ button.fsubmit {
  
  button.fsubmit:hover {
 	float: left;
-	width: 46.5%;
-	margin-left: 74.5%;
-	margin-top: -50px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+	font-size: 1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
@@ -1095,11 +1095,11 @@ button.fsubmit {
  
  button.fsubmit:active {
 	float: left;
-	width: 46.5%;
-	margin-left: 586px;
-	margin-top: -51px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+	 font-size: 1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;

@@ -227,7 +227,7 @@ header table {
 }
 
 .pulse {
-	display: inline-block;
+	display:block;
   	border-radius: 50%;
   	cursor: pointer;
   	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
