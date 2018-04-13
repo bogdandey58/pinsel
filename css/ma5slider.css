@@ -854,7 +854,7 @@
       /* line 13, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots.scss */
       .dots > .dot {
         width: 58px;
-        height: 1px;
+        height: 9px;
         margin: 4px 7px; } }
 
 /* line 53, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots.scss */
@@ -1036,13 +1036,16 @@
 
 /* line 3, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
 .inside-dots .dots > .dot {
-  background-color: #ffffff; }
+  background-image: url(../img/dotport.png);
+  background-position: 0 50%; }
   /* line 6, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
   .inside-dots .dots > .dot:hover {
-    background-color: #ff557d; }
+  background-image: url(../img/dotporthov.png);
+  background-position: 0 50%; }
   /* line 9, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
   .inside-dots .dots > .dot.active {
-    background-color: #ff557d;
+  background-image: url(../img/dotporthov.png);
+  background-position: 0 50%;
     width: 100px;  
     margin-left: -40px;}
 
