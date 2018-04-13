@@ -299,3 +299,287 @@ a.repeat {
   display: block;
 }
 */
+
+
+@-webkit-keyframes wline {
+  0% {
+    width: 0%;
+  }
+  2.5% {
+    width: 0.271%;
+  }
+  5% {
+    width: 0.542%;
+  }
+  7.5% {
+    width: 0.813%;
+  }
+  10% {
+    width: 1.084%;
+  }
+  12.5% {
+    width: 1.355%;
+  }
+  15% {
+    width: 1.626%;
+  }
+  17.5% {
+    width: 1.897%;
+  }
+  20% {
+    width: 2.168%;
+  }
+  22.5% {
+    width: 2.439%;
+  }
+  25% {
+    width: 2.71%;
+  }
+  27.5% {
+    width: 2.987%;
+  }
+  30% {
+    width: 3.252%;
+  }
+  32.5% {
+    width: 3.526%;
+  }
+  35% {
+    width: 3.794%;
+  }
+  37.5% {
+    width: 4.065%;
+  }
+  40% {
+    width: 4.336%;
+  }
+  42.5% {
+    margin-left: 0.542%;
+  }
+  45% {
+    margin-left: 1.084%;
+  }
+  47.5% {
+    margin-left: 1.626%;
+  }
+  50% {
+    margin-left: 2.168%; 
+  }
+  52.5% {
+    margin-left: 2.71%;
+  }
+  55% {
+    margin-left: 3.252%;
+  }
+  57.5% {
+    margin-left: 3.794%;
+  }
+  60% {
+    margin-left: 4.336%;
+  }
+  62.5% {
+    width: 4.336%;
+    margin-left: 4.607%;
+  }
+  65% {
+    width: 4.065%;
+    margin-left: 4.878%;
+  }
+  67.5% {
+    width: 3.794%;
+    margin-left: 5.149%;
+  }
+  70% {
+    width: 3.526%;
+    margin-left: 5.42%;
+  }
+  72.5% {
+    width: 3.252%;
+    margin-left: 5.691%;
+  }
+  75% {
+    width: 2.987%;
+    margin-left: 5.962%;
+  }
+  77.5% {
+    width: 2.71%;
+    margin-left: 6.233%;
+  }
+  80% {
+    width: 2.439%;
+    margin-left: 6.504%;
+  }
+  82.5% {
+    width: 2.168%;
+    margin-left: 6.775%;
+  }
+  85% {
+    width: 1.897%;
+    margin-left: 7.046%;
+  }
+  87.5% {
+    width: 1.626%;
+    margin-left: 7.317%;
+  }
+  90% {
+    width: 1.355%;
+    margin-left: 7.588%;
+  }
+  92.5% {
+    width: 1.084%;
+    margin-left: 7.859%;
+  }
+  95% {
+    width: 0.813%;
+    margin-left: 8.13%;
+  }
+  97.5% {
+    width: 0.542%;
+    margin-left: 8.401%;
+  }
+  100% {
+    width: 0.271%;
+    margin-left: 8.672%;
+  }
+}
+@keyframes wline {
+  0% {
+    width: 0%;
+  }
+  2.5% {
+    width: 0.271%;
+  }
+  5% {
+    width: 0.542%;
+  }
+  7.5% {
+    width: 0.813%;
+  }
+  10% {
+    width: 1.084%;
+  }
+  12.5% {
+    width: 1.355%;
+  }
+  15% {
+    width: 1.626%;
+  }
+  17.5% {
+    width: 1.897%;
+  }
+  20% {
+    width: 2.168%;
+  }
+  22.5% {
+    width: 2.439%;
+  }
+  25% {
+    width: 2.71%;
+  }
+  27.5% {
+    width: 2.987%;
+  }
+  30% {
+    width: 3.252%;
+  }
+  32.5% {
+    width: 3.526%;
+  }
+  35% {
+    width: 3.794%;
+  }
+  37.5% {
+    width: 4.065%;
+  }
+  40% {
+    width: 4.336%;
+  }
+  42.5% {
+    margin-left: 0.542%;
+  }
+  45% {
+    margin-left: 1.084%;
+  }
+  47.5% {
+    margin-left: 1.626%;
+  }
+  50% {
+    margin-left: 2.168%; 
+  }
+  52.5% {
+    margin-left: 2.71%;
+  }
+  55% {
+    margin-left: 3.252%;
+  }
+  57.5% {
+    margin-left: 3.794%;
+  }
+  60% {
+    margin-left: 4.336%;
+  }
+  62.5% {
+    width: 4.336%;
+    margin-left: 4.607%;
+  }
+  65% {
+    width: 4.065%;
+    margin-left: 4.878%;
+  }
+  67.5% {
+    width: 3.794%;
+    margin-left: 5.149%;
+  }
+  70% {
+    width: 3.526%;
+    margin-left: 5.42%;
+  }
+  72.5% {
+    width: 3.252%;
+    margin-left: 5.691%;
+  }
+  75% {
+    width: 2.987%;
+    margin-left: 5.962%;
+  }
+  77.5% {
+    width: 2.71%;
+    margin-left: 6.233%;
+  }
+  80% {
+    width: 2.439%;
+    margin-left: 6.504%;
+  }
+  82.5% {
+    width: 2.168%;
+    margin-left: 6.775%;
+  }
+  85% {
+    width: 1.897%;
+    margin-left: 7.046%;
+  }
+  87.5% {
+    width: 1.626%;
+    margin-left: 7.317%;
+  }
+  90% {
+    width: 1.355%;
+    margin-left: 7.588%;
+  }
+  92.5% {
+    width: 1.084%;
+    margin-left: 7.859%;
+  }
+  95% {
+    width: 0.813%;
+    margin-left: 8.13%;
+  }
+  97.5% {
+    width: 0.542%;
+    margin-left: 8.401%;
+  }
+  100% {
+    width: 0.271%;
+    margin-left: 8.672%;
+  }
+}
