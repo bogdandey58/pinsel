@@ -728,12 +728,12 @@ header table {
   color: #ff557d; /* Цвет линии для остальных браузеров */
   background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
   float: left;
-  width: 79%;
+  width: 87%;
 
 }
 
 #ordercall:hover > img {
-  margin-left: 30%;
+  margin-left: 39%;
 }
 
 #ordercall:active {
