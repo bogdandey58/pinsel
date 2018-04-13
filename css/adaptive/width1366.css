@@ -1120,27 +1120,30 @@ button.fsubmit {
 }
 
 
-
-#pfoneBlock{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,.4);
-    position: fixed;
-    z-index: 300;
-    display: none;
-
-}
-
 #pfoneBlockForm{
-    width: 70vw;
-    height: 70vh; 
-    margin: 5% 15%;
-    border: 3px solid #ff557d;
+    width: 100vw;
+    height:0vh; 
+    left: 0;
+    top:0;
     background-color: white;
     position:fixed;
     z-index: 350;
-    display: none;
-    
+    display: none;  
+}
+#phoneOff{
+width: 100px;
+height: 100px;
+position: absolute;
+top: 0;
+right: 0;
+background-color: red;
+font-size: 5vw;
+font-family: RobotoBk;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
 }
 
 .kontacktForm{
@@ -1162,7 +1165,6 @@ button.fsubmit {
 
 .kontacktForm form{
 display: flex;
-
 
 }
 

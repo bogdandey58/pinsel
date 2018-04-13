@@ -307,12 +307,21 @@ document.getElementById("statuyaLineBlock").style.display="block";
 // Функция которая запрещает скачивать картинки с сайта
 var img = document.getElementsByTagName('img');for(var i in img){img[i].oncontextmenu = function() { return false;  }}
 
+var olo = 100;
+// function  plus() {
+// olo+10;
+// }
+
+// setTimeout(plus(), 1000);
 
 function pfoneBlock(){
-    document.getElementById("pfoneBlock").style.display="block";
     document.getElementById("pfoneBlockForm").style.display="block";
+    document.getElementById("pfoneBlockForm").style.height = olo+"vh";
+
 }
 function pfoneBlockOff(){
-    document.getElementById("pfoneBlock").style.display="none";
     document.getElementById("pfoneBlockForm").style.display="none";
 }
+
+
+
