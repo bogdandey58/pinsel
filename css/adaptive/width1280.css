@@ -376,32 +376,15 @@ header table {
 
 .statuya {
     position: absolute;
-    bottom: 0;
-    right: 21%;
-    width: 40%;
-    height: 47%;
-  
+    bottom: -6%;
+    right: 14%;
+    width: 45%;
+    height: 50%;
 }
-#statuyaMan{
-    width: 90%;
-    height: 90%;
-    position: relative;
-
+.statuya img {
+    width: 100%;
+    height: 100%;
 }
-#statuyaMan img {
-    width: 118%;
-    height: 123%;
-    position: absolute;
-    top: -4.3%;
-    left: -13%;
-}
-#statuyaLineBlock {
-    width: 90%;
-    height: 95%;
-    margin-top: 5%;
-    display: none;
-}
-
 /*///////////////////////////////////////////////*/
 
 
