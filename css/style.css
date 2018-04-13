@@ -721,9 +721,10 @@ header table {
     margin-top: -12%;
     margin-left: -5%;
     position: absolute;
-
-  transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
+
+
 #ordercall:hover > hr {
   border: none; /* Убираем границу для браузера Firefox */
   color: #ff557d; /* Цвет линии для остальных браузеров */
