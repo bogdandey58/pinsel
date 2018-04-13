@@ -1132,9 +1132,9 @@ button.fsubmit {
 }
 
 #pfoneBlockForm{
-    width: 80vw;
-    height: 80vh; 
-    margin: 2% 10%;
+    width: 70vw;
+    height: 70vh; 
+    margin: 5% 15%;
     border: 3px solid #ff557d;
     background-color: white;
     position:fixed;
@@ -1142,3 +1142,27 @@ button.fsubmit {
     display: none;
     
 }
+
+.kontacktForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway-Thin;
+    height: 100%;
+}
+.kontacktForm h2{
+   font-size: 2vw;
+   letter-spacing: 0.5vw;
+}
+.kontacktForm p{
+   font-size: 1.2vw;
+   letter-spacing: 0.2vw;
+}
+
+.kontacktForm form{
+display: flex;
+
+
+}
+

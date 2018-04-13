@@ -674,6 +674,7 @@ header table {
     min-height: 260px;
     line-height: 30px;
 }
+
 #ordercall {
 	font-family: Raleway-ExtraBold;
 	background-color: transparent;
@@ -1330,7 +1331,6 @@ input#fcontact_form {
 input{
 	outline:none;
 }
-
 
 #pfoneBlock{
     width: 100vw;
