@@ -221,7 +221,7 @@ header table {
 .wpng hr {
   float: left;
   margin-top: -23%;
-  animation: wline 800ms infinite;
+  animation: wline 2000ms infinite;
 }
 .spng{
 	width: 55%;

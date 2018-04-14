@@ -306,140 +306,143 @@ a.repeat {
     width: 0%;
   }
   2.5% {
-    width: 0.271%;
+    width: 0%;
   }
   5% {
-    width: 0.542%;
+    width: 0%;
   }
   7.5% {
-    width: 0.813%;
+    width: 1.588%;
   }
   10% {
-    width: 1.084%;
+    width: 3.1764%;
   }
   12.5% {
-    width: 1.355%;
+    width: 4.764%;
   }
   15% {
-    width: 1.626%;
+    width: 6.352%;
   }
   17.5% {
-    width: 1.897%;
+    width: 7.94%;
   }
   20% {
-    width: 2.168%;
+    width: 9.528%;
   }
   22.5% {
-    width: 2.439%;
+    width: 11.116%;
   }
   25% {
-    width: 2.71%;
+    width: 12.704%;
   }
   27.5% {
-    width: 2.987%;
+    width: 14.292%;
   }
   30% {
-    width: 3.252%;
+    width: 15.88%;
   }
   32.5% {
-    width: 3.526%;
+    width: 17.468%;
   }
   35% {
-    width: 3.794%;
+    width: 19.056%;
   }
   37.5% {
-    width: 4.065%;
+    width: 20.644%;
   }
   40% {
-    width: 4.336%;
+    width: 22.232%;
   }
   42.5% {
-    margin-left: 0.542%;
+    width: 23.82%;
   }
   45% {
-    margin-left: 1.084%;
+    width:  25.408%;
   }
   47.5% {
-    margin-left: 1.626%;
+    width:  26.996%;
   }
   50% {
-    margin-left: 2.168%; 
+    width:  26.996%; 
   }
   52.5% {
-    margin-left: 2.71%;
+    margin-left: 0.004;
   }
   55% {
-    margin-left: 3.252%;
+    width: 26.996%;
+    margin-left: 1.592%;
   }
   57.5% {
-    margin-left: 3.794%;
+    width: 25.408%;
+    margin-left: 3.18%;
   }
   60% {
-    margin-left: 4.336%;
+    width: 23.82%;
+    margin-left: 4.768%;
   }
   62.5% {
-    width: 4.336%;
-    margin-left: 4.607%;
+    width: 22.232%;
+    margin-left: 6.356%;
   }
   65% {
-    width: 4.065%;
-    margin-left: 4.878%;
+    width: 20.644%;
+    margin-left: 7.944%;
   }
   67.5% {
-    width: 3.794%;
-    margin-left: 5.149%;
+    width: 19.056%;
+    margin-left: 9.532%;
   }
   70% {
-    width: 3.526%;
-    margin-left: 5.42%;
+    width: 17.468%;
+    margin-left: 11.12%;
   }
   72.5% {
-    width: 3.252%;
-    margin-left: 5.691%;
+    width: 15.88%;
+    margin-left: 12.708%;
   }
   75% {
-    width: 2.987%;
-    margin-left: 5.962%;
+    width: 14.292%;
+    margin-left: 14.296%;
   }
   77.5% {
-    width: 2.71%;
-    margin-left: 6.233%;
+    width: 12.704%;
+    margin-left: 15.884%;
   }
   80% {
-    width: 2.439%;
-    margin-left: 6.504%;
+    width: 11.116%;
+    margin-left: 17.472%;
   }
   82.5% {
-    width: 2.168%;
-    margin-left: 6.775%;
+    width: 9.528%;
+    margin-left: 19.06%;
   }
   85% {
-    width: 1.897%;
-    margin-left: 7.046%;
+    width: 7.94%;
+    margin-left: 20.648%;
   }
   87.5% {
-    width: 1.626%;
-    margin-left: 7.317%;
+    width: 6.352%;
+    margin-left: 22.236%;
   }
   90% {
-    width: 1.355%;
-    margin-left: 7.588%;
+    width: 4.764%;
+    margin-left: 23.824%;
   }
   92.5% {
-    width: 1.084%;
-    margin-left: 7.859%;
+    width: 3.1764%;
+    margin-left: 25.412%;
   }
   95% {
-    width: 0.813%;
-    margin-left: 8.13%;
+    width: 1.588%;
+    margin-left: 27%;
   }
   97.5% {
-    width: 0.542%;
-    margin-left: 8.401%;
+    width: 1%;
+    margin-left: 27%;
   }
-  100% {
-    width: 0.271%;
-    margin-left: 8.672%;
+  100%{
+    width: 0%;
+    margin-left: 27%;
   }
 }
 @keyframes wline {
@@ -447,139 +450,142 @@ a.repeat {
     width: 0%;
   }
   2.5% {
-    width: 0.271%;
+    width: 0%;
   }
   5% {
-    width: 0.542%;
+    width: 0%;
   }
   7.5% {
-    width: 0.813%;
+    width: 1.588%;
   }
   10% {
-    width: 1.084%;
+    width: 3.1764%;
   }
   12.5% {
-    width: 1.355%;
+    width: 4.764%;
   }
   15% {
-    width: 1.626%;
+    width: 6.352%;
   }
   17.5% {
-    width: 1.897%;
+    width: 7.94%;
   }
   20% {
-    width: 2.168%;
+    width: 9.528%;
   }
   22.5% {
-    width: 2.439%;
+    width: 11.116%;
   }
   25% {
-    width: 2.71%;
+    width: 12.704%;
   }
   27.5% {
-    width: 2.987%;
+    width: 14.292%;
   }
   30% {
-    width: 3.252%;
+    width: 15.88%;
   }
   32.5% {
-    width: 3.526%;
+    width: 17.468%;
   }
   35% {
-    width: 3.794%;
+    width: 19.056%;
   }
   37.5% {
-    width: 4.065%;
+    width: 20.644%;
   }
   40% {
-    width: 4.336%;
+    width: 22.232%;
   }
   42.5% {
-    margin-left: 0.542%;
+    width: 23.82%;
   }
   45% {
-    margin-left: 1.084%;
+    width:  25.408%;
   }
   47.5% {
-    margin-left: 1.626%;
+    width:  26.996%;
   }
   50% {
-    margin-left: 2.168%; 
+    width:  26.996%; 
   }
   52.5% {
-    margin-left: 2.71%;
+    margin-left: 0.004;
   }
   55% {
-    margin-left: 3.252%;
+    width: 26.996%;
+    margin-left: 1.592%;
   }
   57.5% {
-    margin-left: 3.794%;
+    width: 25.408%;
+    margin-left: 3.18%;
   }
   60% {
-    margin-left: 4.336%;
+    width: 23.82%;
+    margin-left: 4.768%;
   }
   62.5% {
-    width: 4.336%;
-    margin-left: 4.607%;
+    width: 22.232%;
+    margin-left: 6.356%;
   }
   65% {
-    width: 4.065%;
-    margin-left: 4.878%;
+    width: 20.644%;
+    margin-left: 7.944%;
   }
   67.5% {
-    width: 3.794%;
-    margin-left: 5.149%;
+    width: 19.056%;
+    margin-left: 9.532%;
   }
   70% {
-    width: 3.526%;
-    margin-left: 5.42%;
+    width: 17.468%;
+    margin-left: 11.12%;
   }
   72.5% {
-    width: 3.252%;
-    margin-left: 5.691%;
+    width: 15.88%;
+    margin-left: 12.708%;
   }
   75% {
-    width: 2.987%;
-    margin-left: 5.962%;
+    width: 14.292%;
+    margin-left: 14.296%;
   }
   77.5% {
-    width: 2.71%;
-    margin-left: 6.233%;
+    width: 12.704%;
+    margin-left: 15.884%;
   }
   80% {
-    width: 2.439%;
-    margin-left: 6.504%;
+    width: 11.116%;
+    margin-left: 17.472%;
   }
   82.5% {
-    width: 2.168%;
-    margin-left: 6.775%;
+    width: 9.528%;
+    margin-left: 19.06%;
   }
   85% {
-    width: 1.897%;
-    margin-left: 7.046%;
+    width: 7.94%;
+    margin-left: 20.648%;
   }
   87.5% {
-    width: 1.626%;
-    margin-left: 7.317%;
+    width: 6.352%;
+    margin-left: 22.236%;
   }
   90% {
-    width: 1.355%;
-    margin-left: 7.588%;
+    width: 4.764%;
+    margin-left: 23.824%;
   }
   92.5% {
-    width: 1.084%;
-    margin-left: 7.859%;
+    width: 3.1764%;
+    margin-left: 25.412%;
   }
   95% {
-    width: 0.813%;
-    margin-left: 8.13%;
+    width: 1.588%;
+    margin-left: 27%;
   }
   97.5% {
-    width: 0.542%;
-    margin-left: 8.401%;
+    width: 0%;
+    margin-left: 27%;
   }
-  100% {
-    width: 0.271%;
-    margin-left: 8.672%;
+  100%{
+    width: 0%;
+    margin-left: 27%;
   }
 }
