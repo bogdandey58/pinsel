@@ -430,19 +430,19 @@ a.repeat {
   }
   92.5% {
     width: 3.1764%;
-    margin-left: 25.412%;
+    margin-left: 25%;
   }
   95% {
     width: 1.588%;
-    margin-left: 27%;
+    margin-left: 25%;
   }
   97.5% {
-    width: 1%;
-    margin-left: 27%;
+    width: 0%;
+    margin-left: 26.588%;
   }
   100%{
     width: 0%;
-    margin-left: 27%;
+    margin-left: 26.588%;
   }
 }
 @keyframes wline {
@@ -574,18 +574,18 @@ a.repeat {
   }
   92.5% {
     width: 3.1764%;
-    margin-left: 25.412%;
+    margin-left: 25.4%;
   }
   95% {
     width: 1.588%;
-    margin-left: 27%;
+    margin-left: 25.7%;
   }
   97.5% {
-    width: 0%;
-    margin-left: 27%;
+    width: 0.9%;
+    margin-left: 26.588%;
   }
   100%{
-    width: 0%;
-    margin-left: 27%;
+    width: 0.1%;
+    margin-left: 26.588%;
   }
 }
