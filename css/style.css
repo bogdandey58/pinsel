@@ -222,7 +222,7 @@ header table {
   float: left;
   margin-top: -23%;
   margin-left: -2%;
-  animation: wline 5500ms infinite;
+  animation: wline 3000ms infinite;
 }
 .spng{
 	width: 55%;
