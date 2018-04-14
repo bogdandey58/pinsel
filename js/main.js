@@ -314,14 +314,45 @@ var olo = 100;
 
 // setTimeout(plus(), 1000);
 
-function pfoneBlock(){
-    document.getElementById("pfoneBlockForm").style.display="block";
-    document.getElementById("pfoneBlockForm").style.height = olo+"vh";
+// function pfoneBlock(){
+//     document.getElementById("pfoneBlockForm").style.display="block";
+// }
 
-}
-function pfoneBlockOff(){
-    document.getElementById("pfoneBlockForm").style.display="none";
-}
+// setInterval(IncreaseHeight(),2000);
 
+// function pfoneBlockOff(){
+//     document.getElementById("pfoneBlockForm").style.display="block";
+// }
+
+function myMove(){
+        var elem = document.getElementById('pfoneBlockForm');
+        var pos = -100;
+        var id = setInterval(frame,0.3);
+        function frame(){
+            if(pos == -1){
+                clearInterval(id);
+            } 
+            else {
+                pos ++;
+                elem.style.top = pos + "vh";
+                
+            }
+        }
+    }
+    function myMov2(){
+        var elem = document.getElementById('pfoneBlockForm');
+        var pos = -1;
+        var id = setInterval(frame,0.3);
+        function frame(){
+            if(pos == -100){
+                clearInterval(id);
+            } 
+            else {
+                pos --;
+                elem.style.top = pos + "vh";
+                
+            }
+        }
+    }
 
 

@@ -1123,20 +1123,20 @@ button.fsubmit:hover {
     width: 100%;
     height: 150%;
 }
-
+/*
 #pfoneBlockForm{
     width: 100vw;
-    height:0vh; 
+    height:100vh; 
     left: 0;
-    top:0;
+    top: -100vh;
     background-color: white;
     position:fixed;
     z-index: 350;
-    display: none;  
+    display:block;  
 }
 #phoneOff{
-width: 100px;
-height: 100px;
+width: 10%;
+height: 10%;
 position: absolute;
 top: 0;
 right: 0;
@@ -1170,5 +1170,4 @@ cursor: pointer;
 .kontacktForm form{
 display: flex;
 
-}
-
+}  */
