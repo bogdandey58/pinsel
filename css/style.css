@@ -977,6 +977,7 @@ div.band {
 }
 */
 
+<<<<<<< HEAD
 
 #diagnostic {
 	width: 100vw;
@@ -989,6 +990,13 @@ div.band {
     z-index: 350;
     display:block;
 
+=======
+.diagnostic {
+	height: 1082px;
+	width: 100%;
+	background-color:#1c1a1a;
+	display: block;
+>>>>>>> 10c0134a3ede4d3ac1169fa30d03109efe2657a4
 }
 
 .dheader {
@@ -1007,17 +1015,15 @@ div.band {
 }
 
 .dheader1 {
-    font-family: RobotoBk;
-    color: #fff;
-    font-size: 4.2vw;
-    font-weight: 900;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    border: none;
-    width: 52%;
-    height: 20%;
-    text-align: left;
+	font-family: RobotoBk;
+	color: #fff;
+	font-size: 73px;
+	margin-top: 70px;
+	display: inline;
+	padding-left: 70px;
+	border: none;
+	width: 1020px;
+	text-align: left;
 }
 
 .dheader2 {
@@ -1160,20 +1166,6 @@ button.order:hover, button.order:active {
     filter: invert(100%);
     transform: rotate(-45deg);
 }
-<<<<<<< HEAD
-#closeUp{
-    position: absolute;
-    width: 2%;
-    height: 4%;
-    top: 3%;
-    right: 2%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-=======
->>>>>>> 9777565b549089de2b6590750ec0d8bee9e20a46
 
 .footer {
 	width: 100%;
@@ -1388,7 +1380,6 @@ input#fcontact_form {
     width: 9%;
     height: 2%;
     position: fixed;
-    z-index: 20;
     top: 70%;
     right: 3%;
     transform: rotate(-90deg);
