@@ -977,11 +977,6 @@ div.band {
 }
 */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 #diagnostic {
 	width: 100vw;
     height:100vh; 
@@ -992,26 +987,12 @@ div.band {
     position: fixed;
     z-index: 350;
     display:block;
-
-=======
+}
 .diagnostic {
-=======
-/*.diagnostic {
->>>>>>> parent of 9777565... footer
-=======
-/*.diagnostic {
->>>>>>> parent of 21c20e7... qwe
-=======
-/*.diagnostic {
->>>>>>> parent of 9777565... footer
 	height: 1082px;
 	width: 100%;
 	background-color:#1c1a1a;
 	display: block;
-<<<<<<< HEAD
->>>>>>> 10c0134a3ede4d3ac1169fa30d03109efe2657a4
-=======
->>>>>>> parent of 21c20e7... qwe
 }
 
 .dheader {
@@ -1447,16 +1428,16 @@ justify-content: space-around;
 width: 100%;
 }
 
-  .kontacktForm form input{
-   width: 20%;
-    border-style: none;
-    border-bottom: 1px solid #b3b3b3;
-    background-color: transparent;
-    font-family: Raleway-Thin;
-    font-size: 1.7vw;
-    color: #b3b3b3;
-    text-decoration: none;
-    transition: all 0.1s ease;
+.kontacktForm form input{
+  width: 20%;
+  border-style: none;
+  border-bottom: 1px solid #b3b3b3;
+  background-color: transparent;
+  font-family: Raleway-Thin;
+  font-size: 1.7vw;
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: all 0.1s ease;
 
 }
 
@@ -1473,12 +1454,3 @@ width: 100%;
   align-items: center;
   color: black;
 }
-   /* font-family: RobotoRegular;
-font-family: RobotoBk;
-font-family: RobotoLight;
-  font-family: Raleway-ExtraBold;
-font-family: Raleway-Bold;
-  font-family: Raleway-Thin;
- font-family: Raleway-Thin;
-*/
-  
