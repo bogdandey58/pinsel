@@ -977,6 +977,7 @@ div.band {
 }
 */
 
+<<<<<<< HEAD
 #diagnostic {
 	width: 100vw;
     height:100vh; 
@@ -987,6 +988,13 @@ div.band {
     position: fixed;
     z-index: 350;
     display:block;
+=======
+.diagnostic {
+	height: 1082px;
+	width: 100%;
+	background-color:#1c1a1a;
+	display: block;
+>>>>>>> 9777565b549089de2b6590750ec0d8bee9e20a46
 }
 
 .dheader {
@@ -1158,6 +1166,7 @@ button.order:hover, button.order:active {
     filter: invert(100%);
     transform: rotate(-45deg);
 }
+<<<<<<< HEAD
 #closeUp{
     position: absolute;
     width: 2%;
@@ -1169,6 +1178,8 @@ button.order:hover, button.order:active {
 }
 
 
+=======
+>>>>>>> 9777565b549089de2b6590750ec0d8bee9e20a46
 
 .footer {
 	width: 100%;
@@ -1176,11 +1187,19 @@ button.order:hover, button.order:active {
 	background-color: #1c1a1a;
 	margin: 0;
 	position: relative;
+      margin-top: -1%;
 }
-  
+.p_footask{
+  font-family: Robotobk;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 10px;
+  margin-left: 11%;
+  margin-top: 10%;
+} 
 .footer_addr {
     margin-left: 11%;
-    margin-top: 33%;
+    margin-top: 6%;
     color: #b3b3b3;
     width: 18%;
     display: inline;
@@ -1238,11 +1257,11 @@ button.order:hover, button.order:active {
 	float: left;
 }
 .footer_form {
-    width: 45%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: -7%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
     transition: all 0.1s ease;
@@ -1252,12 +1271,8 @@ form.contact_form {
 	margin-top: 6%;
 }
  
-#fcontact_form {
-	
-}
- 
 input#fcontact_form {
-    width: 52%;
+    width: 25%;
     border-style: none;
     border-bottom: 1px solid #b3b3b3;
     background-color: transparent;
@@ -1268,6 +1283,8 @@ input#fcontact_form {
     float: left;
     display: inline;
     margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80px;
     transition: all 0.1s ease;
 }
@@ -1300,14 +1317,13 @@ input#fcontact_form {
  
  button.fsubmit {
 	float: left;
-  width: 41%;
+  width: 20%;
   margin-left: 74%;
-  margin-top: -5%;
+  margin-top: -2%;
   font-family: RobotoBk;
   font-size: 1.7em;
 	display: inline-block;
 	border-style: none;
-	border-bottom: 1px solid #b3b3b3;
 	color: #b3b3b3;
 	background-color: transparent;
 	letter-spacing: 5px;
@@ -1323,7 +1339,6 @@ input#fcontact_form {
 	font-size: 1.7em;
 	display: inline-block;
 	color: #fff;
-	border-bottom: 3px solid #fff;
 	animation: 500ms;
  }
  
@@ -1343,7 +1358,7 @@ input#fcontact_form {
  
  .f_icons {
     width: 15%;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: 47%;
 }
  
@@ -1360,8 +1375,8 @@ input#fcontact_form {
 	text-align: center;
     display: block;
     position: absolute;
-    margin-top: 43%;
-    padding-left: 40%;
+    margin-top: 28%;
+    padding-left: 42%;
     float: left;
 }
  
@@ -1385,6 +1400,9 @@ input#fcontact_form {
     transform: rotate(-90deg);
     font-size: 1.2em;
     text-align: center;
+
+}
+.footer_t{
 
 }
 input{
