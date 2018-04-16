@@ -982,8 +982,8 @@ div.band {
 #diagnostic {
 	width: 100vw;
     height:100vh; 
-    left: 0;
-    top: -100vh;
+    left: -100vw;
+    top: 0;
     background-color: #1c1a1a;
     color: white;
     position: fixed;

@@ -334,14 +334,14 @@ function myMove(){
             } 
             else {
                 pos ++;
-                elem.style.top = pos + "vh";
+                elem.style.left = pos + "vw";
                 
             }
         }
     }
     function myMov2(){
         var elem = document.getElementById('diagnostic');
-        var pos = -1;
+        var pos = 0;
         var id = setInterval(frame,0.3);
         function frame(){
             if(pos == -100){
@@ -349,7 +349,7 @@ function myMove(){
             } 
             else {
                 pos --;
-                elem.style.top = pos + "vh";
+                elem.style.left = pos + "vw";
                 
             }
         }
