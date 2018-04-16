@@ -1375,15 +1375,15 @@ input{
 /*стили всплывающего окна при нажатии на телефон в верху экрана*/
 #pfoneBlockForm{
     width: 100vw;
-    height:-100vh; 
+    height:100vh; 
     left: 0;
-    top: 0vh;
+    top: -100vh;
     background-color: #1c1a1a;
     color: white;
-    position:fixed;
+    position: fixed;
     z-index: 350;
     display:block;
-    position: relative;  
+ 
 }
 
 .zagolovok{
