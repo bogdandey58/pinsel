@@ -722,7 +722,7 @@ header table {
   background-color: white; /* Цвет линии для браузера Firefox и Opera */
   
 }
-#ordercall img{
+#ordercall img, button.fsubmit img{
     width: 5%;
     margin-top: -12%;
     margin-left: -5%;
@@ -752,6 +752,8 @@ header table {
 button:focus {
     outline: none;
 }
+
+
 
 /*#ordercall a{
 	text-decoration: none;
@@ -1174,7 +1176,7 @@ button.order:hover, button.order:active {
   
 .footer_addr {
     margin-left: 11%;
-    margin-top: 33%;
+    margin-top: 8%;
     color: #b3b3b3;
     width: 18%;
     display: inline;
@@ -1232,11 +1234,11 @@ button.order:hover, button.order:active {
 	float: left;
 }
 .footer_form {
-    width: 45%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: -5%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
     transition: all 0.1s ease;
@@ -1246,12 +1248,17 @@ form.contact_form {
 	margin-top: 6%;
 }
  
-#fcontact_form {
-	
+.p_footask{
+  font-family: Robotobk;
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 10%;
 }
  
 input#fcontact_form {
-    width: 52%;
+    width: 25%;
     border-style: none;
     border-bottom: 1px solid #b3b3b3;
     background-color: transparent;
@@ -1262,6 +1269,8 @@ input#fcontact_form {
     float: left;
     display: inline;
     margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80px;
     transition: all 0.1s ease;
 }
@@ -1294,50 +1303,63 @@ input#fcontact_form {
  
  button.fsubmit {
 	float: left;
-  width: 41%;
+  width: 20%;
   margin-left: 74%;
-  margin-top: -5%;
+  margin-top: -2%;
   font-family: RobotoBk;
   font-size: 1.7em;
 	display: inline-block;
 	border-style: none;
-	border-bottom: 1px solid #b3b3b3;
 	color: #b3b3b3;
 	background-color: transparent;
 	letter-spacing: 5px;
 	transition: all 0.1s ease;
  }
- 
- button.fsubmit:hover {
-	float: left;
-  width: 45%;
-  margin-left: 72%;
-  margin-top: -5%;
-	font-family: RobotoBk; 
-	font-size: 1.7em;
-	display: inline-block;
+
+button.fsubmit:hover {
 	color: #fff;
-	border-bottom: 3px solid #fff;
-	animation: 500ms;
  }
  
- button.fsubmit:active {
- 	animation: 300ms;
-	float: left;
-  width: 45%;
-  margin-left: 72%;
-  margin-top: -5%;
-	font-family: RobotoBk; 
-	font-size: 1.7em;
-	display: inline-block;
+button.fsubmit:active {
 	color: #fff;
-	border-bottom: 3px solid #fff;
 	
  }
+ button.fsubmit:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 87%;
+
+}
+
+button.fsubmit hr {
+    width: 40%;
+    height: 1px;
+    float: left;
+    margin-top: 3%;
+    transition: all 0.2s ease;
+    border: none;
+    color: white;
+    background-color: white;
+}
+
+ button.fsubmit img {
+    width: 5%;
+    margin-top: 10%;
+    margin-left: -50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
+button.fsubmit:hover > img {
+  margin-left: -6%;
+}
  
  .f_icons {
     width: 15%;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: 47%;
 }
  
@@ -1354,8 +1376,8 @@ input#fcontact_form {
 	text-align: center;
     display: block;
     position: absolute;
-    margin-top: 43%;
-    padding-left: 40%;
+    margin-top: 30%;
+    padding-left: 42%;
     float: left;
 }
  
@@ -1383,3 +1405,14 @@ input#fcontact_form {
 input{
 	outline:none;
 }
+
+
+
+
+
+
+
+
+
+
+
