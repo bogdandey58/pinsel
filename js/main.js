@@ -325,11 +325,11 @@ var olo = 100;
 // }
 
 function myMove(){
-        var elem = document.getElementById('pfoneBlockForm');
+        var elem = document.getElementById('diagnostic');
         var pos = -100;
         var id = setInterval(frame,0.3);
         function frame(){
-            if(pos == -1){
+            if(pos == 0){
                 clearInterval(id);
             } 
             else {
@@ -340,7 +340,7 @@ function myMove(){
         }
     }
     function myMov2(){
-        var elem = document.getElementById('pfoneBlockForm');
+        var elem = document.getElementById('diagnostic');
         var pos = -1;
         var id = setInterval(frame,0.3);
         function frame(){
