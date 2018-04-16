@@ -977,7 +977,7 @@ div.band {
 }
 */
 
-<<<<<<< HEAD
+
 #diagnostic {
 	width: 100vw;
     height:100vh; 
@@ -988,13 +988,7 @@ div.band {
     position: fixed;
     z-index: 350;
     display:block;
-=======
-.diagnostic {
-	height: 1082px;
-	width: 100%;
-	background-color:#1c1a1a;
-	display: block;
->>>>>>> 9777565b549089de2b6590750ec0d8bee9e20a46
+
 }
 
 .dheader {
