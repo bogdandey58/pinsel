@@ -1162,7 +1162,7 @@ button.order:hover, button.order:active {
     filter: invert(100%);
     transform: rotate(-45deg);
 }
-*/
+
 .footer {
 	width: 100%;
 	height: 1055px;
@@ -1381,76 +1381,4 @@ input#fcontact_form {
 }
 input{
 	outline:none;
-}
-
-/*стили всплывающего окна при нажатии на телефон в верху экрана*/
-#pfoneBlockForm{
-    width: 100vw;
-    height:-100vh; 
-    left: 0;
-    top: 0vh;
-    background-color: #1c1a1a;
-    color: white;
-    position:fixed;
-    z-index: 350;
-    display:block;
-    position: relative;  
-}
-
-.zagolovok{
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.3vw;
-  font-weight: 900;
-  letter-spacing: 1vw;
-}
-/*заголовок*/
-.zagolovok h2{
-font-family: RobotoBk;
-}
-
-
-/*форма:имя,номер телефона,кнопка отправить */
-.kontacktForm{
-    display: flex;
-    align-items: center;
-    font-family: Raleway-Thin;
-    position: absolute;
-    top: 0;bottom: 0;left: 0;right: 0;
-}
-
-.kontacktForm form{
-display: flex;
-justify-content: space-around;
-width: 100%;
-}
-
-.kontacktForm form input{
-  width: 20%;
-  border-style: none;
-  border-bottom: 1px solid #b3b3b3;
-  background-color: transparent;
-  font-family: Raleway-Thin;
-  font-size: 1.7vw;
-  color: #b3b3b3;
-  text-decoration: none;
-  transition: all 0.1s ease;
-
-}
-
-#phoneOff{
-  width: 10%;
-  height: 15%;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 8vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
 }
