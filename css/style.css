@@ -1446,19 +1446,21 @@ cursor: pointer;
 
 .fhoneBlock{
   display: flex;
-  width: 100%;
+  width: 90%;
  height: 30%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items:flex-end;
 
 }
 .fhoneBlock input{
 border-style: none;
-background-color: transparent;
 font-family: Raleway-Thin;
 font-size: 1.6em; 
+background-color: transparent;
 border-bottom: 1px solid white;
-
+display: flex;
+height: 15%;
+width: 25%;
 
 
 }
