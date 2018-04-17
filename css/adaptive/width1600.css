@@ -950,153 +950,180 @@ button.order:hover, button.order:active {
  
 .f_phone {
     font-family: Raleway-Bold;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-decoration: none;
-    width: 72%;
+    width: 80%;
     padding-top: 5%;
     padding-bottom: 4%;
     padding-left: 2%;
     border-bottom: 2px solid #fff;
 }
-.f_phone >a:active,.f_phone > a:link,.f_phone > a:hover,.f_phone > a:link,.f_phone > a:visited {
-	text-decoration: none;
-	color:#fff;
+.f_phone >a:active,.f_phone > a:link,.f_phone > a:link,.f_phone > a:visited {
+    border-style: none;
+    text-decoration: none;
+    color:#fff;
+    animation: trianlet 300ms;
 }
 .f_addr {
     width: 80%;
     font-family: Raleway-Thin;
-    font-size: 1.5em;
+    font-size: 1.9em;
     color: #b3b3b3;
 }
-
 .footers {
-	width: 100%;
-	display: inline;
-	float: left;
+    width: 100%;
+    display: inline;
+    float: left;
 }
 
 .footers >div {
-	float: left;
+    float: left;
 }
 .footer_form {
-    width: 44%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 8%;
-    margin-left: 10%;
+    margin-top: -8%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
+    transition: all 0.1s ease;
 }
  
 form.contact_form {
-	margin-top: 6%;
+    margin-top: 6%;
 }
  
-#fcontact_form {
-	
+.p_footask{
+  font-family: Robotobk;
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 10%;
 }
  
 input#fcontact_form {
-    width: 52%;
+    width: 25%;
     border: none;
     border-bottom: 1px solid #b3b3b3;
-    background-color: transparent;
-    font-family: Raleway-Thin;
-    font-size: 1.6em;
     color: #b3b3b3;
     text-decoration: none;
     float: left;
     display: inline;
-    margin-top: 8%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80px;
+    transition: all 0.1s ease;
+    background: transparent;
+    font-size: 1.4em;
 }
+
  
- #fcontact_form:hover {
-	font-size: 17px;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
+ #fcontact_form:active {
+    font-size: 19px;
+    color: #fff;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    animation: trianlet 300ms;
  } 
  
  input#fcontact_form:active {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
-
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
  input#fcontact_form:focus {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
 button.fsubmit {
     float: left;
-    width: 40%;
+    width: 20%;
     margin-left: 74%;
-    margin-top: -4%;
+    margin-top: -3%;
     font-family: RobotoBk;
-    font-size: 1.4em;
+    font-size: 1.3em;
     display: inline-block;
-    border: none;
-    border-bottom: 1px solid #b3b3b3;
+    border-style: none;
     color: #b3b3b3;
     background-color: transparent;
-    letter-spacing: 4px;
-}
- 
-button.fsubmit:hover {
-    float: left;
-    width: 47%;
-    margin-left: 70.5%;
-    margin-top: -4%;
-    font-family: RobotoBk;
-    font-size: 1.4em;
-    display: inline-block;
-    color: #fff;
-    border-bottom: 3px solid #fff;
-}
- button.fsubmit:active {
-	float: left;
-    width: 47%;
-    margin-left: 70.5%;
-    margin-top: -4%;
-	font-family: RobotoBk; 
-	font-size: 1.4em;
-	display: inline-block;
-	color: #fff;
-	border-bottom: 3px solid #fff;
+    letter-spacing: 5px;
+    transition: all 0.1s ease;
  }
+
+button.fsubmit:hover {
+    color: #fff;
+ }
+ 
+button.fsubmit:active {
+    color: #fff;
+    
+ }
+ button.fsubmit:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 87%;
+
+}
+
+button.fsubmit hr {
+    width: 40%;
+    height: 1px;
+    float: left;
+    margin-top: 3%;
+    transition: all 0.2s ease;
+    border: none;
+    color: white;
+    background-color: white;
+}
+
+ button.fsubmit img {
+    width: 5%;
+    margin-top: 10%;
+    margin-left: -50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
+button.fsubmit:hover > img {
+  margin-left: -6%;
+}
  
  .f_icons {
     width: 15%;
-    margin-top: 7%;
+    margin-top: 15%;
     margin-left: 47%;
 }
  
 .f_icons >img {
-    margin-left: -30%;
-    padding-right: 52%;
-    width: 19%;
-    height: 18%;
+    margin-left: -18%;
+    padding-right: 40%;
 }
 
-.f_icons >img:last-child{
-	padding-right: 0;
+.f_icons >img:last-child {
+    padding-right: 0;
 }
  
-#footer_logo {
+ #footer_logo {
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 46%;
-    padding-left: 40%;
+    margin-top: 30%;
+    padding-left: 42%;
     float: left;
-    width: 19%;
-    height: 9%;
 }
  
 .footer_lt {
