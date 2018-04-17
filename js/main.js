@@ -325,7 +325,7 @@ var olo = 100;
 // }
 
 function myMove(){
-        var elem = document.getElementById('diagnostic');
+        var elem = document.getElementById('pfoneBlockForm');
         var pos = -100;
         var id = setInterval(frame,0.3);
         function frame(){
@@ -334,13 +334,13 @@ function myMove(){
             } 
             else {
                 pos ++;
-                elem.style.left = pos + "vw";
+                elem.style.top = pos + "%";
                 
             }
         }
     }
     function myMov2(){
-        var elem = document.getElementById('diagnostic');
+        var elem = document.getElementById('pfoneBlockForm');
         var pos = 0;
         var id = setInterval(frame,0.3);
         function frame(){
@@ -349,7 +349,7 @@ function myMove(){
             } 
             else {
                 pos --;
-                elem.style.left = pos + "vw";
+                elem.style.top = pos + "%";
                 
             }
         }
