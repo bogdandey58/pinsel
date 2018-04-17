@@ -1246,6 +1246,7 @@ button.order:hover, button.order:active {
  
 form.contact_form {
 	margin-top: 6%;
+  font-family: Robotobk;
 }
  
 .p_footask{
@@ -1262,7 +1263,7 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 1px solid #b3b3b3;
     background-color: transparent;
-    font-family: Raleway-Thin;
+    font-family: RobotoLight;
     font-size: 1.9em;
     color: #b3b3b3;
     text-decoration: none;
