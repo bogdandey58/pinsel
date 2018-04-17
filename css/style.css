@@ -2,7 +2,12 @@
 	font-family: RobotoLight;
 	background-repeat: no-repeat;
 }
-
+img { pointer-events: none;
+ -moz-user-select: none; 
+ -webkit-user-select: none; 
+ -ms-user-select: none; 
+ user-select: none; 
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -1271,11 +1276,12 @@ input#fcontact_form {
     height: 80px;
     transition: all 0.1s ease;
     background: transparent;
+    font-size: 1.4em;
 }
 
  
  #fcontact_form:active {
-	font-size: 17px;
+	font-size: 19px;
 	color: #fff;
 	border-style: none;
 	border-bottom: 2px solid #fff;
@@ -1287,7 +1293,7 @@ input#fcontact_form {
  	border-style: none;
 	border-bottom: 2px solid #fff;
 	color: #fff;
-	font-size: 17px;
+	font-size: 19px;
 	margin-bottom: -1px;
  } 
  
@@ -1295,7 +1301,7 @@ input#fcontact_form {
  	border-style: none;
 	border-bottom: 2px solid #fff;
 	color: #fff;
-	font-size: 17px;
+	font-size: 19px;
 	margin-bottom: -1px;
  } 
  
