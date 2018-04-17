@@ -1259,11 +1259,8 @@ form.contact_form {
  
 input#fcontact_form {
     width: 25%;
-    
+    border: none;
     border-bottom: 1px solid #b3b3b3;
-    b
-    
-   
     color: #b3b3b3;
     text-decoration: none;
     float: left;
@@ -1273,6 +1270,7 @@ input#fcontact_form {
     margin-right: 5%;
     height: 80px;
     transition: all 0.1s ease;
+    background: transparent;
 }
 
  
