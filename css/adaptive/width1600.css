@@ -554,7 +554,7 @@ button:focus {
   font-size: 1vw;
 }
 
-.aboutus {
+/* .aboutus {
 	width: 100%;
 	height: 95vh;
 	background-color: #1c1a1a;
@@ -657,7 +657,13 @@ margin: 10% 0 0 23%
     font-size: 1.3em;
     letter-spacing: 7px;
 }
+ */
 
+
+
+
+
+ 
 /*
 .ability {
 	height: 1257px;
@@ -1155,21 +1161,22 @@ button.fsubmit:hover > img {
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -100vh;
-    background-color: white;
+    top: -100%;
+    background-color: #1c1a1a;
     position:fixed;
     z-index: 350;
-    display:block;  
+    display:block;
+    color: #ffffff;
+
 }
+
 #phoneOff{
-width: 10%;
-height: 10%;
+width: 2%;
+height: 3%;
 position: absolute;
-top: 0;
-right: 0;
-background-color: red;
-font-size: 5vw;
-font-family: RobotoBk;
+top: 2%;
+right: 2%;
+font-size: 4.4vw;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -1177,24 +1184,81 @@ cursor: pointer;
 
 }
 
-.kontacktForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Raleway-Thin;
-    height: 100%;
-}
-.kontacktForm h2{
-   font-size: 2vw;
-   letter-spacing: 0.5vw;
-}
-.kontacktForm p{
-   font-size: 1.2vw;
-   letter-spacing: 0.2vw;
+.phoneСaption{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-size: 4.5vw;
+  color: white;
+  font-family: RobotoBk;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
 }
 
-.kontacktForm form{
+.fhoneBlock{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  margin-left: 10%;
+  justify-content: space-between;
+  align-items:flex-end;
+
+}
+.fhoneBlock input{
+border-style: none;
+font-family: Raleway-Thin;
+font-size: 1.6em; 
+background-color: transparent;
+border-bottom: 1px solid white;
 display: flex;
+height: 15%;
+width: 33%;
+padding-left: 2%;
+color: #747373;
+transition: font-size 0.1s linear;
+}
+.fhoneBlock input:focus{
+  font-size: 1.8vw;
+}
 
-}  
+ .fhoneBlock .fhoneSubmit{
+  border-style: none;
+  font-family: Robotobk;
+  font-size: 1.5em; 
+  background-color: transparent;
+  width: 10%;
+  height: 15%;
+  padding-left: 0;
+  color: white;
+  letter-spacing: 2px;
+  color: #747373;
+ transition: color 0.1s linear;
+ }
+.fhoneBlock .fhoneSubmit:hover{
+  color: #fff;
+}
+
+
+  .fhoneBlock .fhoneSubmit hr{
+    width:65%;
+    float: left;
+    height: 1px;
+    background-color: #747373; 
+    transition: width 0.1s linear;
+  }
+   .fhoneBlock .fhoneSubmit img{
+  position: relative ;
+  width: 10%;
+  }
+
+  .fhoneBlock .fhoneSubmit:hover >  hr {
+    color: #ff557d;
+     background-color: #ff557d; 
+     width: 85%;
+}
+   .fhoneBlock .fhoneSubmit:hover >  img{
+     left: 10%;
+}
+   
