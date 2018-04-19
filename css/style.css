@@ -784,10 +784,159 @@ button:focus {
 #ordercall a:hover:after {
     width: 60%;
 }*/
-
-
-
 #summary{
+  width: 100%;
+  height: 100vh;
+  background-color: #1c1a1a;
+  display: grid;
+  grid-template-columns: repeat(96,1fr); 
+  grid-template-rows:repeat(96,1fr);
+}
+ #summary .palm{
+ position: relative;
+ z-index:4;
+ grid-area: 4/4/80/36;
+ background-image: url('../img/arm3.png');
+ background-position: 100% 100%;
+ background-size: 90% 90%;
+}
+ #summary .inscription{
+  position: relative;
+  z-index: 5;
+  grid-area: 2/2/40/28;
+  overflow: hidden;
+  font-size: 4vw;
+  font-family: Raleway-Bold;
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+  grid-template-rows:repeat(2,1fr);
+}
+.inscription > .ol{
+  font-family: Raleway-Bold;
+  font-size: 20vw;
+  line-height: 80%;
+  display: block;
+  font-weight: 900;
+  grid-area: 1/1/2/2;
+  overflow: hidden;
+  position: absolute;
+  top: -28%;
+  left: 12%;
+}
+
+ .inscription > .ol2{
+ grid-area: 2/2/3/3;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ font-size: 3.5vw
+}
+
+ #summary #blockText1{
+ grid-area: 20/24/52/76;
+ position: relative;
+ z-index: 3;
+ display: flex;
+ justify-content: flex-start;
+  font-family: Raleway-Bold;
+} 
+#blockText1 > #bt1P{
+  font-size: 9vw;
+  font-family: Raleway-Bold;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.5vw;
+  text-decoration: none;
+  color: white;
+}
+
+.WeTrust{
+  position: absolute;
+  right: 0; 
+  z-index: 7;
+
+}
+
+ #summary .sieve{
+  grid-area: 24/60/56/96;
+  position: relative;
+  z-index: 2;
+  background-image: url('../img/dot.png');
+  background-position: 100% 100%;
+ background-size: 100% 100%;
+ }
+
+#summary #blockText2{
+  grid-area: 63/36/76/96;
+  position: relative;
+  z-index: 2;
+  color: #747373;
+  font-size: 10vw;
+  text-align: left;  
+  line-height: 3.5vh;
+ 
+} 
+#blockText2 span{
+  font-size: 1.7vw;  
+
+}
+.covering{
+ grid-area: 62/35/76/52;
+ position: relative;
+ z-index: 3;
+ border-left: 3px solid #ff557d;
+ border-top: 3px solid #ff557d;
+}
+
+ .summaryBlockSubmit{
+  position: relative;
+  grid-area: 88/36/92/44;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ align-content: flex-end;
+ }
+.summaryBlockSubmit button{
+  border-style: none;
+  background-color: transparent;
+  color: #747373;
+  font-size: 1vw; 
+  font-family: Robotobk;
+  letter-spacing: 0.3vw;
+  transition: color 0.1s linear;
+  margin-left: 0%;  
+  margin-top: 0;  
+   position: absolute;
+    bottom: 30%;
+ }
+
+.summaryBlockSubmit hr{
+  width: 50%;
+  height: 1px;
+  background-color: #747373; 
+  transition: width 0.1s linear;
+  margin-left: 0%;  
+  margin-top: 0%;  
+  float: left;
+  position: absolute;
+   bottom: -60%;
+   
+  }
+
+.eee{
+   grid-area: 88/40/92/44;
+   position: absolute;
+   width: 20%;
+   height: 20%;
+   bottom: 0;
+   left: 10%;
+}
+
+
+
+
+/* #summary{
   width: 100%;
   height: 100vh;
   background-color: #1c1a1a;
@@ -936,7 +1085,7 @@ button:focus {
    left: 10%;
 }
 } 
-
+ */
   
 /* .vizitka{
 	width: 100%;
@@ -1566,8 +1715,8 @@ input{
 }
 
 #phoneOff{
-width: 2%;
-height: 3%;
+width: 1%;
+height: 2%;
 position: absolute;
 top: 2%;
 right: 2%;
@@ -1615,7 +1764,7 @@ color: #747373;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
-  font-size: 1.8vw;
+  font-size: 1.2vw;
 }
 
  .fhoneBlock .fhoneSubmit{
@@ -1651,6 +1800,7 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
+     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
