@@ -895,7 +895,10 @@ button:focus {
  .summaryBlockSubmit{
   position: relative;
   grid-area: 22/9/23/11;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ align-content: flex-end;
  }
 .summaryBlockSubmit button{
   border-style: none;
@@ -907,6 +910,8 @@ button:focus {
   transition: color 0.1s linear;
   margin-left: 0%;  
   margin-top: 0;  
+   position: absolute;
+    bottom: 30%;
  }
 
 .summaryBlockSubmit hr{
@@ -917,16 +922,22 @@ button:focus {
   margin-left: 0%;  
   margin-top: 0%;  
   float: left;
+  position: absolute;
+   bottom: -60%;
    
   }
 
-  .summaryBlockSubmi img{
-  width: 10%;  
-  position: absolute;  
+.eee{
+   grid-area: 22/10/23/11;
+   position: absolute;
+   width: 20%;
+   height: 20%;
+   bottom: 0;
+   left: 10%;
+}
+} 
 
-  }
-
-
+  
 /* .vizitka{
 	width: 100%;
 	height: 100vh;
