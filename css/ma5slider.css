@@ -1687,3 +1687,6 @@
   transition: opacity .2s ease-in-out .5s; }
 
 /*# sourceMappingURL=ma5slider.css.map */
+.horisontal-dots > .dots {
+  transform: rotate(90deg);
+}
