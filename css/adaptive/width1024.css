@@ -170,9 +170,13 @@ header table {
 .ppng{
 	width: 55%;
     height: 25%;
+    z-index: 1;
 }
 .inpng{
 	margin-left: 10%;
+    margin-top: -8%;
+    z-index: 1;
+    height: 50px;
 }
 .inpng img {
     width: 20%;
@@ -183,7 +187,7 @@ header table {
 	width: 30%;
     height: 25%;
     margin-left: 2%;
-    margin-top: -27%;
+    margin-top: -2%;
 }
 .spng{
 	width: 55%;
@@ -205,6 +209,7 @@ header table {
 	height: 50px;
 	display: block;
 	position: absolute;
+    cursor: pointer;
 	margin-top: 13%;
 	margin-left: 37%;
 }
@@ -227,9 +232,13 @@ header table {
     margin-top: 30px;
     margin-right: 10px;
 }
-
-
-
+.pulse {
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1000ms infinite;
+}
 .services {
     margin-top: 1%;
     width: 100%;
@@ -258,7 +267,7 @@ header table {
 .line_services {
     width: 5%;
     font-family: RobotoLight;
-    font-size: 3em;
+    font-size: 2.6em;
     position: absolute;
     top: 14%;
     left: 9%;
@@ -272,8 +281,8 @@ header table {
 	/*margin-top: -50%;*/
 }
 .developimg, .designimg, .marketingimg {
-    width: 33%;
-    height: 45%;
+    width: 30%;
+    height: 40%;
     border-color: transparent;
     display: inline-block;
     font-family: RobotoBk;
@@ -289,7 +298,7 @@ header table {
 } 
 .marketingimg {
     margin-left: -12%;
-    margin-top: 80%;
+    margin-top: 70%;
 }
 .develop, .design, .marketing {
     width: 25%;
@@ -301,7 +310,7 @@ header table {
     text-decoration: none;
     font-size: 0.8em;
     margin-left: 19%;
-    margin-top: 44%;
+    margin-top: 41%;
     position: absolute;
 }
 .develop h2, .design h2, .marketing h2 {
@@ -320,12 +329,13 @@ header table {
 	color: black;
 	text-decoration: none;
 	font-family: RobotoRegular;
+    cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
 	color: #ff557d;
 	transition: 300ms;
 }
-.develop p:hover img, .design p:hover img, .marketing p:hover img{
+.develop a:hover .develop img, .design a:hover .design img, .marketing a:hover .marketing img{
 	display: inline-block;
 	transition: 800ms;
 	font-family: RobotoBk;
@@ -334,7 +344,7 @@ header table {
     margin-left: 62%;
 } 
 .marketing {
-	margin-top: 85%;
+	margin-top: 72%;
 }
 
 .parallelogram {
@@ -342,8 +352,8 @@ header table {
     height: 60%;
     /*border: solid black;*/
     display: inline-block;
-    margin-top: 5%;
-    margin-right: -39%;
+    margin-top: -13%;
+    margin-right: -45%;
     float: right;
 }
 .servicespngs {
@@ -367,41 +377,18 @@ header table {
     height: 9%;
 }
 
-.servicesline {
-    margin-top: 13%;
-    margin-left: -65%;
-    position: absolute;
-    font-size: 0.5em;
-}
 .statuya {
-    margin-left: 46%;
-    margin-top: 45%;
     position: absolute;
+    bottom: -5%;
+    right: 11%;
+    width: 47%;
+    height: 44%;
 }
 .statuya img {
-    width: 58%;
+    width: 100%;
+    height: 100%;
 }
-#statuyaLine {
-    position: absolute;
-    bottom: 9%;
-    right: 12%;
-    width: 27%;
-    height: 21%;
-    display: none;
-}
-#statuyaLineBlock {
-    width: 26%;
-    height: 6%;
-    position: absolute;
-    top: 81.8%;
-    left: 62%;
-    background-color: black;
-    z-index: 2;
-    color: yellow;
-}
-<<<<<<< HEAD
-/*///////////////////////////////*/
-=======
+
 
 /*///////////////////////////////////////////////*/
 
@@ -418,8 +405,15 @@ header table {
     margin-top: -5%;
     background-color: #1c1a1a;
 }
+.formaskpar{
+    margin-top: 45px;
+    margin-left: 10%;
+    font-family: RobotoLight;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+}
 
->>>>>>> 0246fb2bd0e9264650ae3dfd29e03ffe8bd2fa3f
 .callbackform {
     width: 100%;
     
@@ -490,13 +484,19 @@ header table {
     color: white;
     line-height: 32px;
     right: auto;
-    top: -37px;
+    transform: translate(0,-18px) ;
+    -webkit-transform: translate(0,-18px);
+    -o-transform: translate(0,-18px);
+    -moz-transform: translate(0,-18px);
 }
 .placeholder-hide label {
     bottom: auto;
     left: -9999px;
     right: auto;
     top: -9999px;
+}
+.lbcom {
+    font-size: 12px;
 }
 .comment {
     margin-left: 1%;
@@ -505,10 +505,18 @@ header table {
     display: inline-block;
 }
 .comment textarea {
-    width: 100%;
-    border: solid white 2px;
-    height: 140px;
+    color: #fff;
     resize: none;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 130px;
+    border: none;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 29px,rgba(255,255,255,.2) 29px,rgba(255,255,255,.2) 2px);
+    background-size: auto 30px;
+    font-weight: 300;
+    min-height: 150px;
+    line-height: 30px;
 }
 #ordercall {
     font-family: Raleway-ExtraBold;
@@ -547,7 +555,7 @@ button:focus {
 }
 
 
-.aboutus {
+/* .aboutus {
 	width: 100%;
 	height: 95vh;
 	background-color: #1c1a1a;
@@ -564,7 +572,7 @@ button:focus {
     position: absolute;
     height: 33%;
     width: 30%;
-    top: 17%;
+    top: 25%;
     left: 1.9%;
     z-index: 2;
 }
@@ -574,11 +582,11 @@ button:focus {
 }
 .dot {
     width: 28%;
-    height: 35%;
+    height: 40%;
     position: absolute;
     z-index: 2;
     left: 70.5%;
-    top: 24%;
+    top: 30%;
 }
 .dot img {
     width: 100%;
@@ -596,12 +604,12 @@ button:focus {
     font-family: Raleway-Bold;
     font-size: 16em;
     font-weight: 900;
-    margin: -3% 0 0 -1.5%;
+    margin: 3% 0 0 -1.5%;
 }
 .inscription p.studio1 {
     font-family: Raleway-Bold;
     font-size: 2.5em;
-    margin: -5% 0 0 20%;
+    margin: -10% 0 0 20%;
     font-weight: 900;
 }
 
@@ -626,7 +634,7 @@ margin: 15% 0 0 19%;
     position: absolute;
     width: 60%;
     font-size: 1.4em;
-    top: 71%;
+    top: 80%;
     left: -4%;
 }
 .p2_border {
@@ -652,7 +660,9 @@ margin: 15% 0 0 19%;
     font-size: 1em;
     letter-spacing: 7px;
 }
+ */
 
+ 
 
 /*
 .ability {
@@ -1064,11 +1074,11 @@ button.fsubmit {
  
  button.fsubmit:hover {
 	float: left;
-	width: 46.5%;
-	margin-left: 74.5%;
-	margin-top: -50px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+	font-size: 1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
@@ -1077,11 +1087,11 @@ button.fsubmit {
  
  button.fsubmit:active {
 	float: left;
-	width: 46.5%;
-	margin-left: 586px;
-	margin-top: -51px;
+    width: 50%;
+    margin-left: 72%;
+    margin-top: -5%;
 	font-family: RobotoBk; 
-	font-size: 28px;
+	 font-size: 1em;
 	display: inline-block;
 	color: #fff;
 	border-bottom: 3px solid #fff;
@@ -1138,3 +1148,108 @@ button.fsubmit {
     width: 100%;
     height: 150%;
 }
+#pfoneBlockForm{
+    width: 100vw;
+    height:100vh; 
+    left: 0;
+    top: -100%;
+    background-color: #1c1a1a;
+    position:fixed;
+    z-index: 350;
+    display:block;
+    color: #ffffff;
+
+}
+
+#phoneOff{
+width: 2%;
+height: 3%;
+position: absolute;
+top: 2%;
+right: 2%;
+font-size: 4.4vw;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.phoneСaption{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-size: 4.5vw;
+  color: white;
+  font-family: RobotoBk;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
+}
+
+.fhoneBlock{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  margin-left: 10%;
+  justify-content: space-between;
+  align-items:flex-end;
+
+}
+.fhoneBlock input{
+border-style: none;
+font-family: Raleway-Thin;
+font-size: 1.6em; 
+background-color: transparent;
+border-bottom: 1px solid white;
+display: flex;
+height: 15%;
+width: 33%;
+padding-left: 2%;
+color: #747373;
+transition: font-size 0.1s linear;
+}
+.fhoneBlock input:focus{
+  font-size: 1.8vw;
+}
+
+ .fhoneBlock .fhoneSubmit{
+  border-style: none;
+  font-family: Robotobk;
+  font-size: 1.5em; 
+  background-color: transparent;
+  width: 10%;
+  height: 15%;
+  padding-left: 0;
+  color: white;
+  letter-spacing: 2px;
+  color: #747373;
+ transition: color 0.1s linear;
+ }
+.fhoneBlock .fhoneSubmit:hover{
+  color: #fff;
+}
+
+
+  .fhoneBlock .fhoneSubmit hr{
+    width:65%;
+    float: left;
+    height: 1px;
+    background-color: #747373; 
+    transition: width 0.1s linear;
+  }
+   .fhoneBlock .fhoneSubmit img{
+  position: relative ;
+  width: 10%;
+  }
+
+  .fhoneBlock .fhoneSubmit:hover >  hr {
+    color: #ff557d;
+     background-color: #ff557d; 
+     width: 85%;
+}
+   .fhoneBlock .fhoneSubmit:hover >  img{
+     left: 10%;
+}
+   

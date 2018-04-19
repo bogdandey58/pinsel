@@ -2,10 +2,41 @@
 	font-family: RobotoLight;
 	background-repeat: no-repeat;
 }
-
+img { pointer-events: none;
+ -moz-user-select: none; 
+ -webkit-user-select: none; 
+ -ms-user-select: none; 
+ user-select: none; 
+}
 body {
 	margin: 0;
 	padding: 0;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    /*width: 4px;*/
+        display: none;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 0px rgba(255,85,125,0.4); 
+    -webkit-border-radius: 6px;
+    border-radius: 6px;*/
+        display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*-webkit-border-radius: 10px;
+    border-radius: 6px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(255,85,125,0.4);*/ 
+        display: none;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	/*background: rgba(255,85,125,0.4); */
+      display: none;
 }
 
 #p_prldr{
@@ -184,15 +215,20 @@ header table {
 	margin-left: 65%;
 	margin-top: -8%;
 	z-index: 1;
-	
+	height: 50px;
 }
 .wpng{
 	width: 30%;
     height: 25%;
     margin-left: 3%;
-    margin-top: -10%;
+    margin-top: 0;
 }
-
+.wpng hr {
+  float: left;
+  margin-top: -23%;
+  margin-left: -2%;
+  animation: wline 3000ms infinite;
+}
 .spng{
 	width: 55%;
     height: 40%;
@@ -314,6 +350,7 @@ header table {
 	height: 4.7%;
 	display: block;
 	position: absolute;
+  cursor: pointer;
 	margin-top: 13%;
 	margin-left: 42%;
 }
@@ -338,7 +375,7 @@ header table {
 }
 
 .pulse {
-	display: inline-block;
+	display: block;
   	border-radius: 50%;
   	cursor: pointer;
   	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
@@ -386,7 +423,7 @@ header table {
 .services {
 	margin-top: 1%;
 	width: 100%;
-	height: 93vh;
+	height: 100vh;
 	position: relative;
     background-size: 100%;
     /*background-position: 130px;*/
@@ -466,12 +503,13 @@ header table {
 	color: black;
 	text-decoration: none;
 	font-family: RobotoRegular;
+  cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
 	color: #ff557d;
 	transition: 300ms;
 }
-.develop p:hover img, .design p:hover img, .marketing p:hover img{
+.develop a:hover .develop img, .design a:hover .design img, .marketing a:hover .marketing img{
 	display: inline-block;
 	transition: 800ms;
 	font-family: RobotoBk;
@@ -517,33 +555,18 @@ header table {
 	position: absolute;
 }
 .statuya {
-    margin-left: 42%;
-    bottom: 0;
     position: absolute;
-    z-index: 3;
-}
-.statuya img {
-    width: 109%;
+    bottom: -5%;
+    right: 18%;
+    width: 45%;
+    height: 53%;
 }
 
-#statuyaLine {
-    position: absolute;
-    bottom: 10%;
-    right: 13%;
-    width: 29%;
-    height: 22%;
-    display: none;
+.statuya img {
+    width: 100%;
+    height: 100%;
 }
-#statuyaLineBlock {
-    width: 31%;
-    height: 9.3%;
-    position: absolute;
-    top: 74%;
-    left: 54%;
-    background-color: black;
-    z-index: 2;
-    color: yellow;
-}
+
 
 
 /*///////////////////////////////////////////////*/
@@ -560,6 +583,9 @@ header table {
     height: 70vh;
     margin-top: -5%;
     background-color: #1c1a1a;
+    background-image: url(../img/dot.png);
+    background-position: 7% 10%;
+    background-size: 30% 50%;
 }
 
 
@@ -633,7 +659,10 @@ header table {
     color: white;
     line-height: 32px;
     right: auto;
-    top: -37px;
+    transform: translate(0,-34px) ;
+    -webkit-transform: translate(0,-34px);
+    -o-transform: translate(0,-34px);
+    -moz-transform: translate(0,-34px);
 }
 .placeholder-hide label {
     bottom: auto;
@@ -641,89 +670,235 @@ header table {
     right: auto;
     top: -9999px;
 }
-.comment {
+/*.comment {
 	width: 35%;
 	margin-top: 20%;
 	display: inline-block;
 }
 .comment textarea {
-	width: 100%;
-	border: solid white 2px;
-	height: 240px;
-	resize: none;
+	color: #fff;
+    resize: none;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: none;
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 29px,rgba(255,255,255,.2)29px,rgba(255,255,255,.2) 2px);
+    background-size: auto 30px;
+    font-weight: 300;
+    min-height: 260px;
+    line-height: 30px;
+}*/
+.comment {
+  width: 35%;
+  margin-top: 23%;
+  /*margin-left: 10%;*/
+  display: inline-block;
 }
+.comment textarea {
+  width: 100%;
+  border: solid white 1px;
+  border-radius: 10px;
+  height: 200px;
+  resize: none;
+}
+
 #ordercall {
 	font-family: Raleway-ExtraBold;
 	background-color: transparent;
 	margin-top: -2%;
-	margin-left: 42%;
+	margin-left: 45%;
 	border:none;
 	font-size: 25px;
-	width: 30%;
+	width: 15%;
 	transition: all 0.1s ease;
 }
 #ordercall p{
 	color: white;
 }
-#ordercall:hover {
-	margin-top: -2.5%;
-	font-size: 27px;
-}
 #ordercall hr {
-	height: 2px;
-	margin-top: -2%;
-	background-color: white;
+  width: 40%; 
+  height: 1px;
+  float: left; 
+  margin-top: -10%;
+  transition: all 0.2s ease;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: white; /* Цвет линии для остальных браузеров */
+  background-color: white; /* Цвет линии для браузера Firefox и Opera */
+  
 }
+#ordercall img, button.fsubmit img{
+    width: 5%;
+    margin-top: -12%;
+    margin-left: -5%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
 #ordercall:hover > hr {
-	height: 3px;
-	margin-top: -2.5%;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 87%;
+
+}
+
+#ordercall:hover > img {
+  margin-left: 39%;
 }
 
 #ordercall:active {
 	text-decoration: none;
 	background-color: transparent;
-    border:none;
+  border:none;
 }
 button:focus {
     outline: none;
 }
- 
-.aboutus {
-	width: 100%;
-	height: 95vh;
-	background-color: #1c1a1a;
+
+
+
+
+/*#ordercall a{
+	text-decoration: none;
 }
-.vizitka{
+#ordercall a:after {
+    background-color: #ff557d;
+    display: block;
+    content: "";
+    top: 70px;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+#ordercall a:hover:after {
+    width: 60%;
+}*/
+
+
+
+
+.InDesign{
+  width: 100%;
+  height: 100vh;
+   background-color: #1c1a1a;
+   display: grid;
+   grid-template-columns: repeat(24,1fr); 
+   grid-template-rows:repeat(24,1fr);
+   position: relative;
+  
+  
+} 
+/* рука статуи */
+.InDesign .palm{
+ position: relative;
+ z-index:4;
+ grid-area: 1/1/20/10;
+ background-image: url('arm.png');
+ background-position: 100% 100%;
+ background-size: 90% 90%;
+
+}
+/* стили о студии */
+.inscription{
+  position: relative;
+  z-index: 5;
+  grid-area: 1/1/10/7;
+  overflow: hidden;
+  font-size: 4vw;
+  font-family: Raleway-Bold;
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+  grid-template-rows:repeat(2,1fr);
+
+}
+.inscription .ol{
+  font-family: Raleway-Bold;
+  font-size: 20vw;
+  line-height: 80%;
+  display: block;
+  font-weight: 900;
+  grid-area: 1/1/2/2;
+  overflow: hidden;
+  position: absolute;
+  top: -28%;
+  left: 12%;
+}
+
+ .inscription .ol2{
+ grid-area: 2/2/3/3;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ font-size: 3.5vw
+}
+
+
+/* IN DESIGN WE TRUST */
+.InDesign #blockText1{
+ grid-area: 5/6/13/19;
+ position: relative;
+ z-index: 2;
+ display: flex;
+ justify-content: flex-start;
+  font-family: Raleway-Bold;
+
+}
+#blockText1 #bt1P{
+  font-size: 8vw;
+  font-family: Raleway-Bold;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.5vw;
+  text-decoration: none;
+  color: white;
+}
+
+.WeTrust{
+  position: absolute;
+  right: 0; 
+  z-index: 7;
+
+}
+
+.InDesign #blockText2{
+   grid-area: 14/9/20/24;
+ position: relative;
+ z-index: 2;
+ background-color: red;
+}
+
+
+/* .vizitka{
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	position: relative;
 	box-sizing: border-box;
 	overflow: hidden;
+  background-color: #1c1a1a;
 }
  
 .arm {
     position: absolute;
-    height: 33%;
-    width: 30%;
-    top: 14%;
+    height: 3%;
+    width: 1%;
+    top: 15%;
     left: 4%;
     z-index: 2;
 }
 .arm img {
     width: 100%;
     height: 200%;
-}
-.dot {
-    width: 40%;
-    height: 40%;
-    position: absolute;
-    z-index: 2;
-    left: 57%;
-    top: 21%;
-}
-.dot img {
-    width: 100%;
-    height: 100%;
 }
 
 .inscription{
@@ -765,7 +940,7 @@ margin: 10% 0 0 20%
     display: inline-block;
     position: relative;
     width: 67%;
-    font-size: 2.3em;
+    font-size:2em;
     margin: -5% 0 0 32%;
 }
 .p2_border {
@@ -774,7 +949,7 @@ margin: 10% 0 0 20%
     top: -9%;
     left: -1.4%;
     width: 29%;
-    height: 100%;
+    height: 120%;
     border-top: 2px solid #ff557d;
     border-left: 2px solid #ff557d;
 }
@@ -792,7 +967,10 @@ margin: 10% 0 0 20%
     letter-spacing: 10px;
 }
 
-/*.ability {
+ 
+ */
+
+.ability {
 	height: 100vh;
     width: 100%;
     position: relative;
@@ -881,13 +1059,18 @@ div.band {
 	letter-spacing:5px ;
 	text-align: center;
 }
-*/
 
-/*.diagnostic {
-	height: 1082px;
-	width: 100%;
-	background-color:#1c1a1a;
-	display: block;
+/* 
+#diagnostic {
+	width: 100vw;
+    height:100vh; 
+    left: 0vw;
+    top: 0;
+    background-color: #1c1a1a;
+    color: white;
+    position: fixed;
+    z-index: 350;
+    display:block;
 }
 
 .dheader {
@@ -906,15 +1089,15 @@ div.band {
 }
 
 .dheader1 {
-	font-family: RobotoBk;
-	color: #fff;
-	font-size: 73px;
-	margin-top: 70px;
-	display: inline;
-	padding-left: 70px;
-	border: none;
-	width: 1020px;
-	text-align: left;
+    font-family: RobotoBk;
+    color: #fff;
+    font-size: 4vw;
+    margin-top: 6%;
+    display: inline;
+    padding-left: 11%;
+    border: none;
+    width: 45%;
+    text-align: left;
 }
 
 .dheader2 {
@@ -1005,7 +1188,7 @@ div.band {
 
 .rightForm {
 	height: 400px;
-	display: block;
+	display: inline;
 }
 
 .rightFormtext {
@@ -1057,7 +1240,15 @@ button.order:hover, button.order:active {
     filter: invert(100%);
     transform: rotate(-45deg);
 }
-*/
+#diagnosticOff {
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+ */
+
 .footer {
 	width: 100%;
 	height: 1055px;
@@ -1068,7 +1259,7 @@ button.order:hover, button.order:active {
   
 .footer_addr {
     margin-left: 11%;
-    margin-top: 33%;
+    margin-top: 8%;
     color: #b3b3b3;
     width: 18%;
     display: inline;
@@ -1126,11 +1317,11 @@ button.order:hover, button.order:active {
 	float: left;
 }
 .footer_form {
-    width: 45%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: -5%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
     transition: all 0.1s ease;
@@ -1140,29 +1331,35 @@ form.contact_form {
 	margin-top: 6%;
 }
  
-#fcontact_form {
-	
+.p_footask{
+  font-family: Robotobk;
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 10%;
 }
  
 input#fcontact_form {
-    width: 52%;
-    border-style: none;
+    width: 25%;
+    border: none;
     border-bottom: 1px solid #b3b3b3;
-    background-color: transparent;
-    font-family: Raleway-Thin;
-    font-size: 1.9em;
     color: #b3b3b3;
     text-decoration: none;
     float: left;
     display: inline;
     margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80px;
     transition: all 0.1s ease;
+    background: transparent;
+    font-size: 1.4em;
 }
 
  
  #fcontact_form:active {
-	font-size: 17px;
+	font-size: 19px;
 	color: #fff;
 	border-style: none;
 	border-bottom: 2px solid #fff;
@@ -1174,7 +1371,7 @@ input#fcontact_form {
  	border-style: none;
 	border-bottom: 2px solid #fff;
 	color: #fff;
-	font-size: 17px;
+	font-size: 19px;
 	margin-bottom: -1px;
  } 
  
@@ -1182,56 +1379,69 @@ input#fcontact_form {
  	border-style: none;
 	border-bottom: 2px solid #fff;
 	color: #fff;
-	font-size: 17px;
+	font-size: 19px;
 	margin-bottom: -1px;
  } 
  
  button.fsubmit {
 	float: left;
-	width: 45%;
-    margin-left: 72%;
-    margin-top: -5%;
-    font-family: RobotoBk;
-    font-size: 1.7em;
+  width: 20%;
+  margin-left: 74%;
+  margin-top: -2%;
+  font-family: RobotoBk;
+  font-size: 1.7em;
 	display: inline-block;
 	border-style: none;
-	border-bottom: 1px solid #b3b3b3;
 	color: #b3b3b3;
 	background-color: transparent;
 	letter-spacing: 5px;
 	transition: all 0.1s ease;
  }
- 
- button.fsubmit:hover {
-	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -45px;
-	font-family: RobotoBk; 
-	font-size: 28px;
-	display: inline-block;
+
+button.fsubmit:hover {
 	color: #fff;
-	border-bottom: 3px solid #fff;
-	animation: 500ms;
  }
  
- button.fsubmit:active {
- 	animation: 300ms;
-	float: left;
-	width: 450px;
-	margin-left: 586px;
-	margin-top: -50px;
-	font-family: RobotoBk; 
-	font-size: 28px;
-	display: inline-block;
+button.fsubmit:active {
 	color: #fff;
-	border-bottom: 3px solid #fff;
 	
  }
+ button.fsubmit:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 87%;
+
+}
+
+button.fsubmit hr {
+    width: 40%;
+    height: 1px;
+    float: left;
+    margin-top: 3%;
+    transition: all 0.2s ease;
+    border: none;
+    color: white;
+    background-color: white;
+}
+
+ button.fsubmit img {
+    width: 5%;
+    margin-top: 10%;
+    margin-left: -50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
+button.fsubmit:hover > img {
+  margin-left: -6%;
+}
  
  .f_icons {
     width: 15%;
-    margin-top: 8%;
+    margin-top: 15%;
     margin-left: 47%;
 }
  
@@ -1248,8 +1458,8 @@ input#fcontact_form {
 	text-align: center;
     display: block;
     position: absolute;
-    margin-top: 43%;
-    padding-left: 40%;
+    margin-top: 30%;
+    padding-left: 42%;
     float: left;
 }
  
@@ -1277,3 +1487,115 @@ input#fcontact_form {
 input{
 	outline:none;
 }
+
+#pfoneBlockForm{
+    width: 100vw;
+    height:100vh; 
+    left: 0;
+    top: -100%;
+    background-color: #1c1a1a;
+    position:fixed;
+    z-index: 350;
+    display:block;
+    color: #ffffff;
+
+}
+
+#phoneOff{
+width: 2%;
+height: 3%;
+position: absolute;
+top: 2%;
+right: 2%;
+font-size: 4.4vw;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.phoneСaption{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-size: 4.5vw;
+  color: white;
+  font-family: RobotoBk;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
+}
+
+.fhoneBlock{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  margin-left: 10%;
+  justify-content: space-between;
+  align-items:flex-end;
+
+}
+.fhoneBlock input{
+border-style: none;
+font-family: Raleway-Thin;
+font-size: 1.6em; 
+background-color: transparent;
+border-bottom: 1px solid white;
+display: flex;
+height: 15%;
+width: 33%;
+padding-left: 2%;
+color: #747373;
+transition: font-size 0.1s linear;
+}
+.fhoneBlock input:focus{
+  font-size: 1.8vw;
+}
+
+ .fhoneBlock .fhoneSubmit{
+  border-style: none;
+  font-family: Robotobk;
+  font-size: 1.5em; 
+  background-color: transparent;
+  width: 10%;
+  height: 15%;
+  padding-left: 0;
+  color: white;
+  letter-spacing: 2px;
+  color: #747373;
+ transition: color 0.1s linear;
+ }
+.fhoneBlock .fhoneSubmit:hover{
+  color: #fff;
+}
+
+
+  .fhoneBlock .fhoneSubmit hr{
+    width:65%;
+    float: left;
+    height: 1px;
+    background-color: #747373; 
+    transition: width 0.1s linear;
+  }
+   .fhoneBlock .fhoneSubmit img{
+  position: relative ;
+  width: 10%;
+  }
+
+  .fhoneBlock .fhoneSubmit:hover >  hr {
+    color: #ff557d;
+     background-color: #ff557d; 
+     width: 85%;
+}
+   .fhoneBlock .fhoneSubmit:hover >  img{
+     left: 10%;
+}
+   
+
+
+
+
+
+

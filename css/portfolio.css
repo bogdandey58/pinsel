@@ -52,7 +52,7 @@
 	height: 100%;
 }
 .alljobs {
-    width: 10%;
+    width: 15%;
     height: 6%;
     background-color: transparent;
     margin-left: 65%;
@@ -62,7 +62,7 @@
 .alljobs p{
     margin-top: 0%;
     margin-left: 0%;
-    font-size: 0.4em;
+    font-size: 0.3em;
     letter-spacing: 7px;
     color: white;
     z-index: 1;
