@@ -931,7 +931,7 @@ button.order:hover, button.order:active {
 }
     .footer_addr {
     margin-left: 11%;
-    margin-top: 36%;
+    margin-top: 5%;
     color: #b3b3b3;
     width: 18%;
     display: inline;
@@ -1109,7 +1109,7 @@ button.fsubmit:hover > img {
 }
  
  .f_icons {
-    width: 15%;
+    width: 17%;
     margin-top: 15%;
     margin-left: 47%;
 }
@@ -1128,7 +1128,7 @@ button.fsubmit:hover > img {
     display: block;
     position: absolute;
     margin-top: 30%;
-    padding-left: 42%;
+    padding-left: 40%;
     float: left;
 }
  
