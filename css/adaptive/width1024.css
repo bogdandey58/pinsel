@@ -942,7 +942,7 @@ button.order:hover, button.order:active {
 */
 .footer {
     width: 100%;
-    height: 680px;
+    height: 95vh;
     background-color: #1c1a1a;
     margin: 0;
     position: relative;
@@ -950,204 +950,232 @@ button.order:hover, button.order:active {
 }
 .footer_addr {
     margin-left: 11%;
-    margin-top: 39%;
+    margin-top: 10%;
     color: #b3b3b3;
     width: 18%;
     display: inline;
     float: left:;
 }
-
 .f_email {
     width: 10%;
     font-family: Raleway-Thin;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #b3b3b3;
 }
  
-.f_email a:active{	
-	color: #b3b3b3;
-	text-decoration: none;
+.f_email a:active{  
+    color: #b3b3b3;
+    text-decoration: none;
 }
 .f_email >a:link,.f_email > a:hover,.f_email > a:link,.f_email > a:visited {
-	text-decoration: none;
-	color: #b3b3b3;
+    text-decoration: none;
+    color: #b3b3b3;
 }
- 
 .f_phone {
     font-family: Raleway-Bold;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
-    width: 92%;
+    width: 80%;
     padding-top: 5%;
     padding-bottom: 4%;
     padding-left: 2%;
     border-bottom: 2px solid #fff;
 }
-.f_phone >a:active,.f_phone > a:link,.f_phone > a:hover,.f_phone > a:link,.f_phone > a:visited {
-	text-decoration: none;
-	color:#fff;
+.f_phone >a:active,.f_phone > a:link,.f_phone > a:link,.f_phone > a:visited {
+    border-style: none;
+    text-decoration: none;
+    color:#fff;
+    animation: trianlet 300ms;
 }
 .f_addr {
-    width: 92%;
+    width: 80%;
     font-family: Raleway-Thin;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #b3b3b3;
 }
-
 .footers {
-	width: 100%;
-	display: inline;
-	float: left;
+    width: 100%;
+    display: inline;
+    float: left;
 }
 
 .footers >div {
-	float: left;
+    float: left;
 }
 .footer_form {
-    width: 44%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 9%;
-    margin-left: 9%;
+    margin-top: -5%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
+    transition: all 0.1s ease;
 }
+ 
 form.contact_form {
-    margin-top: 3%;
+    margin-top: 6%;
 }
-#fcontact_form {
-	
+ 
+.p_footask{
+    font-family: Robotobk;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
 }
  
 input#fcontact_form {
-    width: 55%;
+    width: 20%;
     border: none;
     border-bottom: 1px solid #b3b3b3;
-    background-color: transparent;
-    font-family: Raleway-Thin;
-    font-size: 1.2em;
     color: #b3b3b3;
     text-decoration: none;
     float: left;
     display: inline;
-    margin-top: 5%;
-    height: 75px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 40px;
+    transition: all 0.1s ease;
+    background: transparent;
+    font-size: 1em;
 }
+
  
- #fcontact_form:hover {
-	font-size: 17px;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
+ #fcontact_form:active {
+    font-size: 19px;
+    color: #fff;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    animation: trianlet 300ms;
  } 
  
  input#fcontact_form:active {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
-
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
  input#fcontact_form:focus {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
 button.fsubmit {
     float: left;
-    width: 46%;
+    width: 25%;
     margin-left: 74%;
-    margin-top: -5%;
+    margin-top: -3.3%;
     font-family: RobotoBk;
     font-size: 1em;
     display: inline-block;
-    border: none;
-    border-bottom: 1px solid #b3b3b3;
+    border-style: none;
     color: #b3b3b3;
     background-color: transparent;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     transition: all 0.1s ease;
+ }
+
+button.fsubmit:hover {
+    color: #fff;
+ }
+ 
+button.fsubmit:active {
+    color: #fff;
+    
+ }
+ button.fsubmit:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 85%;
+
+}
+
+button.fsubmit hr {
+    width: 40%;
+    height: 1px;
+    float: left;
+    margin-top: 3%;
+    transition: all 0.2s ease;
+    border: none;
+    color: white;
+    background-color: white;
+}
+
+ button.fsubmit img {
+    width: 5%;
+    margin-top: 9%;
+    margin-left: -49%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
+button.fsubmit:hover > img {
+  margin-left: -5%;
 }
  
- button.fsubmit:hover {
-	float: left;
-    width: 50%;
-    margin-left: 72%;
-    margin-top: -5%;
-	font-family: RobotoBk; 
-	font-size: 1em;
-	display: inline-block;
-	color: #fff;
-	border-bottom: 3px solid #fff;
-    animation: 500ms;
- }
- 
- button.fsubmit:active {
-	float: left;
-    width: 50%;
-    margin-left: 72%;
-    margin-top: -5%;
-	font-family: RobotoBk; 
-	 font-size: 1em;
-	display: inline-block;
-	color: #fff;
-	border-bottom: 3px solid #fff;
- }
- 
  .f_icons {
-    width: 15%;
-    margin-top: 9%;
-    margin-left: 47%;
+    width: 20%;
+    margin-top: -10%;
+    margin-left: 77%;
 }
  
 .f_icons >img {
-    margin-left: -26%;
-    padding-right: 52%;
-    width: 20%;
-    height: 15%;
+    width: 25%;
+    margin-left: -18%;
+    padding-right: 30%;
 }
 
 .f_icons >img:last-child {
-	padding-right: 0;
+    padding-right: 0;
 }
  
-#footer_logo {
+ #footer_logo {
+    width: 25%;
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 51%;
-    padding-left: 40%;
+    margin-top: 35%;
+    padding-left: 38%;
     float: left;
-    width: 20%;
-    height: 12%;
 }
  
-.footer_lt {
+ .footer_lt {
     color: #b3b3b3;
     font-family: Raleway-Thin;
-    font-size: 1.3em;
+    font-size: 1.9em;
     text-align: center;
-    padding-top: 60%;
+    padding-top: 50%;
     padding-left: -1%;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    box-sizing: border-box;
 }
 .footer_arrow {
-    width: 9.3%;
+    width: 9%;
     height: 2%;
-    position: absolute;
-    top: 45%;
-    right: 0.5%;
+    position: fixed;
+    top: 70%;
+    right: 3%;
     transform: rotate(-90deg);
-    font-size: 0.8em;
+    font-size: 1.2em;
     text-align: center;
+
 }
-.footer_arrow img {
-    width: 100%;
-    height: 150%;
+input{
+    outline:none;
 }
+
 #pfoneBlockForm{
     width: 100vw;
     height:100vh; 
