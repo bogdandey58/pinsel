@@ -25,9 +25,35 @@ $(".triangleline").fadeToggle(0)
 $(".triangleline").fadeToggle(1300)
 
 
+///////////////////////////////////Глитч////////////////////////////////////////////
 
+// $('.ppng').on('mouseover', function() {
+//     $('.ppngimg').css('opacity','0');
+// });
+// $('.ppng').on('mouseout', function() {
+//     $('.ppngimg').css('opacity','1');
+// });
 
+// $('.inpng').on('mouseover', function() {
+//     $('.inpngimg').css('opacity','0');
+// });
+// $('.inpng').on('mouseout', function() {
+//     $('.inpngimg').css('opacity','1');
+// });
 
+// $('.wpng').on('mouseover', function() {
+//     $('.wpngimg').css('opacity','0');
+// });
+// $('.wpng').on('mouseout', function() {
+//     $('.wpngimg').css('opacity','1');
+// });
+
+// $('.spng').on('mouseover', function() {
+//     $('.spngimg').css('opacity','0');
+// });
+// $('.spng').on('mouseout', function() {
+//     $('.spngimg').css('opacity','1');
+// });
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
@@ -107,7 +133,7 @@ $('.im').on('mouseover', function() {
     $('.store').css('display','block');
     $('.store').css('opacity','1');
     $(".store").fadeToggle(0) 
-    $(".store").fadeToggle(500)
+    $(".store").fadeToggle(100)
     // $('.statuya').css('display','none');
     // $(".statuya").fadeToggle(0) 
     // $(".statuya").fadeToggle(400)
@@ -117,7 +143,7 @@ $('.vs').on('mouseover', function() {
     $('.verstka').css('display','block');
     $('.verstka').css('opacity','1');
     $(".verstka").fadeToggle(0) 
-    $(".verstka").fadeToggle(400) 
+    $(".verstka").fadeToggle(100) 
     // $('.statuya').css('display','none');
 });
 
@@ -125,7 +151,7 @@ $('.lp').on('mouseover', function() {
     $('.lendinf').css('display','block');
     $('.lendinf').css('opacity','1');
     $(".lendinf").fadeToggle(0) 
-    $(".lendinf").fadeToggle(500) 
+    $(".lendinf").fadeToggle(100) 
     // $('.statuya').css('display','none');
     // $(".statuya").fadeToggle(0) 
     // $(".statuya").fadeToggle(400)
@@ -135,7 +161,7 @@ $('.brend').on('mouseover', function() {
     $('.firmstyle').css('display','block');
     $('.firmstyle').css('opacity','1');
     $(".firmstyle").fadeToggle(0) 
-    $(".firmstyle").fadeToggle(500) 
+    $(".firmstyle").fadeToggle(100) 
     
 });
 
@@ -143,14 +169,14 @@ $('.des').on('mouseover', function() {
     $('.designpng').css('display','block');
     $('.designpng').css('opacity','1');
     $(".designpng").fadeToggle(0) 
-    $(".designpng").fadeToggle(500) 
+    $(".designpng").fadeToggle(100) 
 });
 
 $('.del').on('mouseover', function() {
     $('.devlogo').css('display','block');
     $('.devlogo').css('opacity','1');
     $(".devlogo").fadeToggle(0) 
-    $(".devlogo").fadeToggle(500) 
+    $(".devlogo").fadeToggle(100) 
 });
 
 $('.smm').on('mouseover', function() {
@@ -163,14 +189,14 @@ $('.seo').on('mouseover', function() {
     $('.seopng').css('display','block');
     $('.seopng').css('opacity','1');
     $(".seopng").fadeToggle(0) 
-    $(".seopng").fadeToggle(500) 
+    $(".seopng").fadeToggle(100) 
 });
 
 $('.vved').on('mouseover', function() {
     $('.inputservpng').css('display','block');
     $('.inputservpng').css('opacity','1');
     $(".inputservpng").fadeToggle(0) 
-    $(".inputservpng").fadeToggle(500) 
+    $(".inputservpng").fadeToggle(100) 
 });
 
 ////////////////////////offmouse///////////////////////////
@@ -275,11 +301,58 @@ $('.infield-label').infieldLabel();
 
 
 function bumbl1(){
-document.getElementById("statuyaLineBlock").style.opacity=0;
-document.getElementById("statuyaLine").style.display="block";}
-  function bumbl2(){
-document.getElementById("statuyaLineBlock").style.opacity=1;
-document.getElementById("statuyaLine").style.display="none";} 
+document.getElementById("statuyaMan").style.display="none";
+document.getElementById("statuyaLineBlock").style.display="block";
+}
+// Функция которая запрещает скачивать картинки с сайта
+var img = document.getElementsByTagName('img');for(var i in img){img[i].oncontextmenu = function() { return false;  }}
 
+var olo = 100;
+// function  plus() {
+// olo+10;
+// }
+
+// setTimeout(plus(), 1000);
+
+// function pfoneBlock(){
+//     document.getElementById("pfoneBlockForm").style.display="block";
+// }
+
+// setInterval(IncreaseHeight(),2000);
+
+// function pfoneBlockOff(){
+//     document.getElementById("pfoneBlockForm").style.display="block";
+// }
+
+function myMove(){
+        var elem = document.getElementById('pfoneBlockForm');
+        var pos = -100;
+        var id = setInterval(frame,0.3);
+        function frame(){
+            if(pos == 0){
+                clearInterval(id);
+            } 
+            else {
+                pos ++;
+                elem.style.top = pos + "%";
+                
+            }
+        }
+    }
+    function myMov2(){
+        var elem = document.getElementById('pfoneBlockForm');
+        var pos = 0;
+        var id = setInterval(frame,0.3);
+        function frame(){
+            if(pos == -100){
+                clearInterval(id);
+            } 
+            else {
+                pos --;
+                elem.style.top = pos + "%";
+                
+            }
+        }
+    }
 
 
