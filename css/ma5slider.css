@@ -9,23 +9,23 @@
   @media (max-width: 359px) {
     /* line 1, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
     .ma5slider {
-      margin-bottom: 15px; } }
+      margin-bottom: 0px; } }
   @media (min-width: 360px) and (max-width: 767.9px) {
     /* line 1, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
     .ma5slider {
-      margin-bottom: 15px; } }
+      margin-bottom: 0px; } }
   @media (min-width: 768px) and (max-width: 991.9px) {
     /* line 1, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
     .ma5slider {
-      margin-bottom: 30px; } }
+      margin-bottom: 0px; } }
   @media (min-width: 992px) and (max-width: 1199.9px) {
     /* line 1, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
     .ma5slider {
-      margin-bottom: 40px; } }
+      margin-bottom: 0px; } }
   @media (min-width: 1200px) {
     /* line 1, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
     .ma5slider {
-      margin-bottom: 50px; } }
+      margin-bottom: 0px; } }
   /* line 22, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider.scss */
   .ma5slider .slides {
     position: relative; }
