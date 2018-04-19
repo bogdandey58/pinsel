@@ -794,62 +794,89 @@ button:focus {
    display: grid;
    grid-template-columns: repeat(24,1fr); 
    grid-template-rows:repeat(24,1fr);
+   position: relative;
   
   
 } 
 /* рука статуи */
 .InDesign .palm{
-  grid-area: 1/1/20/10;
-  position: relative;
-  z-index: 4;
+ position: relative;
+ z-index:4;
+ grid-area: 1/1/20/10;
+ background-image: url('arm.png');
+ background-position: 100% 100%;
+ background-size: 90% 90%;
 
-}
-.InDesign .palm img{
-    width: 90%;
-    height: 90%;
-    margin: 10% 0 0 10%;
 }
 /* стили о студии */
-.palm .inscription{
-  position: absolute;;
+.inscription{
+  position: relative;
   z-index: 5;
-  width: 100%;
-  height: 50%;
+  grid-area: 1/1/10/7;
+  overflow: hidden;
   font-size: 4vw;
-  font-family: RalewayBlack;
+  font-family: Raleway-Bold;
   
+  display: grid;
+  grid-template-columns: repeat(2,1fr); 
+  grid-template-rows:repeat(2,1fr);
 
 }
-.palm .inscription .ol{
+.inscription .ol{
+  font-family: Raleway-Bold;
   font-size: 20vw;
+  line-height: 80%;
+  display: block;
   font-weight: 900;
-  position: relative;
-  top: -40%;
-  left: -18%;
+  grid-area: 1/1/2/2;
+  overflow: hidden;
+  position: absolute;
+  top: -28%;
+  left: 12%;
 }
 
-.palm .inscription .ol2{
-  position: relative;
-  top: -8%;
-  left: -18%;
+ .inscription .ol2{
+ grid-area: 2/2/3/3;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ font-size: 3.5vw
 }
 
 
 /* IN DESIGN WE TRUST */
 .InDesign #blockText1{
- background-color:yellow ;
  grid-area: 5/6/13/19;
+ position: relative;
  z-index: 2;
+ display: flex;
+ justify-content: flex-start;
+  font-family: Raleway-Bold;
+
 }
-#blockText1 #bt1Span{
-  color:black;
-  font-size: 5vw;
+#blockText1 #bt1P{
+  font-size: 8vw;
+  font-family: Raleway-Bold;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0.5vw;
   text-decoration: none;
-  border-bottom: 0px solid ;
-   font-family: RalewayBlack;
-  
+  color: white;
 }
 
+.WeTrust{
+  position: absolute;
+  right: 0; 
+  z-index: 7;
+
+}
+
+.InDesign #blockText2{
+   grid-area: 14/9/20/24;
+ position: relative;
+ z-index: 2;
+ background-color: red;
+}
 
 
 /* .vizitka{
