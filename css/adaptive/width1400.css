@@ -487,6 +487,7 @@ header table {
     -webkit-transform: translate(0,-27px);
     -o-transform: translate(0,-27px);
     -moz-transform: translate(0,-27px);
+    font-size: 15px;
 }
 .placeholder-hide label {
     bottom: auto;

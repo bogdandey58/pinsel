@@ -663,6 +663,7 @@ header table {
     -webkit-transform: translate(0,-34px);
     -o-transform: translate(0,-34px);
     -moz-transform: translate(0,-34px);
+    font-size: 15px;
 }
 .placeholder-hide label {
     bottom: auto;
@@ -1600,7 +1601,7 @@ input#fcontact_form {
   width: 20%;
   margin-left: 74%;
   margin-top: -2%;
-  font-family: RobotoBk;
+  font-family: RobotoLight;
   font-size: 1.7em;
 	display: inline-block;
 	border-style: none;
