@@ -796,7 +796,7 @@ button:focus {
  #summary .palm{
  position: relative;
  z-index:4;
- grid-area: 4/4/80/36;
+grid-area: 8/11/68/37;
  background-image: url('../img/arm3.png');
  background-position: 100% 100%;
  background-size: 90% 90%;
@@ -804,7 +804,7 @@ button:focus {
  #summary .inscription{
   position: relative;
   z-index: 5;
-  grid-area: 3/2/40/28;
+  grid-area: 6/9/38/30;
   overflow: hidden;
   font-family: Raleway-Bold;
   
@@ -814,7 +814,7 @@ button:focus {
 }
 .inscription > .ol{
   font-family: Raleway-Bold;
-  font-size: 22vw;
+  font-size:18vw;
   line-height: 80%;
   display: block;
   font-weight: 900;
@@ -830,11 +830,11 @@ button:focus {
  position: absolute;
  bottom: 0;
  left: 0;
- font-size: 3.5vw
+ font-size: 3vw
 }
 
  #summary #blockText1{
- grid-area: 20/22/52/78;
+ grid-area: 19/25/52/69;
  position: relative;
  z-index: 3;
  display: flex;
@@ -842,7 +842,7 @@ button:focus {
   font-family: Raleway-Bold;
 } 
 #blockText1 > #bt1P{
-  font-size: 9vw;
+  font-size: 7vw;
   font-weight: 900;
   line-height: 100%;
   letter-spacing: 0.5vw;
@@ -859,7 +859,7 @@ button:focus {
 }
 
  #summary .sieve{
-  grid-area: 24/60/56/96;
+      grid-area: 21/55/54/89;
   position: relative;
   z-index: 2;
   background-image: url('../img/dot.png');
@@ -868,7 +868,7 @@ button:focus {
  }
 
 #summary #blockText2{
-  grid-area: 63/36/76/96;
+  grid-area: 66/28/76/96;
   position: relative;
   z-index: 2;
   color: #747373;
@@ -878,11 +878,11 @@ button:focus {
  
 } 
 #blockText2 span{
-  font-size: 1.7vw;  
+  font-size: 1.5vw;  
 
 }
 .covering{
- grid-area: 62/35/76/52;
+ grid-area: 65/27/80/41;
  position: relative;
  z-index: 3;
  border-left: 3px solid #ff557d;
@@ -937,7 +937,7 @@ button:focus {
    position: absolute;
    width: 10%;
    height: 10%;
-   bottom: 9%;
+   bottom: 14%;
    right: 35%;
    transition: right 0.2s linear;
 }
