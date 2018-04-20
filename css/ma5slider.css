@@ -387,7 +387,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  top: 85%;
+  top: 86%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -460,7 +460,7 @@
 
 /* line 70, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__navs.scss */
 .nav--prev {
-  left: 0; }
+  left: 73%; }
   /* line 73, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__navs.scss */
   .first-slide .nav--prev {
     opacity: 0.25;
@@ -468,7 +468,7 @@
 
 /* line 78, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__navs.scss */
 .nav--next {
-  right: 0; }
+  right: 15%; }
   /* line 81, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__navs.scss */
   .last-slide .nav--next {
     opacity: 0.25;
@@ -1077,19 +1077,25 @@
 @media (min-width: 1200px) {
   /* line 17, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
   .horizontal-dots.inside-dots .dots {
-    margin-left: 60%;
-    bottom: 120px; } }
+    margin-left: 75%;
+    bottom: 140px; } }
 
 /* line 52, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
 .horizontal-dots.inside-dots .dots {
   position: absolute;
-  width: 20%;
+  width: 5%;
   height: 0;
   z-index: 3; }
 
 /* line 63, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
 .horizontal-dots .dots {
   display: block; }
+
+.horisontal-dots .dots > .dot.active {
+  background-image: url(../img/dotporthov.png);
+  background-position: 0 50%;
+    width: 100px;  
+    margin-left: 0px;}
 
 @media (max-width: 359px) {
   /* line 68, /var/www/ma-5/ma5slider/app/scss/components/_ma5slider__dots--inside.scss */
@@ -1688,5 +1694,5 @@
 
 /*# sourceMappingURL=ma5slider.css.map */
 .horisontal-dots > .dots {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
