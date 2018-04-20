@@ -380,8 +380,8 @@ header table {
 .statuya {
     position: absolute;
     bottom: -5%;
-    right: 11%;
-    width: 47%;
+    right: 3%;
+    width: 55%;
     height: 44%;
 }
 .statuya img {
@@ -578,6 +578,7 @@ grid-area: 8/9/35/30;
 .BlockSubmit {
     bottom: 4%;
 }
+
 /* .aboutus {
 	width: 100%;
 	height: 95vh;

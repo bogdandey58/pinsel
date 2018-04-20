@@ -366,8 +366,8 @@ header table {
 .statuya {
     position: absolute;
     bottom: -6%;
-    right: 14%;
-    width: 45%;
+    right: 5%;
+    width: 55%;
     height: 53%;
 }
 .statuya img {
@@ -534,7 +534,10 @@ button:focus {
     line-height: 2.6vh;
 }
 .BlockSubmit {
-    bottom: 19%;
+    bottom: 13%;
+}
+.summaryBlockSubmit {
+    grid-area: 82/45/88/52;
 }
 
 /* .aboutus {
