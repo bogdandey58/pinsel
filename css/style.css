@@ -796,7 +796,7 @@ button:focus {
  #summary .palm{
  position: relative;
  z-index:4;
-grid-area: 8/11/68/37;
+grid-area: 5/11/65/37;
  background-image: url('../img/arm3.png');
  background-position: 100% 100%;
  background-size: 90% 90%;
@@ -804,7 +804,7 @@ grid-area: 8/11/68/37;
  #summary .inscription{
   position: relative;
   z-index: 5;
-  grid-area: 6/9/38/30;
+  grid-area: 3/9/35/30;
   overflow: hidden;
   font-family: Raleway-Bold;
   
@@ -834,7 +834,7 @@ grid-area: 8/11/68/37;
 }
 
  #summary #blockText1{
- grid-area: 19/25/52/69;
+ grid-area: 16/25/49/69;
  position: relative;
  z-index: 3;
  display: flex;
@@ -859,8 +859,8 @@ grid-area: 8/11/68/37;
 }
 
  #summary .sieve{
-      grid-area: 21/55/54/89;
   position: relative;
+      grid-area: 18/55/51/89;
   z-index: 2;
   background-image: url('../img/dot.png');
   background-position: 100% 100%;
@@ -868,7 +868,7 @@ grid-area: 8/11/68/37;
  }
 
 #summary #blockText2{
-  grid-area: 66/28/76/96;
+  grid-area: 63/28/73/96;
   position: relative;
   z-index: 2;
   color: #747373;
@@ -882,7 +882,7 @@ grid-area: 8/11/68/37;
 
 }
 .covering{
- grid-area: 65/27/80/41;
+ grid-area: 62/27/77/41;
  position: relative;
  z-index: 3;
  border-left: 3px solid #ff557d;
@@ -891,7 +891,7 @@ grid-area: 8/11/68/37;
 
  .summaryBlockSubmit{
   position: relative;
-  grid-area: 86/36/90/44;
+  grid-area: 83/36/87/44;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
