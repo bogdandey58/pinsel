@@ -465,7 +465,7 @@ header table {
     -webkit-transform: translate(0,-24px);
     -o-transform: translate(0,-24px);
     -moz-transform: translate(0,-24px);
-    font-size: 15px;
+    font-size: 11px;
 }
 .placeholder-hide label {
     bottom: auto;
@@ -483,7 +483,7 @@ header table {
   width: 100%;
   border: solid white 1px;
   border-radius: 10px;
-  height: 200px;
+  height: 160px;
   resize: none;
 }
 #ordercall {
