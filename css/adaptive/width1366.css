@@ -529,6 +529,14 @@ button:focus {
     outline: none;
 }
 
+/* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
+#summary #blockText2 {
+    line-height: 2.6vh;
+}
+.BlockSubmit {
+    bottom: 19%;
+}
+
 /* .aboutus {
 	width: 100%;
 	height: 95vh;

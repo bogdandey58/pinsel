@@ -891,11 +891,11 @@ grid-area: 5/11/65/37;
 
  .summaryBlockSubmit{
   position: relative;
-  grid-area: 83/36/87/44;
+  grid-area: 83/45/87/52;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
- align-content: flex-end;
+  align-content: flex-end;
  }
  .summaryBlockSubmit:hover > hr{
   width: 80%;

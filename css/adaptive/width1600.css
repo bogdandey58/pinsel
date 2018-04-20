@@ -555,6 +555,20 @@ button:focus {
   font-size: 1vw;
 }
 
+
+
+
+/* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
+#summary #blockText2{
+    line-height: 2.5vh;
+}
+
+.summaryBlockSubmit{
+        grid-area: 82/45/87/52;
+}
+.BlockSubmit{
+    bottom: 9%; 
+}
 /* .aboutus {
 	width: 100%;
 	height: 95vh;
