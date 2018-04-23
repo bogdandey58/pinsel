@@ -260,18 +260,19 @@ header table {
     width: 6%;
     height: 2px;
     background-color: black;
-    top: 6%;
-    left: 5%;
+    top: 11%;
+    left: 1%;
     position: absolute;
 }
 .line_services {
     width: 5%;
     font-family: RobotoLight;
-    font-size: 3.7em;
+    font-size: 2.3em;
     position: absolute;
-    top: -6%;
-    left: 13%;
+    top: 3%;
+    left: 9%;
 }
+
 .spacename {
 	width: 55%;
 	height: 55vw;
@@ -364,7 +365,7 @@ header table {
 }
 
 .rightline {
-    margin-top: 22%;
+    margin-top: 24%;
     margin-right: -3.5%;
     width: 15%;
     height: 9%;
@@ -378,16 +379,16 @@ header table {
 }
 
 .servicesline {
-    margin-top: 7%;
-    margin-left: -65%;
+    margin-top: 3%;
+    margin-left: -62%;
     position: absolute;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 .statuya {
     position: absolute;
-    bottom: -6%;
-    right: 5%;
-    width: 56%;
+    bottom: 0%;
+    right: 1%;
+    width: 59%;
     height: 55%;
 }
 .statuya img {
