@@ -1385,7 +1385,7 @@ button.fsubmit:active {
 	
  }
  button.fsubmit:hover > hr {
-  border: none; /* Убираем границу для браузера Firefox */
+  border:#ff557d ; /* Убираем границу для браузера Firefox */
   color: #ff557d; /* Цвет линии для остальных браузеров */
   background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
   float: left;
@@ -1400,6 +1400,7 @@ button.fsubmit hr {
     margin-top: 3%;
     transition: all 0.2s ease;
     border: none;
+    background-color: white;
     color: white;
     background-color: white;
 }
