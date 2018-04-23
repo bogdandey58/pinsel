@@ -208,53 +208,59 @@ header table {
 }
 .studiotext {
 	width: 45vw;
-	margin-left: 10%;
-	margin-top: 20%;
+	margin-left: 12%;
+	margin-top: 13%;
 	background-color: transparent;
 	display: inline-block;
 	z-index: 5
 }
-.example-three{
-	width: 100%;
-	height: 150px;
-	position: relative;
-}
 .ppng{
-	width: 55%;
-    height: 25%;
-    z-index: 1;
+  font-size: 5em;
+	width: 55%;  
+  z-index: 1;
+  letter-spacing: 50px;
 }
 .inpng{
-	margin-left: 65%;
-	margin-top: -8%;
+  font-size: 1em;
+	margin-left: 68%;
+	margin-top: -15.5%;
 	z-index: 1;
 	height: 50px;
+  letter-spacing: 15px;
 }
 .wpng{
+  font-size: 5em;
 	width: 30%;
-    height: 25%;
-    margin-left: 3%;
-    margin-top: 0;
+  margin-top: -10%;
+  letter-spacing: 50px;
 }
 .wpng hr {
   float: left;
-  margin-top: -23%;
-  margin-left: -2%;
-  animation: wline 1300ms infinite;
+  margin-top: -50%;
+  margin-left: -3%;
+  animation: wline 1500ms infinite;
 }
 .spng{
 	width: 55%;
-    height: 40%;
-    margin-left: 41.5%;
-    margin-top: -18.5%;
+  height: 40%;
+  margin-left: 43.5%;
+  margin-top: -26.5%;
 }
+.ppng p,
+.inpng p,
+.wpng p,
+.spng p{
+  color: #ff557d;
+  font-family:UniSansHeavy;
+}
+.wpng p{color: #fff;}
 
 #triangleletter {
 	display: inline-block;
-    margin-left: 95%;
-    margin-top: -6.6%;
+    margin-left: 96%;
+    margin-top: -3.9%;
     position: absolute;
-    animation: trianlet 1500ms infinite;
+    animation: trianlet 1200ms infinite;
 }
 
 @-webkit-keyframes trianlet {
@@ -357,14 +363,28 @@ header table {
     transform: rotate(360deg);
   }
 }
-
+.social{
+  width: 32.5%;
+  color: #fff;
+  margin-left: 24.8%;
+  letter-spacing: 10px;
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+.socsite{
+  font-size: 0.8em;
+    letter-spacing: 5px;
+    font-family: Exo2Regular;
+    margin-top: -1%;
+    margin-left: 32%;
+}
 .downbtn{
 	width: 33.4074%;
 	height: 4.7%;
 	display: block;
 	position: absolute;
   cursor: pointer;
-	margin-top: 13%;
+	margin-top: 10%;
 	margin-left: 42%;
 }
 .downbtn a{

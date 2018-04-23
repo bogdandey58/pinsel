@@ -28,11 +28,11 @@ font-family: RalewayBlack;
 }
 @font-face {
 font-family: UniSansThin; 
-    src: url(../fonts/Uni Sans Thin.otf);
+    src: url(../fonts/UniSansThin.ttf);s
 }
 @font-face {
-font-family: UniSansHeavy; 
-    src: url(../fonts/Uni Sans Heavy.otf);
+font-family: UniSansHeavy;
+    src: url(../fonts/UniSansHeavy.ttf);
 }
 /*RELWAY*/
 @font-face {
@@ -43,12 +43,14 @@ font-family: Raleway-Bold;
 font-family: Raleway-Black; 
     src: url(../fonts/Releway/Raleway-Black.ttf);
 }
-/*unisans*/
 @font-face {
-font-family: USH; 
-    src: url(../fonts/Uni Sans Heavy.otf);
+font-family: Exo2Bold; 
+    src: url(../fonts/Exo/Exo2Bold.ttf);
 }
 @font-face {
-font-family: UST; 
-    src: url(../fonts/Uni Sans Thin.otf);
+font-family: Exo2Regular; 
+    src: url(../fonts/Exo/Exo2Regular.ttf);
+}
+.pink{
+    color: #ff557d;
 }
