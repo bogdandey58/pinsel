@@ -1322,7 +1322,7 @@ transition: font-size 0.1s linear;
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -100%;
+    top: 0%;
     background-color: #1c1a1a;
     position:fixed;
     z-index: 350;
@@ -1405,7 +1405,7 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit hr{
     width:65%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
     transition: width 0.1s linear;
   }
@@ -1417,7 +1417,6 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
-     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{

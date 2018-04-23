@@ -562,6 +562,9 @@ button:focus {
 #summary #blockText1{
         grid-area: 16/26/49/70;
 }
+#summary .sieve {
+    grid-area: 18/55/52/89;
+}
 
 /* .aboutus {
 	width: 100%;
@@ -1267,9 +1270,9 @@ transition: font-size 0.1s linear;
 
 
   .fhoneBlock .fhoneSubmit hr{
-    width:65%;
+    width:55%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
     transition: width 0.1s linear;
   }
@@ -1372,9 +1375,9 @@ transition: font-size 0.1s linear;
 
 
   .fhoneBlock .fhoneSubmit hr{
-    width:65%;
+    width:50%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
     transition: width 0.1s linear;
   }
@@ -1382,11 +1385,11 @@ transition: font-size 0.1s linear;
     position: relative;
     width: 10%;
     top: -0.1em;
+    left: -9%;
 }
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
-     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{

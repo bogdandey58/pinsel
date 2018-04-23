@@ -1365,7 +1365,7 @@ transition: font-size 0.1s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
- transition: color 0.1s linear;
+ transition: color 0.2s linear;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;
@@ -1373,11 +1373,12 @@ transition: font-size 0.1s linear;
 
 
   .fhoneBlock .fhoneSubmit hr{
+    border: none;
     width:65%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
-    transition: width 0.1s linear;
+    transition: width 0.2s linear;
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
@@ -1387,7 +1388,6 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
-     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{

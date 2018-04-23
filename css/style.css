@@ -913,7 +913,7 @@ grid-area: 5/11/65/37;
   background-color: transparent;
   color: #747373;
   font-size: 1vw; 
-  font-family: Robotobk;
+   font-family: Raleway-Bold;
   letter-spacing: 0.3vw;
   transition: color 0.1s linear;
   margin-left: 0%;  
@@ -1552,21 +1552,21 @@ transition: font-size 0.1s linear;
 
 
   .fhoneBlock .fhoneSubmit hr{
+    border: none;
     width:65%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
     transition: width 0.1s linear;
   }
    .fhoneBlock .fhoneSubmit img{
   position: relative ;
-  width: 10%;
+  width: 13%;
   }
 
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
-     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{

@@ -568,6 +568,9 @@ button:focus {
 #summary .sieve{
     grid-area: 18/55/48/89;
 }
+.BlockSubmit{
+    width: 9%;
+}
 
 /* .aboutus {
 	width: 100%;
@@ -1373,22 +1376,22 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit hr{
     width:65%;
     float: left;
-    height: 1px;
+    height: 2px;
     background-color: #747373; 
     transition: width 0.1s linear;
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
     width: 10%;
-    top: -0.1em;
+    left: -5%;
+    top: -0.1vh;
 }
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
-     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 10%;
+     left: 8%;
 }
    
