@@ -100,7 +100,6 @@ header {
 	margin-right: 100px;
 	color: white;
 	text-decoration: none;
-	font-family: RobotoRegular;
 	line-height: 1;
     text-decoration:none;
     cursor: pointer;
@@ -146,16 +145,30 @@ header table {
 	margin-top: -65px;
 	display: inline-block;
 	background-color: transparent;
+  cursor: pointer;
 	width: 50px;
 	height: 120px;
 	border-radius: 0px 0px 200px 200px;
 
 }
-.phone img {
+.phone1 {
 	-moz-width: 60%;
 	width: 60%;
 	margin-top: 77px;
 	margin-left: 10px;
+}
+.phone2 {
+  display: none;
+  -moz-width: 60%;
+  width: 60%;
+  margin-top: 77px;
+  margin-left: 10px;
+}
+.phone:hover .phone1{
+  display:none;
+}
+.phone:hover .phone2{
+  display: block;
 }
 
 .wrap {
@@ -421,7 +434,7 @@ header table {
   }
 }
 .services {
-	margin-top: 1%;
+	margin-top: 4%;
 	width: 100%;
 	height: 100vh;
 	position: relative;
@@ -434,7 +447,7 @@ header table {
     width: 6%;
     height: 2px;
     background-color: black;
-    top: 8%;
+    top: 10%;
     left: 1%;
     position: absolute;
 }
@@ -443,7 +456,7 @@ header table {
     font-family: RobotoLight;
     font-size: 4.5em;
     position: absolute;
-    top: -5%;
+    top: -1.5%;
     left: 9%;
 }
 .spacename {
@@ -568,6 +581,12 @@ header table {
     height: 100%;
 }
 
+#portid{
+  background-color: transparent; 
+  margin-top: -2.3%; 
+  position: absolute;
+}
+
 
 
 /*///////////////////////////////////////////////*/
@@ -581,7 +600,7 @@ header table {
 
 #formask {
 	width: 100%;
-    height: 70vh;
+    height: 95vh;
     margin-top: -5%;
     background-color: #1c1a1a;
     background-image: url(../img/dot.png);
@@ -615,7 +634,7 @@ header table {
 	width: 40%;
     float: left;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 35%;
     display: inline-block;
 }
 
@@ -693,7 +712,7 @@ header table {
 }*/
 .comment {
   width: 35%;
-  margin-top: 23%;
+  margin-top: 38%;
   /*margin-left: 10%;*/
   display: inline-block;
 }
@@ -1407,7 +1426,7 @@ button.fsubmit hr {
 
  button.fsubmit img {
     width: 5%;
-    margin-top: 10%;
+    margin-top: 11%;
     margin-left: -50%;
     position: absolute;
     transition: all 0.2s ease;
