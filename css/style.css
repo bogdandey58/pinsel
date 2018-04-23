@@ -227,7 +227,7 @@ header table {
   float: left;
   margin-top: -23%;
   margin-left: -2%;
-  animation: wline 3000ms infinite;
+  animation: wline 1300ms infinite;
 }
 .spng{
 	width: 55%;
@@ -557,10 +557,11 @@ header table {
 .statuya {
     position: absolute;
     bottom: -5%;
-    right: 18%;
-    width: 45%;
+    right: 8%;
+    width: 54%;
     height: 53%;
 }
+
 
 .statuya img {
     width: 100%;
@@ -663,6 +664,7 @@ header table {
     -webkit-transform: translate(0,-34px);
     -o-transform: translate(0,-34px);
     -moz-transform: translate(0,-34px);
+    font-size: 15px;
 }
 .placeholder-hide label {
     bottom: auto;
@@ -784,47 +786,36 @@ button:focus {
     width: 60%;
 }*/
 
-
-
-
-.InDesign{
+#summary{
   width: 100%;
   height: 100vh;
-   background-color: #1c1a1a;
-   display: grid;
-   grid-template-columns: repeat(24,1fr); 
-   grid-template-rows:repeat(24,1fr);
-   position: relative;
-  
-  
-} 
-/* рука статуи */
-.InDesign .palm{
+  background-color: #1c1a1a;
+  display: grid;
+  grid-template-columns: repeat(96,1fr); 
+  grid-template-rows:repeat(96,1fr);
+}
+ #summary .palm{
  position: relative;
  z-index:4;
- grid-area: 1/1/20/10;
- background-image: url('arm.png');
+grid-area: 5/11/65/37;
+ background-image: url('../img/arm3.png');
  background-position: 100% 100%;
  background-size: 90% 90%;
-
 }
-/* стили о студии */
-.inscription{
+ #summary .inscription{
   position: relative;
   z-index: 5;
-  grid-area: 1/1/10/7;
+  grid-area: 3/9/35/30;
   overflow: hidden;
-  font-size: 4vw;
   font-family: Raleway-Bold;
   
   display: grid;
   grid-template-columns: repeat(2,1fr); 
   grid-template-rows:repeat(2,1fr);
-
 }
-.inscription .ol{
+.inscription > .ol{
   font-family: Raleway-Bold;
-  font-size: 20vw;
+  font-size:18vw;
   line-height: 80%;
   display: block;
   font-weight: 900;
@@ -835,28 +826,24 @@ button:focus {
   left: 12%;
 }
 
- .inscription .ol2{
+ .inscription > .ol2{
  grid-area: 2/2/3/3;
  position: absolute;
  bottom: 0;
  left: 0;
- font-size: 3.5vw
+ font-size: 3vw
 }
 
-
-/* IN DESIGN WE TRUST */
-.InDesign #blockText1{
- grid-area: 5/6/13/19;
+ #summary #blockText1{
+ grid-area: 16/25/49/69;
  position: relative;
- z-index: 2;
+ z-index: 3;
  display: flex;
  justify-content: flex-start;
   font-family: Raleway-Bold;
-
-}
-#blockText1 #bt1P{
-  font-size: 8vw;
-  font-family: Raleway-Bold;
+} 
+#blockText1 > #bt1P{
+  font-size: 7vw;
   font-weight: 900;
   line-height: 100%;
   letter-spacing: 0.5vw;
@@ -869,106 +856,97 @@ button:focus {
   right: 0; 
   z-index: 7;
 
+
 }
 
-.InDesign #blockText2{
-   grid-area: 14/9/20/24;
+ #summary .sieve{
+  position: relative;
+      grid-area: 18/55/51/89;
+  z-index: 2;
+  background-image: url('../img/dot.png');
+  background-position: 100% 100%;
+ background-size: 100% 100%;
+ }
+
+#summary #blockText2{
+  grid-area: 63/28/73/96;
+  position: relative;
+  z-index: 2;
+  color: #747373;
+  font-size: 10vw;
+  text-align: left;  
+  line-height: 3.5vh;
+ 
+} 
+#blockText2 span{
+  font-size: 1.5vw;  
+
+}
+.covering{
+ grid-area: 62/27/77/41;
  position: relative;
- z-index: 2;
- background-color: red;
+ z-index: 3;
+ border-left: 3px solid #ff557d;
+ border-top: 3px solid #ff557d;
+}
+
+ .summaryBlockSubmit{
+  position: relative;
+  grid-area: 83/45/87/52;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+ }
+ .summaryBlockSubmit:hover > hr{
+  width: 80%;
+  background-color: #ff557d; 
+  border: 1px solid #ff557d;
+ }
+
+.summaryBlockSubmit:hover > .BlockSubmit{
+  right: 4%;
+   }
+
+.summaryBlockSubmit button{
+  border-style: none;
+  background-color: transparent;
+  color: #747373;
+  font-size: 1vw; 
+  font-family: Robotobk;
+  letter-spacing: 0.3vw;
+  transition: color 0.1s linear;
+  margin-left: 0%;  
+  margin-top: 0;  
+  position: absolute;
+  bottom: 30%;
+ }
+
+.summaryBlockSubmit hr{
+  width: 50%;
+  height: 1px;
+  background-color: #747373; 
+  margin-left: 0%;  
+  margin-top: 0%;  
+  float: left;
+  position: absolute;
+  bottom: -60%;
+  transition: width 0.2s linear;
+   
+  }
+.BlockSubmit{
+   position: absolute;
+   width: 10%;
+   height: 10%;
+   bottom: 14%;
+   right: 35%;
+   transition: right 0.2s linear;
 }
 
 
-/* .vizitka{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	box-sizing: border-box;
-	overflow: hidden;
-  background-color: #1c1a1a;
-}
- 
-.arm {
-    position: absolute;
-    height: 3%;
-    width: 1%;
-    top: 15%;
-    left: 4%;
-    z-index: 2;
-}
-.arm img {
-    width: 100%;
-    height: 200%;
-}
 
-.inscription{
-	position: absolute;
-	z-index: 4;
-	width: 40%;
-	height: 40%;
-}
 
-.inscription p.o1 {
-    font-family: Raleway-Bold;
-    font-size: 22em;
-    font-weight: 900;
-    margin: -6% 0 0 5.2%;
-}
-.inscription p.studio1 {
-    font-family: Raleway-Bold;
-    font-size: 4em;
-    margin: -2% 0 0 26%;
-    font-weight: 900;
-}
 
-div.p1{
-display: block;
-margin: 10% 0 0 20%
-}
- .p1 p{
-    color: white;
-    font-size: 10em;
-    font-family: RalewayBlack;
-    letter-spacing: 5px;
-}
-.p1 p span{
-    margin-left: 7%;
-}
-
-.p2 {
-    color: white;
-    display: inline-block;
-    position: relative;
-    width: 67%;
-    font-size:2em;
-    margin: -5% 0 0 32%;
-}
-.p2_border {
-    display: inline-block;
-    position: absolute;
-    top: -9%;
-    left: -1.4%;
-    width: 29%;
-    height: 120%;
-    border-top: 2px solid #ff557d;
-    border-left: 2px solid #ff557d;
-}
-
-.podrobnee{
-    margin: 8% 0 0 33%;
-	box-sizing: border-box;
-}
-.podrobnee button {
-    background: #1c1a1a;
-    color: white;
-    border: none;
-    font-family: RobotoRegular;
-    font-size: 1.4em;
-    letter-spacing: 10px;
-}
-
- 
- */
 
 .ability {
 	height: 100vh;
@@ -1013,11 +991,11 @@ figcaption {
     margin-left: 130px;
 }
 
-figcaption >div {
+figcaption > div {
 	display: table-cell;
 }
 
-figcaption >div >span {
+figcaption > div > span {
     width: 50%;
     height: 50%;
     display: block;
@@ -1029,12 +1007,12 @@ figcaption >div >span {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-figcaption >div >span >img{
+figcaption > div > span >img{
 	width: 120px;
     height: 120px;
 }
 
-figcaption >div >span:hover {
+figcaption >div > span:hover {
 	  -webkit-transform: scale(1.2);
 	  -ms-transform: scale(1.2);
 	  transform: scale(1.2);
@@ -1388,7 +1366,7 @@ input#fcontact_form {
   width: 20%;
   margin-left: 74%;
   margin-top: -2%;
-  font-family: RobotoBk;
+  font-family: RobotoLight;
   font-size: 1.7em;
 	display: inline-block;
 	border-style: none;
@@ -1407,7 +1385,7 @@ button.fsubmit:active {
 	
  }
  button.fsubmit:hover > hr {
-  border: none; /* Убираем границу для браузера Firefox */
+  border:#ff557d ; /* Убираем границу для браузера Firefox */
   color: #ff557d; /* Цвет линии для остальных браузеров */
   background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
   float: left;
@@ -1422,6 +1400,7 @@ button.fsubmit hr {
     margin-top: 3%;
     transition: all 0.2s ease;
     border: none;
+    background-color: white;
     color: white;
     background-color: white;
 }
@@ -1502,8 +1481,8 @@ input{
 }
 
 #phoneOff{
-width: 2%;
-height: 3%;
+width: 1%;
+height: 2%;
 position: absolute;
 top: 2%;
 right: 2%;
@@ -1551,7 +1530,7 @@ color: #747373;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
-  font-size: 1.8vw;
+  font-size: 1.2vw;
 }
 
  .fhoneBlock .fhoneSubmit{
@@ -1587,6 +1566,7 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
+     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{

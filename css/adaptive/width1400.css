@@ -386,9 +386,9 @@ header table {
 .statuya {
     position: absolute;
     bottom: -6%;
-    right: 15%;
-    width: 47%;
-    height: 53%;
+    right: 5%;
+    width: 56%;
+    height: 55%;
 }
 .statuya img {
     width: 100%;
@@ -407,7 +407,7 @@ header table {
 
 #formask {
     width: 100%;
-    height: 70vh;
+    height: 95vh;
     margin-top: -5%;
     background-color: #1c1a1a;
 }
@@ -487,6 +487,7 @@ header table {
     -webkit-transform: translate(0,-27px);
     -o-transform: translate(0,-27px);
     -moz-transform: translate(0,-27px);
+    font-size: 15px;
 }
 .placeholder-hide label {
     bottom: auto;
@@ -495,59 +496,77 @@ header table {
     top: -9999px;
 }
 .comment {
-    margin-left: 1%;
-    width: 35%;
-    margin-top: 20%;
-    display: inline-block;
+  width: 35%;
+  margin-top: 23%;
+  /*margin-left: 10%;*/
+  display: inline-block;
 }
 .comment textarea {
-    color: #fff;
-    resize: none;
-    font-size: 1em;
-    display: block;
-    width: 100%;
-    height: 200px;
-    border: none;
-    background: linear-gradient(to bottom,rgba(255,255,255,0) 29px,rgba(255,255,255,.2) 29px,rgba(255,255,255,.2) 2px);
-    background-size: auto 30px;
-    font-weight: 300;
-    min-height: 150px;
-    line-height: 30px;
+  width: 100%;
+  border: solid white 1px;
+  border-radius: 10px;
+  height: 160px;
+  resize: none;
 }
 #ordercall {
     font-family: Raleway-ExtraBold;
     background-color: transparent;
     margin-top: -2%;
-    margin-left: 42%;
+    margin-left: 45%;
     border:none;
     font-size: 25px;
-    width: 30%;
+    width: 15%;
     transition: all 0.1s ease;
 }
 #ordercall p{
     color: white;
 }
-#ordercall:hover {
-    margin-top: -2.5%;
-    font-size: 27px;
-}
 #ordercall hr {
-    height: 2px;
-    margin-top: -2%;
-    background-color: white;
+  width: 40%; 
+  height: 1px;
+  float: left; 
+  margin-top: -25%;
+  transition: all 0.2s ease;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: white; /* Цвет линии для остальных браузеров */
+  background-color: white; /* Цвет линии для браузера Firefox и Opera */
+  
 }
+#ordercall img, button.fsubmit img{
+    width: 5%;
+    margin-top: -24%;
+    margin-left: -5%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
 #ordercall:hover > hr {
-    height: 3px;
-    margin-top: -2.5%;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 87%;
+
+}
+
+#ordercall:hover > img {
+  margin-left: 39%;
 }
 
 #ordercall:active {
     text-decoration: none;
     background-color: transparent;
-    border:none;
+  border:none;
 }
 button:focus {
     outline: none;
+}
+
+/* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
+
+#summary .sieve{
+    grid-area: 18/55/48/89;
 }
 
 /* .aboutus {
@@ -937,13 +956,12 @@ button.order:hover, button.order:active {
 }
     .footer_addr {
     margin-left: 11%;
-    margin-top: 33%;
+    margin-top: 3%;
     color: #b3b3b3;
-    width: 18%;
+    width: 23%;
     display: inline;
     float: left:;
 }
-
 .f_email {
     width: 10%;
     font-family: Raleway-Thin;
@@ -951,28 +969,30 @@ button.order:hover, button.order:active {
     color: #b3b3b3;
 }
  
-.f_email a:active{	
-	color: #b3b3b3;
-	text-decoration: none;
+.f_email a:active{  
+    color: #b3b3b3;
+    text-decoration: none;
 }
 .f_email >a:link,.f_email > a:hover,.f_email > a:link,.f_email > a:visited {
-	text-decoration: none;
-	color: #b3b3b3;
+    text-decoration: none;
+    color: #b3b3b3;
 }
  
 .f_phone {
     font-family: Raleway-Bold;
     font-size: 1.4em;
     text-decoration: none;
-    width: 78%;
+    width: 80%;
     padding-top: 5%;
     padding-bottom: 4%;
     padding-left: 2%;
     border-bottom: 2px solid #fff;
 }
-.f_phone >a:active,.f_phone > a:link,.f_phone > a:hover,.f_phone > a:link,.f_phone > a:visited {
-	text-decoration: none;
-	color:#fff;
+.f_phone >a:active,.f_phone > a:link,.f_phone > a:link,.f_phone > a:visited {
+    border-style: none;
+    text-decoration: none;
+    color:#fff;
+    animation: trianlet 300ms;
 }
 .f_addr {
     width: 80%;
@@ -980,163 +1000,185 @@ button.order:hover, button.order:active {
     font-size: 1.5em;
     color: #b3b3b3;
 }
-
 .footers {
-	width: 100%;
-	display: inline;
-	float: left;
+    width: 100%;
+    display: inline;
+    float: left;
 }
 
 .footers >div {
-	float: left;
+    float: left;
 }
 .footer_form {
-    width: 44%;
+    width: 90%;
     display: inline;
     float: left;
-    margin-top: 5%;
-    margin-left: 9%;
+    margin-top: -5%;
+    margin-left: 5%;
     position: relative;
     z-index: 2;
+    transition: all 0.1s ease;
 }
  
 form.contact_form {
-	margin-top: 6%;
+    margin-top: 6%;
 }
  
-#fcontact_form {
-	
+.p_footask{
+  font-family: Robotobk;
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 10%;
 }
  
 input#fcontact_form {
-    width: 52%;
+    width: 25%;
     border: none;
     border-bottom: 1px solid #b3b3b3;
-    background-color: transparent;
-    font-family: Raleway-Thin;
-    font-size: 1.56em;
     color: #b3b3b3;
     text-decoration: none;
     float: left;
     display: inline;
-    margin-top: 7%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80px;
+    transition: all 0.1s ease;
+    background: transparent;
+    font-size: 1.4em;
 }
+
  
- #fcontact_form:hover {
-	font-size: 17px;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
+ #fcontact_form:active {
+    font-size: 19px;
+    color: #fff;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    animation: trianlet 300ms;
  } 
  
  input#fcontact_form:active {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
-
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
  input#fcontact_form:focus {
-	border-bottom: 2px solid #fff;
-	color: #fff;
-	font-size: 17px;
-	margin-bottom: -1px;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: -1px;
  } 
  
 button.fsubmit {
     float: left;
-    width: 46%;
+    width: 25%;
     margin-left: 74%;
-    margin-top: -5%;
+    margin-top: -3.3%;
     font-family: RobotoBk;
     font-size: 1.4em;
     display: inline-block;
-    border: none;
-    border-bottom: 1px solid #b3b3b3;
+    border-style: none;
     color: #b3b3b3;
     background-color: transparent;
-    letter-spacing: 4px;
-}
- 
+    letter-spacing: 5px;
+    transition: all 0.1s ease;
+ }
+
 button.fsubmit:hover {
-    float: left;
-    width: 50%;
-    margin-left: 72%;
-    margin-top: -5%;
-    font-family: RobotoBk;
-    font-size: 1.4em;
-    display: inline-block;
     color: #fff;
-    border-bottom: 3px solid #fff;
-}
- button.fsubmit:active {
-    float: left;
-    width: 50%;
-    margin-left: 72%;
-    margin-top: -5%;
-    font-family: RobotoBk; 
-    font-size: 1.4em;
-    display: inline-block;
-    color: #fff;
-    border-bottom: 3px solid #fff;
  }
  
+button.fsubmit:active {
+    color: #fff;
+    
+ }
+ button.fsubmit:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: left;
+  width: 85%;
+
+}
+
+button.fsubmit hr {
+    width: 40%;
+    height: 1px;
+    float: left;
+    margin-top: 3%;
+    transition: all 0.2s ease;
+    border: none;
+    color: white;
+    background-color: white;
+}
+
+ button.fsubmit img {
+    width: 5%;
+    margin-top: 9%;
+    margin-left: -49%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+
+button.fsubmit:hover > img {
+  margin-left: -5%;
+}
  
  .f_icons {
-    width: 15%;
-    margin-top: 7%;
-    margin-left: 47%;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 45%;
 }
  
 .f_icons >img {
-    margin-left: -26%;
-    padding-right: 52%;
-    width: 20%;
-    height: 15%;
+    margin-left: -18%;
+    padding-right: 30%;
 }
 
 .f_icons >img:last-child {
-	padding-right: 0;
+    padding-right: 0;
 }
  
-#footer_logo {
+ #footer_logo {
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 44%;
-    padding-left: 39%;
+    margin-top: 30%;
+    padding-left: 42%;
     float: left;
-    width: 20%;
-    height: 12%;
 }
  
-.footer_lt {
+ .footer_lt {
     color: #b3b3b3;
     font-family: Raleway-Thin;
-    font-size: 1.6em;
+    font-size: 1.9em;
     text-align: center;
-    padding-top: 52%;
+    padding-top: 50%;
     padding-left: -1%;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    box-sizing: border-box;
 }
-
-
 .footer_arrow {
-    width: 8%;
+    width: 9%;
     height: 2%;
-    position: absolute;
-    top: 41%;
-    right: -0.5%;
+    position: fixed;
+    top: 70%;
+    right: 3%;
     transform: rotate(-90deg);
-    font-size: 0.9em;
+    font-size: 1.2em;
     text-align: center;
-}
 
-.footer_arrow img {
-    width: 100%;
-    height: 150%;
+}
+input{
+    outline:none;
 }
 
 #pfoneBlockForm{
@@ -1238,6 +1280,112 @@ transition: font-size 0.1s linear;
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
      background-color: #ff557d; 
+     width: 85%;
+}
+   .fhoneBlock .fhoneSubmit:hover >  img{
+     left: 10%;
+}
+   
+#pfoneBlockForm{
+    width: 100vw;
+    height:100vh; 
+    left: 0;
+    top: -100%;
+    background-color: #1c1a1a;
+    position:fixed;
+    z-index: 350;
+    display:block;
+    color: #ffffff;
+
+}
+
+#phoneOff{
+width: 1%;
+height: 2%;
+position: absolute;
+top: 2%;
+right: 2%;
+font-size: 4.4vw;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.phoneСaption{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  font-size: 4.5vw;
+  color: white;
+  font-family: RobotoBk;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
+}
+
+.fhoneBlock{
+  display: flex;
+  width: 80%;
+  height: 35%;
+  margin-left: 10%;
+  justify-content: space-between;
+  align-items:flex-end;
+
+}
+.fhoneBlock input{
+border-style: none;
+font-family: Raleway-Thin;
+font-size: 1.4em; 
+background-color: transparent;
+border-bottom: 1px solid white;
+display: flex;
+height: 15%;
+width: 33%;
+padding-left: 2%;
+color: #747373;
+transition: font-size 0.1s linear;
+}
+.fhoneBlock input:focus{
+  font-size: 1.2vw;
+}
+
+ .fhoneBlock .fhoneSubmit{
+  border-style: none;
+  font-family: Robotobk;
+  font-size: 1.2em; 
+  background-color: transparent;
+  width: 10%;
+  height: 15%;
+  padding-left: 0;
+  color: white;
+  letter-spacing: 2px;
+  color: #747373;
+ transition: color 0.1s linear;
+ }
+.fhoneBlock .fhoneSubmit:hover{
+  color: #fff;
+}
+
+
+  .fhoneBlock .fhoneSubmit hr{
+    width:65%;
+    float: left;
+    height: 1px;
+    background-color: #747373; 
+    transition: width 0.1s linear;
+  }
+  .fhoneBlock .fhoneSubmit img {
+    position: relative;
+    width: 10%;
+    top: -0.1em;
+}
+  .fhoneBlock .fhoneSubmit:hover >  hr {
+    color: #ff557d;
+     background-color: #ff557d; 
+     border: 1px solid #ff557d;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
