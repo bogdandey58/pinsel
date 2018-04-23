@@ -34,10 +34,6 @@ font-family: UniSansThin;
 font-family: UniSansHeavy; 
     src: url(../fonts/Uni Sans Heavy.otf);
 }
-@font-face {
-font-family: pins; 
-    src: url(../fonts/pins.ttf);
-}
 /*RELWAY*/
 @font-face {
 font-family: Raleway-Bold; 
@@ -47,9 +43,12 @@ font-family: Raleway-Bold;
 font-family: Raleway-Black; 
     src: url(../fonts/Releway/Raleway-Black.ttf);
 }
+/*unisans*/
 @font-face {
-font-family: Raleway-Black; 
-    src: url(../fonts/Releway/Raleway-Black.ttf);
+font-family: USH; 
+    src: url(../fonts/Uni Sans Heavy.otf);
 }
-
-
+@font-face {
+font-family: UST; 
+    src: url(../fonts/Uni Sans Thin.otf);
+}
