@@ -260,16 +260,16 @@ header table {
     width: 5%;
     height: 2px;
     background-color: black;
-    top: 25%;
+    top: 32%;
     left: 2%;
     position: absolute;
 }
 .line_services {
     width: 5%;
     font-family: RobotoLight;
-    font-size: 2.6em;
+    font-size: 2em;
     position: absolute;
-    top: 14%;
+    top: 24%;
     left: 9%;
 }
 .spacename {
@@ -290,7 +290,7 @@ header table {
     text-decoration: none;
     font-size: 20px;
     margin-left: -12%;
-    margin-top: 35%;
+    margin-top: 30%;
     position: absolute;
 }
 .designimg {
@@ -310,7 +310,7 @@ header table {
     text-decoration: none;
     font-size: 0.8em;
     margin-left: 19%;
-    margin-top: 41%;
+    margin-top: 35%;
     position: absolute;
 }
 .develop h2, .design h2, .marketing h2 {
@@ -352,7 +352,7 @@ header table {
     height: 60%;
     /*border: solid black;*/
     display: inline-block;
-    margin-top: -13%;
+    margin-top: -22%;
     margin-right: -45%;
     float: right;
 }
@@ -364,7 +364,7 @@ header table {
 }
 
 .rightline {
-    margin-top: 36%;
+    margin-top: 30%;
     margin-right: -3.5%;
     width: 15%;
     height: 9%;
@@ -379,10 +379,10 @@ header table {
 
 .statuya {
     position: absolute;
-    bottom: -5%;
-    right: 3%;
+    bottom: 0%;
+    right: 4%;
     width: 55%;
-    height: 44%;
+    height: 40%;
 }
 .statuya img {
     width: 100%;
