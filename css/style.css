@@ -811,7 +811,7 @@ button:focus {
   grid-template-columns: repeat(96,1fr); 
   grid-template-rows:repeat(96,1fr);
 }
- #summary .palm{
+ #summary #palm{
  position: relative;
  z-index:4;
 grid-area: 5/11/65/37;
@@ -914,16 +914,9 @@ grid-area: 5/11/65/37;
   flex-direction: column;
   justify-content: flex-end;
   align-content: flex-end;
- }
- .summaryBlockSubmit:hover > hr{
-  width: 80%;
-  background-color: #ff557d; 
-  border: 1px solid #ff557d;
+
  }
 
-.summaryBlockSubmit:hover > .BlockSubmit{
-  right: 4%;
-   }
 
 .summaryBlockSubmit button{
   border-style: none;
@@ -937,11 +930,18 @@ grid-area: 5/11/65/37;
   margin-top: 0;  
   position: absolute;
   bottom: 30%;
+  color: white;
+  opacity: 0.3
+
  }
+ .summaryBlockSubmit button:hover{
+  opacity: 0.7;
+ }
+
 
 .summaryBlockSubmit hr{
   width: 50%;
-  height: 1px;
+  height: 2px;
   background-color: #747373; 
   margin-left: 0%;  
   margin-top: 0%;  
@@ -949,8 +949,15 @@ grid-area: 5/11/65/37;
   position: absolute;
   bottom: -60%;
   transition: width 0.2s linear;
+  border: none;
    
   }
+   .summaryBlockSubmit:hover > hr{
+  width: 100%;
+  background-color: #ff557d; 
+  
+ }
+
 .BlockSubmit{
    position: absolute;
    width: 10%;
@@ -959,6 +966,10 @@ grid-area: 5/11/65/37;
    right: 35%;
    transition: right 0.2s linear;
 }
+.summaryBlockSubmit:hover > .BlockSubmit{
+  right: -15%;
+   }
+
 
 
 

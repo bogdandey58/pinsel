@@ -356,3 +356,7 @@ function myMove(){
     }
 
 
+function departure(){
+    var palm = document.getElementById('palm');
+// palm.style.gridArea=20,11,81,37;;
+}
