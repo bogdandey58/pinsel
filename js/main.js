@@ -354,9 +354,10 @@ function myMove(){
             }
         }
     }
-
-
+window.onload = departure1();
+setInterval(departure,0.3);
 function departure(){
+    var aaa12 = 5+"/"+31+"/"+65+"/"+60;
     var palm = document.getElementById('palm');
-palm.style.gridArea=20+"/"+11+"/"+81+"/"+37;
+    palm.style.gridArea = aaa12 ;
 }

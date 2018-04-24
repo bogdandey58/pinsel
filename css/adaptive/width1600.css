@@ -399,7 +399,7 @@ header table {
 /*///////////////////////////////*/
 
 .callbackform {
-	width: 100%
+	width: 100%;
 	height: 95vh;
 	position: relative;
 }
@@ -1341,7 +1341,7 @@ cursor: pointer;
 .fhoneBlock input{
 border-style: none;
 font-family: Raleway-Thin;
-font-size: 1.6em; 
+font-size: 1.4vw; 
 background-color: transparent;
 border-bottom: 1px solid white;
 display: flex;
@@ -1349,7 +1349,7 @@ height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
-transition: font-size 0.1s linear;
+transition: font-size 0.2s linear;
 }
 .fhoneBlock input:focus{
   font-size: 1.2vw;
@@ -1375,16 +1375,17 @@ transition: font-size 0.1s linear;
 
   .fhoneBlock .fhoneSubmit hr{
     border: none;
-    width:65%;
+    width:50%;
     float: left;
     height: 2px;
     background-color: #747373; 
-    transition: width 0.2s linear;
+     transition: width .2s linear;
+   
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
-    width: 10%;
-    top: -0.1em;
+    width: 8%;
+    top: -4px;
 }
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
@@ -1392,6 +1393,6 @@ transition: font-size 0.1s linear;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 10%;
+     left: 5%;
 }
    

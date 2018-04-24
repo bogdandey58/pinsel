@@ -567,6 +567,10 @@ button:focus {
 #summary .sieve {
     grid-area: 18/55/52/89;
 }
+.BlockSubmit{
+    width: 8%;
+    bottom: 7%;
+}
 
 /* .aboutus {
 	width: 100%;
@@ -1352,7 +1356,7 @@ height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
-transition: font-size 0.1s linear;
+transition: font-size 0.2s linear;
 }
 .fhoneBlock input:focus{
   font-size: 1.2vw;
@@ -1369,7 +1373,7 @@ transition: font-size 0.1s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
- transition: color 0.1s linear;
+ transition: color 0.2s linear;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;
@@ -1381,13 +1385,14 @@ transition: font-size 0.1s linear;
     float: left;
     height: 2px;
     background-color: #747373; 
-    transition: width 0.1s linear;
+    transition: width 0.2s linear;
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
     width: 10%;
     top: -0.1em;
-    left: -9%;
+    left: -15%;
+    transition: left 0.2s linear;
 }
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
@@ -1395,6 +1400,6 @@ transition: font-size 0.1s linear;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 10%;
+     left: 4%;
 }
    
