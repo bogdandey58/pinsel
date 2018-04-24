@@ -11,6 +11,10 @@ img { pointer-events: none;
 body {
 	margin: 0;
 	padding: 0;
+} 
+a {
+  text-decoration: none;
+  color: white;
 }
 /* Let's get this party started */
 ::-webkit-scrollbar {
