@@ -1,20 +1,20 @@
 * {
-	font-family: RobotoLight;
-	background-repeat: no-repeat;
+    font-family: RobotoLight;
+    background-repeat: no-repeat;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #p_prldr{
-	position: fixed;
-	left: 0px;
-	top: 0;
-	right:0;
-	bottom:0;
-	background: #1c1a1a;
-	z-index: 1000;}
+    position: fixed;
+    left: 0px;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #1c1a1a;
+    z-index: 1000;}
  
 .contpre small{font-size:25px;}
  
@@ -26,59 +26,59 @@ margin-top: 20%;
 position: absolute;
 }
 .contpre img{
-	width: 200px
-	height: 100px;
+    width: 200px;
 }
 
 
 header {
-	width: 100%;
-	height: 60px;
-	background-color: #1c1a1a;
-	position: fixed;
-	/*margin-left: -8px;*/
-	margin-top: -0.1%;
-	z-index: 100;
-	display: inline-block;
-	/*opacity: 0.9;*/
-	/*-webkit-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-	-moz-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-	box-shadow: 0px 1px 1px 0px rgba(122,122,122,1)*/
+    width: 100%;
+    height: 60px;
+    background-color: #1c1a1a;
+    position: fixed;
+    /*margin-left: -8px;*/
+    margin-top: -0.1%;
+    z-index: 100;
+    display: inline-block;
+    /*opacity: 0.9;*/
+    /*-webkit-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
+    box-shadow: 0px 1px 1px 0px rgba(122,122,122,1)*/
 }
 .all {
-	display: block;
-	width: 1920px;
+    display: block;
+    width: 1920px;
 }
 .claer {
-	clear: both;
+    clear: both;
 }
 .logo img {
-	width: 40%;
-	margin-top: -15px;
-	margin-left: 30%;
-	filter: invert(100%);
+    width: 40%;
+    margin-top: -15px;
+    margin-left: 30%;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
 }
 .logo{
-	margin-left: 5%;
-	position: absolute;
+    margin-left: 5%;
+    position: absolute;
 }
 .anchor a {
-	font-size: 1.0625em;
-	display: inline-block;
-	margin-right: 100px;
-	color: white;
-	text-decoration: none;
-	font-family: RobotoRegular;
-	line-height: 1;
+    font-size: 1.0625em;
+    display: inline-block;
+    margin-right: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: RobotoRegular;
+    line-height: 1;
     text-decoration:none;
     cursor: pointer;
     position:relative;
 }
 .anchors {
-	margin-left: 24%;
-	/*position: absolute;*/
-	display: inline-block;
-	padding-top: 20px;
+    margin-left: 24%;
+    /*position: absolute;*/
+    display: inline-block;
+    padding-top: 20px;
 }
 .anchor a:after {
     background-color: #ff557d;
@@ -91,48 +91,49 @@ header {
     position:absolute;
     -webkit-transition: width .3s ease-in-out;
     -moz--transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
     -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
 }
 .anchor a:hover:after,
 .anchor a:focus:after {
     width: 100%;
 }
 header table {
-	font-family: RobotoLight;
-	font-size: 15px;
-	float: right;
-	margin-right: 250px;
-	margin-top: 5px;
-	display: inline;
-	color: white;
+    font-family: RobotoLight;
+    font-size: 15px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 5px;
+    display: inline;
+    color: white;
 }
 .phone {
-	float: right;
-	margin-right: 250px;
-	margin-top: -65px;
-	display: inline-block;
-	background-color: transparent;
-	width: 50px;
-	height: 120px;
-	border-radius: 0px 0px 200px 200px;
+    float: right;
+    margin-right: 250px;
+    margin-top: -65px;
+    display: inline-block;
+    background-color: transparent;
+    width: 50px;
+    height: 120px;
+    border-radius: 0px 0px 200px 200px;
 
 }
 .phone img {
-	width: 55%;
+    width: 55%;
     margin-top: 155%;
     margin-left: 70%;
 }
 
 .wrap {
-	width: 100%;
-	height: 100vh;
-	/*margin-top: -1%;*/
-	/*background-color: #1b191a;*/
-	/*background-image: url(../img/backgroundwrap.jpg);*/
-	/*background-size: 100%;*/
+    width: 100%;
+    height: 100vh;
+    /*margin-top: -1%;*/
+    /*background-color: #1b191a;*/
+    /*background-image: url(../img/backgroundwrap.jpg);*/
+    /*background-size: 100%;*/
 }
 
 .bgvideo {
@@ -148,26 +149,26 @@ header table {
 
 }
 .video {
-	/*height: 100vh;*/
+    /*height: 100vh;*/
    /* width: 100%;*/
-	display: block;
-	position:absolute;
-	top:0;
-	left:0;
-	margin-bottom:-200px;
-	/*min-width:100%;*/
-	/*min-height:100%;
-	 width: 1000px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-bottom:-200px;
+    /*min-width:100%;*/
+    /*min-height:100%;
+     width: 1000px;
   height: 1100px;*/
-	z-index:-100;
+    z-index:-100;
 }
 .studiotext {
-	width: 45vw;
-	margin-left: 10%;
-	margin-top: 20%;
-	background-color: transparent;
-	display: inline-block;
-	z-index: 5
+    width: 45vw;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: transparent;
+    display: inline-block;
+    z-index: 5
 }
 .example-three{
     width: 100%;
@@ -175,24 +176,24 @@ header table {
     position: relative;
 }
 .ppng{
-	width: 55%;
+    width: 55%;
     height: 25%;
     z-index: 1;
 }
 .inpng{
-	margin-left: 80%;
+    margin-left: 80%;
     margin-top: -9%;
     z-index: 1;
     height: 50px;
 }
 .wpng{
-	width: 30%;
+    width: 30%;
     height: 25%;
     margin-left: 3%;
     margin-top: 0%;
 }
 .spng{
-	width: 55%;
+    width: 55%;
     height: 40%;
     margin-left: 50%;
     margin-top: -22%;
@@ -208,7 +209,7 @@ header table {
     margin-left: 38%;
 }
 .downbtn a{
-	text-decoration: none;
+    text-decoration: none;
 }
 .downbtn p{
     text-align: right;
@@ -218,21 +219,23 @@ header table {
     letter-spacing: 15px;
 }
 .downbtn p:hover{
-	color: #ff557d;
+    color: #ff557d;
 }
 .downbtn img{
-	width: 40px;
+    width: 40px;
     height: 100px;
     margin-top: 30px;
     margin-right: 10px;
 }
 
 .pulse {
-	display:block;
-  	border-radius: 50%;
-  	cursor: pointer;
-  	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-  	animation: pulse 1000ms infinite;
+    display:block;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+            box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    -webkit-animation: pulse 1000ms infinite;
+            animation: pulse 1000ms infinite;
 }
 
 
@@ -241,14 +244,15 @@ header table {
     margin-left: 114.3%;
     margin-top: -7.9%;
     position: absolute;
-    animation: trianlet 1500ms infinite;
+    -webkit-animation: trianlet 1500ms infinite;
+            animation: trianlet 1500ms infinite;
 }
 
 .services {
-	margin-top: 1%;
-	width: 100%;
-	height: 100vh;
-	position: relative;
+    margin-top: 1%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
     background-size: 100%;
     /*background-position: 130px;*/
     background-image: url(../../img/backserv.png);
@@ -271,32 +275,32 @@ header table {
     left: 9%;
 }
 .spacename {
-	width: 55%;
-	height: 55vw;
-	position: absolute;	
-	display: inline-block;
-	margin-left: 10%;
-	/*margin-top: -50%;*/
+    width: 55%;
+    height: 55vw;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 10%;
+    /*margin-top: -50%;*/
 }
 .developimg, .designimg, .marketingimg {
-	width: 25%;
-	height: 40%;
-	border-color: transparent;
-	display: inline-block;
-	font-family: RobotoBk;
-	color: black;
-	text-decoration: none;
-	font-size: 20px;
-	margin-left: -10%;
-	margin-top: 11%;
-	position: absolute;
+    width: 25%;
+    height: 40%;
+    border-color: transparent;
+    display: inline-block;
+    font-family: RobotoBk;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -10%;
+    margin-top: 11%;
+    position: absolute;
 }
 .designimg {
-	margin-left: 40%;
+    margin-left: 40%;
 } 
 .marketingimg {
-	margin-left: -8%;
-	margin-top: 48%;
+    margin-left: -8%;
+    margin-top: 48%;
 }
 .develop, .design, .marketing {
     width: 25%;
@@ -312,41 +316,45 @@ header table {
     position: absolute;
 }
 .develop h2, .design h2, .marketing h2 {
-	font-family: RobotoBk;
+    font-family: RobotoBk;
 }
 .develop p, .design p, .marketing p {
-	width: 210px;
+    width: 210px;
 }
 
 .develop img, .design img, .marketing img{
-	width: 13px;
-	display: none;
-	margin-right: 2%;
+    width: 13px;
+    display: none;
+    margin-right: 2%;
 }
 .marketing a, .develop a, .design a{
-	color: black;
-	text-decoration: none;
-	font-family: RobotoRegular;
+    color: black;
+    text-decoration: none;
+    font-family: RobotoRegular;
     cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
-	color: #ff557d;
-	transition: 300ms;
+    color: #ff557d;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
 }
 .develop a:hover .develop img, .design a:hover .design img, .marketing a:hover .marketing img{
-	display: inline-block;
-	transition: 800ms;
-	font-family: RobotoBk;
+    display: inline-block;
+    -webkit-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+    font-family: RobotoBk;
 }
 .design {
-	margin-left: 55%;
+    margin-left: 55%;
 } 
 .marketing {
-	margin-top: 53%;
+    margin-top: 53%;
 }
 
 .parallelogram {
-	width: 60%;
+    width: 60%;
     height: 60%;
     /*border: solid black;*/
     display: inline-block;
@@ -355,9 +363,9 @@ header table {
     float: right;
 }
 .servicespngs {
-	width: 100%;
-	height: 100%;
-	display: none;
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
 .rightline {
@@ -367,7 +375,9 @@ header table {
     height: 9%;
     display: inline-block;
     float: right;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 .rightline img {
     width: 72%;
@@ -377,7 +387,9 @@ header table {
     margin-top: 0px;
     margin-left: -52%;
     font-size: 1.1em;
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
     position: absolute;
 }
 
@@ -399,9 +411,15 @@ header table {
 /*///////////////////////////////*/
 
 .callbackform {
+<<<<<<< HEAD
 	width: 100%;
 	height: 95vh;
 	position: relative;
+=======
+    width: 100%;
+    height: 95vh;
+    position: relative;
+>>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
 }
 
 
@@ -484,7 +502,8 @@ header table {
     color: white;
     line-height: 32px;
     right: auto;
-    transform: translate(0,-30px);
+    -ms-transform: translate(0,-30px);
+        transform: translate(0,-30px);
     -webkit-transform: translate(0,-30px);
     -o-transform: translate(0,-30px);
     -moz-transform: translate(0,-30px);
@@ -517,6 +536,8 @@ header table {
     border:none;
     font-size: 25px;
     width: 15%;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
 #ordercall p{
@@ -527,6 +548,8 @@ header table {
   height: 1px;
   float: left; 
   margin-top: -20%;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border: none; /* Убираем границу для браузера Firefox */
   color: white; /* Цвет линии для остальных браузеров */
@@ -538,6 +561,8 @@ header table {
     margin-top: -21%;
     margin-left: -5%;
     position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -577,22 +602,26 @@ button:focus {
 }
 
 .summaryBlockSubmit{
+        -ms-grid-row: 82;
+        -ms-grid-row-span: 5;
+        -ms-grid-column: 45;
+        -ms-grid-column-span: 7;
         grid-area: 82/45/87/52;
 }
 .BlockSubmit{
     bottom: 9%; 
 }
 /* .aboutus {
-	width: 100%;
-	height: 95vh;
-	background-color: #1c1a1a;
+    width: 100%;
+    height: 95vh;
+    background-color: #1c1a1a;
 }
 .vizitka{
-	width: 100%;
-	height: 100%;
-	position: relative;
-	box-sizing: border-box;
-	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
  
 .arm {
@@ -621,10 +650,10 @@ button:focus {
 }
 
 .inscription{
-	position: absolute;
-	z-index: 4;
-	width: 40%;
-	height: 40%;
+    position: absolute;
+    z-index: 4;
+    width: 40%;
+    height: 40%;
 }
 
 .inscription p.o1 {
@@ -675,7 +704,7 @@ margin: 10% 0 0 23%
 
 .podrobnee{
     margin: 6% 0 0 35%;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 .podrobnee button {
     background: #1c1a1a;
@@ -694,20 +723,20 @@ margin: 10% 0 0 23%
  
 /*
 .ability {
-	height: 1257px;
-	width: 100%;
-	position: relative;
-	display: block;
+    height: 1257px;
+    width: 100%;
+    position: relative;
+    display: block;
 }
 
 .ability_header {
-	color: black;
-	font-family: RobotoLight;
-	font-size: 45px;
-	padding-top: 88px;
-	padding-left: 219px;
-	position: absolute;
-	z-index: 2;
+    color: black;
+    font-family: RobotoLight;
+    font-size: 45px;
+    padding-top: 88px;
+    padding-left: 219px;
+    position: absolute;
+    z-index: 2;
 }
 div#ablt {
     width: 6%;
@@ -738,7 +767,7 @@ figcaption {
 }
 
 figcaption >div {
-	display: table-cell;
+    display: table-cell;
 }
 
 figcaption >div >span {
@@ -754,13 +783,13 @@ figcaption >div >span {
     transition: all 0.3s ease;
 }
 figcaption >div >span >img{
-	width: 110px;
+    width: 110px;
     height: 110px;
 }
 figcaption >div >span:hover {
-	  -webkit-transform: scale(1.2);
-	  -ms-transform: scale(1.2);
-	  transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 div.band {
     height: 45%;
@@ -774,35 +803,35 @@ div.band {
 .band3{ left: 68%;}
 
 .rotate-capabilities{
-	position: absolute;
-	right: -50px;
-	top: 43%;
-	transform: rotate(90deg);
-	font-size: 25px;
-	letter-spacing:5px ;
-	text-align: center;
+    position: absolute;
+    right: -50px;
+    top: 43%;
+    transform: rotate(90deg);
+    font-size: 25px;
+    letter-spacing:5px ;
+    text-align: center;
 }
 */
 /*.diagnostic {
-	width: 100%;
-	height: 1025px;
-	background-color: #1c1a1a;
-	display: block;
+    width: 100%;
+    height: 1025px;
+    background-color: #1c1a1a;
+    display: block;
 }
 
 .dheader {
-	width: 100%;
-	display: inline;
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 .dheader > div{
-	float: left;
+    float: left;
 }
 
 .dheader >div:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 .dheader1 {
     font-family: RobotoBk;
@@ -835,85 +864,85 @@ div.band {
     z-index: 1;
 }
 .dform {
-	width: 100%;
-	display: inline;
-	margin: 0;
-	padding: 0;
-	float: left;
-	margin-top: 130px;
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 130px;
 
 }
 
 .dform >div {
-	float: left;
-	margin-right: 8%;
+    float: left;
+    margin-right: 8%;
 
 }
 
 .dform >div:last-child {
-		margin-right: 0;
+        margin-right: 0;
 }
 
 .leftForm {
-	width: 420px;
-	height: 460px;
-	color: #fff;
-	display: inline;
-	padding-left: 8%;
+    width: 420px;
+    height: 460px;
+    color: #fff;
+    display: inline;
+    padding-left: 8%;
 }
 
 .dhf {
-	width: 420px;
-	font-family: Raleway-Thin;
-	font-size: 27px;
-	height: 40px;
-	color: #d2d1d1;
-	border: none;
-	border-bottom: 1px solid #d2d1d1;
-	margin-top: 60px;
-	padding-left: 30px;
-	background-color: transparent;
-	text-decoration: none;
+    width: 420px;
+    font-family: Raleway-Thin;
+    font-size: 27px;
+    height: 40px;
+    color: #d2d1d1;
+    border: none;
+    border-bottom: 1px solid #d2d1d1;
+    margin-top: 60px;
+    padding-left: 30px;
+    background-color: transparent;
+    text-decoration: none;
 
 }
 
 .dhf:hover {
-	border-bottom: 2px solid #fff;
-	background-color: transparent;
-	margin-bottom: -1px;
-	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    margin-bottom: -1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
 
 }
 
 .dhf:active {
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    color: #fff;
+    font-size: 16px;
 }
 .dhf:focus {
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .dhf >span:nth-of-type(n) {
-	height: 25%;
+    height: 25%;
 }
 .rightForm {
-	height: 400px;
-	display: block;
+    height: 400px;
+    display: block;
 }
 
 .rightFormtext {
-	height: 480px;
-	width: 835px;
-	border: 5px solid #5e5c5c;
-	text-align: right;
-	color: #fff;
+    height: 480px;
+    width: 835px;
+    border: 5px solid #5e5c5c;
+    text-align: right;
+    color: #fff;
 }
 
 .rightFormtxt {
@@ -944,8 +973,8 @@ div.band {
 }
 
 button.order:hover, button.order:active {
-	color: #fff;
-	border-bottom: 5px solid #fff;
+    color: #fff;
+    border-bottom: 5px solid #fff;
 }
 */
 
@@ -973,13 +1002,13 @@ button.order:hover, button.order:active {
     color: #b3b3b3;
 }
  
-.f_email a:active{	
-	color: #b3b3b3;
-	text-decoration: none;
+.f_email a:active{  
+    color: #b3b3b3;
+    text-decoration: none;
 }
 .f_email >a:link,.f_email > a:hover,.f_email > a:link,.f_email > a:visited {
-	text-decoration: none;
-	color: #b3b3b3;
+    text-decoration: none;
+    color: #b3b3b3;
 }
  
 .f_phone {
@@ -996,7 +1025,8 @@ button.order:hover, button.order:active {
     border-style: none;
     text-decoration: none;
     color:#fff;
-    animation: trianlet 300ms;
+    -webkit-animation: trianlet 300ms;
+            animation: trianlet 300ms;
 }
 .f_addr {
     width: 80%;
@@ -1021,6 +1051,8 @@ button.order:hover, button.order:active {
     margin-left: 5%;
     position: relative;
     z-index: 2;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
  
@@ -1049,6 +1081,8 @@ input#fcontact_form {
     margin-left: 5%;
     margin-right: 5%;
     height: 80px;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
     background: transparent;
     font-size: 1.4em;
@@ -1061,7 +1095,8 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     margin-bottom: -1px;
-    animation: trianlet 300ms;
+    -webkit-animation: trianlet 300ms;
+            animation: trianlet 300ms;
  } 
  
  input#fcontact_form:active {
@@ -1092,6 +1127,8 @@ button.fsubmit {
     color: #b3b3b3;
     background-color: transparent;
     letter-spacing: 5px;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
  }
 
@@ -1117,6 +1154,8 @@ button.fsubmit hr {
     height: 1px;
     float: left;
     margin-top: 3%;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     border: none;
     color: white;
@@ -1128,6 +1167,8 @@ button.fsubmit hr {
     margin-top: 10%;
     margin-left: -50%;
     position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -1175,7 +1216,9 @@ button.fsubmit:hover > img {
     position: absolute;
     top: 47%;
     right: -0.5%;
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
     font-size: 1em;
     text-align: center;
 }
@@ -1205,9 +1248,15 @@ position: absolute;
 top: 2%;
 right: 2%;
 font-size: 4.4vw;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 cursor: pointer;
 
 }
@@ -1215,9 +1264,15 @@ cursor: pointer;
 .phoneСaption{
   width: 100%;
   height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items:flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
   font-size: 4.5vw;
   color: white;
   font-family: RobotoBk;
@@ -1226,12 +1281,18 @@ cursor: pointer;
 }
 
 .fhoneBlock{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 80%;
   height: 35%;
   margin-left: 10%;
-  justify-content: space-between;
-  align-items:flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align:end;
+      -ms-flex-align:end;
+          align-items:flex-end;
 
 }
 .fhoneBlock input{
@@ -1240,11 +1301,15 @@ font-family: Raleway-Thin;
 font-size: 1.6em; 
 background-color: transparent;
 border-bottom: 1px solid white;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
+-webkit-transition: font-size 0.1s linear;
+-o-transition: font-size 0.1s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
@@ -1262,6 +1327,8 @@ transition: font-size 0.1s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
+ -webkit-transition: color 0.1s linear;
+ -o-transition: color 0.1s linear;
  transition: color 0.1s linear;
  }
 .fhoneBlock .fhoneSubmit:hover{
@@ -1274,6 +1341,8 @@ transition: font-size 0.1s linear;
     float: left;
     height: 1px;
     background-color: #747373; 
+    -webkit-transition: width 0.1s linear; 
+    -o-transition: width 0.1s linear; 
     transition: width 0.1s linear;
   }
    .fhoneBlock .fhoneSubmit img{
@@ -1309,9 +1378,15 @@ position: absolute;
 top: 2%;
 right: 2%;
 font-size: 4.4vw;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 cursor: pointer;
 
 }
@@ -1319,9 +1394,15 @@ cursor: pointer;
 .phoneСaption{
   width: 100%;
   height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items:flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
   font-size: 4.5vw;
   color: white;
   font-family: RobotoBk;
@@ -1330,12 +1411,18 @@ cursor: pointer;
 }
 
 .fhoneBlock{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 80%;
   height: 35%;
   margin-left: 10%;
-  justify-content: space-between;
-  align-items:flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align:end;
+      -ms-flex-align:end;
+          align-items:flex-end;
 
 }
 .fhoneBlock input{
@@ -1344,12 +1431,20 @@ font-family: Raleway-Thin;
 font-size: 1.4vw; 
 background-color: transparent;
 border-bottom: 1px solid white;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
+<<<<<<< HEAD
 transition: font-size 0.2s linear;
+=======
+-webkit-transition: font-size 0.1s linear;
+-o-transition: font-size 0.1s linear;
+transition: font-size 0.1s linear;
+>>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
 }
 .fhoneBlock input:focus{
   font-size: 1.2vw;
@@ -1366,6 +1461,8 @@ transition: font-size 0.2s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
+ -webkit-transition: color 0.2s linear;
+ -o-transition: color 0.2s linear;
  transition: color 0.2s linear;
  }
 .fhoneBlock .fhoneSubmit:hover{
@@ -1379,8 +1476,14 @@ transition: font-size 0.2s linear;
     float: left;
     height: 2px;
     background-color: #747373; 
+<<<<<<< HEAD
      transition: width .2s linear;
    
+=======
+    -webkit-transition: width 0.2s linear; 
+    -o-transition: width 0.2s linear; 
+    transition: width 0.2s linear;
+>>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
