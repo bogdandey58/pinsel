@@ -929,15 +929,13 @@ grid-area: 5/11/65/37;
 
  .summaryBlockSubmit{
   position: relative;
-  grid-area: 83/45/87/52;
+  grid-area: 83/45/90/52;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-content: flex-end;
 
  }
-
-
 .summaryBlockSubmit button{
   border-style: none;
   background-color: transparent;
@@ -954,10 +952,6 @@ grid-area: 5/11/65/37;
   opacity: 0.3
 
  }
- .summaryBlockSubmit button:hover{
-  opacity: 0.7;
- }
-
 
 .summaryBlockSubmit hr{
   width: 50%;
@@ -972,11 +966,6 @@ grid-area: 5/11/65/37;
   border: none;
    
   }
-   .summaryBlockSubmit:hover > hr{
-  width: 100%;
-  background-color: #ff557d; 
-  
- }
 
 .BlockSubmit{
    position: absolute;
@@ -985,6 +974,17 @@ grid-area: 5/11/65/37;
    bottom: 14%;
    right: 35%;
    transition: right 0.2s linear;
+}
+
+ .summaryBlockSubmit :hover{
+  opacity: 0.7;
+ }
+ .summaryBlockSubmit:hover > hr{
+  width: 100%;
+  background-color: #ff557d; 
+ }
+.summaryBlockSubmit hr:hover > bottom{
+  opacity: 0.7;
 }
 .summaryBlockSubmit:hover > .BlockSubmit{
   right: -15%;
