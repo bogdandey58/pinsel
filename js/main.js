@@ -354,16 +354,17 @@ function myMove(){
             }
         }
     }
-
-function departure(){
+  
+var stop = true;
+ function departure(){
 var palm = document.getElementById('palm');
 var cord1,cord2;
-cord1 = 0; cord2 = 30; 
- 
+stop = false;
+cord1 = 0; cord2 = 15; 
  var finish = setInterval(fof,50);
  function fof(){
-    if (cord1 == 40 ) {
-        clearInterval(finish);
+    if (cord1 == 10){
+        clearInterval(finish,50);
     }else{
         cord1 ++; cord2++;
          palm.style.gridArea = 5 + "/" + cord1 + "/" + 65 + "/" + cord2;
@@ -374,7 +375,6 @@ cord1 = 0; cord2 = 30;
  }
 
 }
-
 
 
     // var aaa12 = 5+ "/" + 31 + "/" + 65 + "/" + 60;
