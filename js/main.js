@@ -354,10 +354,29 @@ function myMove(){
             }
         }
     }
-window.onload = departure1();
-setInterval(departure,0.3);
+
 function departure(){
-    var aaa12 = 5+"/"+31+"/"+65+"/"+60;
-    var palm = document.getElementById('palm');
-    palm.style.gridArea = aaa12 ;
+var palm = document.getElementById('palm');
+var cord1,cord2;
+cord1 = 0; cord2 = 30; 
+ 
+ var finish = setInterval(fof,50);
+ function fof(){
+    if (cord1 == 40 ) {
+        clearInterval(finish);
+    }else{
+        cord1 ++; cord2++;
+         palm.style.gridArea = 5 + "/" + cord1 + "/" + 65 + "/" + cord2;
+       // var aaa12 =  5 + "/" + cord1 + "/" + 65 + "/" + cord2;
+       //  palm.style.gridArea = aaa12;
+    }
+
+ }
+
 }
+
+
+
+    // var aaa12 = 5+ "/" + 31 + "/" + 65 + "/" + 60;
+    // var palm = document.getElementById('palm');
+    // palm.style.gridArea = aaa12 ;

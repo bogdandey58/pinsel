@@ -896,7 +896,7 @@ button:focus {
 -ms-grid-row-span: 60;
 -ms-grid-column: 11;
 -ms-grid-column-span: 26;
-grid-area: 5/11/65/37;
+grid-area: 5/0/65/0;
  background-image: url('../img/arm3.png');
  background-position: 100% 100%;
  background-size: 90% 90%;
