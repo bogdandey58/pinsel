@@ -165,46 +165,80 @@ header table {
 .studiotext {
     width: 45vw;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 11%;
     background-color: transparent;
     display: inline-block;
     z-index: 5
 }
-.ppng{
-    width: 55%;
-    height: 25%;
-}
-.ppng img{
+.example-three{
     width: 100%;
+    height: 150px;
+    position: relative;
+}
+.ppng{
+  font-size: 4.5em;
+  width: 80%;  
+  z-index: 1;
+  letter-spacing: 40px;
 }
 .inpng{
-    margin-left: 60%;
-}
-.inpng img{
     width: 30%;
+    font-size: 0.7em;
+    margin-left: 78.2%;
+    margin-top: -17%;
+    z-index: 1;
+    height: 50px;
+    letter-spacing: 15px;
 }
 .wpng{
-    width: 30%;
-    height: 25%;
-    margin-left: 3%;
-    margin-top: 0%;
+  font-size: 4.5em;
+  width: 37%;
+  margin-top: -15.5%;
+  letter-spacing: 40px;
 }
-.wpng img{
-    width: 100%;
+.wpng hr {
+  float: left;
+  margin-top: -50%;
+  margin-left: -3%;
+  -webkit-animation: wline 1500ms infinite;
+          animation: wline 1500ms infinite;
 }
 .spng{
-    width: 55%;
-    height: 40%;
-    margin-left: 38%;
-    margin-top: -18%;
+    margin-left: 49.7%;
+    margin-top: -31%;
 }
 .spng img{
-    width: 100%;
+    width: 65%;
+}
+.ppng p,
+.inpng p,
+.wpng p,
+.spng p{
+  color: #ff557d;
+  font-family:UniSansHeavy;
+}
+.wpng p{color: #fff;}
+
+.social{
+  width: 40%;
+  color: #fff;
+  margin-left: 25%;
+  letter-spacing: 10px;
+  margin-top: -2%;
+  font-size: 0.9em;
+  
+}
+.socsite{
+  font-size: 0.8em;
+    letter-spacing: 5px;
+    font-family: Exo2Regular;
+    margin-top: -1%;
+    margin-left: 32%;
 }
 #triangleletter {
     display: inline-block;
-    margin-left: 88.6%;
-    margin-top: -6.9%;
+    margin-left: 111.1%;
+    margin-top: -10.2%;
     position: absolute;
     -webkit-animation: trianlet 1500ms infinite;
             animation: trianlet 1500ms infinite;
@@ -217,7 +251,7 @@ header table {
     position: absolute;
     cursor: pointer;
     margin-top: 13%;
-    margin-left: 37%;
+    margin-left: 39.3%;
 }
 .downbtn a{
     text-decoration: none;

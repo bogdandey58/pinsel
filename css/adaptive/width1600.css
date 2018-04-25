@@ -165,7 +165,7 @@ header table {
 .studiotext {
     width: 45vw;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 12%;
     background-color: transparent;
     display: inline-block;
     z-index: 5
@@ -176,27 +176,61 @@ header table {
     position: relative;
 }
 .ppng{
-    width: 55%;
-    height: 25%;
-    z-index: 1;
+  font-size: 5em;
+  width: 55%;  
+  z-index: 1;
+  letter-spacing: 50px;
 }
 .inpng{
-    margin-left: 80%;
-    margin-top: -9%;
+    width: 30%;
+    font-size: 1em;
+    margin-left: 82%;
+    margin-top: -17%;
     z-index: 1;
     height: 50px;
+    letter-spacing: 15px;
 }
 .wpng{
-    width: 30%;
-    height: 25%;
-    margin-left: 3%;
-    margin-top: 0%;
+  font-size: 5em;
+  width: 37%;
+  margin-top: -14%;
+  letter-spacing: 50px;
+}
+.wpng hr {
+  float: left;
+  margin-top: -50%;
+  margin-left: -3%;
+  -webkit-animation: wline 1500ms infinite;
+          animation: wline 1500ms infinite;
 }
 .spng{
-    width: 55%;
-    height: 40%;
-    margin-left: 50%;
-    margin-top: -22%;
+    margin-left: 53.2%;
+    margin-top: -28%;
+}
+.ppng p,
+.inpng p,
+.wpng p,
+.spng p{
+  color: #ff557d;
+  font-family:UniSansHeavy;
+}
+.wpng p{color: #fff;}
+
+.social{
+  width: 41%;
+  color: #fff;
+  margin-left: 25.8%;
+  letter-spacing: 10px;
+  margin-top: -1%;
+  font-size: 1.2em;
+  
+}
+.socsite{
+  font-size: 0.8em;
+    letter-spacing: 5px;
+    font-family: Exo2Regular;
+    margin-top: -1%;
+    margin-left: 32%;
 }
 
 .downbtn{
@@ -206,7 +240,7 @@ header table {
     cursor: pointer;
     position: absolute;
     margin-top: 10%;
-    margin-left: 38%;
+    margin-left: 40.3%;
 }
 .downbtn a{
     text-decoration: none;

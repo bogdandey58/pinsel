@@ -163,44 +163,80 @@ header table {
 .studiotext {
     width: 45vw;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: transparent;
     display: inline-block;
     z-index: 5
 }
+.example-three{
+    width: 67%;
+    height: 150px;
+    position: relative;
+}
 .ppng{
-    width: 55%;
-    height: 25%;
-    z-index: 1;
+  font-size: 2.8em;
+  width: 80%;
+  z-index: 1;
+  letter-spacing: 35px;
 }
 .inpng{
-    margin-left: 10%;
-    margin-top: -8%;
+    width: 30%;
+    font-size: 0.5em;
+    margin-left: 81.4%;
+    margin-top: -29.5%;
     z-index: 1;
     height: 50px;
-}
-.inpng img {
-    width: 20%;
-    margin-top: 2.5%;
-    margin-left: 51%;
+    letter-spacing: 8px;
 }
 .wpng{
-    width: 30%;
-    height: 25%;
-    margin-left: 2%;
-    margin-top: -2%;
+  font-size: 3em;
+  width: 33%;
+  margin-top: -15.5%;
+  letter-spacing: 35px;
+}
+.wpng hr {
+  float: left;
+  margin-top: -53%;
+  margin-left: -3%;
+  -webkit-animation: wline 1500ms infinite;
+          animation: wline 1500ms infinite;
 }
 .spng{
-    width: 55%;
-    height: 40%;
-    margin-left: 38.2%;
-    margin-top: -18%;
+    margin-left: 52%;
+    margin-top: -40%;
 }
+.spng img{
+    width: 100%;
+}
+.ppng p,
+.inpng p,
+.wpng p,
+.spng p{
+  color: #ff557d;
+  font-family:UniSansHeavy;
+}
+.wpng p{color: #fff;}
 
+.social{
+  width: 36%;
+  color: #fff;
+  margin-left: 28.5%;
+  letter-spacing: 7px;
+  margin-top: -6%;
+  font-size: 0.6em;
+  
+}
+.socsite{
+  font-size: 0.8em;
+    letter-spacing: 5px;
+    font-family: Exo2Regular;
+    margin-top: -1%;
+    margin-left: 21.3%;
+}
 #triangleletter {
     display: inline-block;
-    margin-left: 88.4%;
-    margin-top: -7%;
+    margin-left: 115.29%;
+    margin-top: -19.15%;
     position: absolute;
     -webkit-animation: trianlet 1500ms infinite;
             animation: trianlet 1500ms infinite;
