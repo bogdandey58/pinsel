@@ -25,6 +25,8 @@ $(".triangleline").fadeToggle(0)
 $(".triangleline").fadeToggle(1300)
 
 
+
+
 ///////////////////////////////////Глитч////////////////////////////////////////////
 
 // $('.ppng').on('mouseover', function() {
