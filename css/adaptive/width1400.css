@@ -483,7 +483,7 @@ header table {
     width: 40%;
     float: left;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 32%;
     display: inline-block;
 }
 
@@ -543,7 +543,7 @@ header table {
 }
 .comment {
   width: 35%;
-  margin-top: 23%;
+  margin-top: 35%;
   /*margin-left: 10%;*/
   display: inline-block;
 }

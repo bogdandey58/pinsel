@@ -358,30 +358,28 @@ function myMove(){
   
     }
 
-
-var summary =  document.getElementById('summary');
-summary.addEventListener('click', departure);
-
-    function departure(){
-var palm = document.getElementById('palm');
-var cord1,cord2;
-cord1 = 0; cord2 = 28; 
- var finish = setInterval(fof,500);
- function fof(){
-    if (cord1 == 11){
-        clearInterval(finish,50);
-    }else{
-        cord1 ++; cord2++;
-         palm.style.gridArea = 5 + "/" + cord1 + "/" + 65 + "/" + cord2;
-       // var aaa12 =  5 + "/" + cord1 + "/" + 65 + "/" + cord2;
-       //  palm.style.gridArea = aaa12;
-    }
-
- }
-
+var wowow =  document.getElementById('wowow');
+var wowow1 =  document.getElementById('wowow1');
+wowow.onclick = function {
+    var palm =  document.getElementById('palm'); 
+    var bob =  document.getElementById('bob');
+    palm.style.width = 0+"%";
+    bob.style.width = 100+"%";
+}
+function {
+  var palm =  document.getElementById('palm'); 
+    var bob =  document.getElementById('bob'); 
+    palm.style.width = 100+"%";
+    bob.style.width = 0+"%";
 }
 
-
-    // var aaa12 = 5+ "/" + 31 + "/" + 65 + "/" + 60;
-    // var palm = document.getElementById('palm');
-    // palm.style.gridArea = aaa12 ;
+var btns = document.getElementById('wowow');
+var par = document.getElementById('bob');
+btns[0].onclick = function() {
+  par[0].classList.add("fadeInLeft");
+   par[0].classList.add("wow");
+}
+btns[1].onclick = function() {
+  par[0].classList.remove("wow");
+  par[0].classList.remove("fadeInLeft");
+}

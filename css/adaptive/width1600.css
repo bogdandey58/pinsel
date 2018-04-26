@@ -432,7 +432,7 @@ header table {
     bottom: 0%;
     right: 5%;
     width: 56%;
-    height: 53%;
+    height: 50%;
 }
 
 .statuya img {
@@ -645,6 +645,8 @@ button:focus {
 .BlockSubmit{
     bottom: 9%; 
 }
+.summaryBlockSubmit hr{
+bottom: -59%;}
 /* .aboutus {
     width: 100%;
     height: 95vh;
