@@ -1780,13 +1780,10 @@ transition: font-size 0.1s linear;
     float: left;
     height: 2px;
     background-color: #747373; 
-<<<<<<< HEAD
     transition: width .2s linear;
-=======
     -webkit-transition: width 0.1s linear; 
     -o-transition: width 0.1s linear; 
     transition: width 0.1s linear;
->>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
   }
    .fhoneBlock .fhoneSubmit img{
   position: relative ;
@@ -1804,7 +1801,6 @@ transition: font-size 0.1s linear;
    .fhoneBlock .fhoneSubmit:hover >  img{
      left: 5%;
 }
-   
 
 
 
