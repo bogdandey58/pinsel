@@ -362,10 +362,10 @@ var stop = true;
 var palm = document.getElementById('palm');
 var cord1,cord2;
 stop = false;
-cord1 = 0; cord2 = 15; 
+cord1 = 0; cord2 = 28; 
  var finish = setInterval(fof,50);
  function fof(){
-    if (cord1 == 10){
+    if (cord1 == 11){
         clearInterval(finish,50);
     }else{
         cord1 ++; cord2++;
