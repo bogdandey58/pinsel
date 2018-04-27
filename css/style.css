@@ -805,6 +805,8 @@ header table {
 }
 #ordercall p{
   color: white;
+  opacity: 0.7;
+  cursor: pointer;
 }
 #ordercall hr {
   width: 40%; 
@@ -828,7 +830,10 @@ header table {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
-
+#ordercall:hover > p {
+  opacity: 1;
+  cursor: pointer;
+}
 
 #ordercall:hover > hr {
   border: none; /* Убираем границу для браузера Firefox */
@@ -1142,10 +1147,13 @@ grid-area:5 /   12  /  65  / 35;
   width: 100%;
   position: relative;
   display: block;
+<<<<<<< HEAD
+=======
   height: 100vh;
     width: 100%;
     position: relative;
     display: block;
+>>>>>>> a41c6f2769ca07f604b2e0b8172513da5a14614d
 }
 
 .ability_header {
@@ -1758,7 +1766,10 @@ height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
+<<<<<<< HEAD
+=======
 transition: font-size 0.2s linear;
+>>>>>>> a41c6f2769ca07f604b2e0b8172513da5a14614d
 -webkit-transition: font-size 0.1s linear;
 -o-transition: font-size 0.1s linear;
 transition: font-size 0.1s linear;
@@ -1778,7 +1789,10 @@ transition: font-size 0.1s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
+<<<<<<< HEAD
+=======
  transition: color 0.2s linear;
+>>>>>>> a41c6f2769ca07f604b2e0b8172513da5a14614d
  -webkit-transition: color 0.1s linear;
  -o-transition: color 0.1s linear;
  transition: color 0.1s linear;

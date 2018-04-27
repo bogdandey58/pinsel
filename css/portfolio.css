@@ -52,29 +52,39 @@
 	height: 100%;
 }
 .alljobs {
-    width: 15%;
-    height: 6%;
+    width: 9%;
+    height: 4%;
     background-color: transparent;
     margin-left: 65%;
     margin-top: 3%;
     position: relative;
 }
 .alljobs p{
+	font-family: RobotoLight;
     margin-top: 0%;
-    margin-left: 0%;
+    margin-left: 8%;
     font-size: 0.3em;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
     color: white;
     z-index: 1;
-}
-.alljobs a {
-	text-decoration:none;
-	color: white;
-	opacity: 1;
+    opacity: 0.7;
 }
 .alljobs img {
-	width: 2%;
     position: absolute;
-    margin-top: 13.5%;
-    margin-left: 45%;
+    margin-top: 13%;
+    margin-left: 35%;
+}
+.alljobs hr {
+	width: 30%;
+	background-color: white;
+	float: left;
+	margin-top: 14.5%;
+}
+
+.alljobs:hover hr {
+	background-color: #ff557d;
+  	width: 80%;
+}
+.alljobs:hover img {
+	margin-left: 85%;
 }
