@@ -357,10 +357,44 @@ function myMove(){
         }
   
     }
+var palm = document.getElementById('palm');
+var mz = document.getElementById('mz');
+var man = document.getElementById('man');
 
 var PushButtons1 = document.getElementById('PushButtons1');
 var PushButtons2 = document.getElementById('PushButtons2');
 var PushButtons3 = document.getElementById('PushButtons3');
-PushButtons1.onclick = function fu 
-PushButtons2
-PushButtons3
+PushButtons1.onclick = function sous(){
+palm.style.width= 100 +"%";   
+mz.style.width= 0 +"%";
+man.style.width= 0 +"%";
+}
+PushButtons2.onclick = function sous2(){
+palm.style.width= 0 +"%";   
+mz.style.width= 100 +"%";
+man.style.width= 0 +"%";
+
+
+        var pos = 70;
+        var pos1 = 90;
+        var id = setInterval(frame,10);
+        function frame(){
+            if(pos == 10){
+                clearInterval(id);
+            } 
+            else {
+                pos --;
+                pos1 --;
+  
+                mz.style.gridArea = 5 + "/" +  pos  +"/" + 65 + "/"+ pos1;
+               
+            }
+        }
+
+
+}
+PushButtons3.onclick = function sous3(){
+palm.style.width= 0 +"%";   
+mz.style.width= 0 +"%";
+man.style.width= 100 +"%";
+}
