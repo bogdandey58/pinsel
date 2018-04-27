@@ -27,35 +27,7 @@ $(".triangleline").fadeToggle(1300)
 
 
 
-///////////////////////////////////Глитч////////////////////////////////////////////
 
-// $('.ppng').on('mouseover', function() {
-//     $('.ppngimg').css('opacity','0');
-// });
-// $('.ppng').on('mouseout', function() {
-//     $('.ppngimg').css('opacity','1');
-// });
-
-// $('.inpng').on('mouseover', function() {
-//     $('.inpngimg').css('opacity','0');
-// });
-// $('.inpng').on('mouseout', function() {
-//     $('.inpngimg').css('opacity','1');
-// });
-
-// $('.wpng').on('mouseover', function() {
-//     $('.wpngimg').css('opacity','0');
-// });
-// $('.wpng').on('mouseout', function() {
-//     $('.wpngimg').css('opacity','1');
-// });
-
-// $('.spng').on('mouseover', function() {
-//     $('.spngimg').css('opacity','0');
-// });
-// $('.spng').on('mouseout', function() {
-//     $('.spngimg').css('opacity','1');
-// });
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
@@ -73,6 +45,20 @@ $(document).ready(function(){
 
 
 ///////////////////////////////движение за мышью//////////////////////////////////////////
+// jQuery(document).ready(function(e){
+//    var left = 0,
+//    top = 0,
+//    element = jQuery('.services'),
+//    offset =  { left: element.offset().left, top: element.offset().top };
+//    element.bind('mousemove', function(e){
+//       left = (e.pageX-offset.left);
+//       top = (e.pageY-offset.top);
+//       jQuery(this).css({
+//           backgroundPosition: '-'+(0.01*left)+'px'
+          
+//       });
+//     });
+// });
 jQuery(document).ready(function(e){
    var left = 0,
    top = 0,
@@ -82,25 +68,11 @@ jQuery(document).ready(function(e){
       left = (e.pageX-offset.left);
       top = (e.pageY-offset.top);
       jQuery(this).css({
-          backgroundPosition: '-'+(0.01*left)+'px'
+          backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
           
       });
     });
 });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.pinselheader'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
-          
-//       });
-//     });
-// });
 // jQuery(document).ready(function(e){
 //    var left = 0,
 //    top = 0,
@@ -361,6 +333,7 @@ var palm = document.getElementById('palm');
 var mz = document.getElementById('mz');
 var man = document.getElementById('man');
 
+<<<<<<< HEAD
 var PushButtons1 = document.getElementById('PushButtons1');
 var PushButtons2 = document.getElementById('PushButtons2');
 var PushButtons3 = document.getElementById('PushButtons3');
@@ -398,3 +371,30 @@ palm.style.width= 0 +"%";
 mz.style.width= 0 +"%";
 man.style.width= 100 +"%";
 }
+=======
+var wowow =  document.getElementById('wowow');
+var wowow1 =  document.getElementById('wowow1');
+wowow.onclick = function (){
+    var palm =  document.getElementById('palm'); 
+    var bob =  document.getElementById('bob');
+    palm.style.width = 0+"%";
+    bob.style.width = 100+"%";
+};
+function (){
+  var palm =  document.getElementById('palm'); 
+    var bob =  document.getElementById('bob'); 
+    palm.style.width = 100+"%";
+    bob.style.width = 0+"%";
+};
+
+var btns = document.getElementById('wowow');
+var par = document.getElementById('bob');
+btns[0].onclick = function() {
+  par[0].classList.add("fadeInLeft");
+   par[0].classList.add("wow");
+}
+btns[1].onclick = function() {
+  par[0].classList.remove("wow");
+  par[0].classList.remove("fadeInLeft");
+}
+>>>>>>> 94497e7092ac980cc9b4910b3eec59387fbb1d8d

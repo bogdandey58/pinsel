@@ -789,7 +789,24 @@ header table {
   border-radius: 10px;
   height: 200px;
   resize: none;
+  padding: 3%;
 }
+ 
+/*.comment textarea::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.comment textarea::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.comment textarea:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.comment textarea:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.comment textarea:focus::-webkit-input-placeholder {text-indent: -600px; transition: text-indent 0.5s ease;}
+.comment textarea:focus::-moz-placeholder          {text-indent: -600px; transition: text-indent 0.5s ease;}
+.comment textarea:focus:-moz-placeholder           {text-indent: -600px; transition: text-indent 0.5s ease;}
+.comment textarea:focus:-ms-input-placeholder      {text-indent: -600px; transition: text-indent 0.5s ease;}*/
+
+.comment textarea::-webkit-input-placeholder {text-align: left; font-size: 1em; color: white; }
+.comment textarea::-moz-placeholder          {text-align: left; font-size: 1em; color: white; }
+.comment textarea:-moz-placeholder           {text-align: left; font-size: 1em; color: white; }
+.comment textarea:-ms-input-placeholder      {text-align: left; font-size: 1em; color: white; }
+
+
 
 #ordercall {
   font-family: Raleway-ExtraBold;

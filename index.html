@@ -31,21 +31,21 @@
         $(window).on('load', function () {
             $('.ma5slider').ma5slider();
             // Methods
-            $('#example-34').ma5slider('goToSlide', 3);
+            $('#example-32').ma5slider('goToSlide', 3);
             // Calls
-            $('#example-34').on('ma5.animationStart', function () {
+            $('#example-32').on('ma5.animationStart', function () {
                 console.log('event animationStart');
             });
-            $('#example-34').on('ma5.animationEnd', function () {
+            $('#example-32').on('ma5.animationEnd', function () {
                 console.log('event animationEnd');
             });
-            $('#example-34').on('ma5.firstSlide', function () {
+            $('#example-32').on('ma5.firstSlide', function () {
                 console.log('event firstSlide');
             });
-            $('#example-34').on('ma5.lastSlide', function () {
+            $('#example-32').on('ma5.lastSlide', function () {
                 console.log('event lastSlide');
             });
-            $('#example-34').on('ma5.activeSlide', function (event, slide) {
+            $('#example-32').on('ma5.activeSlide', function (event, slide) {
                 console.log( 'event activeSlide: ' + slide );
             });
         });
@@ -157,7 +157,6 @@
 				<p><img src="img/pinktriangle.png" alt=""><a class="seo"  >SEO оптимизация </a> </p>
 				<p><img src="img/pinktriangle.png" alt=""><a class="vved">Ведение </a> </p>
 			</div>
-		<!--  -->
 			<div class="parallelogram">
 				<img class="store servicespngs" src="img/services/store.png" alt="">
 				<img class="verstka servicespngs" src="img/services/verstka.png" alt="">
@@ -191,7 +190,7 @@
             	<div class="aboutproject3">
                     <a href="#slide-3"></a>
             		<p>Pinsel</p>
-                    <div class="imgabout fadeInLeft wow"><img src="img/example1.jpg" alt=""></div>
+                    <div class="imgabout fadeInLeft wow"></div>
                     <div class="textproject fadeInLeft wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
                     <a href="portfolio.html"><div class="alljobs">
                     	<p>Все работы</p>
@@ -201,7 +200,7 @@
             	<div class="aboutproject2">
                     <a href="#slide-2"></a>
             		<p>Pinsel</p>
-                    <div class="imgabout fadeInLeft wow"><img src="img/portimgsm.jpg" alt=""></div>
+                    <div class="imgabout fadeInLeft wow"></div>
                     <div class="textproject fadeInLeft wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
                     <a href="portfolio.html"><div class="alljobs">
                     	<p>Все работы</p>
@@ -211,7 +210,7 @@
             	<div class="aboutproject1">
                     <a href="#slide-1"></a>
             		<p>Pinsel</p>
-                    <div class="imgabout fadeInLeft wow"><img src="img/example1.jpg" alt=""></div>
+                    <div class="imgabout fadeInLeft wow"></div>
                     <div class="textproject fadeInLeft wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
                     <div class="alljobs">
                     	<p><a href="portfolio.html">Все работы</a></p>
@@ -221,7 +220,7 @@
             	<div class="aboutproject4">
                     <a href="#slide-4"></a>
             		<p>Pinsel</p>
-                    <div class="imgabout fadeInLeft wow"><img src="img/portimgsm.jpg" alt=""></div>
+                    <div class="imgabout fadeInLeft wow"></div>
                     <div class="textproject fadeInLeft wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
                     <div class="alljobs">
                     	<p><a href="portfolio.html">Все работы</a></p>
@@ -231,7 +230,7 @@
             	<div class="aboutproject5">
                     <a href="#slide-5"></a>
             		<p>Pinsel</p>
-                    <div class="imgabout fadeInLeft wow"><img src="img/example1.jpg" alt=""></div>
+                    <div class="imgabout fadeInLeft wow"></div>
                     <div class="textproject fadeInLeft wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem facilis delectus reiciendis ut esse, provident libero! Totam blanditiis, ipsum voluptatum veritatis, hic laborum sed, quidem modi facere voluptatibus iure.</div>
                     <div class="alljobs">
                     	<p><a href="portfolio.html">Все работы</a></p>
@@ -273,8 +272,8 @@
 				</div>
 				<div class="comment fadeInRight wow">
 			    		<span class="infield-labelcom">
-			        		<label class="lbcom" for="aname" style="color: white;transition: all 0.07s ease; margin-left: 22%; font-size: 1vw">Кратко о вашем проекте</label>
-			        		<textarea type="text" name="ename" id="aname" class="input" ></textarea>
+			        		<label class="lbcom" for="aname" style="color: white;transition: all 0.07s ease; margin-left: 22%; font-size: 1vw"></label>
+			        		<textarea type="text" name="ename" id="aname" class="input textin" placeholder="Кратко о вашем проекте"></textarea>
 			    		</span>
 				</div>
 				<div class="clear"></div>

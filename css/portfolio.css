@@ -33,13 +33,23 @@
 	background-image: none;
 }
 .imgabout {
+	border: solid white 0px;
 	width: 40%;
-	height: 40%;
+	height: 45%;
 	margin: 0 auto;
 	margin-top: 5%;
 	z-index: 3;
-	opacity: 0.9;
+	transition: 300ms;
+	background-image: url(../img/example1.jpg); 
+	background-size: 100%;
+	background-position: 0 100%;
 }
+.imgabout:hover {
+	width: 39%;
+	height: 43%;
+	border: solid white 10px;
+}
+
 .textproject{
 	width: 30%;
 	font-size: 15px;
@@ -73,18 +83,25 @@
     position: absolute;
     margin-top: 13%;
     margin-left: 35%;
+    transition: 300ms;
 }
 .alljobs hr {
 	width: 30%;
-	background-color: white;
+	color: white;
 	float: left;
 	margin-top: 14.5%;
+	transition: 300ms;
 }
 
 .alljobs:hover hr {
-	background-color: #ff557d;
+	color: #ff557d;
   	width: 80%;
+  	transition: 300ms;
 }
 .alljobs:hover img {
 	margin-left: 85%;
+	transition: 300ms;
+}
+.alljobs:hover p{
+	opacity: 1;
 }
