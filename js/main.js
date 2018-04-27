@@ -358,28 +358,9 @@ function myMove(){
   
     }
 
-// var wowow =  document.getElementById('wowow');
-// var wowow1 =  document.getElementById('wowow1');
-// wowow.onclick = function {
-//     var palm =  document.getElementById('palm'); 
-//     var bob =  document.getElementById('bob');
-//     palm.style.width = 0+"%";
-//     bob.style.width = 100+"%";
-// }
-// function {
-//   var palm =  document.getElementById('palm'); 
-//     var bob =  document.getElementById('bob'); 
-//     palm.style.width = 100+"%";
-//     bob.style.width = 0+"%";
-// }
-
-// var btns = document.getElementById('wowow');
-// var par = document.getElementById('bob');
-// btns[0].onclick = function() {
-//   par[0].classList.add("fadeInLeft");
-//    par[0].classList.add("wow");
-// }
-// btns[1].onclick = function() {
-//   par[0].classList.remove("wow");
-//   par[0].classList.remove("fadeInLeft");
-// }
+var PushButtons1 = document.getElementById('PushButtons1');
+var PushButtons2 = document.getElementById('PushButtons2');
+var PushButtons3 = document.getElementById('PushButtons3');
+PushButtons1.onclick = function fu 
+PushButtons2
+PushButtons3
