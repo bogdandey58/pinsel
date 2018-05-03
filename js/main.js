@@ -45,20 +45,6 @@ $(document).ready(function(){
 
 
 ///////////////////////////////движение за мышью//////////////////////////////////////////
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.services'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.01*left)+'px'
-          
-//       });
-//     });
-// });
 jQuery(document).ready(function(e){
    var left = 0,
    top = 0,
@@ -68,11 +54,25 @@ jQuery(document).ready(function(e){
       left = (e.pageX-offset.left);
       top = (e.pageY-offset.top);
       jQuery(this).css({
-          backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
+          backgroundPosition: '-'+(0.01*left)+'px'
           
       });
     });
 });
+// jQuery(document).ready(function(e){
+//    var left = 0,
+//    top = 0,
+//    element = jQuery('.services'),
+//    offset =  { left: element.offset().left, top: element.offset().top };
+//    element.bind('mousemove', function(e){
+//       left = (e.pageX-offset.left);
+//       top = (e.pageY-offset.top);
+//       jQuery(this).css({
+//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
+          
+//       });
+//     });
+// });
 // jQuery(document).ready(function(e){
 //    var left = 0,
 //    top = 0,
@@ -330,28 +330,37 @@ function myMove(){
   
     }
 
-var wowow =  document.getElementById('wowow');
-var wowow1 =  document.getElementById('wowow1');
-wowow.onclick = function (){
-    var palm =  document.getElementById('palm'); 
-    var bob =  document.getElementById('bob');
-    palm.style.width = 0+"%";
-    bob.style.width = 100+"%";
-};
-function (){
-  var palm =  document.getElementById('palm'); 
-    var bob =  document.getElementById('bob'); 
-    palm.style.width = 100+"%";
-    bob.style.width = 0+"%";
-};
+// <<<<<<< HEAD
+// var wowow =  document.getElementById('wowow');
+// var wowow1 =  document.getElementById('wowow1');
+// wowow.onclick = function (){
+//     var palm =  document.getElementById('palm'); 
+//     var bob =  document.getElementById('bob');
+//     palm.style.width = 0+"%";
+//     bob.style.width = 100+"%";
+// };
+// function (){
+//   var palm =  document.getElementById('palm'); 
+//     var bob =  document.getElementById('bob'); 
+//     palm.style.width = 100+"%";
+//     bob.style.width = 0+"%";
+// };
 
-var btns = document.getElementById('wowow');
-var par = document.getElementById('bob');
-btns[0].onclick = function() {
-  par[0].classList.add("fadeInLeft");
-   par[0].classList.add("wow");
-}
-btns[1].onclick = function() {
-  par[0].classList.remove("wow");
-  par[0].classList.remove("fadeInLeft");
-}
+// var btns = document.getElementById('wowow');
+// var par = document.getElementById('bob');
+// btns[0].onclick = function() {
+//   par[0].classList.add("fadeInLeft");
+//    par[0].classList.add("wow");
+// }
+// btns[1].onclick = function() {
+//   par[0].classList.remove("wow");
+//   par[0].classList.remove("fadeInLeft");
+// }
+// =======
+// var PushButtons1 = document.getElementById('PushButtons1');
+// var PushButtons2 = document.getElementById('PushButtons2');
+// var PushButtons3 = document.getElementById('PushButtons3');
+// PushButtons1.onclick = function fu 
+// PushButtons2
+// PushButtons3
+// >>>>>>> ef877d6f707f5e35adb9139b814e85d1ff779f3d
