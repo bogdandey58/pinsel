@@ -5,16 +5,6 @@ $('.downbtn').fadeOut(0).delay(2500).fadeIn(400);
 
 
 
-$(function(){
-  $('.repeat').click(function(){
-      var classes =  $(this).parent().attr('class');
-        $(this).parent().attr('class', 'animate');
-        var indicator = $(this);
-        setTimeout(function(){ 
-          $(indicator).parent().addClass(classes);
-        }, 86);
-    });
-});
 
 
 $(".pinselheader").fadeToggle(0) 
@@ -27,35 +17,41 @@ $(".triangleline").fadeToggle(1300)
 
 
 
-///////////////////////////////////Глитч////////////////////////////////////////////
 
-// $('.ppng').on('mouseover', function() {
-//     $('.ppngimg').css('opacity','0');
-// });
-// $('.ppng').on('mouseout', function() {
-//     $('.ppngimg').css('opacity','1');
-// });
+var slideIndex = 1;
+showSlides(slideIndex);
 
-// $('.inpng').on('mouseover', function() {
-//     $('.inpngimg').css('opacity','0');
-// });
-// $('.inpng').on('mouseout', function() {
-//     $('.inpngimg').css('opacity','1');
-// });
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-// $('.wpng').on('mouseover', function() {
-//     $('.wpngimg').css('opacity','0');
-// });
-// $('.wpng').on('mouseout', function() {
-//     $('.wpngimg').css('opacity','1');
-// });
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-// $('.spng').on('mouseover', function() {
-//     $('.spngimg').css('opacity','0');
-// });
-// $('.spng').on('mouseout', function() {
-//     $('.spngimg').css('opacity','1');
-// });
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+
+
+
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
@@ -87,48 +83,7 @@ jQuery(document).ready(function(e){
       });
     });
 });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.services'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
-          
-//       });
-//     });
-// });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.pinselheader'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
-          
-//       });
-//     });
-// });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.pinselheader'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.01*left)+'px -'+(0.01*top)+'px'
-          
-//       });
-//     });
-// });
+
 //////////////////////////////services hover effect////////////////////////////////
 $('.apulse').on('mouseover', function() {
     $('.pulse').css('display','none');
@@ -150,27 +105,20 @@ $('.im').on('mouseover', function() {
     $('.store').css('opacity','1');
     $(".store").fadeToggle(0) 
     $(".store").fadeToggle(100)
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.vs').on('mouseover', function() {
     $('.verstka').css('display','block');
     $('.verstka').css('opacity','1');
     $(".verstka").fadeToggle(0) 
-    $(".verstka").fadeToggle(100) 
-    // $('.statuya').css('display','none');
+    $(".verstka").fadeToggle(100)
 });
 
 $('.lp').on('mouseover', function() {
     $('.lendinf').css('display','block');
     $('.lendinf').css('opacity','1');
     $(".lendinf").fadeToggle(0) 
-    $(".lendinf").fadeToggle(100) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
+    $(".lendinf").fadeToggle(100)
 });
 
 $('.brend').on('mouseover', function() {
@@ -371,45 +319,6 @@ function myMove(){
         }
   
     }
-
-<<<<<<< HEAD
-// <<<<<<< HEAD
-// var wowow =  document.getElementById('wowow');
-// var wowow1 =  document.getElementById('wowow1');
-// wowow.onclick = function (){
-//     var palm =  document.getElementById('palm'); 
-//     var bob =  document.getElementById('bob');
-//     palm.style.width = 0+"%";
-//     bob.style.width = 100+"%";
-// };
-// function (){
-//   var palm =  document.getElementById('palm'); 
-//     var bob =  document.getElementById('bob'); 
-//     palm.style.width = 100+"%";
-//     bob.style.width = 0+"%";
-// };
-
-// var btns = document.getElementById('wowow');
-// var par = document.getElementById('bob');
-// btns[0].onclick = function() {
-//   par[0].classList.add("fadeInLeft");
-//    par[0].classList.add("wow");
-// }
-// btns[1].onclick = function() {
-//   par[0].classList.remove("wow");
-//   par[0].classList.remove("fadeInLeft");
-// }
-// =======
-// var PushButtons1 = document.getElementById('PushButtons1');
-// var PushButtons2 = document.getElementById('PushButtons2');
-// var PushButtons3 = document.getElementById('PushButtons3');
-// PushButtons1.onclick = function fu 
-// PushButtons2
-// PushButtons3
-// >>>>>>> ef877d6f707f5e35adb9139b814e85d1ff779f3d
-=======
-
-
 // кнопки в блоке  О СТУДИИ
 
 var palm = document.getElementById('palm');
@@ -503,11 +412,3 @@ PushButtons2.onclick = function sous2(){
           } 
         }  
 
-
-
-// PushButtons3.onclick = function sous3(){
-// palm.style.width= 0 +"%";   
-// mz.style.width= 0 +"%";
-// man.style.width= 100 +"%";
-// }
->>>>>>> 6c8f45d77ec42f22eb3e4ecf9928e81573ab083a
