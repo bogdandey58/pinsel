@@ -362,34 +362,31 @@ function myMove(){
 
 // кнопки в блоке  О СТУДИИ
 
-var palm = document.getElementById('palm');
-var mz = document.getElementById('mz');
-var man = document.getElementById('man');
+var palm = document.getElementById("palm");
+var mz = document.getElementById("palm");
+var man = document.getElementById("palm");
 
-var palmImg = document.getElementById('palmImg');
-var mzImg = document.getElementById('mzImg');
-var manImg = document.getElementById('manImg');
-
-var PushButtons1 = document.getElementById('PushButtons1');
-var PushButtons2 = document.getElementById('PushButtons2');
-var PushButtons3 = document.getElementById('PushButtons3');
 
 
 
 // При нажатии на ПЕРВУЮ кнопку
  var mzOpacity = 0;
  var manOpacity = 0;
- var palmOpacity = 0;
+ var palmOpacity = 10;
 PushButtons1.onclick = function sous(){
+
+   // mzImg.style.display = "none";
+   // palmImg.style.display = "none";
+   // manImg.style.display = "block";
 
         var id3 = setInterval(frame2,150);
         function frame2(){
-        if(mzOpacity == 0 && palmOpacity == 0){
-            clearInterval(id3); 
+        if(mzOpacity == 0 || palmOpacity == 0 ){
+             clearInterval(id3); 
             } 
 
-         if(mzOpacity == 0 && palmOpacity == 0){
-              var id = setInterval(frame,150);
+    if(mzOpacity == 0 || palmOpacity == 0){
+  var id = setInterval(frame,150);
                 function frame(){
             if(manOpacity == 9 ){
                 clearInterval(id);
@@ -401,37 +398,59 @@ PushButtons1.onclick = function sous(){
                
                }
              }
-           }
 
-            else {
+         }
+        
+       // if(mzOpacity != 0 ){
+       //   mzOpacity --;
+       //   mzImg.style.opacity = 0+"." + mzOpacity;
+       // }
+       //  if( palmOpacity != 0){
+       //   palmOpacity --;
+       //   palmImg.style.opacity = 0+"." + palmOpacity;
+       //  }
+//         if (mzOpacity == 0 ) {
+//     mzImg.style.display = "none";
+// }
+//  if (palmOpacity == 0 ) {
+//    palmImg.style.display = "none";
+// }
+
+
+        else{
             mzOpacity --;
             palmOpacity --;
             mzImg.style.opacity = 0+"." + mzOpacity;
             palmImg.style.opacity = 0+"." + palmOpacity;
-
              
-            }  
+         }
+             
+           
+          
           } 
        }
 
 
-
-
+ var mzOpacity = 0;
+ var manOpacity = 0;
+ var palmOpacity = 10;
 
 // При нажатии на вторую кнопку
 PushButtons2.onclick = function sous2(){
-// palm.style.opacity = 0; 
-// mz.style.opacity = 0;
-// man.style.opacity = 0;
 
-        var id2 = setInterval(frame1,50);
+   // palmImg.style.display = "none";
+   // manImg.style.display = "none";
+   // mzImg.style.display = "block";
+
+        var id2 = setInterval(frame1,250);
         function frame1(){
-        if(palmOpacity == 0 ){
+        if(palmOpacity == 0 || manOpacity == 0 ){
             clearInterval(id2); 
             } 
 
-        if(palmOpacity == 0){
-              var id = setInterval(frame4,50);
+         if(palmOpacity == 0 || manOpacity == 0 ){
+
+    var id = setInterval(frame4,50);
                 function frame4(){
             if(mzOpacity == 9 ){
                 clearInterval(id);
@@ -443,11 +462,24 @@ PushButtons2.onclick = function sous2(){
                
                }
              }
-           }
 
-            else {
-                palmOpacity --;
+         }
+        
+       //  if(manOpacity  != 0 ){
+       //    manOpacity --;
+       //    manImg.style.opacity = 0+"." + manOpacity;
+       // }
+       //  if(palmOpacity != 0){
+       //   palmOpacity --;
+       //   palmImg.style.opacity = 0+"." + palmOpacity;
+       //  }
+
+
+        else {
+            palmOpacity --;
+            manOpacity --;
             palmImg.style.opacity = 0+"." + palmOpacity;
+            manImg.style.opacity = 0+"." + manOpacity;
              
             }  
           } 
@@ -460,3 +492,56 @@ PushButtons2.onclick = function sous2(){
 // mz.style.width= 0 +"%";
 // man.style.width= 100 +"%";
 // }
+
+ var mzOpacity = 0;
+ var manOpacity = 0;
+ var palmOpacity = 10;
+
+PushButtons3.onclick = function sous3(){
+// /   mzImg.style.display = "none";
+//    manImg.style.display = "none";
+//    palmImg.style.display = "block";
+        var id3 = setInterval(frame2,150);
+        function frame2(){
+        if(manOpacity == 0 || mzOpacity == 0){
+             clearInterval(id3); 
+            } 
+
+    if(manOpacity == 0 || mzOpacity == 0){
+  var id = setInterval(frame,150);
+                function frame(){
+            if(palmOpacity == 9 ){
+                clearInterval(id);
+               palmImg.style.opacity =1;
+            }
+            else {
+                palmOpacity ++;
+               palmImg.style.opacity = 0+"." + palmOpacity;
+               
+               }
+             }
+
+         }
+             
+        if(manOpacity  != 0 ){
+          manOpacity --;
+          manImg.style.opacity = 0+"." + manOpacity;
+       }
+        if(mzOpacity != 0){
+           mzOpacity --;
+          mzImg.style.opacity = 0+"." + mzOpacity;
+        }
+
+
+            // else {
+            // manOpacity --;
+            // mzOpacity --;
+            // manImg.style.opacity = 0+"." + manOpacity;
+            // mzImg.style.opacity = 0+"." + mzOpacity;
+               
+            // }  
+          } 
+       }
+
+
+

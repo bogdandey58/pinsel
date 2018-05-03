@@ -927,7 +927,7 @@ cursor: pointer;
   opacity: 0;
 }
 #summary #palm img{
-
+ opacity: 0.9;
 }
 /* #summary #mz{
 width: 100%;
