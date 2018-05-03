@@ -90,6 +90,20 @@ jQuery(document).ready(function(e){
 // jQuery(document).ready(function(e){
 //    var left = 0,
 //    top = 0,
+//    element = jQuery('.services'),
+//    offset =  { left: element.offset().left, top: element.offset().top };
+//    element.bind('mousemove', function(e){
+//       left = (e.pageX-offset.left);
+//       top = (e.pageY-offset.top);
+//       jQuery(this).css({
+//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
+          
+//       });
+//     });
+// });
+// jQuery(document).ready(function(e){
+//    var left = 0,
+//    top = 0,
 //    element = jQuery('.pinselheader'),
 //    offset =  { left: element.offset().left, top: element.offset().top };
 //    element.bind('mousemove', function(e){
@@ -358,6 +372,42 @@ function myMove(){
   
     }
 
+<<<<<<< HEAD
+// <<<<<<< HEAD
+// var wowow =  document.getElementById('wowow');
+// var wowow1 =  document.getElementById('wowow1');
+// wowow.onclick = function (){
+//     var palm =  document.getElementById('palm'); 
+//     var bob =  document.getElementById('bob');
+//     palm.style.width = 0+"%";
+//     bob.style.width = 100+"%";
+// };
+// function (){
+//   var palm =  document.getElementById('palm'); 
+//     var bob =  document.getElementById('bob'); 
+//     palm.style.width = 100+"%";
+//     bob.style.width = 0+"%";
+// };
+
+// var btns = document.getElementById('wowow');
+// var par = document.getElementById('bob');
+// btns[0].onclick = function() {
+//   par[0].classList.add("fadeInLeft");
+//    par[0].classList.add("wow");
+// }
+// btns[1].onclick = function() {
+//   par[0].classList.remove("wow");
+//   par[0].classList.remove("fadeInLeft");
+// }
+// =======
+// var PushButtons1 = document.getElementById('PushButtons1');
+// var PushButtons2 = document.getElementById('PushButtons2');
+// var PushButtons3 = document.getElementById('PushButtons3');
+// PushButtons1.onclick = function fu 
+// PushButtons2
+// PushButtons3
+// >>>>>>> ef877d6f707f5e35adb9139b814e85d1ff779f3d
+=======
 
 
 // кнопки в блоке  О СТУДИИ
@@ -492,6 +542,7 @@ PushButtons2.onclick = function sous2(){
 // mz.style.width= 0 +"%";
 // man.style.width= 100 +"%";
 // }
+<<<<<<< HEAD
 
  var mzOpacity = 0;
  var manOpacity = 0;
@@ -545,3 +596,6 @@ PushButtons3.onclick = function sous3(){
 
 
 
+=======
+>>>>>>> 6c8f45d77ec42f22eb3e4ecf9928e81573ab083a
+>>>>>>> 274a9a11aec6aff41cc8d76fb95fb9f386715574

@@ -64,7 +64,7 @@ header {
 }
 .anchor a {
     font-size: 1.0625em;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-right: 55px;
     color: white;
     text-decoration: none;
@@ -233,7 +233,10 @@ header table {
     letter-spacing: 5px;
     font-family: Exo2Regular;
     margin-top: -1%;
-    margin-left: 32%;
+    margin-left: 20%;
+}
+.soc a {
+  margin-right: 0;
 }
 #triangleletter {
     display: inline-block;

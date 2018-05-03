@@ -64,7 +64,7 @@ header {
 }
 .anchor a {
     font-size: 1.0625em;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-right: 100px;
     color: white;
     text-decoration: none;
@@ -230,7 +230,10 @@ header table {
     letter-spacing: 5px;
     font-family: Exo2Regular;
     margin-top: -1%;
-    margin-left: 32%;
+    margin-left: 17%;
+}
+.soc a {
+  margin-right: 0;
 }
 
 .downbtn{
@@ -445,15 +448,9 @@ header table {
 /*///////////////////////////////*/
 
 .callbackform {
-<<<<<<< HEAD
-	width: 100%;
-	height: 95vh;
-	position: relative;
-=======
     width: 100%;
     height: 95vh;
     position: relative;
->>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
 }
 
 
