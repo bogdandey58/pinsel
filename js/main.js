@@ -27,7 +27,35 @@ $(".triangleline").fadeToggle(1300)
 
 
 
+///////////////////////////////////Глитч////////////////////////////////////////////
 
+// $('.ppng').on('mouseover', function() {
+//     $('.ppngimg').css('opacity','0');
+// });
+// $('.ppng').on('mouseout', function() {
+//     $('.ppngimg').css('opacity','1');
+// });
+
+// $('.inpng').on('mouseover', function() {
+//     $('.inpngimg').css('opacity','0');
+// });
+// $('.inpng').on('mouseout', function() {
+//     $('.inpngimg').css('opacity','1');
+// });
+
+// $('.wpng').on('mouseover', function() {
+//     $('.wpngimg').css('opacity','0');
+// });
+// $('.wpng').on('mouseout', function() {
+//     $('.wpngimg').css('opacity','1');
+// });
+
+// $('.spng').on('mouseover', function() {
+//     $('.spngimg').css('opacity','0');
+// });
+// $('.spng').on('mouseout', function() {
+//     $('.spngimg').css('opacity','1');
+// });
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
@@ -45,20 +73,6 @@ $(document).ready(function(){
 
 
 ///////////////////////////////движение за мышью//////////////////////////////////////////
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.services'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.01*left)+'px'
-          
-//       });
-//     });
-// });
 jQuery(document).ready(function(e){
    var left = 0,
    top = 0,
@@ -68,11 +82,25 @@ jQuery(document).ready(function(e){
       left = (e.pageX-offset.left);
       top = (e.pageY-offset.top);
       jQuery(this).css({
-          backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
+          backgroundPosition: '-'+(0.01*left)+'px'
           
       });
     });
 });
+// jQuery(document).ready(function(e){
+//    var left = 0,
+//    top = 0,
+//    element = jQuery('.pinselheader'),
+//    offset =  { left: element.offset().left, top: element.offset().top };
+//    element.bind('mousemove', function(e){
+//       left = (e.pageX-offset.left);
+//       top = (e.pageY-offset.top);
+//       jQuery(this).css({
+//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
+          
+//       });
+//     });
+// });
 // jQuery(document).ready(function(e){
 //    var left = 0,
 //    top = 0,
@@ -329,72 +357,106 @@ function myMove(){
         }
   
     }
+
+
+
+// кнопки в блоке  О СТУДИИ
+
 var palm = document.getElementById('palm');
 var mz = document.getElementById('mz');
 var man = document.getElementById('man');
 
-<<<<<<< HEAD
+var palmImg = document.getElementById('palmImg');
+var mzImg = document.getElementById('mzImg');
+var manImg = document.getElementById('manImg');
+
 var PushButtons1 = document.getElementById('PushButtons1');
 var PushButtons2 = document.getElementById('PushButtons2');
 var PushButtons3 = document.getElementById('PushButtons3');
+
+
+
+// При нажатии на ПЕРВУЮ кнопку
+ var mzOpacity = 0;
+ var manOpacity = 0;
+ var palmOpacity = 0;
 PushButtons1.onclick = function sous(){
-palm.style.width= 100 +"%";   
-mz.style.width= 0 +"%";
-man.style.width= 0 +"%";
-}
-PushButtons2.onclick = function sous2(){
-palm.style.width= 0 +"%";   
-mz.style.width= 100 +"%";
-man.style.width= 0 +"%";
 
-
-        var pos = 70;
-        var pos1 = 90;
-        var id = setInterval(frame,10);
-        function frame(){
-            if(pos == 10){
-                clearInterval(id);
+        var id3 = setInterval(frame2,150);
+        function frame2(){
+        if(mzOpacity == 0 && palmOpacity == 0){
+            clearInterval(id3); 
             } 
-            else {
-                pos --;
-                pos1 --;
-  
-                mz.style.gridArea = 5 + "/" +  pos  +"/" + 65 + "/"+ pos1;
-               
+
+         if(mzOpacity == 0 && palmOpacity == 0){
+              var id = setInterval(frame,150);
+                function frame(){
+            if(manOpacity == 9 ){
+                clearInterval(id);
+               manImg.style.opacity =1;
             }
-        }
+            else {
+                manOpacity ++;
+               manImg.style.opacity = 0+"." + manOpacity;
+               
+               }
+             }
+           }
+
+            else {
+            mzOpacity --;
+            palmOpacity --;
+            mzImg.style.opacity = 0+"." + mzOpacity;
+            palmImg.style.opacity = 0+"." + palmOpacity;
+
+             
+            }  
+          } 
+       }
 
 
-}
-PushButtons3.onclick = function sous3(){
-palm.style.width= 0 +"%";   
-mz.style.width= 0 +"%";
-man.style.width= 100 +"%";
-}
-=======
-var wowow =  document.getElementById('wowow');
-var wowow1 =  document.getElementById('wowow1');
-wowow.onclick = function (){
-    var palm =  document.getElementById('palm'); 
-    var bob =  document.getElementById('bob');
-    palm.style.width = 0+"%";
-    bob.style.width = 100+"%";
-};
-function (){
-  var palm =  document.getElementById('palm'); 
-    var bob =  document.getElementById('bob'); 
-    palm.style.width = 100+"%";
-    bob.style.width = 0+"%";
-};
 
-var btns = document.getElementById('wowow');
-var par = document.getElementById('bob');
-btns[0].onclick = function() {
-  par[0].classList.add("fadeInLeft");
-   par[0].classList.add("wow");
-}
-btns[1].onclick = function() {
-  par[0].classList.remove("wow");
-  par[0].classList.remove("fadeInLeft");
-}
->>>>>>> 94497e7092ac980cc9b4910b3eec59387fbb1d8d
+
+
+// При нажатии на вторую кнопку
+PushButtons2.onclick = function sous2(){
+// palm.style.opacity = 0; 
+// mz.style.opacity = 0;
+// man.style.opacity = 0;
+
+        var id2 = setInterval(frame1,50);
+        function frame1(){
+        if(palmOpacity == 0 ){
+            clearInterval(id2); 
+            } 
+
+        if(palmOpacity == 0){
+              var id = setInterval(frame4,50);
+                function frame4(){
+            if(mzOpacity == 9 ){
+                clearInterval(id);
+               mzImg.style.opacity =1;
+            }
+            else {
+                mzOpacity ++;
+               mzImg.style.opacity = 0+"." + mzOpacity;
+               
+               }
+             }
+           }
+
+            else {
+                palmOpacity --;
+            palmImg.style.opacity = 0+"." + palmOpacity;
+             
+            }  
+          } 
+        }  
+
+
+
+// PushButtons3.onclick = function sous3(){
+// palm.style.width= 0 +"%";   
+// mz.style.width= 0 +"%";
+// man.style.width= 100 +"%";
+// }
