@@ -444,15 +444,12 @@ PushButtons2.onclick = function sous2(){
           } 
         }  
 
-<<<<<<< HEAD
-
 
 // PushButtons3.onclick = function sous3(){
 // palm.style.width= 0 +"%";   
 // mz.style.width= 0 +"%";
 // man.style.width= 100 +"%";
 // }
-<<<<<<< HEAD
 
  var mzOpacity = 0;
  var manOpacity = 0;
@@ -503,11 +500,3 @@ PushButtons3.onclick = function sous3(){
             // }  
           } 
        }
-
-
-
-=======
->>>>>>> 6c8f45d77ec42f22eb3e4ecf9928e81573ab083a
->>>>>>> 274a9a11aec6aff41cc8d76fb95fb9f386715574
-=======
->>>>>>> 74f401a1597a856bbe94a118bf64998d23da9ab7
