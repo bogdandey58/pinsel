@@ -1717,16 +1717,39 @@ cursor: pointer;
 }
 
 .phoneСaption{
-  width: 100%;
+  width: 80%;
   height: 15%;
+  margin-left: 8%;
+  margin-top: 2%;
+ 
   display: flex;
-  justify-content: center;
-  align-items:flex-start;
+  justify-content:space-between ;
+  align-items: center;
   font-size: 4.5vw;
   color: white;
   font-family: RobotoBk;
   font-weight: 900;
-  letter-spacing: 0.5vw;
+
+}
+.phoneСaptionChild{
+  width: 45%;
+ 
+}
+.childHr{
+  width: 5px;
+  height: 100%;
+  background-color: #eb597a;
+ 
+}
+.phoneСaptionChild2{
+  font-size: 1.2vw;
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+    width: 40%;
+
 }
 
 .fhoneBlock{
@@ -1767,7 +1790,7 @@ transition: font-size 0.2s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
-  font-size: 1vw;
+  font-size: 0.8vw;
   height: 50px;
 }
 
@@ -1775,14 +1798,14 @@ transition: font-size 0.1s linear;
  .fhoneBlock .fhoneSubmit{
   border-style: none;
   font-family: Robotobk;
-  font-size: 1.2em; 
+  font-size: 1.3em; 
   background-color: transparent;
-  width: 25%;
+  width: 30%;
   height: 15%;
   padding-left: 0;
   color: white;
-  letter-spacing: 5px;
-  color: #747373;
+  letter-spacing: 7px;
+  color:#747373;
   transition: color 0.1s linear;
  }
 .fhoneBlock .fhoneSubmit:hover{
@@ -1800,9 +1823,9 @@ transition: font-size 0.1s linear;
   }
    .fhoneBlock .fhoneSubmit img{
   position: relative ;
-  width: 9%;
+  width: 3%;
   top: -5px;
-  left: -15%;
+  left: -18%;
    transition: left .2s linear;
   }
 
@@ -1812,10 +1835,25 @@ transition: font-size 0.1s linear;
      width: 85%;
 }
    .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 5%;
+     left: 1%;
 }
 
-
+.fhoneImg{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.fhoneImgChild{
+width: 10%;
+height: 70%;
+background-image: url('../img/arr1.png');
+background-position: 50%;
+}
 
 
 
