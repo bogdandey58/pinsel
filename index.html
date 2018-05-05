@@ -27,29 +27,6 @@
 	<script src="js/wow.min.js"></script>
 	<script> new WOW().init();</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <script>
-        $(window).on('load', function () {
-            $('.ma5slider').ma5slider();
-            // Methods
-            $('#example-34').ma5slider('goToSlide', 3);
-            // Calls
-            $('#example-34').on('ma5.animationStart', function () {
-                console.log('event animationStart');
-            });
-            $('#example-34').on('ma5.animationEnd', function () {
-                console.log('event animationEnd');
-            });
-            $('#example-34').on('ma5.firstSlide', function () {
-                console.log('event firstSlide');
-            });
-            $('#example-34').on('ma5.lastSlide', function () {
-                console.log('event lastSlide');
-            });
-            $('#example-34').on('ma5.activeSlide', function (event, slide) {
-                console.log( 'event activeSlide: ' + slide );
-            });
-        });
-    </script> -->
     <script type="text/javascript">$(window).on('load', function () {
     var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.svg_anm');
@@ -269,7 +246,7 @@
 <br>
 
 <!-- The dots/circles -->
-<div style="text-align:center; z-index: 9999">
+<div class="dots" style="text-align:center;">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span>
@@ -301,7 +278,6 @@
 	<div id="formask">
 		<p class="formaskpar" style="margin-top: 45px; margin-left: 10%; font-family: RobotoLight; font-size: 55px; position: absolute; color: white">ОБСУДИМ<span class="pink">?</span></p>
 		<div class="clear"></div>
-		<!-- <img class="dotask" src="img/dot.png" alt=""> -->
 	<div class="callbackform">
 		<div class="form">
 			<div class="peaceform">	

@@ -1,10 +1,14 @@
 #portfolio{
     width: 100%;
     height:95vh;
+    margin-top: 0%;
+}
+#portfolio img{
+	width: 100%;
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 2000px;
+  max-width: 100%;
   max-height: 95vh;
   position: relative;
   margin: auto;
@@ -18,11 +22,11 @@
 
 /* Next & previous buttons */
 .prev, .next {
-	height: 5%;
-	right: 1.5%;
+	height: 7%;
+	right: 4%;
 	cursor: pointer;
 	position: absolute;
-	top: 15%;
+	top: 10%;
 	width: auto;
 	padding: 16px;
 	color: white;
@@ -37,13 +41,13 @@
 
 /* Position the "next button" to the right */
 .next {
-	top: 85%;
+	top: 82%;
 	transform: rotate(180deg);
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-image: 
 }
 
 /* Caption text */
@@ -68,19 +72,27 @@
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  z-index: 9999;
+  	cursor: pointer;
+    height: 3vw;
+    width: 11px;
+    margin: 0.5% 50px;
+    background-image: url(../img/dotport.png);
+    background-position: 50%;
+    background-size: 1px 100%;
+    display: inline-block;
+}
+.dots{
+	transform: rotate(90deg);
+	margin-right: -90%;
+	margin-top: -54vh;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  	background-image: url(../img/dotporthov.png);
+}
+.active{
+	height: 4vw;
+  	margin: 0 50px;
 }
 
 /* Fading animation */
@@ -101,68 +113,77 @@
   to {opacity: 1}
 }
 
-.aboutproject p{
+.aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p{
     display: block;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 20%;
     font-family: RobotoBk;
     font-size: 200px;
     letter-spacing: 100px;
     opacity: 0.3;
 	color: white;
-	z-index: -2;
+	z-index: 3;
 }
 .aboutproject1, .aboutproject2, .aboutproject3, .aboutproject4, .aboutproject5 {
 	background-image: url(../img/backexample1.jpg);
 	width: 100vw;
 	height: 100%;
+	background-size: 100%;
 }
 .aboutproject2{
 	background-image: url(../img/portimgsm.jpg);
 }
+.aboutproject2{
+	background-image: url(../img/setwalls.ru-63171.jpg);
+}
+
 .aboutproject4 {
 	background-image: url(../img/portimgsm.jpg);
 }
 
 .imgabout {
+	position: absolute;
 	border: solid white 0px;
 	width: 40%;
-	height: 45%;
+	height: 40%;
 	margin: 0 auto;
-	margin-top: 5%;
-	z-index: 3;
+	margin-top: 3%;
+	margin-left: 30%;
 	transition: 300ms;
 	background-image: url(../img/example1.jpg); 
 	background-size: 100%;
 	background-position: 0 100%;
+	z-index: 5;
 }
 .imgabout:hover {
 	width: 39%;
-	height: 43%;
+	height: 38%;
 	border: solid white 10px;
 }
 
 .textproject{
-	width: 30%;
-	font-size: 15px;
-	color: white;
-	margin-left: 29%;
-	margin-top: 5%;
+	position: absolute;
+    width: 40%;
+    font-size: 1em;
+    color: white;
+    margin-left: 30%;
+    margin-top: 27%;
+    letter-spacing: 0.1em;
 }
 .alljobs {
     width: 9%;
     height: 4%;
     background-color: transparent;
-    margin-left: 65%;
-    margin-top: 3%;
-    position: relative;
+    margin-left: 70%;
+    margin-top: 40%;
+    position: absolute;
 }
 .alljobs p{
 	font-family: RobotoLight;
     margin-top: 0%;
     margin-left: 8%;
-    font-size: 0.3em;
+    font-size: 1em;
     letter-spacing: 5px;
     color: white;
     z-index: 1;
@@ -170,25 +191,25 @@
 }
 .alljobs img {
     position: absolute;
-    margin-top: 13%;
-    margin-left: 35%;
+    margin-top: 17%;
+    margin-left: 5%;
     transition: 300ms;
 }
 .alljobs hr {
 	width: 30%;
 	color: white;
 	float: left;
-	margin-top: 14.5%;
+	margin-top: 18.5%;
 	transition: 300ms;
 }
 
 .alljobs:hover hr {
 	color: #ff557d;
-  	width: 80%;
+  	width: 85%;
   	transition: 300ms;
 }
 .alljobs:hover img {
-	margin-left: 85%;
+	margin-left: 5%;
 	transition: 300ms;
 }
 .alljobs:hover p{
