@@ -321,6 +321,17 @@ function myMove(){
     }
 
 
+function inputText(){
+      var inputText = document.getElementById('inputText');
+      inputText.style.fontSize =  1.6+ "vw"; 
+    }
+    function inputText2(){
+      var inputText2 = document.getElementById('inputText2');
+      inputText2.style.fontSize =  1.6+ "vw"; 
+    }
+  
+  
+
 
 
 

@@ -1693,7 +1693,7 @@ input{
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -100%;
+    top: 0%;
     background-color: #1c1a1a;
     position:fixed;
     z-index: 350;
@@ -1730,15 +1730,26 @@ cursor: pointer;
 }
 
 .fhoneBlock{
-  background-color: yellow;
-  display: flex;
   width: 50%;
-  height: 35%;
-  margin-left: 10%;
+  height:20%;
+  margin-left: 25%;
+  margin-top: 12%;
+  display: flex;
   justify-content: space-between;
- flex-direction: 
+ flex-direction: column;
 
 }
+.fhoneInput1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fhoneInput2{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
 .fhoneBlock input{
 border-style: none;
 font-family: Raleway-Thin;
@@ -1746,7 +1757,7 @@ font-size: 1.6em;
 background-color: transparent;
 border-bottom: 1px solid white;
 display: flex;
-height: 15%;
+height: 50px;
 width: 33%;
 padding-left: 2%;
 color: #747373;
@@ -1756,19 +1767,21 @@ transition: font-size 0.2s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
-  font-size: 1.2vw;
+  font-size: 1vw;
+  height: 50px;
 }
+
 
  .fhoneBlock .fhoneSubmit{
   border-style: none;
   font-family: Robotobk;
-  font-size: 1.5em; 
+  font-size: 1.2em; 
   background-color: transparent;
-  width: 10%;
+  width: 25%;
   height: 15%;
   padding-left: 0;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   color: #747373;
   transition: color 0.1s linear;
  }

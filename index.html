@@ -551,13 +551,16 @@
 
 <div class="fhoneBlock">
 
-<input type="text" placeholder="Имя">
-<input type="text" placeholder="Номер телефона" >
-<button class="fhoneSubmit">
-	 Заказать звонок 
-	<hr><img src="img/triangleportf.png" alt="">
-</button>
-
+    <div class="fhoneInput1">
+         <input type="text" id="inputText" placeholder="Имя" oninput ="inputText()">
+    <input type="text" id="inputTex2" placeholder="Номер телефона" oninput="inputText2()">
+    </div>
+    <div class="fhoneInput2">
+          <button class="fhoneSubmit" >
+	           Заказать звонок 
+	       <hr><img src="img/triangleportf.png" alt="">
+            </button>
+      </div>
 </div>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
