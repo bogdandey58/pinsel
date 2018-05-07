@@ -1019,7 +1019,7 @@ button.order:hover, button.order:active {
     overflow: scroll;
 }
     .footer_addr {
-    margin-left: 11%;
+    margin-left: 12.2%;
     margin-top: 3%;
     color: #b3b3b3;
     width: 23%;
@@ -1029,7 +1029,7 @@ button.order:hover, button.order:active {
 .f_email {
     width: 10%;
     font-family: Raleway-Thin;
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: #b3b3b3;
 }
  
@@ -1044,13 +1044,13 @@ button.order:hover, button.order:active {
  
 .f_phone {
     font-family: Raleway-Bold;
-    font-size: 1.4em;
+    font-size: 1.1em;
     text-decoration: none;
-    width: 80%;
+    width: 51%;
     padding-top: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     padding-left: 2%;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 .f_phone >a:active,.f_phone > a:link,.f_phone > a:link,.f_phone > a:visited {
     border-style: none;
@@ -1061,8 +1061,8 @@ button.order:hover, button.order:active {
 }
 .f_addr {
     width: 80%;
-    font-family: Raleway-Thin;
-    font-size: 1.5em;
+    font-family: RalewayThin;
+    font-size: 1.2em;
     color: #b3b3b3;
 }
 .footers {
@@ -1093,7 +1093,7 @@ form.contact_form {
  
 .p_footask{
   font-family: Robotobk;
-  font-size: 60px;
+  font-size:3em;
   letter-spacing: 20px;
   color: white;
   margin-left: 12%;
@@ -1101,7 +1101,7 @@ form.contact_form {
 }
  
 input#fcontact_form {
-    width: 25%;
+    width: 20%;
     border: none;
     border-bottom: 1px solid #b3b3b3;
     color: #b3b3b3;
@@ -1109,19 +1109,19 @@ input#fcontact_form {
     float: left;
     display: inline;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 5%;
-    height: 80px;
+    height: 40px;
     -webkit-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
     background: transparent;
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
  
  #fcontact_form:active {
-    font-size: 19px;
+    font-size: 0.9em;
     color: #fff;
     border-style: none;
     border-bottom: 2px solid #fff;
@@ -1134,7 +1134,7 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 0.9em;
     margin-bottom: -1px;
  } 
  
@@ -1142,17 +1142,17 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 0.9em;
     margin-bottom: -1px;
  } 
  
 button.fsubmit {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-left: 74%;
-    margin-top: -3.3%;
+    margin-top: -2%;
     font-family: RobotoBk;
-    font-size: 1.4em;
+    font-size: 1.1em;
     display: inline-block;
     border-style: none;
     color: #b3b3b3;
@@ -1211,7 +1211,7 @@ button.fsubmit:hover > img {
  .f_icons {
     width: 20%;
     margin-top: 10%;
-    margin-left: 45%;
+    margin-left: 41.5%;
 }
  
 .f_icons >img {
@@ -1234,7 +1234,7 @@ button.fsubmit:hover > img {
  
  .footer_lt {
     color: #b3b3b3;
-    font-family: Raleway-Thin;
+    font-family: RalewayThin;
     font-size: 1.9em;
     text-align: center;
     padding-top: 50%;
@@ -1329,7 +1329,7 @@ cursor: pointer;
 }
 .fhoneBlock input{
 border-style: none;
-font-family: Raleway-Thin;
+font-family: RalewayThin;
 font-size: 1.6em; 
 background-color: transparent;
 border-bottom: 1px solid white;
@@ -1460,7 +1460,7 @@ cursor: pointer;
 }
 .fhoneBlock input{
 border-style: none;
-font-family: Raleway-Thin;
+font-family: RalewayThin;
 font-size: 1.4em; 
 background-color: transparent;
 border-bottom: 1px solid white;
@@ -1471,13 +1471,8 @@ height: 15%;
 width: 33%;
 padding-left: 2%;
 color: #747373;
-<<<<<<< HEAD
 transition: font-size 0.2s linear;
-=======
--webkit-transition: font-size 0.1s linear;
--o-transition: font-size 0.1s linear;
-transition: font-size 0.1s linear;
->>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
+
 }
 .fhoneBlock input:focus{
   font-size: 1.2vw;
@@ -1623,7 +1618,7 @@ cursor: pointer;
 
 .fhoneBlock input{
 border-style: none;
-font-family: Raleway-Thin;
+font-family: RalewayThin;
 font-size: 1.6em; 
 background-color: transparent;
 border-bottom: 1px solid white;

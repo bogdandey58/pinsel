@@ -1020,7 +1020,7 @@ button.order:hover, button.order:active {
     position: relative;
 }
     .footer_addr {
-    margin-left: 11%;
+    margin-left: 12.4%;
     margin-top: 5%;
     color: #b3b3b3;
     width: 18%;
@@ -1031,7 +1031,7 @@ button.order:hover, button.order:active {
 .f_email {
     width: 10%;
     font-family: Raleway-Thin;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #b3b3b3;
 }
  
@@ -1046,9 +1046,9 @@ button.order:hover, button.order:active {
  
 .f_phone {
     font-family: Raleway-Bold;
-    font-size: 1.6em;
+    font-size: 1.3em;
     text-decoration: none;
-    width: 80%;
+    width: 70%;
     padding-top: 5%;
     padding-bottom: 4%;
     padding-left: 2%;
@@ -1063,8 +1063,8 @@ button.order:hover, button.order:active {
 }
 .f_addr {
     width: 80%;
-    font-family: Raleway-Thin;
-    font-size: 1.9em;
+    font-family: RalewayThin;
+    font-size: 1.45em;
     color: #b3b3b3;
 }
 .footers {
@@ -1088,6 +1088,15 @@ button.order:hover, button.order:active {
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
+.footpar {
+    color: white;
+    width: 30%;
+    margin-left: 36.5%;
+    margin-top: 34%;
+    font-size: 1.2em;
+    font-family: RalewayThin;
+    letter-spacing: 0.2em;
+}
  
 form.contact_form {
     margin-top: 6%;
@@ -1095,7 +1104,7 @@ form.contact_form {
  
 .p_footask{
   font-family: Robotobk;
-  font-size: 60px;
+  font-size: 3em;
   letter-spacing: 20px;
   color: white;
   margin-left: 12%;
@@ -1103,7 +1112,7 @@ form.contact_form {
 }
  
 input#fcontact_form {
-    width: 25%;
+    width: 23%;
     border: none;
     border-bottom: 1px solid #b3b3b3;
     color: #b3b3b3;
@@ -1111,19 +1120,19 @@ input#fcontact_form {
     float: left;
     display: inline;
     margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 80px;
+    margin-left: 8%;
+    margin-right: -2%;
+    height: 65px;
     -webkit-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
     background: transparent;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
  
  #fcontact_form:active {
-    font-size: 19px;
+    font-size: 1em;
     color: #fff;
     border-style: none;
     border-bottom: 2px solid #fff;
@@ -1136,7 +1145,7 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 1em;
     margin-bottom: -1px;
  } 
  
@@ -1144,17 +1153,17 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 1em;
     margin-bottom: -1px;
  } 
  
 button.fsubmit {
     float: left;
     width: 20%;
-    margin-left: 74%;
+    margin-left: 66%;
     margin-top: -3%;
     font-family: RobotoBk;
-    font-size: 1.3em;
+    font-size: 1.1em;
     display: inline-block;
     border-style: none;
     color: #b3b3b3;
@@ -1186,7 +1195,7 @@ button.fsubmit hr {
     width: 40%;
     height: 1px;
     float: left;
-    margin-top: 3%;
+    margin-top: 7%;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -1197,8 +1206,8 @@ button.fsubmit hr {
 
  button.fsubmit img {
     width: 5%;
-    margin-top: 10%;
-    margin-left: -50%;
+    margin-top: 12%;
+    margin-left: -45%;
     position: absolute;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -1207,13 +1216,13 @@ button.fsubmit hr {
 
 
 button.fsubmit:hover > img {
-  margin-left: -6%;
+  margin-left: 0%;
 }
  
  .f_icons {
-    width: 17%;
+    width: 15%;
     margin-top: 15%;
-    margin-left: 47%;
+    margin-left: 38%;
 }
  
 .f_icons >img {
