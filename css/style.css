@@ -934,13 +934,13 @@ button:focus {
 grid-area:5 /   12  /  65  / 35;
 cursor: pointer;
 }
-#summary #palm img{
-  width: 100%;  
-  height: 100%; 
-
-  opacity: 1;
+#summary #palm img {
+    width: 100%;
+    height: 90%;
+    margin-top: 13%;
+    margin-left: 6%;
+    opacity: 1;
 }
-
 /* #summary #mz{
 width: 100%;
 grid-area:5 /   70  /  65  / 90;
@@ -1067,7 +1067,7 @@ background-color: red;
  -ms-grid-row-span: 15;
  -ms-grid-column: 27;
  -ms-grid-column-span: 14;
- grid-area: 62/27/77/41;
+ grid-area: 62/27/75/41;
  position: relative;
  z-index: 3;
  border-left: 3px solid #ff557d;
@@ -1080,7 +1080,7 @@ background-color: red;
   -ms-grid-row-span: 7;
   -ms-grid-column: 45;
   -ms-grid-column-span: 7;
-  grid-area: 83/45/90/52;
+  grid-area: 88/32/92/42;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1093,12 +1093,12 @@ background-color: red;
           justify-content: flex-end;
   -ms-flex-line-pack: end;
       align-content: flex-end;
+     
 
  }
 .summaryBlockSubmit button{
   border-style: none;
   background-color: transparent;
-  color: #747373;
   font-size: 1vw; 
    font-family: Raleway-Bold;
   letter-spacing: 0.3vw;
@@ -1110,12 +1110,13 @@ background-color: red;
   position: absolute;
   bottom: 30%;
   color: white;
-  opacity: 0.3
+  opacity: 0.3;
+  
 
  }
 
 .summaryBlockSubmit hr{
-  width: 50%;
+  width: 35%;
   height: 2px;
   background-color: #747373; 
   margin-left: 0%;  
@@ -1134,25 +1135,24 @@ background-color: red;
    position: absolute;
    width: 10%;
    height: 10%;
-   bottom: 14%;
-   right: 35%;
+   bottom: 20%;
+   right: 50%;
    -webkit-transition: right 0.2s linear;
    -o-transition: right 0.2s linear;
    transition: right 0.2s linear;
 }
 
- .summaryBlockSubmit :hover{
+ .summaryBlockSubmit:hover > button{
   opacity: 0.7;
+  color: white;
  }
  .summaryBlockSubmit:hover > hr{
-  width: 100%;
+  width: 70%;
   background-color: #ff557d; 
  }
-.summaryBlockSubmit hr:hover > bottom{
-  opacity: 0.7;
-}
+
 .summaryBlockSubmit:hover > .BlockSubmit{
-  right: -15%;
+  right: 15%;
    }
 
 
