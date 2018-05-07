@@ -51,6 +51,10 @@ font-family: Exo2Bold;
 font-family: Exo2Regular; 
     src: url(../fonts/Exo/Exo2Regular.ttf);
 }
+@font-face {
+font-family: RalewayThin; 
+    src: url(../fonts/Releway/RalewayThin.ttf);
+}
 .pink{
     color: #ff557d;
 }
