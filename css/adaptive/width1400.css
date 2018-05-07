@@ -1494,13 +1494,11 @@ transition: font-size 0.1s linear;
   color: white;
   letter-spacing: 2px;
   color: #747373;
-<<<<<<< HEAD
  transition: color 0.2s linear;
-=======
  -webkit-transition: color 0.1s linear;
  -o-transition: color 0.1s linear;
  transition: color 0.1s linear;
->>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
+
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;
@@ -1512,13 +1510,11 @@ transition: font-size 0.1s linear;
     float: left;
     height: 2px;
     background-color: #747373; 
-<<<<<<< HEAD
-    transition: width 0.2s linear;
-=======
+
+
     -webkit-transition: width 0.1s linear; 
     -o-transition: width 0.1s linear; 
     transition: width 0.1s linear;
->>>>>>> bf59dd0bc29852c84d68286ed12bae56e32eb1b0
   }
   .fhoneBlock .fhoneSubmit img {
     position: relative;
@@ -1535,4 +1531,174 @@ transition: font-size 0.1s linear;
    .fhoneBlock .fhoneSubmit:hover >  img{
      left: 5%;
 }
+
    
+
+#pfoneBlockForm{
+    width: 100vw;
+    height:100vh; 
+    left: 0;
+    top: -100%;
+    background-color: #1c1a1a;
+    position:fixed;
+    z-index: 350;
+    display:block;
+    color: #ffffff;
+
+}
+
+#phoneOff{
+width: 1.5%;
+height: 3%;
+position: absolute;
+top: 2%;
+right: 2%;
+font-size: 4.4vw;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.phoneСaption{
+  width: 100%;
+  height: 15%;
+  margin-left: 8%;
+  margin-top: 2%;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  font-size: 4.5vw;
+  color: white;
+  font-family: RobotoBk;
+  font-weight: 900;
+
+}
+.phoneСaptionChild {
+    width: 45%;
+}
+.childHr{
+  width: 5px;
+  height: 100%;
+  background-color: #eb597a;
+ 
+}
+.phoneСaptionChild2{
+  font-size: 1.1vw;
+  letter-spacing: 1px;
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+ width: 50%;
+ color: #747373;
+
+}
+.phoneСaptionChild2 p{
+    width: 95%;
+}
+
+.fhoneBlock{
+  width: 50%;
+  height:20%;
+  margin-left: 25%;
+  margin-top: 12%;
+  display: flex;
+  justify-content: space-between;
+ flex-direction: column;
+
+}
+.fhoneInput1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fhoneInput2{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.fhoneBlock input{
+border-style: none;
+font-family: Raleway-Thin;
+font-size: 1.6em; 
+background-color: transparent;
+border-bottom: 1px solid white;
+display: flex;
+height: 50px;
+width: 33%;
+padding-left: 2%;
+color: #747373;
+transition: font-size 0.2s linear;
+-webkit-transition: font-size 0.1s linear;
+-o-transition: font-size 0.1s linear;
+transition: font-size 0.1s linear;
+}
+.fhoneBlock input:focus{
+  font-size: 0.8vw;
+  height: 50px;
+}
+
+
+ .fhoneBlock .fhoneSubmit {
+    border-style: none;
+    font-family: Robotobk;
+    font-size: 1em;
+    background-color: transparent;
+    width: 37%;
+    height: 15%;
+    padding-left: 0;
+    color: white;
+    letter-spacing: 7px;
+    color: #747373;
+    transition: color 0.1s linear;
+}
+.fhoneBlock .fhoneSubmit:hover{
+  color: #fff;
+}
+
+
+  .fhoneBlock .fhoneSubmit hr{
+    border: none;
+    width:50%;
+    float: left;
+    height: 2px;
+    background-color: #747373; 
+    transition: width .2s linear;
+  }
+   .fhoneBlock .fhoneSubmit img{
+  position: relative ;
+  width: 3%;
+  top: 17px;
+  left: -40%;
+   transition: left .2s linear;
+  }
+
+  .fhoneBlock .fhoneSubmit:hover >  hr {
+    color: #ff557d;
+     background-color: #ff557d; 
+     width: 80%;
+}
+   .fhoneBlock .fhoneSubmit:hover >  img{
+     left: -10%;
+}
+
+.fhoneImg{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.fhoneImgChild{
+width: 10%;
+height: 70%;
+background-image: url('../../img/arr1.png');
+background-position: 50%;
+}
