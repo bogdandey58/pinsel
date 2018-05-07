@@ -619,34 +619,6 @@ button:focus {
 
 
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
-.summaryBlockSubmit {
-    -ms-grid-row: 82;
-    -ms-grid-row-span: 6;
-    -ms-grid-column: 45;
-    -ms-grid-column-span: 7;
-    grid-area: 82/45/88/52;
-}
-.BlockSubmit {
-    bottom: 13%;
-}
-#summary #blockText1{
-        -ms-grid-row: 16;
-        -ms-grid-row-span: 33;
-        -ms-grid-column: 26;
-        -ms-grid-column-span: 44;
-        grid-area: 16/26/49/70;
-}
-#summary .sieve {
-    -ms-grid-row: 18;
-    -ms-grid-row-span: 34;
-    -ms-grid-column: 55;
-    -ms-grid-column-span: 34;
-    grid-area: 18/55/52/89;
-}
-.BlockSubmit{
-    width: 8%;
-    bottom: 7%;
-}
 
 /* .aboutus {
     width: 100%;

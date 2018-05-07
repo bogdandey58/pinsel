@@ -615,22 +615,39 @@ button:focus {
 
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
 #summary #blockText2 {
-    line-height: 2.6vh;
+    line-height: 3vh;
+
 }
-.BlockSubmit {
-    bottom: 13%;
+#blockText2 span{
+  font-size: 1.5vw;  
+
 }
-.summaryBlockSubmit {
-    -ms-grid-row: 82;
-    -ms-grid-row-span: 6;
-    -ms-grid-column: 45;
-    -ms-grid-column-span: 7;
-    grid-area: 82/45/88/52;
-}
+
+
+
 .BlockSubmit{
-    width: 8%;
-    bottom: 4%;
+    bottom: 27%;
+    width: 10%;
 }
+.summaryBlockSubmit button{
+ font-size: .8vw; 
+}
+ .summaryBlockSubmit:hover > hr{
+  width: 70%;
+  
+ }
+
+.summaryBlockSubmit:hover > .BlockSubmit{
+  right: 15%;
+   }
+
+
+
+
+
+
+
+
 /* .aboutus {
     width: 100%;
     height: 95vh;
