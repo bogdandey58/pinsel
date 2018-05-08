@@ -395,7 +395,7 @@ header table {
     height: 60%;
     /*border: solid black;*/
     display: inline-block;
-    margin-top: -3%;
+    margin-top: -1%;
     margin-right: -39%;
     float: right;
 }
@@ -630,10 +630,9 @@ button:focus {
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
 #summary #blockText2{
     line-height: 3vh;
-        grid-area: 64/28/73/96;
+        grid-area: 64/28/70/96;
 
 }
-
 .summaryBlockSubmit{
       grid-area: 82/29/89/38
 }
@@ -652,9 +651,8 @@ bottom: -7%;
 
 
 .covering {
-        grid-area: 63/27/75/41;
+        grid-area: 63/27/74/41;
 }
-
 
 
 
@@ -1323,3 +1321,27 @@ button.fsubmit:hover > img {
      left: -7%;
 }
    
+   .BlockSubmit{
+    width: 9%;
+    bottom: 22%;
+}
+.BlockSubmit img{
+  width: 50%;
+
+}
+
+
+.fhoneImg{
+  width: 100%;
+  height: 20%;
+}
+.fhoneImgChild{
+width: 5%;
+height: 50%;
+background-image: url('../../img/arr1.png');
+background-position: 50%;
+background-size: 100%;
+}
+
+
+

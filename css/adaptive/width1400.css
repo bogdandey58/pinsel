@@ -622,16 +622,23 @@ button:focus {
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
 
 #summary .sieve{
-    -ms-grid-row: 18;
-    -ms-grid-row-span: 30;
-    -ms-grid-column: 55;
-    -ms-grid-column-span: 34;
+
     grid-area: 18/55/48/89;
 }
 .BlockSubmit{
     width: 9%;
-    bottom: 20%;
+    bottom: 22%;
 }
+.BlockSubmit img{
+  width: 50%;
+
+}
+.covering {
+        grid-area: 63/27/74/41;
+}
+
+
+
 
 /* .aboutus {
     width: 100%;
@@ -1692,8 +1699,9 @@ transition: font-size 0.1s linear;
  
 }
 .fhoneImgChild{
-width: 10%;
-height: 70%;
+width: 5%;
+height: 50%;
 background-image: url('../../img/arr1.png');
 background-position: 50%;
+background-size: 100%;
 }
