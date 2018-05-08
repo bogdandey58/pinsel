@@ -56,14 +56,14 @@ a {
 .contpre small{font-size:25px;}
  
 .contpre{
-width: 250px;
-height: 100px;
-margin-left: 42%;
-margin-top: 20%;
+width: 45%;
+height: 10%;
+margin-left: 27%;
+margin-top: 8%;
 position: absolute;
 }
 .contpre img{
-  width: 200px;
+  width: 100%;
 }
 
 
