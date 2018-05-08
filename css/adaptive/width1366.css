@@ -9,27 +9,26 @@ body {
     background-color:  #1c1a1a;
 }
 #p_prldr{
-    position: fixed;
-    left: 0px;
-    top: 0;
-    right:0;
-    bottom:0;
-    background: #1c1a1a;
-    z-index: 1000;}
+  position: fixed;
+  left: 0px;
+  top: 0;
+  right:0;
+  bottom:0;
+  background: #1c1a1a;
+  z-index: 1000;}
  
 .contpre small{font-size:25px;}
  
 .contpre{
-width: 250px;
-height: 100px;
-margin-left: 42%;
-margin-top: 20%;
+width: 45%;
+height: 10%;
+margin-left: 27%;
+margin-top: 8%;
 position: absolute;
 }
 .contpre img{
-    width: 200px;
+  width: 100%;
 }
-
 
 header {
     width: 100%;
