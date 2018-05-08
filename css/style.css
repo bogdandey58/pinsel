@@ -11,6 +11,7 @@ img { pointer-events: none;
 body {
   margin: 0;
   padding: 0;
+  background-color:  #1c1a1a;
 } 
 a {
   text-decoration: none;
@@ -505,6 +506,7 @@ header table {
     /*background-position: 130px;*/
     background-image: url(../img/backserv.png);
     background-repeat: no-repeat;
+    background-color:  #fff;
 }
 .linetop {
     width: 6%;
