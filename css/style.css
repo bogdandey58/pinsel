@@ -714,14 +714,14 @@ header table {
 .input {
   color: white; 
   background-color: #1c1a1a;
-  font-size: 14px;
+  font-size: 1.1em;
   height: 4vh;
   margin: 0;
     outline: none;
-    padding: 0 10px;
+    padding: 0 0px;
     border-style: none;
     border-bottom: solid white 1px;
-    margin-bottom: 11%;
+    margin-bottom: 12%;
 }
 .lt-ie9 .input {
   margin-bottom: 13%;
@@ -733,16 +733,26 @@ header table {
     border: none;
     color: white;  
 }
-.infield-label label {
+/*.infield-label label {
   color: white;
     cursor: text;
     font-size: 20px;
     padding: 0 10px;
     position: absolute;
     font-family: RobotoLight;
-}
+}*/
 
-.placeholder-focus label {
+.input:active {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 0.9em;
+ } 
+.input:focus {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 0.9em;
+ } 
+/*.placeholder-focus label {
     background-color:transparent;
     bottom: auto;
     color: white;
@@ -760,7 +770,7 @@ header table {
     left: -9999px;
     right: auto;
     top: -9999px;
-}
+}*/
 /*.comment {
   width: 35%;
   margin-top: 20%;
@@ -1488,7 +1498,7 @@ button.order:hover, button.order:active {
 }
 .f_addr {
     width: 80%;
-    font-family: Raleway-Thin;
+    font-family: RalewayThin;
     font-size: 1.4em;
     color: #b3b3b3;
 }
@@ -1548,7 +1558,7 @@ input#fcontact_form {
 
  
  #fcontact_form:active {
-  font-size: 19px;
+  font-size: 1em;
   color: #fff;
   border-style: none;
   border-bottom: 2px solid #fff;
@@ -1561,7 +1571,7 @@ input#fcontact_form {
   border-style: none;
   border-bottom: 2px solid #fff;
   color: #fff;
-  font-size: 19px;
+  font-size: 1em;
   margin-bottom: -1px;
  } 
  
@@ -1569,7 +1579,7 @@ input#fcontact_form {
   border-style: none;
   border-bottom: 2px solid #fff;
   color: #fff;
-  font-size: 19px;
+  font-size: 1em;
   margin-bottom: -1px;
  } 
  
@@ -1663,7 +1673,7 @@ button.fsubmit:hover > img {
  
  .footer_lt {
     color: #b3b3b3;
-    font-family: Raleway-Thin;
+    font-family: RalewayThin;
     font-size: 1.9em;
     text-align: center;
     padding-top: 50%;
