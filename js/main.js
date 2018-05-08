@@ -308,7 +308,7 @@ function myMove(){
         var pos = 0;
         var id = setInterval(frame,0.3);
         function frame(){
-            if(pos == -100){
+            if(pos == -105){
                 clearInterval(id);
             } 
             else {

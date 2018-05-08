@@ -1705,7 +1705,7 @@ input{
     left: 0;
     top: -100%;
     background-color: #1c1a1a;
-    position:fixed;
+    position: fixed ;
     z-index: 350;
     display:block;
     color: #ffffff;
@@ -1716,6 +1716,7 @@ input{
 width: 1.5%;
 height: 3%;
 position: absolute;
+z-index: 200;
 top: 2%;
 right: 2%;
 font-size: 4.4vw;

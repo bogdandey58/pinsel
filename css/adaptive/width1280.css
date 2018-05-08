@@ -618,7 +618,20 @@ button:focus {
 }
 
 
+
+
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
+
+
+.BlockSubmit{
+    width: 9%;
+    bottom: 35%;
+}
+.BlockSubmit img{
+  width: 55%;
+
+}
+
 
 /* .aboutus {
     width: 100%;
@@ -1280,6 +1293,6 @@ input{
      left: -1%;
 }
 .fhoneImgChild {
-        background-size:  60%; 
+        background-size:  90%; 
     }
    

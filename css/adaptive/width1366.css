@@ -392,11 +392,11 @@ header table {
 }
 
 .parallelogram {
-    width: 60%;
-    height: 60%;
+    width: 55%;
+    height: 50%;
     /* border: solid black; */
     display: inline-block;
-    margin-top: -5%;
+    margin-top: 4%;
     margin-right: -44%;
     float: right;
 }
@@ -630,7 +630,7 @@ button:focus {
     width: 10%;
 }
 .summaryBlockSubmit button{
- font-size: .8vw; 
+ font-size: .9vw; 
 }
  .summaryBlockSubmit:hover > hr{
   width: 70%;
@@ -640,6 +640,14 @@ button:focus {
 .summaryBlockSubmit:hover > .BlockSubmit{
   right: 15%;
    }
+.BlockSubmit{
+    width: 9%;
+    bottom: 30%;
+}
+.BlockSubmit img{
+  width: 60%;
+
+}
 
 
 
@@ -1283,6 +1291,15 @@ input{
 
 
 /* выпадающее окно при нажатии на телефон */
+#pfoneBlockForm{
+ top: -90%;
+}
+
+#pfoneBlockForm{
+    width: 100vw;
+    height:100vh; 
+  
+}
 
 .phoneСaption{
     height: 18%;
@@ -1300,5 +1317,6 @@ width: 32%;
 }
 
 .fhoneImgChild {
-        background-size:  100%; 
+        background-size:  90%; 
     }
+
