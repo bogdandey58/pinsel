@@ -1878,5 +1878,8 @@ background-image: url('../img/arr1.png');
 background-position: 50%;
 }
 
+.fhoneImgChild:hover{
+  background-size: 40%;
+}
 
 

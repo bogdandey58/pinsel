@@ -1330,4 +1330,7 @@ width: 32%;
 .fhoneImgChild {
         background-size:  90%; 
     }
+.fhoneImgChild:hover{
+  background-size: 70%;
+}
 
