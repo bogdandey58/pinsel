@@ -1705,3 +1705,6 @@ background-image: url('../../img/arr1.png');
 background-position: 50%;
 background-size: 100%;
 }
+.fhoneImgChild:hover{
+  background-size: 80%;
+}
