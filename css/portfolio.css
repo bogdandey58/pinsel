@@ -47,7 +47,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-image: 
+  background-image: url(../img/btnportfhov.png);
 }
 
 /* Caption text */
@@ -150,15 +150,15 @@
 	margin: 0 auto;
 	margin-top: 3%;
 	margin-left: 30%;
-	transition: 300ms;
+	transition: 100ms;
 	background-image: url(../img/example1.jpg); 
 	background-size: 100%;
 	background-position: 0 100%;
 	z-index: 5;
 }
 .imgabout:hover {
-	width: 39%;
-	height: 38%;
+	width: 38.98%;
+	height: 37.8%;
 	border: solid white 10px;
 }
 
