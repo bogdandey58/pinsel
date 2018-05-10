@@ -1719,10 +1719,10 @@ input{
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -100%;
+    top: -120%;
     background-color: #1c1a1a;
     position: fixed ;
-    z-index: 350;
+    z-index: 900;
     display:block;
     color: #ffffff;
 
@@ -1879,6 +1879,7 @@ width: 10%;
 height: 70%;
 background-image: url('../img/arr1.png');
 background-position: 50%;
+transition:  background-size 0.1s linear;
 }
 
 .fhoneImgChild:hover{
