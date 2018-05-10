@@ -1243,14 +1243,23 @@ button.fsubmit:hover > img {
     padding-right: 0;
 }
  
- #footer_logo {
-    width: 25%;
+#footer_logo {
+    width: 19%;
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 35%;
-    padding-left: 38%;
+    margin-top: 32%;
+    padding-left: 41%;
     float: left;
+}
+.footpar {
+    color: white;
+    width: 30%;
+    margin-left: 36.5%;
+    margin-top: 36%;
+    font-size: 1em;
+    font-family: RalewayThin;
+    letter-spacing: 0.2em;
 }
  
  .footer_lt {
