@@ -1721,7 +1721,7 @@ input{
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: 0%;
+    top: -120%;
     background-color: #1c1a1a;
     position: fixed ;
     z-index: 900;
@@ -1831,14 +1831,12 @@ height: 50px;
 width: 33%;
 padding-left: 2%;
 color: #747373;
-transition: font-size 0.2s linear;
--webkit-transition: font-size 0.1s linear;
--o-transition: font-size 0.1s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
   font-size: 0.8vw;
   height: 50px;
+  color: white;
 }
 
  .fhoneBlock .fhoneSubmit{
@@ -1853,6 +1851,7 @@ transition: font-size 0.1s linear;
   letter-spacing: 7px;
   color:#747373;
   transition: color 0.1s linear;
+  color: white;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;

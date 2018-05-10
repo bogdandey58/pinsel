@@ -1270,12 +1270,15 @@ input{
 
 /* выпадающее окно при нажатии на телефон */
 
-.phoneСaptionChild2 {
-    font-size: 1vw;
+
+.phoneСaption{
+ 
+    font-size: 3.8vw;
 }
-.phoneСaption {
-        font-size: 4.7vw;
-        letter-spacing: 5px;   
+.phoneСaptionChild2 {
+    justify-content: flex-start;
+    font-size: 1.2vw;
+    width: 50%;
 }
 
 .fhoneBlock .fhoneSubmit img {

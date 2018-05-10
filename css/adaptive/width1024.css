@@ -1290,15 +1290,20 @@ input{
     outline:none;
 }
 /* выпадающее окно при нажатии на телефон */
-
+#pfoneBlockForm{
+ top: 0%;
+}
 .childHr {
     width: 3px;
     height: 100%;
     background-color: #eb597a;
 }
+.phoneСaptionChild{
+    font-size: 4.2vw;
+}
 .phoneСaptionChild2 {
-    font-size: 1.2vw;
-    letter-spacing: 1px;
+    font-size: 1.1vw;
+    l
  
 }
 .phoneСaption {
