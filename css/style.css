@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:  #1c1a1a;
+  overflow-x: hidden;
 } 
 a {
   text-decoration: none;
@@ -719,21 +720,23 @@ header table {
   font-size: 1.1em;
   height: 4vh;
   margin: 0;
-    outline: none;
-    padding: 0 0px;
-    border-style: none;
-    border-bottom: solid white 1px;
-    margin-bottom: 12%;
+  outline: none;
+  padding: 0 0px;
+  border-style: none;
+  border-bottom: solid white 1px;
+  margin-bottom: 9%;
+  margin-left: -10%;
+  width: 85%
 }
 .lt-ie9 .input {
   margin-bottom: 13%;
-    border: none;
-    color: black;    
+  border: none;
+  color: black;
 }
 .infield-label {
   position: relative;
-    border: none;
-    color: white;  
+  border: none;
+  color: white;  
 }
 /*.infield-label label {
   color: white;
@@ -805,6 +808,7 @@ header table {
   height: 200px;
   resize: none;
   padding: 3%;
+  margin-left: 15%
 }
  
 /*.comment textarea::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
@@ -827,7 +831,7 @@ header table {
   font-family: Raleway-ExtraBold;
   background-color: transparent;
   margin-top: -2%;
-  margin-left: 45%;
+  margin-left: 50%;
   border:none;
   font-size: 25px;
   width: 15%;
