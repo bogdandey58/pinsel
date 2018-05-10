@@ -1485,9 +1485,10 @@ button.order:hover, button.order:active {
     text-decoration: none;
     width: 63%;
     padding-top: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 7%;
     padding-left: 2%;
     border-bottom: 2px solid #fff;
+
 }
 .f_phone >a:active,.f_phone > a:link,.f_phone > a:link,.f_phone > a:visited {
   border-style: none;
@@ -1495,12 +1496,15 @@ button.order:hover, button.order:active {
   color:#fff;
   -webkit-animation: trianlet 300ms;
           animation: trianlet 300ms;
+
 }
 .f_addr {
     width: 80%;
     font-family: RalewayThin;
     font-size: 1.4em;
     color: #b3b3b3;
+    margin-top: 5%;
+
 }
 .footers {
   width: 100%;
@@ -1814,7 +1818,6 @@ transition: font-size 0.1s linear;
   font-size: 0.8vw;
   height: 50px;
 }
-
 
  .fhoneBlock .fhoneSubmit{
   border-style: none;
