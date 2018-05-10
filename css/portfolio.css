@@ -1,5 +1,5 @@
 #portfolio{
-    width: 100%;
+    width: 99vw;
     height:95vh;
     margin-top: 0%;
 }
@@ -26,7 +26,7 @@
 	right: 4%;
 	cursor: pointer;
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	width: auto;
 	padding: 16px;
 	color: white;
@@ -72,14 +72,14 @@
 
 /* The dots/bullets/indicators */
 .dot {
-  	cursor: pointer;
-    height: 3vw;
-    width: 11px;
-    margin: 0.5% 50px;
-    background-image: url(../img/dotport.png);
-    background-position: 50%;
-    background-size: 1px 100%;
-    display: inline-block;
+  cursor: pointer;
+  height: 2.9vw;
+  width: 11px;
+  margin: 0.5% 25px;
+  background-image: url(../img/dotport.png);
+  /* background-position: 50%; */
+  background-size: 1px 100%;
+  display: inline-block;
 }
 .dots{
 	transform: rotate(90deg);
@@ -127,7 +127,7 @@
 }
 .aboutproject1, .aboutproject2, .aboutproject3, .aboutproject4, .aboutproject5 {
 	background-image: url(../img/backexample1.jpg);
-	width: 100vw;
+	width: 99.1vw;
 	height: 100%;
 	background-size: 100%;
 }
@@ -144,23 +144,33 @@
 
 .imgabout {
 	position: absolute;
-	border: solid white 0px;
-	width: 40%;
-	height: 40%;
-	margin: 0 auto;
-	margin-top: 3%;
-	margin-left: 30%;
-	transition: 100ms;
-	background-image: url(../img/example1.jpg); 
-	background-size: 100%;
-	background-position: 0 100%;
-	z-index: 5;
+  border: solid white 0px;
+  width: 55%;
+  height: 55%;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-left: 22.5%;
+  transition: 100ms;
+  background-image: url(../img/example1.jpg);
+  background-size: 100%;
+  background-position: 0 100%;
+  z-index: 5;
+}
+.imgabout p{
+  width: 65%;
+  color: white;
+  opacity: 1;
+  font-size: 1em;
+  letter-spacing: 5px;
+  text-align:justify;
 }
 .imgabout:hover {
-	width: 38.98%;
-	height: 37.8%;
+	width: 53.98%;
+	height: 52.8%;
 	border: solid white 10px;
+  background-image: url(../img/example1hov.jpg); ;
 }
+
 
 .textproject{
 	position: absolute;
