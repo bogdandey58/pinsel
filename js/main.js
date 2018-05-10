@@ -294,7 +294,7 @@ var olo = 100;
 function myMove(){
         var elem = document.getElementById('pfoneBlockForm');
         var pos = -100;
-        var id = setInterval(frame,0.3);
+        var id = setInterval(frame,0.1);
         function frame(){
             if(pos == 0){
                 clearInterval(id);
@@ -309,9 +309,9 @@ function myMove(){
     function myMov2(){
         var elem = document.getElementById('pfoneBlockForm');
         var pos = 0;
-        var id = setInterval(frame,0.3);
+        var id = setInterval(frame,0.1);
         function frame(){
-            if(pos == -105){
+            if(pos == -120){
                 clearInterval(id);
             } 
             else {

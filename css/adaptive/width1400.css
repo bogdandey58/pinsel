@@ -1539,7 +1539,7 @@ transition: font-size 0.2s linear;
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -100%;
+    top: 0%;
     background-color: #1c1a1a;
     position:fixed;
     z-index: 350;
@@ -1563,14 +1563,14 @@ cursor: pointer;
 }
 
 .phoneСaption{
-  width: 100%;
+  width: 88%;
   height: 15%;
   margin-left: 8%;
   margin-top: 2%;
   display: flex;
   justify-content:space-between ;
   align-items: center;
-  font-size: 4.5vw;
+  font-size: 4.2vw;
   color: white;
   font-family: RobotoBk;
   font-weight: 900;
@@ -1590,7 +1590,7 @@ cursor: pointer;
   letter-spacing: 1px;
   text-align:left;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
  width: 50%;
