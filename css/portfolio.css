@@ -215,3 +215,196 @@
 .alljobs:hover p{
 	opacity: 1;
 }
+@media screen and (max-width: 1601px){
+    .alljobs p {
+      font-family: RobotoLight;
+      margin-top: 0%;
+      margin-left: 8%;
+      font-size: 0.9em;
+      letter-spacing: 5px;
+      color: white;
+      z-index: 1;
+      opacity: 0.7;
+  }
+      .dot {
+        cursor: pointer;
+        height: 3vw;
+        width: 11px;
+        margin: 0.5% 35px;
+        background-image: url(../img/dotport.png);
+        background-position: 50%;
+        background-size: 1px 100%;
+        display: inline-block;
+    }
+    .dots{
+      transform: rotate(90deg);
+      margin-right: -90%;
+      margin-top: -54vh;
+    }
+
+    .active, .dot:hover {
+        background-image: url(../img/dotporthov.png);
+    }
+    .active{
+      height: 4vw;
+        margin: 0 50px;
+    }
+}
+@media screen and (max-width: 1440px){
+   .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
+    display: block;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 14%;
+    font-family: RobotoBk;
+    font-size: 190px;
+    letter-spacing: 85px;
+    opacity: 0.3;
+    color: white;
+    z-index: 3;
+}
+    .alljobs p {
+      font-family: RobotoLight;
+      margin-top: 0%;
+      margin-left: 8%;
+      font-size: 0.9em;
+      letter-spacing: 5px;
+      color: white;
+      z-index: 1;
+      opacity: 0.7;
+  }
+      .dot {
+        cursor: pointer;
+        height: 3vw;
+        width: 11px;
+        margin: 0.5% 35px;
+        background-image: url(../img/dotport.png);
+        background-position: 50%;
+        background-size: 1px 100%;
+        display: inline-block;
+    }
+    .dots{
+      transform: rotate(90deg);
+      margin-right: -90%;
+      margin-top: -54vh;
+    }
+
+    .active, .dot:hover {
+        background-image: url(../img/dotporthov.png);
+    }
+    .active{
+      height: 4vw;
+        margin: 0 50px;
+    }
+
+
+}
+@media screen and (max-width: 1368px){
+  .dots {
+    transform: rotate(90deg);
+  }
+  .dot {
+    cursor: pointer;
+    height: 3vw;width: 11px;
+    margin: 0.5% 30px;
+    background-image: url(../img/dotport.png);
+    background-position: 50%;
+    background-size: 1px 100%;
+    display: inline-block;
+  }
+  .alljobs p {
+    font-family: RobotoLight;
+    margin-top: 0%;margin-left: 8%;
+    font-size: 0.7em;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 1281px){
+.alljobs p {
+    font-family: RobotoLight;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-size: 0.6em;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+}
+
+
+
+
+@media screen and (max-width: 1025px){
+  .dots {
+    transform: rotate(90deg);
+    margin-right: -89%;
+    margin-top: -59vh;
+}
+  .dot {
+    cursor: pointer;
+    height: 3vw;
+    width: 11px;
+    margin: -0.5% 20px;
+    background-image: url(../img/dotport.png);
+    background-position: 50%;
+    background-size: 1px 100%;
+    display: inline-block;
+}
+  .prev, .next {
+    height: 7%;
+    right: 4%;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 10;
+    background-image: url(../img/btnportf.png);
+    background-position: 50%;
+}
+.next {
+    top: 68%;
+    transform: rotate(180deg);
+}
+  
+.aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
+    display: block;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 20%;
+    font-family: RobotoBk;
+    font-size: 100px;
+    letter-spacing: 63px;
+    opacity: 0.3;
+    color: white;
+    z-index: 3;
+}
+.alljobs p {
+    font-family: RobotoLight;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-size: 0.4em;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+.textproject {
+    position: absolute;
+    width: 40%;
+    font-size: 0.9em;
+    color: white;
+    margin-left: 30%;
+    margin-top: 31%;
+    letter-spacing: 0.1em;
+}
+}

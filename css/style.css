@@ -11,6 +11,7 @@ img { pointer-events: none;
 body {
   margin: 0;
   padding: 0;
+  background-color:  #1c1a1a;
 } 
 a {
   text-decoration: none;
@@ -55,14 +56,14 @@ a {
 .contpre small{font-size:25px;}
  
 .contpre{
-width: 250px;
-height: 100px;
-margin-left: 42%;
-margin-top: 20%;
+width: 45%;
+height: 10%;
+margin-left: 27%;
+margin-top: 8%;
 position: absolute;
 }
 .contpre img{
-  width: 200px;
+  width: 100%;
 }
 
 
@@ -505,6 +506,7 @@ header table {
     /*background-position: 130px;*/
     background-image: url(../img/backserv.png);
     background-repeat: no-repeat;
+    background-color:  #fff;
 }
 .linetop {
     width: 6%;
