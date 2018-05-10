@@ -934,7 +934,7 @@ button:focus {
 -ms-grid-column: 11;
 -ms-grid-column-span: 26;
 grid-area:5 /   12  /  65  / 35;
-cursor: pointer;
+
 }
 #summary #palm img {
     width: 100%;
@@ -1719,7 +1719,7 @@ input{
     width: 100vw;
     height:100vh; 
     left: 0;
-    top: -120%;
+    top: 0%;
     background-color: #1c1a1a;
     position: fixed ;
     z-index: 900;
@@ -1741,6 +1741,15 @@ justify-content: center;
 align-items: center;
 cursor: pointer;
 
+}
+#phoneOff  img {
+transition: height .2s linear,width .2s linear;
+transition: ;
+}
+
+#phoneOff:hover >  img  {
+width:80%;
+ height:80%;
 }
 
 .phoneСaption{
