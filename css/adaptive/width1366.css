@@ -4,11 +4,19 @@
 }
 
 body {
-    margin: 0;
-    padding:0;
-    background-color:  #1c1a1a;
-}
+  margin: 0;
+  padding: 0;
+  background-color:  #1c1a1a;
+  overflow-x: hidden;
+} 
 #p_prldr{
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: fixed;
   left: 0px;
   top: 0;
@@ -20,10 +28,10 @@ body {
 .contpre small{font-size:25px;}
  
 .contpre{
+  margin: auto;
+margin-top: 5%;
 width: 45%;
 height: 10%;
-margin-left: 27%;
-margin-top: 8%;
 position: absolute;
 }
 .contpre img{
@@ -651,119 +659,6 @@ button:focus {
 
 
 
-
-
-
-
-
-/* .aboutus {
-    width: 100%;
-    height: 95vh;
-    background-color: #1c1a1a;
-}
-.vizitka{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
-}
- 
-.arm {
-    position: absolute;
-    height: 33%;
-    width: 30%;
-    top: 20%;
-    left: 4.2%;
-    z-index: 2;
-}
-.arm img {
-    width: 120%;
-    height: 220%;
-}
-.dot {
-    width: 40%;
-    height: 44%;
-    position: absolute;
-    z-index: 2;
-    left: 64%;
-    top: 26%;
-}
-.dot img {
-    width: 85%;
-    height: 98%;
-}
-
-.inscription{
-    position: absolute;
-    z-index: 4;
-    width: 40%;
-    height: 40%;
-}
-
-.inscription p.o1 {
-    font-family: Raleway-Bold;
-    font-size: 19em;
-    font-weight: 900;
-    margin: -7% 0 0 4.5%;
-}
-.inscription p.studio1 {
-    font-family: Raleway-Bold;
-    font-size: 3.4em;
-    margin: -11% 0 0 31%;
-    font-weight: 900;
-}
-
-div.p1{
-display: block;
-margin: 10% 0 0 24%
-}
-.p1 p {
-    color: white;
-    font-size: 7.8em;
-    font-family: RalewayBlack;
-    letter-spacing: 5px;
-    line-height: 120%;
-}
-.p1 p span{
-    margin-left: 8%;
-}
-
-.p2 {
-    color: white;
-    display: inline-block;
-    position: relative;
-    width: 60%;
-    font-size: 1.5em;
-    margin: -5.4% 0 0 37.3%;
-}
-.p2_border {
-    display: inline-block;
-    position: absolute;
-    top: -9%;
-    left: -1.4%;
-    width: 26%;
-    height: 110%;
-    border-top: 2px solid #ff557d;
-    border-left: 2px solid #ff557d;
-}
-
-.podrobnee {
-    margin: 8% 0 0 36.8%;
-    box-sizing: border-box;
-}
-.podrobnee button {
-    background: #1c1a1a;
-    color: white;
-    border: none;
-    font-family: RobotoRegular;
-    font-size: 1.1em;
-    letter-spacing: 7px;
-} */
-
-
-
-
 /*
 .ability {
     height: 1145px;
@@ -1046,7 +941,6 @@ button.order:hover, button.order:active {
     background-color: #1c1a1a;
     margin: 0;
     position: relative;
-   /*  overflow: scroll; */
 }
 .footer_addr {
     margin-left: 12.5%;
@@ -1302,18 +1196,8 @@ input{
 
 /* выпадающее окно при нажатии на телефон */
 #pfoneBlockForm{
-    width: 100vw;
-    height:100vh; 
-    left: 0;
-    top: 0%;
-    background-color: #1c1a1a;
-    position:fixed;
-    z-index: 350;
-    display:block;
-    color: #ffffff;
-
+ top: -90%;
 }
-
 
 #pfoneBlockForm{
     width: 100vw;
@@ -1323,9 +1207,7 @@ input{
 
 .phoneСaption{
     height: 18%;
-    font-size: 4vw;
 }
-
 .fhoneBlock input{
     font-size:  1.3em;
 }

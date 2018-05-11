@@ -4,10 +4,19 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-}
-#p_prldr{
+  margin: 0;
+  padding: 0;
+  background-color:  #1c1a1a;
+  overflow-x: hidden;
+} 
+##p_prldr{
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: fixed;
   left: 0px;
   top: 0;
@@ -19,10 +28,10 @@ body {
 .contpre small{font-size:25px;}
  
 .contpre{
+  margin: auto;
+margin-top: 5%;
 width: 45%;
 height: 10%;
-margin-left: 27%;
-margin-top: 8%;
 position: absolute;
 }
 .contpre img{
@@ -1270,15 +1279,12 @@ input{
 
 /* выпадающее окно при нажатии на телефон */
 
-
-.phoneСaption{
- 
-    font-size: 3.8vw;
-}
 .phoneСaptionChild2 {
-    justify-content: flex-start;
-    font-size: 1.2vw;
-    width: 50%;
+    font-size: 1.3vw;
+}
+.phoneСaption {
+        font-size: 4.7vw;
+        letter-spacing: 5px;   
 }
 
 .fhoneBlock .fhoneSubmit img {

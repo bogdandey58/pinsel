@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:  #1c1a1a;
+  overflow-x: hidden;
 } 
 a {
   text-decoration: none;
@@ -45,6 +46,12 @@ a {
 }*/
 
 #p_prldr{
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
   position: fixed;
   left: 0px;
   top: 0;
@@ -56,10 +63,9 @@ a {
 .contpre small{font-size:25px;}
  
 .contpre{
+  margin: auto;
 width: 45%;
 height: 10%;
-margin-left: 27%;
-margin-top: 8%;
 position: absolute;
 }
 .contpre img{
@@ -719,21 +725,23 @@ header table {
   font-size: 1.1em;
   height: 4vh;
   margin: 0;
-    outline: none;
-    padding: 0 0px;
-    border-style: none;
-    border-bottom: solid white 1px;
-    margin-bottom: 12%;
+  outline: none;
+  padding: 0 0px;
+  border-style: none;
+  border-bottom: solid white 1px;
+  margin-bottom: 9%;
+  margin-left: -10%;
+  width: 85%
 }
 .lt-ie9 .input {
   margin-bottom: 13%;
-    border: none;
-    color: black;    
+  border: none;
+  color: black;
 }
 .infield-label {
   position: relative;
-    border: none;
-    color: white;  
+  border: none;
+  color: white;  
 }
 /*.infield-label label {
   color: white;
@@ -805,8 +813,11 @@ header table {
   height: 200px;
   resize: none;
   padding: 3%;
+  margin-left: 15%
 }
- 
+.comment > input > placeholder {
+  opacity: 0.3;
+}
 /*.comment textarea::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
 .comment textarea::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
 .comment textarea:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
@@ -816,10 +827,10 @@ header table {
 .comment textarea:focus:-moz-placeholder           {text-indent: -600px; transition: text-indent 0.5s ease;}
 .comment textarea:focus:-ms-input-placeholder      {text-indent: -600px; transition: text-indent 0.5s ease;}*/
 
-.comment textarea::-webkit-input-placeholder {text-align: left; font-size: 1em; color: white; }
-.comment textarea::-moz-placeholder          {text-align: left; font-size: 1em; color: white; }
-.comment textarea:-moz-placeholder           {text-align: left; font-size: 1em; color: white; }
-.comment textarea:-ms-input-placeholder      {text-align: left; font-size: 1em; color: white; }
+.comment textarea::-webkit-input-placeholder {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea::-moz-placeholder          {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea:-moz-placeholder           {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea:-ms-input-placeholder      {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
 
 
 
@@ -827,7 +838,7 @@ header table {
   font-family: Raleway-ExtraBold;
   background-color: transparent;
   margin-top: -2%;
-  margin-left: 45%;
+  margin-left: 50%;
   border:none;
   font-size: 25px;
   width: 15%;
@@ -839,8 +850,6 @@ header table {
   color: white;
   opacity: 0.7;
   cursor: pointer;
-  font-family: RobotoRegular;
-  letter-spacing: 3px;
 }
 #ordercall hr {
   width: 40%; 
@@ -1104,7 +1113,7 @@ background-color: red;
   border-style: none;
   background-color: transparent;
   font-size: 1vw; 
-   font-family: RobotoRegular;
+   font-family: Raleway-Bold;
   letter-spacing: 0.3vw;
   -webkit-transition: color 0.1s linear;
   -o-transition: color 0.1s linear;
@@ -1596,7 +1605,7 @@ input#fcontact_form {
   width: 20%;
   margin-left: 70%;
   margin-top: -3%;
-  font-family: RobotoRegular;
+  font-family: RobotoLight;
   font-size: 1.4em;
   display: inline-block;
   border-style: none;
@@ -1755,14 +1764,14 @@ width:80%;
 }
 
 .phoneСaption{
-  width: 88%;
+  width: 80%;
   height: 15%;
   margin-left: 8%;
   margin-top: 2%;
   display: flex;
   justify-content:space-between ;
   align-items: center;
-  font-size: 4.2vw;
+  font-size: 4.5vw;
   color: white;
   font-family: RobotoBk;
   font-weight: 900;
@@ -1771,9 +1780,6 @@ width:80%;
 .phoneСaptionChild{
   width: 45%;
  
-}
-.phoneСaptionChild P{
-font-family: RobotoBk; 
 }
 .childHr{
   width: 5px;
@@ -1785,18 +1791,12 @@ font-family: RobotoBk;
   font-size: 1.2vw;
   text-align:left;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
-    width:45%;
+    width: 40%;
     color: #747373;
-  
 
-}
-.phoneСaptionChild2 ul {
-  list-style: square ;
-  color: white;
-  font-size: 1em;
 }
 
 .fhoneBlock{
@@ -1831,19 +1831,21 @@ height: 50px;
 width: 33%;
 padding-left: 2%;
 color: #747373;
+transition: font-size 0.2s linear;
+-webkit-transition: font-size 0.1s linear;
+-o-transition: font-size 0.1s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
   font-size: 0.8vw;
   height: 50px;
-  color: white;
 }
 .fhoneBlock input:focus > hr{
 
 }
  .fhoneBlock .fhoneSubmit{
   border-style: none;
-  font-family: RobotoRegular;
+  font-family: RobotoRelway;
   font-size: 1.3em; 
   background-color: transparent;
   width: 30%;
@@ -1853,7 +1855,6 @@ transition: font-size 0.1s linear;
   letter-spacing: 7px;
   color:#747373;
   transition: color 0.1s linear;
-  color: white;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;

@@ -4,10 +4,19 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0;
+  background-color:  #1c1a1a;
+  overflow-x: hidden;
+} 
 #p_prldr{
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: fixed;
   left: 0px;
   top: 0;
@@ -19,10 +28,10 @@ body {
 .contpre small{font-size:25px;}
  
 .contpre{
+  margin: auto;
+margin-top: 10%;
 width: 45%;
 height: 10%;
-margin-left: 27%;
-margin-top: 8%;
 position: absolute;
 }
 .contpre img{
@@ -1539,7 +1548,11 @@ transition: font-size 0.2s linear;
     width: 100vw;
     height:100vh; 
     left: 0;
+<<<<<<< HEAD
     top: -120%;
+=======
+    top: -100%;
+>>>>>>> a9c7c9de9f5db7cc5cf3eb6e6c722adc260503f5
     background-color: #1c1a1a;
     position:fixed;
     z-index: 350;
@@ -1563,14 +1576,14 @@ cursor: pointer;
 }
 
 .phoneСaption{
-  width: 88%;
+  width: 100%;
   height: 15%;
   margin-left: 8%;
   margin-top: 2%;
   display: flex;
   justify-content:space-between ;
   align-items: center;
-  font-size: 4.2vw;
+  font-size: 4.5vw;
   color: white;
   font-family: RobotoBk;
   font-weight: 900;
@@ -1590,12 +1603,15 @@ cursor: pointer;
   letter-spacing: 1px;
   text-align:left;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
  width: 50%;
  color: #747373;
 
+}
+.phoneСaptionChild2 p{
+    width: 95%;
 }
 
 .fhoneBlock{
