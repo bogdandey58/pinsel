@@ -96,10 +96,8 @@ header {
 }
 .logo img {
   width: 7.5%;
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: 12%;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
   position: absolute;
 }
 .anchor a {
@@ -1741,7 +1739,7 @@ input{
 
 #phoneOff{
 width: 1.5%;
-height: 3%;
+height: 2.4%;
 position: absolute;
 z-index: 200;
 top: 2%;
@@ -1830,7 +1828,7 @@ font-family: RobotoBk;
 
 .fhoneBlock input{
 border-style: none;
-font-family: Raleway-Thin;
+font-family: RalewayThin;
 font-size: 1.6em; 
 background-color: transparent;
 border-bottom: 1px solid white;

@@ -87,12 +87,12 @@
   margin-top: 5em;
   color: white;
   letter-spacing: 2px;
-  transition: 250ms;
+  transition: 150ms;
   position: absolute;
 }
 .dot p:hover, .dot:hover p{
-  font-size: 1.5em;
-  margin-top: 3.48em;
+  font-size: 1.1em;
+  margin-top: 4.48em;
 }
 .dots{
 	transform: rotate(90deg);
@@ -127,16 +127,21 @@
 }
 
 .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p{
-    display: block;
-    position: absolute;
-    margin-top: 23%;
+  display: block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 17%;
+  font-family: RobotoBk;
+  font-size: 13em;
+  letter-spacing: 0.3em;
+  opacity: 0.3;
+  color: white;
+  z-index: 3;
+}
+.aboutproject3 > .pinsbackportpar{
+  font-size: 17em;
+  margin-top: 17%;
     margin-left: 20%;
-    font-family: RobotoBk;
-    font-size: 15em;
-    letter-spacing: 0.42em;
-    opacity: 0.3;
-	color: white;
-	z-index: 3;
 }
 .aboutproject1, .aboutproject2, .aboutproject3, .aboutproject4, .aboutproject5 {
 	background-image: url(../img/grapeback.jpg);
@@ -145,21 +150,21 @@
 	background-size: 100%;
 }
 .aboutproject2{
-	background-image: url(../img/portimgsm.jpg);
+	background-image: url(../img/zakarpat.jpg);
 }
-.aboutproject2{
-	background-image: url(../img/setwalls.ru-63171.jpg);
+.aboutproject3{
+	background-image: url(../img/pinselbackport.jpg);
 }
 
 .aboutproject4 {
 	background-image: url(../img/portimgsm.jpg);
 }
 
-.imgabout {
+.imgabout, .imgabout2, .imgabout3 {
 	position: absolute;
   border: solid white 1px;
   width: 50%;
-  height: 45%;
+  height: 46%;
   margin: 0 auto;
   margin-top: 3%;
   margin-left: 27.5%;
@@ -169,17 +174,37 @@
   background-position: 0 100%;
   z-index: 5;
 }
-.imgabout:hover {
+.imgabout:hover, .imgabout2:hover, .imgabout3:hover{
 	width: 48.9%;
   height: 43.3%;
 	border: solid white 10px;
-  background-image: url(../img/example1hov.jpg); ;
+  background-image: url(../img/example1hov.jpg);
+}
+
+
+
+.imgabout2{
+  height: 50%;
+  /*background-position: 1%;*/
+  background-size: 100%;
+  background-image: url(../img/zakarabout.png);
+}
+.imgabout2:hover{
+  height: 48.3%;
+   background-image: url(../img/zakarhov.jpg);
+}
+
+.imgabout3{
+  background-image: url(../img/pinabout.jpg);
+}
+.imgabout3:hover{
+   background-image: url(../img/zakarhov.jpg);
 }
 .projectname p{
-  margin-top: 26%;
+  margin-top: 25%;
   margin-left: 21%;
   font-family: RobotoBk;
-  font-size: 3em;
+  font-size: 2.4em;
   letter-spacing: 0.19em;
    opacity: 1; 
   color: white;
@@ -187,12 +212,24 @@
 }
 .textproject{
 	position: absolute;
-    width: 40%;
-    font-size: 1em;
+    width: 50%;
+    font-size: 1.3em;
     color: white;
     margin-left: 30%;
     margin-top: 33%;
     letter-spacing: 0.1em;
+}
+.cat p{
+  display: block;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30%;
+  font-family: RobotoLight;
+  font-size: 1em;
+  letter-spacing: 0.5em;
+  opacity: 1;
+  color: white;
+  z-index: 3;
 }
 .alljobs {
     width: 9%;
@@ -237,6 +274,132 @@
 }
 .alljobs:hover p{
 	opacity: 1;
+}
+@media screen and (max-width: 1681px){
+  .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
+    display: block;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 14%;
+    font-family: RobotoBk;
+    font-size: 12em;
+    letter-spacing: 0.3em;
+    opacity: 0.3;
+    color: white;
+    z-index: 3;
+}
+.aboutproject1, .aboutproject2, .aboutproject3, .aboutproject4, .aboutproject5 {
+  background-image: url(../img/grapeback.jpg);
+  width: 99.1vw;
+  height: 100%;
+  background-size: 100%;
+}
+.aboutproject2{
+  background-image: url(../img/portimgsm.jpg);
+}
+.aboutproject2{
+  background-image: url(../img/setwalls.ru-63171.jpg);
+}
+
+.aboutproject4 {
+  background-image: url(../img/portimgsm.jpg);
+}
+
+.imgabout {
+  position: absolute;
+  border: solid white 1px;
+  width: 50%;
+  height: 45%;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-left: 27.5%;
+  transition: 250ms;
+  background-image: url(../img/grapeabout.jpg);
+  background-size: 100%;
+  background-position: 0 100%;
+  z-index: 5;
+}
+.imgabout:hover {
+  width: 48.9%;
+  height: 43.3%;
+  border: solid white 10px;
+  background-image: url(../img/example1hov.jpg); ;
+}
+.projectname p{
+  margin-top: 25%;
+  margin-left: 21%;
+  font-family: RobotoBk;
+  font-size: 2.4em;
+  letter-spacing: 0.19em;
+   opacity: 1; 
+  color: white;
+  z-index: 6;
+}
+.textproject{
+  position: absolute;
+    width: 50%;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 30%;
+    margin-top: 33%;
+    letter-spacing: 0.1em;
+}
+.cat p{
+  display: block;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30%;
+  font-family: RobotoLight;
+  font-size: 1em;
+  letter-spacing: 0.5em;
+  opacity: 1;
+  color: white;
+  z-index: 3;
+}
+.alljobs {
+    width: 9%;
+    height: 4%;
+    background-color: transparent;
+    margin-left: 70%;
+    margin-top: 40%;
+    position: absolute;
+}
+.alljobs p{
+  font-family: RobotoLight;
+    margin-top: 0%;
+    margin-left: 8%;
+    font-size: 1em;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;
+    opacity: 0.7;
+}
+.alljobs img {
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 5%;
+    transition: 300ms;
+}
+.alljobs hr {
+  width: 30%;
+  color: white;
+  float: left;
+  margin-top: 18.5%;
+  transition: 300ms;
+}
+
+.alljobs:hover hr {
+  color: #ff557d;
+    width: 85%;
+    transition: 300ms;
+}
+.alljobs:hover img {
+  margin-left: 5%;
+  transition: 300ms;
+}
+.alljobs:hover p{
+  opacity: 1;
+}
 }
 @media screen and (max-width: 1601px){
   .imgabout {
@@ -291,11 +454,11 @@
    .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
     display: block;
     position: absolute;
-    margin-top: 20%;
-    margin-left: 14%;
+    margin-top: 19%;
+    margin-left: 7.2%;
     font-family: RobotoBk;
-    font-size: 190px;
-    letter-spacing: 85px;
+    font-size: 12em;
+    letter-spacing: 0.2em;
     opacity: 0.3;
     color: white;
     z-index: 3;
@@ -343,7 +506,18 @@
       height: 4vw;
         margin: 0 50px;
     }
-
+    .cat p{
+  display: block;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30%;
+  font-family: RobotoLight;
+  font-size: 1em;
+  letter-spacing: 0.5em;
+  opacity: 1;
+  color: white;
+  z-index: 3;
+}
 
 }
 @media screen and (max-width: 1368px){
@@ -380,6 +554,12 @@
 }
 
 @media screen and (max-width: 1281px){
+.aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
+    margin-top: 18%;
+    margin-left: 16%;
+    font-size: 10em;
+    letter-spacing: 0.2em;
+}
 .alljobs p {
     font-family: RobotoLight;
     margin-top: 0%;
@@ -399,6 +579,27 @@
    opacity: 1; 
   color: white;
   z-index: 6;
+}
+.textproject {
+    position: absolute;
+    width: 50%;
+    font-size: 1em;
+    color: white;
+    margin-left: 30%;
+    margin-top: 33%;
+    letter-spacing: 0.1em;
+}
+.cat p{
+  display: block;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30%;
+  font-family: RobotoLight;
+  font-size: 1em;
+  letter-spacing: 0.5em;
+  opacity: 1;
+  color: white;
+  z-index: 3;
 }
 }
 
@@ -464,16 +665,10 @@
 }
   
 .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
-    display: block;
-    position: absolute;
-    margin-top: 25%;
-    margin-left: 20%;
-    font-family: RobotoBk;
-    font-size: 100px;
-    letter-spacing: 63px;
-    opacity: 0.3;
-    color: white;
-    z-index: 3;
+    margin-top: 22%;
+    margin-left: 16%;
+    font-size: 8em;
+    letter-spacing: 0.15em;
 }
 .alljobs p {
     font-family: RobotoLight;
@@ -485,15 +680,15 @@
     z-index: 1;
     opacity: 0.7;
 }
-.projectname p{
-  margin-top: 25%;
-  margin-left: 21%;
-  font-family: RobotoBk;
-  font-size: 3em;
-  letter-spacing: 0.19em;
-   opacity: 1; 
-  color: white;
-  z-index: 6;
+.projectname p {
+    margin-top: 26%;
+    margin-left: 22%;
+    font-family: RobotoBk;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    opacity: 1;
+    color: white;
+    z-index: 6;
 }
 .textproject {
     position: absolute;
@@ -503,5 +698,17 @@
     margin-left: 30%;
     margin-top: 31%;
     letter-spacing: 0.1em;
+}
+.cat p {
+    display: block;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 30%;
+    font-family: RobotoLight;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    opacity: 1;
+    color: white;
+    z-index: 3;
 }
 }
