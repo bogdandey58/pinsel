@@ -1838,7 +1838,9 @@ transition: font-size 0.1s linear;
   height: 50px;
   color: white;
 }
+.fhoneBlock input:focus > hr{
 
+}
  .fhoneBlock .fhoneSubmit{
   border-style: none;
   font-family: RobotoRegular;
