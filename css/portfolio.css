@@ -184,21 +184,22 @@
 
 
 .imgabout2{
-  height: 50%;
-  /*background-position: 1%;*/
+  height: 46%;
+  background-position: 1%;
   background-size: 100%;
   background-image: url(../img/zakarabout.png);
 }
 .imgabout2:hover{
-  height: 48.3%;
+  height: 44.3%;
    background-image: url(../img/zakarhov.jpg);
 }
 
 .imgabout3{
+  background-position: 2%;
   background-image: url(../img/pinabout.jpg);
 }
 .imgabout3:hover{
-   background-image: url(../img/zakarhov.jpg);
+   background-image: url(../img/pinabouthov.jpg);
 }
 .projectname p{
   margin-top: 25%;
@@ -293,16 +294,6 @@
   width: 99.1vw;
   height: 100%;
   background-size: 100%;
-}
-.aboutproject2{
-  background-image: url(../img/portimgsm.jpg);
-}
-.aboutproject2{
-  background-image: url(../img/setwalls.ru-63171.jpg);
-}
-
-.aboutproject4 {
-  background-image: url(../img/portimgsm.jpg);
 }
 
 .imgabout {
@@ -625,7 +616,6 @@
     width: 48.4%;
     height: 37.3%;
     border: solid white 10px;
-    background-image: url(../img/example1hov.jpg);
 }
   .dots {
     transform: rotate(90deg);
