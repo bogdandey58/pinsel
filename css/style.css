@@ -1764,14 +1764,14 @@ width:80%;
 }
 
 .phoneСaption{
-  width: 80%;
+  width: 88%;
   height: 15%;
   margin-left: 8%;
   margin-top: 2%;
   display: flex;
   justify-content:space-between ;
   align-items: center;
-  font-size: 4.5vw;
+  font-size: 4.2vw;
   color: white;
   font-family: RobotoBk;
   font-weight: 900;
@@ -1780,6 +1780,9 @@ width:80%;
 .phoneСaptionChild{
   width: 45%;
  
+}
+.phoneСaptionChild P{
+font-family: RobotoBk; 
 }
 .childHr{
   width: 5px;
@@ -1791,12 +1794,17 @@ width:80%;
   font-size: 1.2vw;
   text-align:left;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
-    width: 40%;
+    width:45%;
     color: #747373;
-
+  
+}
+.phoneСaptionChild2 ul {
+  list-style: square ;
+  color: white;
+  font-size: 1em;
 }
 
 .fhoneBlock{
@@ -1831,21 +1839,17 @@ height: 50px;
 width: 33%;
 padding-left: 2%;
 color: #747373;
-transition: font-size 0.2s linear;
--webkit-transition: font-size 0.1s linear;
--o-transition: font-size 0.1s linear;
 transition: font-size 0.1s linear;
 }
 .fhoneBlock input:focus{
   font-size: 0.8vw;
   height: 50px;
+  color: white;
 }
-.fhoneBlock input:focus > hr{
 
-}
  .fhoneBlock .fhoneSubmit{
   border-style: none;
-  font-family: RobotoRelway;
+  font-family: RobotoRegular;
   font-size: 1.3em; 
   background-color: transparent;
   width: 30%;
@@ -1855,6 +1859,7 @@ transition: font-size 0.1s linear;
   letter-spacing: 7px;
   color:#747373;
   transition: color 0.1s linear;
+  color: white;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;
