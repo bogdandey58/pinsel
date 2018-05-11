@@ -810,7 +810,9 @@ header table {
   padding: 3%;
   margin-left: 15%
 }
- 
+.comment > input > placeholder {
+  opacity: 0.3;
+}
 /*.comment textarea::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
 .comment textarea::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
 .comment textarea:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
@@ -820,10 +822,10 @@ header table {
 .comment textarea:focus:-moz-placeholder           {text-indent: -600px; transition: text-indent 0.5s ease;}
 .comment textarea:focus:-ms-input-placeholder      {text-indent: -600px; transition: text-indent 0.5s ease;}*/
 
-.comment textarea::-webkit-input-placeholder {text-align: left; font-size: 1em; color: white; }
-.comment textarea::-moz-placeholder          {text-align: left; font-size: 1em; color: white; }
-.comment textarea:-moz-placeholder           {text-align: left; font-size: 1em; color: white; }
-.comment textarea:-ms-input-placeholder      {text-align: left; font-size: 1em; color: white; }
+.comment textarea::-webkit-input-placeholder {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea::-moz-placeholder          {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea:-moz-placeholder           {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
+.comment textarea:-ms-input-placeholder      {text-align: left; font-size: 1em; color: white; opacity: 0.6; }
 
 
 

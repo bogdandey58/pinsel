@@ -4,10 +4,11 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color:  #1c1a1a;
-}
+  margin: 0;
+  padding: 0;
+  background-color:  #1c1a1a;
+  overflow-x: hidden;
+} 
 #p_prldr{
   position: fixed;
   left: 0px;
