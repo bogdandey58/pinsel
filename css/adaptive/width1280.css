@@ -9,7 +9,7 @@ body {
   background-color:  #1c1a1a;
   overflow-x: hidden;
 } 
-##p_prldr{
+#p_prldr{
     display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;

@@ -248,8 +248,8 @@ header table {
 }
 #triangleletter {
     display: inline-block;
-    margin-left: 111.1%;
-    margin-top: -10.2%;
+    margin-left: 111.25%;
+    margin-top: -11.2%;
     position: absolute;
     -webkit-animation: trianlet 1500ms infinite;
             animation: trianlet 1500ms infinite;
@@ -1548,11 +1548,7 @@ transition: font-size 0.2s linear;
     width: 100vw;
     height:100vh; 
     left: 0;
-<<<<<<< HEAD
     top: -120%;
-=======
-    top: -100%;
->>>>>>> a9c7c9de9f5db7cc5cf3eb6e6c722adc260503f5
     background-color: #1c1a1a;
     position:fixed;
     z-index: 350;

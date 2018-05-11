@@ -1196,7 +1196,7 @@ input{
 
 /* выпадающее окно при нажатии на телефон */
 #pfoneBlockForm{
- top: -90%;
+ top: -100%;
 }
 
 #pfoneBlockForm{

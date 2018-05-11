@@ -159,7 +159,7 @@
 	position: absolute;
   border: solid white 1px;
   width: 50%;
-  height: 50%;
+  height: 45%;
   margin: 0 auto;
   margin-top: 3%;
   margin-left: 27.5%;
@@ -170,8 +170,8 @@
   z-index: 5;
 }
 .imgabout:hover {
-	width: 48.98%;
-	height: 47.8%;
+	width: 48.9%;
+  height: 43.3%;
 	border: solid white 10px;
   background-image: url(../img/example1hov.jpg); ;
 }
@@ -419,6 +419,12 @@
     background-size: 100%;
     background-position: 0 100%;
     z-index: 5;
+}
+.imgabout:hover {
+    width: 48.4%;
+    height: 37.3%;
+    border: solid white 10px;
+    background-image: url(../img/example1hov.jpg);
 }
   .dots {
     transform: rotate(90deg);
