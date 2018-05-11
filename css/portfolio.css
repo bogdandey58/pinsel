@@ -184,7 +184,7 @@
 
 
 .imgabout2{
-  height: 46%;
+  height: 43%;
   background-position: 1%;
   background-size: 100%;
   background-image: url(../img/zakarabout.png);
@@ -688,5 +688,10 @@
     opacity: 1;
     color: white;
     z-index: 3;
+}
+}
+@media screen and (max-width: 900px){
+  #portfolio{
+  display: none;
 }
 }
