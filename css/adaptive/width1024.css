@@ -1,83 +1,91 @@
 * {
-	font-family: RobotoLight;
-	background-repeat: no-repeat;
+    font-family: RobotoLight;
+    background-repeat: no-repeat;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-}
+  margin: 0;
+  padding: 0;
+  background-color:  #1c1a1a;
+  overflow-x: hidden;
+} 
 #p_prldr{
-	position: fixed;
-	left: 0px;
-	top: 0;
-	right:0;
-	bottom:0;
-	background: #1c1a1a;
-	z-index: 1000;}
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  right:0;
+  bottom:0;
+  background: #1c1a1a;
+  z-index: 1000;}
  
 .contpre small{font-size:25px;}
  
 .contpre{
-width: 250px;
-height: 100px;
-margin-left: 42%;
-margin-top: 20%;
+margin: auto;
+margin-top: 10%;
+width: 45%;
+height: 10%;
 position: absolute;
 }
 .contpre img{
-	width: 200px
-	height: 100px;
+  width: 100%;
 }
-
 
 header {
-	width: 100%;
-	height: 40px;
-	background-color: #1c1a1a;
-	position: fixed;
-	/*margin-left: -8px;*/
-	margin-top: -0.1%;
-	z-index: 100;
-	display: inline-block;
-	/*opacity: 0.9;*/
-	/*-webkit-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-	-moz-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-	box-shadow: 0px 1px 1px 0px rgba(122,122,122,1)*/
+    width: 100%;
+    height: 40px;
+    background-color: #1c1a1a;
+    position: fixed;
+    /*margin-left: -8px;*/
+    margin-top: -0.1%;
+    z-index: 100;
+    display: inline-block;
+    /*opacity: 0.9;*/
+    /*-webkit-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
+    box-shadow: 0px 1px 1px 0px rgba(122,122,122,1)*/
 }
 .all {
-	display: block;
-	width: 1920px;
+    display: block;
+    width: 1920px;
 }
 .claer {
-	clear: both;
+    clear: both;
 }
 .logo img {
-	width: 23%;
+    width: 23%;
     margin-top: -5px;
     margin-left: 16%;
-    filter: invert(100%);
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
 }
 .logo{
-	margin-left: 5%;
-	position: absolute;
+    margin-left: 5%;
+    position: absolute;
 }
 .anchor a {
-	font-size: 0.8em;
-	display: inline-block;
-	margin-right: 50px;
-	color: white;
-	text-decoration: none;
-	font-family: RobotoRegular;
-	line-height: 1;
+    font-size: 0.8em;
+    /*display: inline-block;*/
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: RobotoRegular;
+    line-height: 1;
     text-decoration:none;
     cursor: pointer;
     position:relative;
 }
 .anchors {
-	margin-left: 29%;
-	display: inline-block;
-	padding-top: 8px;
+    margin-left: 29%;
+    display: inline-block;
+    padding-top: 8px;
 }
 .anchor a:after {
     background-color: #ff557d;
@@ -90,47 +98,48 @@ header {
     position:absolute;
     -webkit-transition: width .3s ease-in-out;
     -moz--transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
     -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+        transform:translateX(-50%);
 }
 .anchor a:hover:after {
     width: 100%;
 }
 header table {
-	font-family: RobotoLight;
-	font-size: 15px;
-	float: right;
-	margin-right: 250px;
-	margin-top: 5px;
-	display: inline;
-	color: white;
+    font-family: RobotoLight;
+    font-size: 15px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 5px;
+    display: inline;
+    color: white;
 }
 .phone {
-	float: right;
-	margin-right: 250px;
-	margin-top: -65px;
-	display: inline-block;
-	background-color: transparent;
-	width: 50px;
-	height: 120px;
-	border-radius: 0px 0px 200px 200px;
+    float: right;
+    margin-right: 250px;
+    margin-top: -65px;
+    display: inline-block;
+    background-color: transparent;
+    width: 50px;
+    height: 120px;
+    border-radius: 0px 0px 200px 200px;
 
 }
 .phone img {
-	width: 40%;
+    width: 40%;
     margin-top: 45px;
     margin-left: 65px;
 }
 
 .wrap {
-	width: 100%;
-	height: 60vh;
-	/*margin-top: -1%;*/
-	/*background-color: #1b191a;*/
-	/*background-image: url(../img/backgroundwrap.jpg);*/
-	/*background-size: 100%;*/
+    width: 100%;
+    height: 60vh;
+    /*margin-top: -1%;*/
+    /*background-color: #1b191a;*/
+    /*background-image: url(../img/backgroundwrap.jpg);*/
+    /*background-size: 100%;*/
 }
 
 .bgvideo {
@@ -146,75 +155,115 @@ header table {
 
 }
 .video {
-	/*height: 100vh;*/
+    /*height: 100vh;*/
    /* width: 100%;*/
-	display: block;
-	position:absolute;
-	top:0;
-	left:0;
-	margin-bottom:-200px;
-	/*min-width:100%;*/
-	/*min-height:100%;
-	 width: 1000px;
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-bottom:-200px;
+    /*min-width:100%;*/
+    /*min-height:100%;
+     width: 1000px;
   height: 1100px;*/
-	z-index:-100;
+    z-index:-100;
 }
 .studiotext {
-	width: 45vw;
-	margin-left: 10%;
-	margin-top: 20%;
-	background-color: transparent;
-	display: inline-block;
-	z-index: 5
+    width: 45vw;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: transparent;
+    display: inline-block;
+    z-index: 5
+}
+.example-three{
+    width: 67%;
+    height: 150px;
+    position: relative;
 }
 .ppng{
-	width: 55%;
-    height: 25%;
-    z-index: 1;
+  font-size: 2.8em;
+  width: 80%;
+  z-index: 1;
+  letter-spacing: 35px;
 }
 .inpng{
-	margin-left: 10%;
-    margin-top: -8%;
+    width: 30%;
+    font-size: 0.5em;
+    margin-left: 81.4%;
+    margin-top: -29.5%;
     z-index: 1;
     height: 50px;
-}
-.inpng img {
-    width: 20%;
-    margin-top: 2.5%;
-    margin-left: 51%;
+    letter-spacing: 8px;
 }
 .wpng{
-	width: 30%;
-    height: 25%;
-    margin-left: 2%;
-    margin-top: -2%;
+  font-size: 3em;
+  width: 33%;
+  margin-top: -15.5%;
+  letter-spacing: 35px;
+}
+.wpng hr {
+  float: left;
+  margin-top: -53%;
+  margin-left: -3%;
+  -webkit-animation: wline 1500ms infinite;
+          animation: wline 1500ms infinite;
 }
 .spng{
-	width: 55%;
-    height: 40%;
-    margin-left: 38.2%;
-    margin-top: -18%;
+    margin-left: 52%;
+    margin-top: -40%;
 }
+.spng img{
+    width: 100%;
+}
+.ppng p,
+.inpng p,
+.wpng p,
+.spng p{
+  color: #ff557d;
+  font-family:UniSansHeavy;
+}
+.wpng p{color: #fff;}
 
+.social{
+  width: 36%;
+  color: #fff;
+  margin-left: 28.5%;
+  letter-spacing: 7px;
+  margin-top: -6%;
+  font-size: 0.6em;
+  
+}
+.socsite{
+  font-size: 0.8em;
+    letter-spacing: 5px;
+    font-family: Exo2Regular;
+    margin-top: -1%;
+    margin-left: 15%;
+}
+.soc a {
+  margin-right: 0;
+}
 #triangleletter {
     display: inline-block;
-    margin-left: 88.4%;
-    margin-top: -7%;
+    margin-left: 115.29%;
+    margin-top: -19.15%;
     position: absolute;
-    animation: trianlet 1500ms infinite;
+    -webkit-animation: trianlet 1500ms infinite;
+            animation: trianlet 1500ms infinite;
 }
 
 .downbtn{
-	width: 350px;
-	height: 50px;
-	display: block;
-	position: absolute;
+    width: 350px;
+    height: 50px;
+    display: block;
+    position: absolute;
     cursor: pointer;
-	margin-top: 13%;
-	margin-left: 37%;
+    margin-top: 13%;
+    margin-left: 37%;
 }
 .downbtn a{
-	text-decoration: none;
+    text-decoration: none;
 }
 .downbtn p{
     text-align: right;
@@ -224,10 +273,10 @@ header table {
     letter-spacing: 15px;
 }
 .downbtn p:hover{
-	color: #ff557d;
+    color: #ff557d;
 }
 .downbtn img{
-	width: 30px;
+    width: 30px;
     height: 80px;
     margin-top: 30px;
     margin-right: 10px;
@@ -236,11 +285,13 @@ header table {
     display: block;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-    animation: pulse 1000ms infinite;
+    -webkit-box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+            box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    -webkit-animation: pulse 1000ms infinite;
+            animation: pulse 1000ms infinite;
 }
 .services {
-    margin-top: 1%;
+    margin-top: 30%;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -260,25 +311,25 @@ header table {
     width: 5%;
     height: 2px;
     background-color: black;
-    top: 25%;
+    top: 32%;
     left: 2%;
     position: absolute;
 }
 .line_services {
     width: 5%;
     font-family: RobotoLight;
-    font-size: 2.6em;
+    font-size: 2em;
     position: absolute;
-    top: 14%;
+    top: 24%;
     left: 9%;
 }
 .spacename {
-	width: 55%;
-	height: 55vw;
-	position: absolute;	
-	display: inline-block;
-	margin-left: 10%;
-	/*margin-top: -50%;*/
+    width: 55%;
+    height: 55vw;
+    position: absolute; 
+    display: inline-block;
+    margin-left: 10%;
+    /*margin-top: -50%;*/
 }
 .developimg, .designimg, .marketingimg {
     width: 30%;
@@ -290,7 +341,7 @@ header table {
     text-decoration: none;
     font-size: 20px;
     margin-left: -12%;
-    margin-top: 35%;
+    margin-top: 30%;
     position: absolute;
 }
 .designimg {
@@ -310,67 +361,73 @@ header table {
     text-decoration: none;
     font-size: 0.8em;
     margin-left: 19%;
-    margin-top: 41%;
+    margin-top: 35%;
     position: absolute;
 }
 .develop h2, .design h2, .marketing h2 {
-	font-family: RobotoBk;
+    font-family: RobotoBk;
 }
 .develop p, .design p, .marketing p {
-	width: 210px;
+    width: 210px;
 }
 
 .develop img, .design img, .marketing img{
-	width: 13px;
-	display: none;
-	margin-right: 2%;
+    width: 13px;
+    display: none;
+    margin-right: 2%;
 }
 .marketing a, .develop a, .design a{
-	color: black;
-	text-decoration: none;
-	font-family: RobotoRegular;
+    color: black;
+    text-decoration: none;
+    font-family: RobotoRegular;
     cursor: pointer;
 }
 .develop a:hover, .design a:hover, .marketing a:hover{
-	color: #ff557d;
-	transition: 300ms;
+    color: #ff557d;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
 }
 .develop a:hover .develop img, .design a:hover .design img, .marketing a:hover .marketing img{
-	display: inline-block;
-	transition: 800ms;
-	font-family: RobotoBk;
+    display: inline-block;
+    -webkit-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+    font-family: RobotoBk;
 }
 .design {
     margin-left: 62%;
 } 
 .marketing {
-	margin-top: 72%;
+    margin-top: 72%;
 }
 
 .parallelogram {
-	width: 60%;
+    width: 60%;
     height: 60%;
     /*border: solid black;*/
     display: inline-block;
-    margin-top: -13%;
+    margin-top: -22%;
     margin-right: -45%;
     float: right;
 }
 .servicespngs {
-	width: 100%;
-	height: 100%;
-	display: none;
+    width: 100%;
+    height: 100%;
+    display: none;
     margin-top: 60%;
 }
 
 .rightline {
-    margin-top: 36%;
+    margin-top: 30%;
     margin-right: -3.5%;
     width: 15%;
     height: 9%;
     display: inline-block;
     float: right;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 .rightline img {
     width: 92%;
@@ -379,10 +436,10 @@ header table {
 
 .statuya {
     position: absolute;
-    bottom: -5%;
-    right: 3%;
+    bottom: 0%;
+    right: 4%;
     width: 55%;
-    height: 44%;
+    height: 40%;
 }
 .statuya img {
     width: 100%;
@@ -484,7 +541,8 @@ header table {
     color: white;
     line-height: 32px;
     right: auto;
-    transform: translate(0,-18px) ;
+    -ms-transform: translate(0,-18px) ;
+        transform: translate(0,-18px) ;
     -webkit-transform: translate(0,-18px);
     -o-transform: translate(0,-18px);
     -moz-transform: translate(0,-18px);
@@ -520,6 +578,8 @@ header table {
     border:none;
     font-size: 25px;
     width: 15%;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
 #ordercall p{
@@ -530,6 +590,8 @@ header table {
   height: 1px;
   float: left; 
   margin-top: -10%;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border: none; /* Убираем границу для браузера Firefox */
   color: white; /* Цвет линии для остальных браузеров */
@@ -541,6 +603,8 @@ header table {
     margin-top: -12%;
     margin-left: -5%;
     position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -567,41 +631,40 @@ button:focus {
     outline: none;
 }
 
+
+
+
+
 /* БЛОК О НАС СДЕЛАНЫЙ НА ГРИДАХ */
-#summary .palm{
-   grid-area: 9/11/63/37;
-}
-#summary #blockText1 {
-    grid-area: 21/26/49/70;
-}
-#summary .inscription{
-grid-area: 8/9/35/30;
-}
 #summary .sieve {
-    grid-area: 23/58/50/92;
+grid-area: 18/51/48/86;
+
 }
-#summary #blockText2 {
-    line-height: 2vh;
-    grid-area: 62/28/73/96;
+.covering {
+    grid-area: 63/27/73/41;
 }
-.summaryBlockSubmit {
-    grid-area: 82/45/88/52;
+.summaryBlockSubmit button {
+margin-left: -4%; *
 }
 .BlockSubmit {
-    bottom: 4%;
+  bottom: 30%;
+}
+.BlockSubmit img{
+  width: 60%;
+
 }
 
 /* .aboutus {
-	width: 100%;
-	height: 95vh;
-	background-color: #1c1a1a;
+    width: 100%;
+    height: 95vh;
+    background-color: #1c1a1a;
 }
 .vizitka{
-	width: 100%;
-	height: 100%;
-	position: relative;
-	box-sizing: border-box;
-	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
  
 .arm {
@@ -630,10 +693,10 @@ grid-area: 8/9/35/30;
 }
 
 .inscription{
-	position: absolute;
-	z-index: 4;
-	width: 40%;
-	height: 40%;
+    position: absolute;
+    z-index: 4;
+    width: 40%;
+    height: 40%;
 }
 
 .inscription p.o1 {
@@ -702,20 +765,20 @@ margin: 15% 0 0 19%;
 
 /*
 .ability {
-	height: 900px;
-	width: 100%;
-	position: relative;
-	display: block;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    display: block;
 }
 
 .ability_header {
-	color: black;
-	font-family: RobotoLight;
-	font-size: 45px;
-	padding-top: 88px;
-	padding-left: 219px;
-	position: absolute;
-	z-index: 2;
+    color: black;
+    font-family: RobotoLight;
+    font-size: 45px;
+    padding-top: 88px;
+    padding-left: 219px;
+    position: absolute;
+    z-index: 2;
 }
 div#ablt {
     width: 6%;
@@ -744,7 +807,7 @@ figcaption {
 }
 
 figcaption >div {
-	display: table-cell;
+    display: table-cell;
 }
 
 figcaption >div >span {
@@ -760,13 +823,13 @@ figcaption >div >span {
     transition: all 0.3s ease;
 }
 figcaption >div >span >img{
-	width: 85px;
+    width: 85px;
     height:85px;
 }
 figcaption >div >span:hover {
-	  -webkit-transform: scale(1.2);
-	  -ms-transform: scale(1.2);
-	  transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 div.band {
     height: 47%;
@@ -790,40 +853,40 @@ div.band {
 }
 
 .servicesline {
-	margin-top: 10px;
-	height: 60px;
-	float: right;
-	margin-right: 1px;
-	font-size: 1.5vw;
-	font-family: RobotoLight;
-	transform: rotate(90deg);
-	background-image: url(../img/lineserv.png);	
-	background-repeat: no-repeat;
-	text-align: center;
+    margin-top: 10px;
+    height: 60px;
+    float: right;
+    margin-right: 1px;
+    font-size: 1.5vw;
+    font-family: RobotoLight;
+    transform: rotate(90deg);
+    background-image: url(../img/lineserv.png); 
+    background-repeat: no-repeat;
+    text-align: center;
 }
 */
 
 /*.diagnostic {
-	
-	width: 100%;
-	height: 770px;
-	background-color: #1c1a1a;
-	display: block;
+    
+    width: 100%;
+    height: 770px;
+    background-color: #1c1a1a;
+    display: block;
 }
 
 .dheader {
-	width: 100%;
-	display: inline;
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 .dheader > div{
-	float: left;
+    float: left;
 }
 
 .dheader >div:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 .dheader1 {
     font-family: RobotoBk;
@@ -858,33 +921,33 @@ div.band {
     z-index: 1;
 }
 .dform {
-	width: 100%;
-	height: 60%;
-	display: inline;
-	margin: 0;
-	padding: 0;
-	float: left;
-	margin-top: 130px;
+    width: 100%;
+    height: 60%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 130px;
 
 }
 
 .dform >div {
-	float: left;
-	margin-right: 8%;
+    float: left;
+    margin-right: 8%;
 
 }
 
 .dform >div:last-child {
-		margin-right: 0;
+        margin-right: 0;
 }
 
 .leftForm {
-	width: 420px;
-	height: 460px;
-	color: #fff;
-	display: inline;
-	padding-left: 2%;
-	margin-top: -50px;
+    width: 420px;
+    height: 460px;
+    color: #fff;
+    display: inline;
+    padding-left: 2%;
+    margin-top: -50px;
 }
 
 .dhf {
@@ -903,34 +966,34 @@ div.band {
 }
 
 .dhf:hover {
-	border-bottom: 2px solid #fff;
-	background-color: transparent;
-	margin-bottom: -1px;
-	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    margin-bottom: -1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
 
 }
 
 .dhf:active {
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    color: #fff;
+    font-size: 16px;
 }
 .dhf:focus {
-	border-bottom: 2px solid #fff;
-	margin-bottom: -1px;
-	color: #fff;
-	font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .dhf >span:nth-of-type(n) {
-	height: 25%;
+    height: 25%;
 }
 .rightForm {
-	height: 400px;
-	display: block;
+    height: 400px;
+    display: block;
 }
 
 .rightFormtext {
@@ -972,8 +1035,8 @@ div.band {
 }
 
 button.order:hover, button.order:active {
-	color: #fff;
-	border-bottom: 5px solid #fff;
+    color: #fff;
+    border-bottom: 5px solid #fff;
 }
 */
 .footer {
@@ -990,7 +1053,7 @@ button.order:hover, button.order:active {
     color: #b3b3b3;
     width: 18%;
     display: inline;
-    float: left:;
+    float: left;
 }
 .f_email {
     width: 10%;
@@ -1013,7 +1076,7 @@ button.order:hover, button.order:active {
     text-decoration: none;
     width: 80%;
     padding-top: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
     padding-left: 2%;
     border-bottom: 2px solid #fff;
 }
@@ -1021,7 +1084,8 @@ button.order:hover, button.order:active {
     border-style: none;
     text-decoration: none;
     color:#fff;
-    animation: trianlet 300ms;
+    -webkit-animation: trianlet 300ms;
+            animation: trianlet 300ms;
 }
 .f_addr {
     width: 80%;
@@ -1046,6 +1110,8 @@ button.order:hover, button.order:active {
     margin-left: 5%;
     position: relative;
     z-index: 2;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
 }
  
@@ -1071,9 +1137,11 @@ input#fcontact_form {
     float: left;
     display: inline;
     margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
     height: 40px;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
     background: transparent;
     font-size: 1em;
@@ -1081,19 +1149,20 @@ input#fcontact_form {
 
  
  #fcontact_form:active {
-    font-size: 19px;
+    font-size: 0.6em;
     color: #fff;
     border-style: none;
     border-bottom: 2px solid #fff;
     margin-bottom: -1px;
-    animation: trianlet 300ms;
+    -webkit-animation: trianlet 300ms;
+            animation: trianlet 300ms;
  } 
  
  input#fcontact_form:active {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 0.6em;
     margin-bottom: -1px;
  } 
  
@@ -1101,7 +1170,7 @@ input#fcontact_form {
     border-style: none;
     border-bottom: 2px solid #fff;
     color: #fff;
-    font-size: 19px;
+    font-size: 0.6em;
     margin-bottom: -1px;
  } 
  
@@ -1117,6 +1186,8 @@ button.fsubmit {
     color: #b3b3b3;
     background-color: transparent;
     letter-spacing: 5px;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
  }
 
@@ -1142,6 +1213,8 @@ button.fsubmit hr {
     height: 1px;
     float: left;
     margin-top: 3%;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     border: none;
     color: white;
@@ -1153,6 +1226,8 @@ button.fsubmit hr {
     margin-top: 9%;
     margin-left: -49%;
     position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
 
@@ -1162,7 +1237,7 @@ button.fsubmit:hover > img {
 }
  
  .f_icons {
-    width: 20%;
+    width: 15%;
     margin-top: -10%;
     margin-left: 77%;
 }
@@ -1177,14 +1252,23 @@ button.fsubmit:hover > img {
     padding-right: 0;
 }
  
- #footer_logo {
-    width: 25%;
+#footer_logo {
+    width: 19%;
     text-align: center;
     display: block;
     position: absolute;
-    margin-top: 35%;
-    padding-left: 38%;
+    margin-top: 32%;
+    padding-left: 41%;
     float: left;
+}
+.footpar {
+    color: white;
+    width: 30%;
+    margin-left: 36.5%;
+    margin-top: 36%;
+    font-size: 1em;
+    font-family: RalewayThin;
+    letter-spacing: 0.2em;
 }
  
  .footer_lt {
@@ -1195,7 +1279,8 @@ button.fsubmit:hover > img {
     padding-top: 50%;
     padding-left: -1%;
     letter-spacing: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .footer_arrow {
     width: 9%;
@@ -1203,7 +1288,9 @@ button.fsubmit:hover > img {
     position: fixed;
     top: 70%;
     right: 3%;
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
     font-size: 1.2em;
     text-align: center;
 
@@ -1211,216 +1298,26 @@ button.fsubmit:hover > img {
 input{
     outline:none;
 }
+/* выпадающее окно при нажатии на телефон */
 
-#pfoneBlockForm{
-    width: 100vw;
-    height:100vh; 
-    left: 0;
-    top: -100%;
-    background-color: #1c1a1a;
-    position:fixed;
-    z-index: 350;
-    display:block;
-    color: #ffffff;
-
+.childHr {
+    width: 3px;
+    height: 100%;
+    background-color: #eb597a;
 }
-
-#phoneOff{
-width: 2%;
-height: 3%;
-position: absolute;
-top: 2%;
-right: 2%;
-font-size: 4.4vw;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-
+.phoneСaptionChild2 {
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+ 
 }
-
-.phoneСaption{
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: center;
-  align-items:flex-start;
-  font-size: 4.5vw;
-  color: white;
-  font-family: RobotoBk;
-  font-weight: 900;
-  letter-spacing: 0.5vw;
+.phoneСaption {
+    height: 15%;
 }
-
-.fhoneBlock{
-  display: flex;
-  width: 80%;
-  height: 35%;
-  margin-left: 10%;
-  justify-content: space-between;
-  align-items:flex-end;
-
+.fhoneBlock input {
+    font-size: 1.1em;
 }
-.fhoneBlock input{
-border-style: none;
-font-family: Raleway-Thin;
-font-size: 1.6em; 
-background-color: transparent;
-border-bottom: 1px solid white;
-display: flex;
-height: 15%;
-width: 33%;
-padding-left: 2%;
-color: #747373;
-transition: font-size 0.1s linear;
+.fhoneBlock .fhoneSubmit {
+    font-size: .8em;
+    letter-spacing: 3px;
+    width: %;
 }
-.fhoneBlock input:focus{
-  font-size: 1.8vw;
-}
-
- .fhoneBlock .fhoneSubmit{
-  border-style: none;
-  font-family: Robotobk;
-  font-size: 1.5em; 
-  background-color: transparent;
-  width: 10%;
-  height: 15%;
-  padding-left: 0;
-  color: white;
-  letter-spacing: 2px;
-  color: #747373;
- transition: color 0.1s linear;
- }
-.fhoneBlock .fhoneSubmit:hover{
-  color: #fff;
-}
-
-
-  .fhoneBlock .fhoneSubmit hr{
-    width:65%;
-    float: left;
-    height: 1px;
-    background-color: #747373; 
-    transition: width 0.1s linear;
-  }
-   .fhoneBlock .fhoneSubmit img{
-  position: relative ;
-  width: 10%;
-  }
-
-  .fhoneBlock .fhoneSubmit:hover >  hr {
-    color: #ff557d;
-     background-color: #ff557d; 
-     width: 85%;
-}
-   .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 10%;
-}
-   
-   
-#pfoneBlockForm{
-    width: 100vw;
-    height:100vh; 
-    left: 0;
-    top: -100%;
-    background-color: #1c1a1a;
-    position:fixed;
-    z-index: 350;
-    display:block;
-    color: #ffffff;
-
-}
-
-#phoneOff{
-width: 1%;
-height: 2%;
-position: absolute;
-top: 2%;
-right: 2%;
-font-size: 4.4vw;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-
-}
-
-.phoneСaption{
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: center;
-  align-items:flex-start;
-  font-size: 4.5vw;
-  color: white;
-  font-family: RobotoBk;
-  font-weight: 900;
-  letter-spacing: 0.5vw;
-}
-
-.fhoneBlock{
-  display: flex;
-  width: 80%;
-  height: 35%;
-  margin-left: 10%;
-  justify-content: space-between;
-  align-items:flex-end;
-
-}
-.fhoneBlock input{
-border-style: none;
-font-family: Raleway-Thin;
-font-size: 1.2em; 
-background-color: transparent;
-border-bottom: 1px solid white;
-display: flex;
-height: 15%;
-width: 33%;
-padding-left: 2%;
-color: #747373;
-transition: font-size 0.1s linear;
-}
-.fhoneBlock input:focus{
-  font-size: 1em;
-}
-
- .fhoneBlock .fhoneSubmit{
-  border-style: none;
-  font-family: Robotobk;
-  font-size: 0.9em; 
-  background-color: transparent;
-  width: 10%;
-  height: 15%;
-  padding-left: 0;
-  color: white;
-  letter-spacing: 2px;
-  color: #747373;
- transition: color 0.1s linear;
- }
-.fhoneBlock .fhoneSubmit:hover{
-  color: #fff;
-}
-
-
-  .fhoneBlock .fhoneSubmit hr{
-    width:65%;
-    float: left;
-    height: 1px;
-    background-color: #747373; 
-    transition: width 0.1s linear;
-  }
-  .fhoneBlock .fhoneSubmit img {
-    position: relative;
-    width: 10%;
-    top: -0.1em;
-}
-  .fhoneBlock .fhoneSubmit:hover >  hr {
-    color: #ff557d;
-     background-color: #ff557d; 
-     border: 1px solid #ff557d;
-     width: 85%;
-}
-   .fhoneBlock .fhoneSubmit:hover >  img{
-     left: 10%;
-}
-   

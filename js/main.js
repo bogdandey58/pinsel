@@ -5,16 +5,6 @@ $('.downbtn').fadeOut(0).delay(2500).fadeIn(400);
 
 
 
-$(function(){
-  $('.repeat').click(function(){
-      var classes =  $(this).parent().attr('class');
-        $(this).parent().attr('class', 'animate');
-        var indicator = $(this);
-        setTimeout(function(){ 
-          $(indicator).parent().addClass(classes);
-        }, 86);
-    });
-});
 
 
 $(".pinselheader").fadeToggle(0) 
@@ -25,35 +15,46 @@ $(".triangleline").fadeToggle(0)
 $(".triangleline").fadeToggle(1300)
 
 
-///////////////////////////////////Глитч////////////////////////////////////////////
 
-// $('.ppng').on('mouseover', function() {
-//     $('.ppngimg').css('opacity','0');
-// });
-// $('.ppng').on('mouseout', function() {
-//     $('.ppngimg').css('opacity','1');
-// });
 
-// $('.inpng').on('mouseover', function() {
-//     $('.inpngimg').css('opacity','0');
-// });
-// $('.inpng').on('mouseout', function() {
-//     $('.inpngimg').css('opacity','1');
-// });
 
-// $('.wpng').on('mouseover', function() {
-//     $('.wpngimg').css('opacity','0');
-// });
-// $('.wpng').on('mouseout', function() {
-//     $('.wpngimg').css('opacity','1');
-// });
+var slideIndex = 1;
+showSlides(slideIndex);
 
-// $('.spng').on('mouseover', function() {
-//     $('.spngimg').css('opacity','0');
-// });
-// $('.spng').on('mouseout', function() {
-//     $('.spngimg').css('opacity','1');
-// });
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+
+if(isSafari)
+    body.addClass('safari');
+
+
+
 ///////////////////////////////////плавный скролл///////////////////////////////////
 
 
@@ -85,34 +86,7 @@ jQuery(document).ready(function(e){
       });
     });
 });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.pinselheader'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.05*left)+'px -'+(0.05*top)+'px'
-          
-//       });
-//     });
-// });
-// jQuery(document).ready(function(e){
-//    var left = 0,
-//    top = 0,
-//    element = jQuery('.pinselheader'),
-//    offset =  { left: element.offset().left, top: element.offset().top };
-//    element.bind('mousemove', function(e){
-//       left = (e.pageX-offset.left);
-//       top = (e.pageY-offset.top);
-//       jQuery(this).css({
-//           backgroundPosition: '-'+(0.01*left)+'px -'+(0.01*top)+'px'
-          
-//       });
-//     });
-// });
+
 //////////////////////////////services hover effect////////////////////////////////
 $('.apulse').on('mouseover', function() {
     $('.pulse').css('display','none');
@@ -134,27 +108,20 @@ $('.im').on('mouseover', function() {
     $('.store').css('opacity','1');
     $(".store").fadeToggle(0) 
     $(".store").fadeToggle(100)
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
 });
 
 $('.vs').on('mouseover', function() {
     $('.verstka').css('display','block');
     $('.verstka').css('opacity','1');
     $(".verstka").fadeToggle(0) 
-    $(".verstka").fadeToggle(100) 
-    // $('.statuya').css('display','none');
+    $(".verstka").fadeToggle(100)
 });
 
 $('.lp').on('mouseover', function() {
     $('.lendinf').css('display','block');
     $('.lendinf').css('opacity','1');
     $(".lendinf").fadeToggle(0) 
-    $(".lendinf").fadeToggle(100) 
-    // $('.statuya').css('display','none');
-    // $(".statuya").fadeToggle(0) 
-    // $(".statuya").fadeToggle(400)
+    $(".lendinf").fadeToggle(100)
 });
 
 $('.brend').on('mouseover', function() {
@@ -344,7 +311,7 @@ function myMove(){
         var pos = 0;
         var id = setInterval(frame,0.3);
         function frame(){
-            if(pos == -100){
+            if(pos == -105){
                 clearInterval(id);
             } 
             else {
@@ -353,6 +320,213 @@ function myMove(){
                 
             }
         }
+  
     }
 
 
+function inputText(){
+      var inputText = document.getElementById('inputText');
+      inputText.style.fontSize =  1.6+ "vw"; 
+    }
+    function inputText2(){
+      var inputText2 = document.getElementById('inputText2');
+      inputText2.style.fontSize =  1.6+ "vw"; 
+    }
+  
+  
+
+
+
+
+    
+// кнопки в блоке  О СТУДИИ
+
+// var palm = document.getElementById("palm");
+// var mz = document.getElementById("mz");
+// var man = document.getElementById("man");
+
+// var  summary = document.getElementById("summary");
+
+
+// // При нажатии на ПЕРВУЮ кнопку
+//  var mzOpacity = 0;
+//  var manOpacity = 0;
+//  var palmOpacity = 9;
+
+
+// PushButtons1.onclick = function sous(){
+//    // palmImg.style.display = "none";
+//    // manImg.style.display = "block";
+//    // mzImg.style.display = "none";
+
+
+// pos1 = 12;
+// pos2 = 35;
+//     var id5 = setInterval(frame6,100);
+//         function frame6(){
+//         if(pos1 == 1 || pos2 == 23){
+//              clearInterval(id5); 
+//              palm.style.display = "none";
+//              mz.style.display = "none";
+//             } 
+ 
+
+
+// if (pos1 <= 1 || pos2 <= 23){
+
+
+//         var id3 = setInterval(frame2,100);
+//         function frame2(){
+//         if(mzOpacity == 0 || palmOpacity == 0 ){
+//              clearInterval(id3); 
+//             } 
+
+//     if(mzOpacity == 0 || palmOpacity == 0){
+//   var id = setInterval(frame,250);
+//                 function frame(){
+//             if(manOpacity == 9 ){
+//                 clearInterval(id);
+//                manImg.style.opacity =1;
+//             }
+//             else {
+//                 manOpacity ++;
+//                manImg.style.opacity = 0+"." + manOpacity;
+               
+//                }
+//              }
+
+//          }
+
+
+
+        
+//        if(mzOpacity != 0 ){
+//          mzOpacity --;
+//          mzImg.style.opacity = 0+"." + mzOpacity;
+//        }
+//         if( palmOpacity != 0){
+//          palmOpacity --;
+//          palmImg.style.opacity = 0+"." + palmOpacity;
+//         }
+
+//         else{
+//             mzOpacity --;
+//             palmOpacity --;
+//             mzImg.style.opacity = 0+"." + mzOpacity;
+//             palmImg.style.opacity = 0+"." + palmOpacity;
+             
+//          }
+             
+           
+          
+//           } 
+//        }
+
+// }
+
+
+
+
+// else{
+//               pos1 --;
+//               pos2 --;
+//             palm.style.gridArea = 5 +"/"+   pos1  +"/"+  65  +"/"+ pos2;
+
+//             }
+
+
+
+
+// // При нажатии на вторую кнопку
+// PushButtons2.onclick = function sous2(){
+
+//    palmImg.style.display = "none";
+//    manImg.style.display = "none";
+//    mzImg.style.display = "block";
+
+//         var id2 = setInterval(frame1,100);
+//         function frame1(){
+//         if(palmOpacity == 0 || manOpacity == 0 ){
+//             clearInterval(id2); 
+//             } 
+
+//          if(palmOpacity == 0 || manOpacity == 0 ){
+
+//     var id = setInterval(frame4,100);
+//                 function frame4(){
+//             if(mzOpacity == 9 ){
+//                 clearInterval(id);
+//                mzImg.style.opacity =1;
+//             }
+//             else {
+//                 mzOpacity ++;
+//                mzImg.style.opacity = 0+"." + mzOpacity;
+               
+//                }
+//              }
+
+//          }
+        
+//        //  if(manOpacity  != 0 ){
+//        //    manOpacity --;
+//        //    manImg.style.opacity = 0+"." + manOpacity;
+//        // }
+//        //  if(palmOpacity != 0){
+//        //   palmOpacity --;
+//        //   palmImg.style.opacity = 0+"." + palmOpacity;
+//        //  }
+
+
+
+// // PushButtons3.onclick = function sous3(){
+// // palm.style.width= 0 +"%";   
+// // mz.style.width= 0 +"%";
+// // man.style.width= 100 +"%";
+// // }
+
+
+// PushButtons3.onclick = function sous3(){
+//    mzImg.style.display = "none";
+//    manImg.style.display = "none";
+//    palmImg.style.display = "block";
+//         var id3 = setInterval(frame2,100);
+//         function frame2(){
+//         if(manOpacity == 0 || mzOpacity == 0){
+//              clearInterval(id3); 
+//             } 
+
+//     if(manOpacity == 0 || mzOpacity == 0){
+//   var id = setInterval(frame,100);
+//                 function frame(){
+//             if(palmOpacity == 9 ){
+//                 clearInterval(id);
+//                palmImg.style.opacity =1;
+//             }
+//             else {
+//                 palmOpacity ++;
+//                palmImg.style.opacity = 0+"." + palmOpacity;
+               
+//                }
+//              }
+
+//          }
+             
+//         if(manOpacity  != 0 ){
+//           manOpacity --;
+//           manImg.style.opacity = 0+"." + manOpacity;
+//        }
+//         if(mzOpacity != 0){
+//            mzOpacity --;
+//           mzImg.style.opacity = 0+"." + mzOpacity;
+//         }
+
+
+//             // else {
+//             // manOpacity --;
+//             // mzOpacity --;
+//             // manImg.style.opacity = 0+"." + manOpacity;
+//             // mzImg.style.opacity = 0+"." + mzOpacity;
+               
+//             // }  
+//           } 
+//        }
