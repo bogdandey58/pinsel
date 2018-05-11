@@ -10,6 +10,13 @@ body {
   overflow-x: hidden;
 } 
 #p_prldr{
+    display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: fixed;
   left: 0px;
   top: 0;
@@ -21,10 +28,10 @@ body {
 .contpre small{font-size:25px;}
  
 .contpre{
+  margin: auto;
+margin-top: 10%;
 width: 45%;
 height: 10%;
-margin-left: 27%;
-margin-top: 8%;
 position: absolute;
 }
 .contpre img{
