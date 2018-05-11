@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" media="screen and (max-width: 1441px)" href="css/adaptive/width1400.css">
 	<link rel="stylesheet" media="screen and (max-width: 1370px)" href="css/adaptive/width1366.css">
 	<link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/adaptive/width1280.css">
-	<!-- <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/adaptive/width1024.css"> -->
+	<link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/adaptive/width1024.css">
 	<link rel="stylesheet" media="screen and (max-width: 800px)" href="css/adaptive/width800.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,6 +33,9 @@
 <script src="js/jquery-ui.min.js"></script>
 
    
+
+
+    
 </head>
 <body>
 <div id="p_prldr">
@@ -56,7 +59,7 @@
 		<img class="phone2" src="img/phone2.png" alt="">
 	</div>
 </header>
-<video class="video" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+<video class="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
 	<source src="img/comp.mp4" type="video/mp4">
 </video>
 <div class="wrap section" data-anchor="block1" id="headwrap">
@@ -261,32 +264,32 @@
 	<div id="formask">
 		<p class="formaskpar" style="margin-top: 45px; margin-left: 10%; font-family: RobotoLight; font-size: 55px; position: absolute; color: white">ОБСУДИМ<span class="pink">?</span></p>
 		<div class="clear"></div>
-	<div class="callbackform">
-		<div class="form">
+	<div class="callbackform f">
+		<form method="post" class="form ajax_form">
 			<div class="peaceform">	
 				<div class="inputs fadeInLeft wow">
 					<p>
     					<span class="infield-label">
-			        		<input type="text" name="fname" id="fname" class="input" size="40" placeholder="Имя" required>
+			        		<input type="text" name="value[1]" id="fname" class="input" size="40" placeholder="Имя" required>
 			    		</span>
 					</p>
 					<p>
 			    		<span class="infield-label">
 			        		<!-- <label for="lname" style="transition: all 0.07s ease;"></label> -->
-			        		<input type="text" name="lname" id="lname" class="input" size="40" placeholder="Номер телефона" required>
+			        		<input type="text" name="value[2]" id="lname" class="input" size="40" placeholder="Номер телефона" required>
 			    		</span>
 					</p>
 					<p>
 			    		<span class="infield-label">
 			        		<!-- <label for="ename" style="transition: all 0.07s ease;">E-mail</label>
 			        		<input type="text" name="ename" id="ename" class="input" size="40"> -->
-			        		<input type="text" name="lname" id="lname" class="input" size="40" placeholder="E-mail" required>
+			        		<input type="text" name="value[3]" id="lname" class="input" size="40" placeholder="E-mail" required>
 			    		</span>
 					</p>
 				</div>
 				<div class="comment fadeInRight wow">
 			    		<span class="infield-labelcom">
-			        		<textarea type="text" name="ename" id="aname" class="input" placeholder="Кратко о вашем проекте"></textarea>
+			        		<textarea type="text" name="value[4]" id="aname" class="input" placeholder="Кратко о вашем проекте"></textarea>
 			    		</span>
 				</div>
 				<div class="clear"></div>
@@ -295,8 +298,10 @@
 					<hr><img src="img/triangleportf.png" alt="">
 				</button>
 			</div>
-		</div>
+		</form>
+		<div class="info" ><span></span></div>
 	</div>
+
 
 	</div>
 
@@ -325,12 +330,12 @@
  
 <!--  две полоски .с лева и с права которые накрывают блок blockText2	 -->	  
   <div class="covering"></div>
-        <div class="summaryBlockSubmit">
-            <button  class="summarySubmit" ><!-- <a href="about.html"> -->Подробнее<!-- /a> --></button> <hr>
+        <!-- <div class="summaryBlockSubmit">
+            <button  class="summarySubmit" ><a href="about.html">Подробнее</a></button> <hr>
                <div class="BlockSubmit">
 		           <img src="img/triangleportf.png" alt="">
 	           </div>
-           </div>
+           </div> -->
            
 
    
@@ -462,15 +467,17 @@
 <div class="footer">
 <div class="footers">
 	<p class="p_footask" id="footer">Остались вопросы?</p>
-	<div class="footer_form">
-		<form class="contact_form">
-			<input class="fadeInLeft wow" data-wow-delay="0.5s" id="fcontact_form" type="text" name="name" placeholder="Имя" required>
-			<p><input class="fadeInLeft wow" data-wow-delay="1s" id="fcontact_form" type="phone" name="phone" placeholder="Номер телефона" required></p>
+	<div class="footer_form f">
+		<form method="post" class="contact_form ajax_form">
+			<input class="fadeInLeft wow" data-wow-delay="0.5s" id="fcontact_form" type="text" name="value[1]" placeholder="Имя" required>
+			<p><input class="fadeInLeft wow" data-wow-delay="1s" id="fcontact_form" type="phone" name="value[2]" placeholder="Номер телефона" required></p>
 			<button class="fsubmit fadeInLeft wow" data-wow-delay="1.5s"  data-wow-delay="1s" type="submit" >
 				Заказать звонок
 				<hr><img src="img/triangleportf.png" alt="">
 			</button>
 		</form>
+		<div class="info" ><span></span></div>
+
 	</div>
 	<div class="footer_addr ">
 		<div class="f_email  fadeInUp wow"  data-wow-delay="1.5s" style="color: #b3b3b3;"><a href="mailto:support@pinsel.studio">support@pinsel.studio</a></div>
@@ -505,7 +512,7 @@
 </div>
 
 
-<div class="fhoneBlock">
+<!-- <div class="fhoneBlock">
 
     <div class="fhoneInput1">
          <input type="text" id="inputText" placeholder="Имя" onkeydown ="inputText()">
@@ -521,7 +528,27 @@
       <div class="fhoneImg">
       	<div class="fhoneImgChild" onclick="myMov2()"></div>	
       </div>
+</div> -->
+<div class="f">
+<form action="post" class="fhoneBlock  ajax_form">
+	<div class="fhoneInput1">
+        <input type="text" name="value[1]" id="inputText" placeholder="Имя" onkeydown ="inputText()">
+ 		<input type="text" name="value[2]" id="inputText2" placeholder="Номер телефона" onkeydown="inputText2()">
+    </div>
+    <div class="fhoneInput2">
+        <button class="fhoneSubmit" >
+	           Заказать звонок 
+	       <hr><img src="img/triangleportf.png" alt="">
+            </button>
+      </div>
+</form>
+      <div class="fhoneImg">
+      	<div class="fhoneImgChild" onclick="myMov2()"></div>	
+      </div>
+
+<div class="info"><span></span></div>
 </div>
+
 
 <script src="js/main.js" ></script>
 </body>

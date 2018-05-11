@@ -277,6 +277,11 @@
 	opacity: 1;
 }
 @media screen and (max-width: 1681px){
+  #portfolio{
+    width: 99vw;
+    height:100vh;
+    margin-top: 0%;
+}
   .aboutproject1 p, .aboutproject2 p, .aboutproject3 p, .aboutproject4 p, .aboutproject5 p {
     display: block;
     position: absolute;

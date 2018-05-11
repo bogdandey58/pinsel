@@ -16,6 +16,53 @@ $(".triangleline").fadeToggle(1300)
 
 
 
+// Forms (Ajax send)
+$('.ajax_form').on('submit', function(e){
+  e.preventDefault();
+  var f = {
+    form_block: $(this).closest('.f'),
+    required_error: 0
+  };
+;
+  $(this).find('input.required').each(function() {
+    var this_val = $.trim($(this).val());
+    if(this_val.length == 0){
+      f.required_error = 1;
+    }
+  });
+  if(f.required_error == 1){
+    //f.required_info.slideDown(500);
+    // Calculator
+  }
+  else{
+    $.ajax({
+      dataType: 'json',
+      url: 'ajax/form.php',
+      type: "POST",
+      data: $(this).serialize(),
+      //data: $(this).find('input, textarea, select'),
+      //data: new FormData($(this)),
+      success: function(data){
+        f.form_block.find('form').slideUp(500);
+        //f.form_block.find('>p').slideUp(500);
+        f.form_block.find('.info > span').html(data.content);
+        f.form_block.find('.info').slideDown(500);
+
+      }
+    });
+
+  
+    // $(this).ajaxSubmit({
+    //   url: 'ajax/form.php',
+    //   success: function(data){
+    //     f.form_block.find('form').slideUp(500);
+    //     f.form_block.find('.info > span').html(data.content);
+    //     f.form_block.find('.info').slideDown(500);
+    //   }
+    // });
+  }
+});
+
 
 
 var slideIndex = 1;
