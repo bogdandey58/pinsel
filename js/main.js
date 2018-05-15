@@ -370,15 +370,26 @@ function myMove(){
   
     }
 
-
-function inputText(){
+    
+    function inpTex(){
       var inputText = document.getElementById('inputText');
-      inputText.style.fontSize =  1.6+ "vw"; 
+      inputText.style.color =  "white"; 
     }
-    function inputText2(){
+    function inpTex2(){
       var inputText2 = document.getElementById('inputText2');
-      inputText2.style.fontSize =  1.6+ "vw"; 
+      inputText2.style.color =  "white";  
     }
+  
+  
+
+// function inputText(){
+//       var inputText = document.getElementById('inputText');
+//       inputText.style.fontSize =  1.6+ "vw"; 
+//     }
+//     function inputText2(){
+//       var inputText2 = document.getElementById('inputText2');
+//       inputText2.style.fontSize =  1.6+ "vw"; 
+//     }
   
   
 
