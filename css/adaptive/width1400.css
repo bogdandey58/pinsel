@@ -1401,8 +1401,6 @@ transition: font-size 0.1s linear;
    .fhoneBlock .fhoneSubmit:hover >  img{
      left: 10%;
 }
-   
-<<<<<<< HEAD
 #pfoneBlockForm{
     width: 100vw;
     height:100vh; 
@@ -1713,5 +1711,3 @@ background-size: 100%;
 .fhoneImgChild:hover{
   background-size: 80%;
 }
-=======
->>>>>>> b863e3ffa5ed8692d948d0b4d169a6c7b3f5b9b7
