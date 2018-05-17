@@ -1218,6 +1218,7 @@ width: 32%;
 }
 .fhoneBlock .fhoneSubmit img {
     top: 16px;
+    left: -43%;
 }
 
 .fhoneImgChild {
@@ -1226,4 +1227,8 @@ width: 32%;
 .fhoneImgChild:hover{
   background-size: 70%;
 }
-
+.fhoneBlock .fhoneSubmit:hover > hr {
+    color: #ff557d;
+    background-color: #ff557d;
+    width: 85%;
+}

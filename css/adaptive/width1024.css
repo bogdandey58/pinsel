@@ -43,14 +43,9 @@ header {
     height: 40px;
     background-color: #1c1a1a;
     position: fixed;
-    /*margin-left: -8px;*/
     margin-top: -0.1%;
     z-index: 100;
     display: inline-block;
-    /*opacity: 0.9;*/
-    /*-webkit-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-    -moz-box-shadow: 0px 1px 1px 0px rgba(122,122,122,1);
-    box-shadow: 0px 1px 1px 0px rgba(122,122,122,1)*/
 }
 .all {
     display: block;
@@ -118,28 +113,23 @@ header table {
 }
 .phone {
     float: right;
-    margin-right: 250px;
-    margin-top: -65px;
+    margin-right: 150px;
+    margin-top: -80px;
     display: inline-block;
     background-color: transparent;
     width: 50px;
     height: 120px;
     border-radius: 0px 0px 200px 200px;
-
 }
 .phone img {
     width: 40%;
-    margin-top: 45px;
-    margin-left: 65px;
+    margin-top: 180%;
+    margin-left: 25%;
 }
 
 .wrap {
     width: 100%;
     height: 60vh;
-    /*margin-top: -1%;*/
-    /*background-color: #1b191a;*/
-    /*background-image: url(../img/backgroundwrap.jpg);*/
-    /*background-size: 100%;*/
 }
 
 .bgvideo {

@@ -121,7 +121,7 @@ header table {
 .phone {
     float: right;
     margin-right: 250px;
-    margin-top: -65px;
+    margin-top: -75px;
     display: inline-block;
     background-color: transparent;
     width: 50px;
@@ -131,8 +131,8 @@ header table {
 }
 .phone img {
     width: 50%;
-    margin-top: 75px;
-    margin-left: 70px;
+    margin-top: 85px;
+    margin-left: 25%;
 }
 
 .wrap {

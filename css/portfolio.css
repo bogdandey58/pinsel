@@ -130,13 +130,13 @@
   display: block;
   position: absolute;
   margin-top: 20%;
-  margin-left: 17%;
+  margin-left: 15%;
   font-family: RobotoBk;
   font-size: 13em;
   letter-spacing: 0.3em;
   opacity: 0.3;
   color: white;
-  z-index: 3;
+  z-index: 0;
 }
 .aboutproject3 > .pinsbackportpar{
   font-size: 17em;
@@ -289,10 +289,10 @@
     margin-left: 14%;
     font-family: RobotoBk;
     font-size: 12em;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.29em;
     opacity: 0.3;
     color: white;
-    z-index: 3;
+    z-index: 0;
 }
 .aboutproject1, .aboutproject2, .aboutproject3, .aboutproject4, .aboutproject5 {
   width: 99.1vw;
