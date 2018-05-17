@@ -119,20 +119,20 @@ $(document).ready(function(){
 
 
 ///////////////////////////////движение за мышью//////////////////////////////////////////
-jQuery(document).ready(function(e){
-   var left = 0,
-   top = 0,
-   element = jQuery('.services'),
-   offset =  { left: element.offset().left, top: element.offset().top };
-   element.bind('mousemove', function(e){
-      left = (e.pageX-offset.left);
-      top = (e.pageY-offset.top);
-      jQuery(this).css({
-          backgroundPosition: '-'+(0.01*left)+'px'
+// jQuery(document).ready(function(e){
+//    var left = 0,
+//    top = 0,
+//    element = jQuery('.services'),
+//    offset =  { left: element.offset().left, top: element.offset().top };
+//    element.bind('mousemove', function(e){
+//       left = (e.pageX-offset.left);
+//       top = (e.pageY-offset.top);
+//       jQuery(this).css({
+//           backgroundPosition: '-'+(0.01*left)+'px'
           
-      });
-    });
-});
+//       });
+//     });
+// });
 
 //////////////////////////////services hover effect////////////////////////////////
 $('.apulse').on('mouseover', function() {

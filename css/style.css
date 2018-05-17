@@ -604,7 +604,7 @@ header table {
   font-family: RobotoBk;
 }
 .design {
-  margin-left: 55%;
+  margin-left: 54%;
 } 
 .marketing {
   margin-top: 50%;
@@ -1861,6 +1861,7 @@ transition: font-size 0.1s linear;
   color:#747373;
   transition: color 0.1s linear;
   color: white;
+  margin-top: 15%;
  }
 .fhoneBlock .fhoneSubmit:hover{
   color: #fff;

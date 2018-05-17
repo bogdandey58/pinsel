@@ -120,19 +120,18 @@ header table {
 }
 .phone {
     float: right;
-    margin-right: 150px;
-    margin-top: -100px;
+    margin-right: 200px;
+    margin-top: -60px;
     display: inline-block;
     background-color: transparent;
     width: 50px;
     height: 120px;
     border-radius: 0px 0px 200px 200px;
-
 }
 .phone img {
     width: 55%;
-    margin-top: 115px;
-    margin-left: -35px;
+    margin-top: 75px;
+    margin-left: 25%;
 }
 
 .wrap {
@@ -1679,13 +1678,13 @@ transition: font-size 0.1s linear;
     background-color: #747373; 
     transition: width .2s linear;
   }
-   .fhoneBlock .fhoneSubmit img{
-  position: relative ;
-  width: 3%;
-  top: 17px;
-  left: -40%;
-   transition: left .2s linear;
-  }
+.fhoneBlock .fhoneSubmit img{
+    position: relative;
+    width: 3%;
+    top: -2px;
+    left: -20%;
+    transition: left .2s linear;
+}
 
   .fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;

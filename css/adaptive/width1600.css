@@ -133,7 +133,7 @@ header table {
 .phone img {
     width: 55%;
     margin-top: 155%;
-    margin-left: 70%;
+    margin-left: 25%;
 }
 
 .wrap {
@@ -1321,46 +1321,39 @@ button.fsubmit:hover > img {
     transition: left .2s linear;
 }
 
-  .fhoneBlock .fhoneSubmit:hover >  hr {
+.fhoneBlock .fhoneSubmit:hover >  hr {
     color: #ff557d;
-     background-color: #ff557d; 
-     width: 82%;
+    background-color: #ff557d; 
+    width: 82%;
+}
+.fhoneBlock .fhoneSubmit img{
+    position: relative;
+    width: 3%;
+    top: 17px;
+    left: -43%;
+    transition: left .2s linear;
 }
 
-
-
-   .fhoneBlock .fhoneSubmit img{
-  position: relative ;
-  width: 3%;
-  top: -4px;
-  left: -18%;
-   transition: left .2s linear;
-  }
-
-   .fhoneBlock .fhoneSubmit:hover >  img{
+.fhoneBlock .fhoneSubmit:hover >  img{
      left: -3%;
 }
- 
-   .BlockSubmit{
+.BlockSubmit{
     width: 9%;
     bottom: 22%;
 }
 .BlockSubmit img{
   width: 50%;
-
 }
-
-
 .fhoneImg{
   width: 100%;
   height: 20%;
 }
 .fhoneImgChild{
-width: 5%;
-height: 50%;
-background-image: url('../../img/arr1.png');
-background-position: 50%;
-background-size: 100%;
+    width: 5%;
+    height: 50%;
+    background-image: url('../../img/arr1.png');
+    background-position: 50%;
+    background-size: 100%;
 }
 
 .fhoneImgChild:hover{
