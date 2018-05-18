@@ -42,7 +42,7 @@ if(!empty($data)){
 	
 
 	$subject = 'Pinselstudio: '.$data[0]->name.' '.$data[0]->value;
-	email('d.pilipenko@ukr.net', $subject, $email_template, 'info@pinselstudio.com');
+	email('pinsel.kiev@gamail.com', $subject, $email_template, 'info@pinselstudio.com');
 	
 
 	

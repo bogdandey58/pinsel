@@ -1920,19 +1920,19 @@ transition:  background-size 0.1s linear;
     font-size: 19px;
     color: #fff;
 }
-.answeryes {
+/*.answeryes {
   background-color: #1b1c1f;
   position: absolute;
   width: 100vw;
   height: 100vh;
   display: flex;
-  -webkit-flex-direction: column; /* Safari */
+  -webkit-flex-direction: column;
   flex-direction: column;
-  -webkit-align-items: center; /* Safari */
+  -webkit-align-items: center;
   align-items: center;
   -webkit-align-content: center;
   align-content: center;
-  -webkit-justify-content: center; /* Safari */
+  -webkit-justify-content: center;
   justify-content: center;
 
 }
@@ -1945,4 +1945,4 @@ transition:  background-size 0.1s linear;
   font-size: 2.3vh;
   text-align: center;
   letter-spacing: 1.5vh;
-}
+}*/
