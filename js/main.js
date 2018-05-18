@@ -394,27 +394,74 @@ function myMove(){
   
 
 var palm = document.getElementById("palm");
+var palm2 = document.getElementById("palm2");
 var mz = document.getElementById("mz");
 var man = document.getElementById("man");
+
+var palm2Img = document.getElementById("palm2Img");
+var mzImg = document.getElementById("mzImg");
+var manImg = document.getElementById("manImg");
+
+
+var mz2 = document.getElementById("mz2");
+var mzImg2 = document.getElementById("mzImg2");
+
+var man2 = document.getElementById("man2");
+var manImg2 = document.getElementById("manImg2");
+
+
+
 
 var test1= document.getElementById("test1");
 var test2 = document.getElementById("test2");
 var test3 = document.getElementById("test3");
 
 test1.onclick = function(){
-  palm.style.display = "block";
+
+
+if (  mz.style.display == "block") {
+
+   palm2.style.display = "block";
+  mz.style.display = "none";
+  // man.style.display = "none";
+
+  palm.style.display = "none";
+  mz2.style.display = "block";
+  mzImg2.style.opacity = 1;
+  palm2Img.style.opacity = 1;
+ }
+
+if (  man.style.display == "block") {
+  palm.style.display = "none";
   mz.style.display = "none";
   man.style.display = "none";
+
+ palm2.style.display = "block";
+  man2.style.display = "block";
+   manImg2.style.opacity = 1;
+  palm2Img.style.opacity = 1;
+ 
+}
+
+
 }
 test2.onclick = function(){
+  palm2.style.display = "none";
   palm.style.display = "none";
   mz.style.display = "block";
   man.style.display = "none";
+    man2.style.display = "none";
+mz2.style.display = "none";
+   mzImg.style.opacity = 1;
 }
 test3.onclick = function(){
+  palm2.style.display = "none";
   palm.style.display = "none";
   mz.style.display = "none";
   man.style.display = "block";
+   man2.style.display = "none";
+  mz2.style.display = "none";
+    manImg.style.opacity = 1;
 }
 
     
