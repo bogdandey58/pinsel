@@ -42,12 +42,12 @@ if(!empty($data)){
 	
 
 	$subject = 'Pinselstudio: '.$data[0]->name.' '.$data[0]->value;
-	email('d.pilipenko@ukr.net', $subject, $email_template, 'info@pinselstudio.com');
+	email('pinsel.kiev@gamail.com', $subject, $email_template, 'info@pinselstudio.com');
 	
 
 	
 
-	$data_arr['content'] = 'Ваша заявка успешно отправлена.<br>Наш специалист свяжется с Вами в ближайшее время.';
+	$data_arr['content'] = '<div class="answeryes"><img src="img/mail.gif" alt=""><p>Благодарим вас за обращение<br>Мы скоро с вами свяжемся</p></div>';
 
 }
 else
