@@ -47,7 +47,7 @@ if(!empty($data)){
 
 	
 
-	$data_arr['content'] = 'Ваша заявка успешно отправлена.<br>Наш специалист свяжется с Вами в ближайшее время.';
+	$data_arr['content'] = '<div class="answeryes"><img src="img/mail.gif" alt=""><p>Благодарим вас за обращение<br>Мы скоро с вами свяжемся</p></div>';
 
 }
 else

@@ -1920,3 +1920,29 @@ transition:  background-size 0.1s linear;
     font-size: 19px;
     color: #fff;
 }
+.answeryes {
+  background-color: #1b1c1f;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+  -webkit-align-items: center; /* Safari */
+  align-items: center;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-justify-content: center; /* Safari */
+  justify-content: center;
+
+}
+.answeryes img{
+  width: 30vw;
+  height: 23vw;
+}
+.answeryes p{
+  color: white;
+  font-size: 2.3vh;
+  text-align: center;
+  letter-spacing: 1.5vh;
+}
