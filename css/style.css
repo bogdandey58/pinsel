@@ -1926,17 +1926,11 @@ transition:  background-size 0.1s linear;
   background-size: 40%;
 }
 .info{
-    margin: 22%;
-    position: absolute;
-    font-size: 19px;
-    color: #fff;
-}
-/*.answeryes {
   background-color: #1b1c1f;
   position: absolute;
-  width: 100vw;
+  width: 100vw;Y
   height: 100vh;
-  display: flex;
+  display: none;
   -webkit-flex-direction: column;
   flex-direction: column;
   -webkit-align-items: center;
@@ -1945,15 +1939,14 @@ transition:  background-size 0.1s linear;
   align-content: center;
   -webkit-justify-content: center;
   justify-content: center;
-
 }
-.answeryes img{
+.info img{
   width: 30vw;
   height: 23vw;
 }
-.answeryes p{
+.info p{
   color: white;
   font-size: 2.3vh;
   text-align: center;
   letter-spacing: 1.5vh;
-}*/
+}
