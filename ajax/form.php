@@ -47,11 +47,11 @@ if(!empty($data)){
 
 	
 
-	$data_arr['answeryes'] = '<img src="img/mail.gif" alt=""><p>Благодарим вас за обращение<br>Мы скоро с вами свяжемся</p>';
+	$data_arr['info'] = '<img src="img/mail.gif" alt=""><p>Благодарим вас за обращение<br>Мы скоро с вами свяжемся</p>';
 
 }
 else
-	$data_arr['cansweryes'] = 'Произошел сбой отправки данных. <br>Попробуйте обновить страницу и повторить попытку.';
+	$data_arr['info'] = 'Произошел сбой отправки данных. <br>Попробуйте обновить страницу и повторить попытку.';
 
 
 header("Content-type: application/json; charset=UTF-8");

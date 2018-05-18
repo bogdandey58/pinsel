@@ -1926,9 +1926,11 @@ transition:  background-size 0.1s linear;
   background-size: 40%;
 }
 .info{
+  top: 0;
+  left: 0;
   background-color: #1b1c1f;
   position: absolute;
-  width: 100vw;Y
+  width: 100vw;
   height: 100vh;
   display: none;
   -webkit-flex-direction: column;
