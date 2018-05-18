@@ -393,8 +393,29 @@ function myMove(){
   
   
 
+var palm = document.getElementById("palm");
+var mz = document.getElementById("mz");
+var man = document.getElementById("man");
 
+var test1= document.getElementById("test1");
+var test2 = document.getElementById("test2");
+var test3 = document.getElementById("test3");
 
+test1.onclick = function(){
+  palm.style.display = "block";
+  mz.style.display = "none";
+  man.style.display = "none";
+}
+test2.onclick = function(){
+  palm.style.display = "none";
+  mz.style.display = "block";
+  man.style.display = "none";
+}
+test3.onclick = function(){
+  palm.style.display = "none";
+  mz.style.display = "none";
+  man.style.display = "block";
+}
 
     
 // кнопки в блоке  О СТУДИИ
