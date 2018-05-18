@@ -728,7 +728,7 @@ header table {
   outline: none;
   padding: 0 0px;
   border-style: none;
-  border-bottom: solid white 1px;
+  border-bottom: 2px solid  gray /* #afafaf */;
   margin-bottom: 9%;
   margin-left: -10%;
   width: 85%
@@ -755,12 +755,12 @@ header table {
 .input:active {
   border-bottom: 2px solid #fff;
   color: #fff;
-  font-size: 0.9em;
+/*   font-size: 0.9em; */
  } 
 .input:focus {
   border-bottom: 2px solid #fff;
   color: #fff;
-  font-size: 0.9em;
+ /*  font-size: 0.9em; */
  } 
 /*.placeholder-focus label {
     background-color:transparent;

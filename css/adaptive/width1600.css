@@ -508,13 +508,13 @@ header table {
 .input {
     color: white;   
     background-color: transparent;
-    font-size: 14px;
+    font-size: 1.1em;
     height: 4vh;
     margin: 0;
     outline: none;
     padding: 0 10px;
     border-style: none;
-    border-bottom: solid white 1px;
+    border-bottom: solid gray 2px;
     margin-bottom: 11%;
 }
 .lt-ie9 .input {

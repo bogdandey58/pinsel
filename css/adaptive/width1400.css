@@ -511,7 +511,7 @@ header table {
     outline: none;
     padding: 0 5px;
     border-style: none;
-    border-bottom: solid white 1px;
+    border-bottom: solid gray 2px;
     margin-bottom: 8%;
 }
 .lt-ie9 .input {
