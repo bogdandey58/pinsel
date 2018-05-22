@@ -1,65 +1,3 @@
-// (function() {
-//   const container = document.querySelector('.js-scroll-content');
-//   const items = Array.from(container.querySelectorAll('.js-scroll-item'));
-//   let itemsNumber = items.length;
-//   const navLinks = Array.from(document.querySelectorAll('.js-scroll-link'));
-//   let currentItemIndex = 0;
-//   let scroll = true;
-
-//   const moveSection = index => {
-//     let positionTop = (-index * 100) + '%';
-//     container.style.top = positionTop;
-//   };
-
-//   const setLocation = index => window.location = `#${items[index].id}`;
-
-//   // Set strart params
-//   container.style.top = 0;
-//   setLocation(currentItemIndex);
-//   itemsNumber--;
-  
-//   // Scrolling section by navigation.
-//   navLinks.forEach(element => {
-//     element.addEventListener('click', event => {
-//       event.preventDefault();
-//       event.stopPropagation();
-
-//       let sectionID = element.getAttribute('href').slice(1);
-
-//       currentItemIndex = items.findIndex(element => {
-//         return element.id === sectionID;
-//       });
-
-//       moveSection(currentItemIndex);
-//     });
-//   });
-
-//   // Scrolling sections by mouse/touchpad.
-//   window.addEventListener('wheel', event => {
-//     event.preventDefault();
-//     event.stopPropagation();
-
-//     let direction = event.deltaY;
-
-//     if (scroll) {
-//       if (direction > 0 && currentItemIndex < itemsNumber) {
-//         currentItemIndex++;
-//         scroll = false;
-//       } else if (direction < 0 && currentItemIndex !== 0) {
-//         currentItemIndex--;
-//         scroll = false;
-//       }
-//       moveSection(currentItemIndex);
-//     }
-
-//   });
-
-//   container.addEventListener('transitionend', () => {
-//     setTimeout(() => scroll = true, 300);
-//     setLocation(currentItemIndex);
-//   });
-
-// })();
 ////////////////////////////////появление/////////////////////////////////
 $('.logo').fadeOut(0).delay(2000).fadeIn(400);
 $('.studiotext').fadeOut(0).delay(1500).fadeIn(400);
@@ -107,9 +45,11 @@ $('.ajax_form').on('submit', function(e){
       success: function(data){
         f.form_block.find('form').slideUp(500);
         //f.form_block.find('>p').slideUp(500);
-        f.form_block.find('.info > span').html(data.content);
+        f.form_block.find('.info > .infoBlock').html(data.content);
         f.form_block.find('.info').slideDown(500);
-
+        f.form_block.find('.info').fadeOut(5000);
+        f.form_block.find('form').delay(1000).show(1000);
+        
       }
     });
 
@@ -456,74 +396,27 @@ function myMove(){
   
 
 var palm = document.getElementById("palm");
-var palm2 = document.getElementById("palm2");
 var mz = document.getElementById("mz");
 var man = document.getElementById("man");
-
-var palm2Img = document.getElementById("palm2Img");
-var mzImg = document.getElementById("mzImg");
-var manImg = document.getElementById("manImg");
-
-
-var mz2 = document.getElementById("mz2");
-var mzImg2 = document.getElementById("mzImg2");
-
-var man2 = document.getElementById("man2");
-var manImg2 = document.getElementById("manImg2");
-
-
-
 
 var test1= document.getElementById("test1");
 var test2 = document.getElementById("test2");
 var test3 = document.getElementById("test3");
 
 test1.onclick = function(){
-
-
-if (  mz.style.display == "block") {
-
-   palm2.style.display = "block";
-  mz.style.display = "none";
-  // man.style.display = "none";
-
-  palm.style.display = "none";
-  mz2.style.display = "block";
-  mzImg2.style.opacity = 1;
-  palm2Img.style.opacity = 1;
- }
-
-if (  man.style.display == "block") {
-  palm.style.display = "none";
+  palm.style.display = "block";
   mz.style.display = "none";
   man.style.display = "none";
-
- palm2.style.display = "block";
-  man2.style.display = "block";
-   manImg2.style.opacity = 1;
-  palm2Img.style.opacity = 1;
- 
-}
-
-
 }
 test2.onclick = function(){
-  palm2.style.display = "none";
   palm.style.display = "none";
   mz.style.display = "block";
   man.style.display = "none";
-    man2.style.display = "none";
-mz2.style.display = "none";
-   mzImg.style.opacity = 1;
 }
 test3.onclick = function(){
-  palm2.style.display = "none";
   palm.style.display = "none";
   mz.style.display = "none";
   man.style.display = "block";
-   man2.style.display = "none";
-  mz2.style.display = "none";
-    manImg.style.opacity = 1;
 }
 
     
