@@ -17,6 +17,20 @@
         <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/adaptive/width1024.css">
         <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/adaptive/width800.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Библиотека jQuery -->
+<script src="scroll/jquery.min.js"></script>
+<script src="scroll/jquery.easings.min.js"></script>
+<script src="scroll/scrolloverflow.min.js"></script>
+<script src="scroll/jquery.fullPage.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});  
+</script>
+<!-- CSS файл плагина fullpage -->
+<link href="libs/fullpage/jquery.fullPage.css" type="text/css" rel="stylesheet">
+
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/css3finalize/4.0.1/jquery.css3finalize.min.js"></script> -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/jqueryrotate.2.1.js"></script>
@@ -37,7 +51,8 @@
         <script src="js/jquery-ui.min.js"></script>
     </head>
 
-    <body id="myDIV">
+<body>
+    <div class="fullpage">
         <div id="p_prldr">
             <div class="contpre">
                 <img src="img/inf.gif" alt="">
@@ -112,7 +127,7 @@
             </table>
         </div>
         <div class="clear"></div>
-        <div class="services">
+        <div class="services section">
             <div id="services"></div>
             <div class="linetop"></div>
             <p class="line_services">Услуги</p>
@@ -161,7 +176,7 @@
                 <img src="img/sm.png" alt="">
             </div>
         </div>
-        <div id="portid"></div>
+        <div id="portid" class="section"></div>
         <div class="clear"></div>
         <div id="portfolio">
             <div class="slideshow-container">
@@ -278,7 +293,7 @@
         </div>
         </div>
         <div class="clear"></div>
-        <div id="formask" class="callbackform f">
+        <div id="formask" class="callbackform f section">
             <p class="formaskpar" style="margin-top: 15px; margin-left: 10%; font-family: RobotoLight; font-size: 55px; position: absolute; color: white">ОБСУДИМ<span class="pink">?</span></p>
             <div class="clear"></div>
             
@@ -479,7 +494,7 @@
 </div>
  -->
                 <div class="clear"></div>
-                <div class="footer">
+                <div class="footer section">
                     <div class="footers">
                         <p class="p_footask" id="footer">Остались вопросы?</p>
                         <div class="footer_form f">
@@ -564,6 +579,6 @@
                             <div class="answeryes"><span></span></div>
                         </div>
                         <script src="js/main.js"></script>
-    </body>
-
-    </html>
+    </div>
+</body>
+</html>
