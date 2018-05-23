@@ -1928,21 +1928,93 @@ transition:  background-size 0.1s linear;
 .info{
   background-color: #1B1C1F;
   width: 100vw;
-   height: 100vh;
+  height: 100vh;
   text-align: center;
-  display: none;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   
 }
 
 .info img{
   width: 30vw;
   height: 23vw;
-  margin-top: 10%;
+  
 }
 .info p{
   color: white;
   font-size: 2.3vh;
   text-align: center;
   letter-spacing: 1.5vh;
+  padding-bottom: 4%;
+}
+
+/******КНОПКА ВЕРНУТЬСЯ****************/
+
+#ordermail {
+  font-family: Raleway-ExtraBold;
+  background-color: transparent;
+  margin-top: -2%;
+  border:none;
+  font-size: 25px;
+  width: 15%;
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+#ordermail p{
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+  padding-bottom: 7%;
+}
+#ordermail hr {
+  width: 40%; 
+  height: 1px;
+  float: right; 
+  margin-top: -10%;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: none; /* Убираем границу для браузера Firefox */
+  color: white; /* Цвет линии для остальных браузеров */
+  background-color: white; /* Цвет линии для браузера Firefox и Opera */
+  
+}
+#ordermail img{
+    width: 8px;
+    height: 8px;
+    margin-top: -12%;
+    margin-left: -5%;
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+#ordermail:hover > p {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#ordermail:hover > hr {
+  border: none; /* Убираем границу для браузера Firefox */
+  color: #ff557d; /* Цвет линии для остальных браузеров */
+  background-color: #ff557d; /* Цвет линии для браузера Firefox и Opera */
+  float: right;
+  width: -87%;
+
+}
+
+#ordermail:hover > img {
+  margin-left: -39%;
+}
+
+#ordermail:active {
+  text-decoration: none;
+  background-color: transparent;
+  border:none;
+}
+button:focus {
+    outline: none;
 }

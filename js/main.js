@@ -18,6 +18,7 @@ $(".triangleline").fadeToggle(1300)
 
 // Forms (Ajax send)
 $('.ajax_form').on('submit', function(e){
+  window.location.href = "mail.html";
   e.preventDefault();
   var f = {
     form_block: $(this).closest('.f'),
@@ -42,13 +43,18 @@ $('.ajax_form').on('submit', function(e){
       data: $(this).serialize(),
       //data: $(this).find('input, textarea, select'),
       //data: new FormData($(this)),
+
       success: function(data){
-        f.form_block.find('form').slideUp(500);
-        //f.form_block.find('>p').slideUp(500);
-        f.form_block.find('.info > .infoBlock').html(data.content);
-        f.form_block.find('.info').slideDown(500);
-        f.form_block.find('.info').fadeOut(5000);
-        f.form_block.find('form').delay(1000).show(1000);
+        // f.form_block.find('form').slideUp(500);
+        // //f.form_block.find('>p').slideUp(500);
+        // f.form_block.find('.info > .infoBlock').html(data.content);
+        // f.form_block.find('.info').slideDown(500);
+        // f.form_block.find('.info').fadeOut(5000);
+        // f.form_block.find('form').delay(1000).show(1000);
+       
+        // переход
+        
+    
         
       }
     });
