@@ -168,30 +168,32 @@
   margin: 0 auto;
   margin-top: 3%;
   margin-left: 27.5%;
-  transition: 250ms;
+  transition: 180ms;
   background-image: url(../img/grapeabout.jpg);
   background-size: 100%;
   background-position: 0 100%;
   z-index: 5;
 }
 .imgabout:hover, .imgabout2:hover, .imgabout3:hover{
-	width: 48.9%;
-  height: 43.3%;
-	border: solid white 10px;
+	width: calc(50% - 6px);
+  height: calc(46% - 6px);
+  margin-left: calc(27.5% - 3px);
+  margin-top: calc(3% - 3px);
+	border: solid white 6px;
   background-image: url(../img/example1hov.jpg);
 }
 
 
 
 .imgabout2{
-  height: 43%;
+  /*height: 43%;*/
   background-position: 1%;
   background-size: 100%;
   background-image: url(../img/zakarabout.png);
 }
 .imgabout2:hover{
-  height: 41.3%;
-   background-image: url(../img/zakarhov.jpg);
+  /*height: 41.3%;*/
+  background-image: url(../img/zakarhov.jpg);
 }
 
 .imgabout3{
