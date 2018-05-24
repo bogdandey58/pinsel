@@ -1035,7 +1035,6 @@ button.order:hover, button.order:active {
     background-color: #1c1a1a;
     margin: 0;
     position: relative;
-    overflow: scroll;
 }
 .footer_addr {
     margin-left: 11%;

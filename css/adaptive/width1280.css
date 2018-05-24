@@ -261,8 +261,8 @@ header table {
     display: block;
     position: absolute;
     cursor: pointer;
-    margin-top: 13%;
-    margin-left: 41%;
+    margin-top: 5%;
+    margin-left: 40.5%;
 }
 .downbtn a{
     text-decoration: none;
@@ -1030,7 +1030,6 @@ button.order:hover, button.order:active {
     background-color: #1c1a1a;
     margin: 0;
     position: relative;
-    overflow: scroll;
 }
 .footer_addr {    
     margin-left: 12.2%;
