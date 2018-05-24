@@ -30,6 +30,33 @@
 </head>
 
 <body>
+    <a href="#menu" class="menu-link">
+        <span></span>
+    </a>
+    <div class="header-mail">
+        <div class="menu">
+            <ul>
+                <li class="anchor"><a href="index.html#headwrap">Главная</a></li>
+                <li class="anchor"><a href="index.html#services">Услуги</a></li>
+                <li class="anchor"><a href="index.html#portid">Портфолио</a></li>
+                <li class="anchor"><a href="index.html#aboutus">О нас</a></li>
+                <li class="anchor"><a href="index.html#footer">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+        
+    
+    <script>
+    $(document).ready(function() {
+        var link = $('.menu-link');
+        var menu = $('.header-mail');
+        link.click(function() {
+            link.toggleClass('menu-link_active');
+            menu.toggleClass('menu_active');
+        });
+    });
+    </script>
+    <!-- БЛОК С КОНВЕРТОММ -->
     <div class="info">
         <div class="infoBlock">
             <img src="img/mail.gif" alt="">
@@ -42,6 +69,7 @@
             </button>
         </div>
     </div>
+    <!-- // БЛОК С КОНВЕРТОММ -->
 </body>
 
 </html>
