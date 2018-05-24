@@ -2022,12 +2022,13 @@ button:focus {
 
 .menu-link {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 4%;
+  height: 4%;
   position: fixed;
   top: 0;
   right: 20px;
   z-index: 555;
+  margin-top: 1%;
 }
 
 .menu-link span:before, span:after {
@@ -2084,4 +2085,6 @@ button:focus {
   right: 0;
   transition: all .5s;
 }
+
+/*******************INTERNET MAGAZIN**********************/
 
