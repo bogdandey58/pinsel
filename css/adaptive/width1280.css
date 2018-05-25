@@ -63,11 +63,11 @@ header {
     width: 30%;
     margin-top: -10px;
     margin-left: 25%;
-    -webkit-filter: invert(100%);
-            filter: invert(100%);
 }
 .logo{
-    margin-left: 5%;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: -1%;
     position: absolute;
 }
 .anchor a {

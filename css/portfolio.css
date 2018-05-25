@@ -313,15 +313,15 @@
   margin: 0 auto;
   margin-top: 3%;
   margin-left: 27.5%;
-  transition: 250ms;
+  transition: 170ms;
   background-size: 100%;
   background-position: 0 100%;
   z-index: 5;
 }
 .imgabout:hover {
-  width: 48.9%;
-  height: 43.3%;
-  border: solid white 10px;
+  width: calc(50% - 5px);
+  height: calc(45% - 5px);
+  border: solid white 5px;
 }
 .projectname p{
   margin-top: 25%;
@@ -408,7 +408,7 @@
   margin: 0 auto;
   margin-top: 3%;
   margin-left: 27.5%;
-  transition: 250ms;
+  transition: 170ms;
   background-size: 100%;
   background-position: 0 100%;
   z-index: 5;
@@ -497,7 +497,7 @@
     }
     .active{
       height: 4vw;
-        margin: 0 35px;
+      margin: 0 35px;
     }
     .cat p{
   display: block;
@@ -628,15 +628,15 @@
     margin: 0 auto;
     margin-top: 3%;
     margin-left: 27.5%;
-    transition: 250ms;
+    transition: 170ms;
     background-size: 100%;
     background-position: 0 100%;
     z-index: 5;
 }
 .imgabout:hover {
-    width: 48.4%;
-    height: 37.3%;
-    border: solid white 10px;
+    width: calc(50% - 5px);
+    height: calc(40% - 5px);
+    border: solid white 5px;
 }
   .dots {
     transform: rotate(90deg);
